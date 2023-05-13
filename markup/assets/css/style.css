@@ -1,0 +1,184 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+strong {
+  @apply text-font-color font-bold;
+}
+body,
+p,
+a {
+  @apply text-font-color-light;
+}
+h1 {
+  @apply text-5xl;
+}
+h2 {
+  @apply text-4xl;
+}
+h3 {
+  @apply text-3xl;
+}
+h4 {
+  @apply text-2xl;
+}
+h5 {
+  @apply text-xl;
+}
+h6 {
+  @apply text-lg;
+}
+.ta-btn-primary {
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white font-medium ease-linear duration-300 inline-block;
+}
+.ta-btn-secondary {
+  @apply !py-1 lg:!py-1.5 px-5 lg:px-8 bg-white hover:bg-primary rounded-full border-2 border-primary !text-primary hover:!text-white ease-linear duration-300 inline-block;
+}
+
+/* Header Css */
+.ta-header {
+  @apply py-5 absolute ease-linear duration-200 w-full z-20 bg-secondary;
+}
+.ta-header ul {
+  @apply md:flex items-center font-medium;
+}
+.ta-header ul li {
+  @apply my-1 lg:my-0 md:flex hidden;
+}
+.ta-header ul li:not(:first-child) {
+  @apply ml-0 md:ml-6 lg:ml-8;
+}
+.ta-header ul li a {
+  @apply py-1 lg:py-3 inline-block hover:text-primary text-font-color;
+}
+.ta-sticky-menu {
+  @apply fixed px-0 py-3 top-0 left-0 w-full bg-white;
+  box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
+}
+.ta-header button svg:last-child {
+  @apply !hidden;
+}
+.ta-header.menu-active {
+  @apply fixed px-0 py-3 top-0 left-0 w-full bg-white;
+  box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
+}
+.ta-header.menu-active nav {
+  @apply items-start;
+}
+.ta-header.menu-active ul li {
+  @apply !flex;
+}
+.ta-header.menu-active button {
+  @apply py-4;
+}
+.ta-header.menu-active button svg:last-child {
+  @apply !flex;
+}
+.ta-header.menu-active button svg:first-child {
+  @apply !hidden;
+}
+
+/* Hero css */
+.bg-banner-img {
+  background-image: url("../images/hero.png");
+}
+
+/* Featured css */
+@media screen and (min-width: 1024px) {
+  .ta-featured .ta-featured-item:nth-child(2) a,
+  .ta-featured .ta-featured-item:nth-child(5) a {
+    margin-top: -60px;
+  }
+}
+
+/* Footer css */
+.ta-footer ul li {
+  @apply pb-2;
+}
+.ta-footer ul li a {
+  @apply text-sm;
+}
+.ta-footer.bg-secondary form,
+.ta-footer.bg-secondary form input {
+  @apply !bg-white;
+}
+.ta-footer.bg-secondary .ta-footer-bottom {
+  @apply !border-font-color-light;
+}
+
+/* Blog css */
+.ta-pagination .page-numbers {
+  @apply border-2 border-secondary rounded font-medium text-font-color-light w-9 h-9 flex items-center justify-center;
+}
+.ta-pagination .page-numbers:hover,
+.ta-pagination .page-numbers.current {
+  @apply text-white bg-primary border-primary;
+}
+.ta-pagination .page-numbers i::before {
+  @apply font-semibold;
+}
+.shadow-ta-box-shadow {
+  --tw-shadow: 0px 0px 30px rgba(7, 31, 66, 0.1);
+  --tw-shadow-colored: 0px 0px 30px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+.text-ta-section-title {
+  font-size: 34px;
+  line-height: 40px;
+}
+/* Contact form */
+.ta-contact-form input,
+.ta-contact-form textarea {
+  @apply bg-secondary rounded-none border border-secondary w-full focus:outline-none py-3 px-5;
+}
+
+.ta-contact-form .form-control {
+  @apply block w-full  text-base text-font-color-light mb-0;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.ta-blog-details ul {
+  @apply mb-4 sm:mb-5 pl-5 sm:pl-9 list-disc;
+}
+.ta-blog-details a {
+  @apply text-primary text-xl inline-block pb-1.5;
+}
+.ta-blog-details p {
+  @apply mb-4;
+}
+.ta-blog-details h2,
+.ta-blog-details h2 strong {
+  @apply text-3xl font-medium mb-4;
+}
+.ta-blog-details h3,
+.ta-blog-details h3 strong {
+  @apply text-3xl font-medium mb-4;
+}
+.ta-blog-details ol {
+  @apply mb-4 sm:mb-5 pl-5 sm:pl-9;
+  list-style: auto;
+}
+
+.ta-blog-details figcaption {
+  @apply text-xs text-center text-secondary mt-2 mb-4;
+  line-height: 1;
+}
+.ta-blog-details .wp-block-image img {
+  box-shadow: 0 4px 8px 0 rgb(67 65 78 / 8%);
+  border-radius: 5px;
+}
+.ta-btn-secondary.live-demo {
+  padding: 10px 32px !important;
+}
+
+/* extra css */
+.sp-single-page p {
+  margin-bottom: 1rem;
+}
