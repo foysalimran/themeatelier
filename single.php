@@ -1,5 +1,237 @@
 <?php get_header(); ?>
-<div style="padding-top: 100px;padding-bottom:100px">
-    <h3>This is single page</h3>
-</div>
+<section class="h-[380px] bg-secondary"></section>
+<!--====== Blog details start ======-->
+
+<section class="pb-16 sm:pb-20">
+
+
+
+    <div class="container lg:!w-[800px]">
+        <?php if (have_posts()) : ?>
+            <?php while (have_posts()) : ?>
+                <?php the_post(); ?>
+                <div class="-mt-52">
+                    <?php the_post_thumbnail(); ?>
+                </div>
+                <div class="text-center mb-10 mt-12">
+                    <div class="text-[13px] font-medium text-[#167496]">
+                        <?php the_category(); ?>
+                    </div>
+
+                    <h1 class="text-4xl font-medium mt-5 mb-0">
+                        <?php the_title(); ?>
+                    </h1>
+                    <div class="flex items-center justify-center mt-6">
+                        <?php echo get_avatar(get_the_author_meta('user_email'), '35', null, null, array('class' => array('rounded-full', 'shadow-ta-box-shadow', 'mr-2.5', 'border', 'border-[#ededed]', 'entered'))); ?>
+                        <p class="text-lg font-normal">
+                            <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>" title="<?php echo esc_attr(get_the_author()); ?>"><?php the_author(); ?></a><span class="text-sm text-gray-400">&nbsp;|&nbsp;<time class="entry-date updated" datetime="2023-04-20T09:27:09+06:00">Apr 20, 2023</time>&nbsp;|&nbsp;3 Minutes Read&nbsp;|&nbsp;86&nbsp;Views</span>
+                        </p>
+                    </div>
+                </div>
+                <div class="ta-blog-details entry-content text-lg font-normal mb-6 leading-ta-34 ta-single-page ta-single-post">
+                    <?php the_content(); ?>
+
+                </div>
+                <ul class="flex items-center gap-4 flex-wrap mt-8">
+                    <li>
+                        <h3 class="font-medium text-xl">Share:</h3>
+                    </li>
+                    <li>
+                        <a class="flex items-center gap-2 border border-secondary px-2 py-1 rounded" href="https://www.facebook.com/sharer/sharer.php?u=https://[SITE DOMAIN]/blog/[SLUG]">
+                            <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                <path d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z" />
+                            </svg>
+                            Facebook
+                        </a>
+                    </li>
+                    <li class="flex items-center gap-4">
+                        <a class="flex items-center gap-2 border border-secondary px-2 py-1 rounded" href="">
+                            <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                            </svg>
+                            Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex items-center gap-2 border border-secondary px-2 py-1 rounded" href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2[SITE DOMAIN]%2Fblog%2F${[SLUG]}%2F&title=${[TITLE]}">
+                            <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                            </svg>
+                            Linkedin
+                        </a>
+                    </li>
+                    <li>
+                        <a class="flex items-center gap-2 border border-secondary px-2 py-1 rounded" href="https://[SITE DOMAIN]/[SLUG]/?share=jetpack-whatsapp&nb=1">
+                            <svg width="14" height="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z" />
+                            </svg>
+                            Whatsapp
+                        </a>
+                    </li>
+                </ul>
+                <div class="sm:flex block shadow-ta-box-shadow rounded border border-secondary items-center mt-16 p-9">
+                    <div class="shrink-0 mr-7">
+                        <img alt="" src="assets/images/user_01.png" class="avatar avatar-100 photo rounded-full border border-secondary" height="100" width="100" decoding="async" />
+                    </div>
+                    <div class="mt-4 sm:mt-0">
+                        <p class="text-lg font-semibold mb-2">
+                            <span class="text-font-color-light">
+                                <?php _e('Written by', 'themeatelier'); ?>
+                            </span>
+                            <a class="text-font-color" href="#" rel="author">Md. Khalil</a>
+                        </p>
+                        <p>
+                            Hi, I'm Khalil, a Web/UI Designer and WordPress Enthusiast from
+                            Brahmanbaria. I love creating user-friendly UI (Front &amp;
+                            Backend) and currently working as a Head of Ideas at ShapedPlugin.
+                            &lt;3
+                        </p>
+                    </div>
+                </div>
+
+            <?php endwhile; ?>
+        <?php endif; ?>
+        <?php wp_reset_postdata(); ?>
+        <div class="mt-20">
+            <h4 class="text-[22px] font-medium mb-0">Related Articles</h4>
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <div class="shadow-ta-box-shadow rounded border border-secondary overflow-hidden">
+                    <div class="post-thumbnail">
+                        <a href="blog-details.html" title="How to Create a News Carousel in WordPress"><img width="800" height="400" src="assets/images/How-to-create-news-carousel.png" class="img-responsive wp-post-image entered lazyloaded" alt="How to create a news carousel" sizes="(max-width: 800px) 100vw, 800px" srcset="
+                      assets/images/How-to-create-news-carousel.png         800w,
+                      assets/images/How-to-create-news-carousel-300x150.png 300w,
+                      assets/images/How-to-create-news-carousel-768x384.png 768w
+                    " /></a>
+                    </div>
+                    <div class="p-5 px-[30px] pb-[26px]">
+                        <div class="text-[13px] font-medium text-primary">
+                            <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                        </div>
+
+                        <h3 class="text-lg leading-6 font-medium mt-3 mb-0">
+                            <a class="text-font-color hover:text-primary" href="blog-details.html">How to Create a News Carousel in WordPress</a>
+                        </h3>
+                        <span class="text-xs font-normal text-font-color-light mt-3 flex justify-between">
+                            <span>By
+                                <a class="hover:text-primary" href="#" rel="author">Md. Khalil</a>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg width="14" height="14" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z" />
+                                </svg>
+                                Aug 9, 2022
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="shadow-ta-box-shadow rounded border border-secondary overflow-hidden">
+                    <div class="post-thumbnail">
+                        <a href="blog-details.html" title="10+ Best Banner Slider WordPress Plugins in 2023"><img width="800" height="400" src="assets/images/Best-banner-slider-WordPress-plugins-blog-feature-image-800x400.png" class="img-responsive wp-post-image entered lazyloaded" alt="Best banner slider WordPress plugins blog feature image" /></a>
+                    </div>
+                    <div class="p-5 px-[30px] pb-[26px]">
+                        <div class="text-[13px] font-medium text-primary">
+                            <a href="#" rel="category tag">Collections</a>
+                        </div>
+
+                        <h3 class="text-lg leading-6 font-medium mt-3 mb-0">
+                            <a class="text-font-color hover:text-primary" href="blog-details.html">10+ Best Banner Slider WordPress Plugins in 2023</a>
+                        </h3>
+                        <span class="text-xs font-normal text-font-color-light mt-3 flex justify-between">
+                            <span>By
+                                <a class="hover:text-primary" href="#" rel="author">Md. Khalil</a>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg width="14" height="14" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z" />
+                                </svg>
+                                Aug 9, 2022
+                            </span>
+                        </span>
+                    </div>
+                </div>
+                <div class="shadow-ta-box-shadow rounded border border-secondary overflow-hidden">
+                    <div class="post-thumbnail">
+                        <a href="blog-details.html" title="How to Create WordPress Testimonial Carousel to Increase Trust"><img width="799" height="400" src="assets/images/WordPress-testimonial-carousel-2-1.png" class="img-responsive wp-post-image entered lazyloaded" alt="WordPress testimonial carousel" decoding="async" sizes="(max-width: 799px) 100vw, 799px" srcset="
+                      assets/images/WordPress-testimonial-carousel-2-1.png         799w,
+                      assets/images/WordPress-testimonial-carousel-2-1-300x150.png 300w,
+                      assets/images/WordPress-testimonial-carousel-2-1-768x384.png 768w
+                    " /></a>
+                    </div>
+                    <div class="p-5 px-[30px] pb-[26px]">
+                        <div class="text-[13px] font-medium text-primary">
+                            <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                        </div>
+
+                        <h3 class="text-lg leading-6 font-medium mt-3 mb-0">
+                            <a class="text-font-color hover:text-primary" href="blog-details.html">How to Create WordPress Testimonial Carousel to Increase
+                                Trust</a>
+                        </h3>
+                        <span class="text-xs font-normal text-font-color-light mt-3 flex justify-between">
+                            <span>By
+                                <a class="hover:text-primary" href="#" rel="author">Manir Husain</a></span>
+                            <span class="flex items-center gap-2">
+                                <svg width="14" height="14" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z" />
+                                </svg>
+                                Mar 20, 2023</span>
+                        </span>
+                    </div>
+                </div>
+                <div class="shadow-ta-box-shadow rounded border border-secondary overflow-hidden">
+                    <div class="post-thumbnail">
+                        <a href="blog-details.html" title="Gutenberg Accordion Block: Create Accordions for FAQs and More"><img width="800" height="400" src="assets/images/Guttenberg-accordion.png" class="img-responsive wp-post-image entered lazyloaded" alt="Guttenberg accordion" decoding="async" sizes="(max-width: 800px) 100vw, 800px" srcset="
+                      assets/images/Guttenberg-accordion.png         800w,
+                      assets/images/Guttenberg-accordion-300x150.png 300w,
+                      assets/images/Guttenberg-accordion-768x384.png 768w
+                    " /></a>
+                    </div>
+                    <div class="p-5 px-[30px] pb-[26px]">
+                        <div class="text-[13px] font-medium text-primary">
+                            <a href="#" rel="category tag">Tips &amp; Tricks</a>
+                        </div>
+
+                        <h3 class="text-lg leading-6 font-medium mt-3 mb-0">
+                            <a class="text-font-color hover:text-primary" href="blog-details.html">Gutenberg Accordion Block: Create Accordions for FAQs and
+                                More</a>
+                        </h3>
+                        <span class="text-xs font-normal text-font-color-light mt-3 flex justify-between">
+                            <span>By
+                                <a class="hover:text-primary" href="#" rel="author">Manir Husain</a>
+                            </span>
+                            <span class="flex items-center gap-2">
+                                <svg width="14" height="14" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z" />
+                                </svg>
+                                Mar 16, 2023
+                            </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="comments" class="comment-form ta-contact-form rounded mt-24">
+            <div id="respond" class="border border-secondary shadow-ta-box-shadow p-5 sm:p-9">
+                <h3 class="mb-4 mt-0 text-xl">
+                    Leave a comment
+                    <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display: none">Cancel reply</a></small>
+                </h3>
+                <form method="post" id="commentform" class="comment-form">
+                    <div class="mt-5">
+                        <label for="author" class="block text-lg mb-1">Name<span class="text-[#c12f3c]"> *</span></label><input class="form-control" id="author" name="author" type="text" value="" size="30" />
+                    </div>
+                    <div class="mt-5">
+                        <label for="email" class="block text-lg">Email<span class="text-[#c12f3c]"> *</span></label><input class="form-control" id="email" name="email" type="text" value="" size="30" />
+                    </div>
+
+                    <div class="mt-5">
+                        <label for="comment" class="block text-lg">Comments<span class="text-[#c12f3c]"> *</span></label><textarea id="comment" placeholder="Write your comment..." name="comment" aria-required="true" rows="7"></textarea>
+                    </div>
+                    <button class="ta-btn-primary mt-8">Post Comment</button>
+                </form>
+            </div>
+            <!-- #respond -->
+        </div>
+    </div>
+</section>
+<!--====== Blog details end ======-->
 <?php get_footer(); ?>
