@@ -42,7 +42,7 @@ get_header(); ?>
                         </div>
 
                         <h3 class="text-lg leading-6 font-medium mt-3 mb-2">
-                            <a class="text-font-color hover:text-primary" href="<?php the_permalink(); ?>">
+                            <a class="text-font-color hover:text-primary break-all" href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>
                             </a>
                         </h3>

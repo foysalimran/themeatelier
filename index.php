@@ -85,7 +85,7 @@
               </div>
 
               <h3 class="mt-3 mb-0 text-lg font-medium leading-6">
-                <a class="text-font-color hover:text-primary" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                <a class="text-font-color hover:text-primary break-all" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
               </h3>
               <span class="flex justify-between mt-3 text-xs font-normal text-font-color-light">
                 <span>By
@@ -111,21 +111,16 @@
 
     </div>
     <div class="mt-12">
-      <ul class="flex items-center justify-center space-x-4 text-center pagination ta-pagination">
-        <li>
-          <span aria-current="page" class="page-numbers current">1</span>
-        </li>
-        <li><a class="page-numbers" href="#">2</a></li>
-        <li><a class="page-numbers" href="#">3</a></li>
-        <li><span class="page-numbers dots">…</span></li>
-        <li><a class="page-numbers" href="#">13</a></li>
-        <li>
-          <a class="next page-numbers group" href="#"><svg width="16" height="16" class="fill-font-color-light group-hover:fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
-              <path d="M278.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-160 160c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L210.7 256 73.4 118.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l160 160z" />
-            </svg>
-          </a>
-        </li>
-      </ul>
+
+      <div class="ta-pagination">
+        <?php the_posts_pagination(
+          array(
+            "screen_reader_text" => ' ',
+            "prev_text"          => '<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg>',
+            "next_text"          => '<svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg>'
+          )
+        ) ?>
+      </div>
     </div>
   </div>
 </div>
