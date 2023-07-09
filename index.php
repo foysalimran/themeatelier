@@ -160,6 +160,5 @@
     </div>
   </div>
 </div>
-
 <!--====== Blog section end ======-->
 <?php get_footer(); ?>
