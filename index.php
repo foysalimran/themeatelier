@@ -99,6 +99,7 @@
     <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
       <?php
       $args  = array(
+
         'ignore_sticky_posts' => 1,
       );
       $the_query = new WP_Query($args); ?>
@@ -159,5 +160,6 @@
     </div>
   </div>
 </div>
+
 <!--====== Blog section end ======-->
 <?php get_footer(); ?>
