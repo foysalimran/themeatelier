@@ -2938,11 +2938,6 @@ video {
   content: var(--tw-content);
 }
 
-body {
-  font-family: "Montserrat", sans-serif;
-  line-height: 1.5;
-}
-
 h1,
 h2,
 h3,
@@ -2953,7 +2948,6 @@ strong {
   font-weight: 700;
   --tw-text-opacity: 1;
   color: rgb(51 51 51 / var(--tw-text-opacity));
-  font-family: "Lato", sans-serif;
 }
 
 body,
@@ -3200,15 +3194,6 @@ h6 {
 
 .bg-banner-img {
   background-image: url("../images/hero.png");
-}
-
-/* Featured css */
-
-@media screen and (min-width: 1024px) {
-  .ta-featured .ta-featured-item:nth-child(2) a,
-  .ta-featured .ta-featured-item:nth-child(5) a {
-    margin-top: -60px;
-  }
 }
 
 /* Footer css */

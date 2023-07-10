@@ -89,14 +89,6 @@ h6 {
   background-image: url("../images/hero.png");
 }
 
-/* Featured css */
-@media screen and (min-width: 1024px) {
-  .ta-featured .ta-featured-item:nth-child(2) a,
-  .ta-featured .ta-featured-item:nth-child(5) a {
-    margin-top: -60px;
-  }
-}
-
 /* Footer css */
 .ta-footer ul li {
   @apply pb-2;

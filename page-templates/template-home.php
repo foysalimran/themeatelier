@@ -11,16 +11,14 @@ get_header(); ?>
     <div class="relative z-10 items-center block h-full grid-cols-5 gap-8 lg:grid xl:grid-cols-6">
       <div class="col-span-3 pt-48 lg:pt-0">
         <h1 class="mb-0 text-3xl font-bold xl:text-ta-section-title">
-          Most Professional
+          Reliable & Professional
           <span class="text-primary">WordPress Plugins</span>
-          <br class="hidden lg:block" />
-          To Save Time on Development
+          To grow your business
         </h1>
         <p class="mt-6 text-lg">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
-          molestias fugiat praesentium ullam officiis? Reprehenderit in.
+          We specialize in crafting exceptional WordPress-based solutions, empowering your business to thrive and achieve accelerated growth.
         </p>
-        <a href="#" class="mt-12 ta-btn-primary group">See Our Plugins
+        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-12 ta-btn-primary group">See Our Plugins
           <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
           </svg>
@@ -28,7 +26,7 @@ get_header(); ?>
         <div class="p-4 mt-12 bg-white rounded shadow ta-hero-promo lg:py-5 lg:px-6">
           <p class="mb-5">
             Empowering
-            <strong>520,000+</strong> Businesses with Innovation
+            <strong>10,000+</strong> Businesses with Innovation
           </p>
           <div class="grid grid-cols-5 gap-2 md:gap-4">
             <div class="flex flex-col justify-center col-span-1">
@@ -61,21 +59,19 @@ get_header(); ?>
       <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
         Our Featured Plugins
       </h2>
-      <span class="inline-block mt-5 text-lg font-normal">Extend your website’s functionality with our powerful WordPress
-        plugins</span>
+      <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="#">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
           <div>
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/wp-carousel.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">WP Carousel</h3>
+            <h3 class="mt-5 mb-0 text-xl font-medium">Domain For Sale</h3>
             <p class="mt-3 text-base font-normal"></p>
             <p>
-              The most powerful and user-friendly multi-purpose carousel,
-              slider, &amp; gallery plugin for WordPress.
+              The ultimate tool for parking and selling your unused domain names.
             </p>
             <p></p>
           </div>
@@ -86,18 +82,17 @@ get_header(); ?>
         </a>
       </div>
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="#">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/greetwp-video-bubble-wordpress-plugin/39588757">
           <div>
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/woo-product-slider.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl font-medium">
-              Product Slider for WooCommerce
+              Greet - Video Bubble Warm Welcome
             </h3>
             <p class="mt-3 text-base font-normal"></p>
             <p>
-              Boost sales by interactive product Slider, Grid, and Table in
-              your WooCommerce website or store.
+              A powerful and user-friendly video bubble plugin for WordPress that provides an opportunity to create a dynamic and engaging welcome experience for your visitors.
             </p>
             <p></p>
           </div>
@@ -108,16 +103,15 @@ get_header(); ?>
         </a>
       </div>
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="#">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/bizreview-business-review-wordpress-plugin/24235499">
           <div>
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-carousel.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">Logo Carousel</h3>
+            <h3 class="mt-5 mb-0 text-xl font-medium">BizReview - Business Review Plugin</h3>
             <p class="mt-3 text-base font-normal"></p>
             <p>
-              Showcase a group of logo images with Title, Description,
-              Tooltips, Links, and Popup as a grid or in a carousel.
+              A suitable plugin to show your business reviews from different platforms like Google business review, Facebook business review, Trustpilot, Yelp, etc.
             </p>
             <p></p>
           </div>
@@ -128,16 +122,15 @@ get_header(); ?>
         </a>
       </div>
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="#">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/idonatepro-blood-request-and-blood-donor-management-system-wordpress-plugin/21525871">
           <div>
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/smart-post-show.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">Smart Post Show</h3>
+            <h3 class="mt-5 mb-0 text-xl font-medium">iDonate - Blood Donation Plugin</h3>
             <p class="mt-3 text-base font-normal"></p>
             <p>
-              Filter and display posts (any post types), pages, taxonomy,
-              custom taxonomy, and custom field, in beautiful layouts.
+              A professional Blood request and blood donor management system for any kind of WordPress website
             </p>
             <p></p>
           </div>
@@ -147,49 +140,11 @@ get_header(); ?>
           </span>
         </a>
       </div>
-      <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="#">
-          <div>
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/easy-accordion.png" alt="" class="max-w-[64px] rounded-md" />
-          </div>
-          <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">Easy Accordion</h3>
-            <p class="mt-3 text-base font-normal"></p>
-            <p>
-              Minimize customer support by offering comprehensive FAQs and
-              increasing conversions.
-            </p>
-            <p></p>
-          </div>
-          <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </span>
-        </a>
-      </div>
-      <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="#">
-          <div>
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/real-testimonials.png" alt="" class="max-w-[64px] rounded-md" />
-          </div>
-          <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">Real Testimonials</h3>
-            <p class="mt-3 text-base font-normal"></p>
-            <p>
-              Simply collect, manage, and display Testimonials on your
-              website and boost conversions.
-            </p>
-            <p></p>
-          </div>
-          <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </span>
-        </a>
-      </div>
+
     </div>
     <div class="text-center">
-      <a class="inline-block px-6 py-3 mt-10 text-base font-medium text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="#">View All Plugins
+      <a class="inline-block px-6 py-3 mt-10 text-base font-medium text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://codecanyon.net/user/themeatelier">
+        <?php _e('View All Plugins', 'themeatelier'); ?>
         <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
           <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
         </svg>
@@ -198,8 +153,9 @@ get_header(); ?>
   </div>
 </section>
 <!--====== Featured section end ======-->
+
 <!--====== Why choose us section start ======-->
-<section class="py-16 ta-why-choose-us bg-secondary sm:py-20">
+<!-- <section class="py-16 ta-why-choose-us bg-secondary sm:py-20">
   <div class="container">
     <div class="mb-20 text-center">
       <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
@@ -270,7 +226,7 @@ get_header(); ?>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!--====== Why choose us section end ======-->
 
 <!--====== Testimonial section start ======-->
@@ -289,8 +245,8 @@ get_header(); ?>
             <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="" />
           </div>
           <div class="text-left">
-            <h6 class="font-medium">Veronica Anluz</h6>
-            <p class="mb-1">Web Developer</p>
+            <h6 class="font-medium">CoderCafeThemes</h6>
+            <p class="mb-1">Founder & CEO - CoderCafeThemes </p>
             <ul class="flex gap-1">
               <li>
                 <svg width="16" height="16" class="fill-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -321,9 +277,7 @@ get_header(); ?>
           </div>
         </div>
         <p>
-          Grursus mal suada faci lisis Lorem ipsum dolarorit more and dumm
-          ametion consectetur elit. Vesti dolocons rsus mal suada and the
-          fadolorit to is the consectetur elit.
+          Very nice & clean code as well, i can select just one reason, or i would select many design, code quality, flexibility, customizability and great customer support! Good luck!
         </p>
       </div>
       <div class="p-4 bg-white rounded-md ta-testimonial-item lg:p-6">
@@ -332,8 +286,8 @@ get_header(); ?>
             <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_02.png" alt="" />
           </div>
           <div class="text-left">
-            <h6 class="font-medium">Jonny Miller</h6>
-            <p class="mb-1">Web Designer</p>
+            <h6 class="font-medium">Firmafotografering</h6>
+            <p class="mb-1">Founder & CEO - www.firmafotografering.dk</p>
             <ul class="flex gap-1">
               <li>
                 <svg width="16" height="16" class="fill-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -364,9 +318,7 @@ get_header(); ?>
           </div>
         </div>
         <p>
-          Grursus mal suada faci lisis Lorem ipsum dolarorit more and dumm
-          ametion consectetur elit. Vesti dolocons rsus mal suada and the
-          fadolorit to is the consectetur elit.
+          Hi - this plugin is awesome, and just what I needed without monthly fees. Keep up the good work. You can see an example on my homepage here: www.firmafotografering.dk
         </p>
       </div>
       <div class="p-4 bg-white rounded-md ta-testimonial-item lg:p-6">
@@ -375,8 +327,8 @@ get_header(); ?>
             <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_03.png" alt="" />
           </div>
           <div class="text-left">
-            <h6 class="font-medium">Peter Capidal</h6>
-            <p class="mb-1">Digital Marketer</p>
+            <h6 class="font-medium">Guzzala Malik</h6>
+            <p class="mb-1">Founder & CEO - Faith Graphic Design</p>
             <ul class="flex gap-1">
               <li>
                 <svg width="16" height="16" class="fill-yellow-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
@@ -407,9 +359,7 @@ get_header(); ?>
           </div>
         </div>
         <p>
-          Grursus mal suada faci lisis Lorem ipsum dolarorit more and dumm
-          ametion consectetur elit. Vesti dolocons rsus mal suada and the
-          fadolorit to is the consectetur elit.
+          The customer service is EXCELLENT. If I had any technical issues they addressed it right away and helped fixed the issue. I strongly recommend their work to anyone. It is very hard to get good support and they addressed all my concerns and fixed all the issues I had. They even went their way to help me with additional things I needed for my website. I highly recommend their template and services!
         </p>
       </div>
     </div>
