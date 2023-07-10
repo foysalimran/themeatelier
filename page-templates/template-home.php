@@ -64,7 +64,7 @@ get_header(); ?>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
-          <div>
+          <div class="border-2 p-1 inline-block border-secondary rounded">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -83,7 +83,7 @@ get_header(); ?>
       </div>
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/greetwp-video-bubble-wordpress-plugin/39588757">
-          <div>
+          <div class="border-2 p-1 inline-block border-secondary rounded">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -104,7 +104,7 @@ get_header(); ?>
       </div>
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/bizreview-business-review-wordpress-plugin/24235499">
-          <div>
+          <div class="border-2 p-1 inline-block border-secondary rounded">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -123,7 +123,7 @@ get_header(); ?>
       </div>
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-ta-box-shadow lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/idonatepro-blood-request-and-blood-donor-management-system-wordpress-plugin/21525871">
-          <div>
+          <div class="border-2 p-1 inline-block border-secondary rounded">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
