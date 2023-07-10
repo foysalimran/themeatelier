@@ -17,6 +17,7 @@ function themeatelier_initialize()
 	add_theme_support('automatic-feed-links');
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
+	add_theme_support('wp-block-styles');
 	add_theme_support('html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
 	));
@@ -121,9 +122,46 @@ function themeateler_register_portfolio_cpt()
 		"menu_icon" => "dashicons-portfolio",
 		"supports" => ["title", "editor", "thumbnail", "excerpt", "custom-fields", "author"],
 		"show_in_graphql" => false,
+		'taxonomies'          => array('category'),
 	];
 
 	register_post_type("portfolio", $args);
 }
 
 add_action('init', 'themeateler_register_portfolio_cpt');
+
+
+
+
+add_action('init', 'create_portfolio_taxonomy', 0);
+
+
+function create_portfolio_taxonomy()
+{
+
+
+	$labels = array(
+		'name' => _x('Skills', 'taxonomy general name'),
+		'singular_name' => _x('Skill', 'taxonomy singular name'),
+		'search_items' =>  __('Search Skill'),
+		'all_items' => __('All Skills'),
+		'parent_item' => __('Parent Skill'),
+		'parent_item_colon' => __('Parent Skill:'),
+		'edit_item' => __('Edit Skill'),
+		'update_item' => __('Update Skill'),
+		'add_new_item' => __('Add New Skill'),
+		'new_item_name' => __('New Skill Name'),
+		'menu_name' => __('Skills'),
+	);
+
+	// Now register the taxonomy
+	register_taxonomy('skills', array('portfolio'), array(
+		'hierarchical' => true,
+		'labels' => $labels,
+		'show_ui' => true,
+		'show_in_rest' => true,
+		'show_admin_column' => true,
+		'query_var' => true,
+		'rewrite' => array('slug' => 'skill'),
+	));
+}

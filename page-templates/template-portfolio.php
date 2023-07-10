@@ -16,8 +16,7 @@ get_header(); ?>
 <!--====== Plugin list start ======-->
 <section class="ta-case-study py-20">
     <div class="container">
-        <h3 class="mb-5"><?php the_title(); ?></h3>
-        <p><?php the_content(); ?></p>
+
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
 
             <?php
@@ -37,8 +36,8 @@ get_header(); ?>
                         </a>
                     </div>
                     <div class="p-5 px-[30px] pb-[26px]">
-                        <div class="text-[13px]  text-primary">
-                            <?php the_category(); ?>
+                        <div class="text-[13px] text-primary">
+                            <?php the_terms($post->ID, 'skills', '', ', ', ' '); ?>
                         </div>
 
                         <h3 class="text-lg leading-6  mt-3 mb-2">

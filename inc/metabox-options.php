@@ -12,8 +12,8 @@ $prefix_page_opts = 'ta_metabox';
 // Create a metabox
 //
 CSF::createMetabox($prefix_page_opts, array(
-  'title'        => 'Custom Page Options',
-  'post_type'    => 'page',
+  'title'        => __('Portfolio options', 'themeatelier'),
+  'post_type'    => 'portfolio',
   'show_restore' => true,
 ));
 
@@ -25,13 +25,31 @@ CSF::createSection($prefix_page_opts, array(
   'icon'   => 'fas fa-rocket',
   'fields' => array(
 
-    //
-    // A text field
-    //
+
     array(
-      'id'    => 'opt-text',
-      'type'  => 'text',
-      'title' => 'Text',
+      'id'     => 'our-contribution',
+      'type'   => 'repeater',
+      'title'  => __('Our Contribution', 'themeatelier'),
+      'fields' => array(
+        array(
+          'id'    => 'item',
+          'type'  => 'text',
+          'title' => __('Contribution item', 'themeatelier'),
+        ),
+      ),
+
+    ),
+
+    array(
+      'id'    => 'date-started',
+      'type'  => 'date',
+      'title' => 'Start On',
+    ),
+
+    array(
+      'id'    => 'live-link',
+      'type'  => 'link',
+      'title' => 'Live link',
     ),
 
     array(
