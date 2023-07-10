@@ -50,7 +50,8 @@
                     <?php _e('Published On:', 'themeatelier'); ?> <?php the_time('m/d/Y'); ?></p>
 
                 <p class="mb-2">
-                    <?php _e('Category:', 'themeatelier'); ?> <?php the_category(', ', '', ''); ?>
+
+                    <?php the_terms($post->ID, 'skills', 'Skills: ', ', ', ' '); ?>
                 </p>
                 <?php if (isset($meta['live-link']) && $meta['live-link']) : ?>
                     <a target="_blank" class="ta-btn-primary my-5" href="<?php echo $meta['live-link'] ? $meta['live-link']['url'] : ''; ?>"><?php _e('Live demo', 'themeatelier'); ?></a>

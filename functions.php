@@ -103,3 +103,39 @@ function themeateler_register_portfolio_cpt()
 }
 
 add_action('init', 'themeateler_register_portfolio_cpt');
+
+
+
+
+add_action('init', 'create_portfolio_taxonomy', 0);
+
+
+function create_portfolio_taxonomy()
+{
+
+
+	$labels = array(
+		'name' => _x('Skills', 'taxonomy general name'),
+		'singular_name' => _x('Skill', 'taxonomy singular name'),
+		'search_items' =>  __('Search Skill'),
+		'all_items' => __('All Skills'),
+		'parent_item' => __('Parent Skill'),
+		'parent_item_colon' => __('Parent Skill:'),
+		'edit_item' => __('Edit Skill'),
+		'update_item' => __('Update Skill'),
+		'add_new_item' => __('Add New Skill'),
+		'new_item_name' => __('New Skill Name'),
+		'menu_name' => __('Skills'),
+	);
+
+	// Now register the taxonomy
+	register_taxonomy('skills', array('portfolio'), array(
+		'hierarchical' => true,
+		'labels' => $labels,
+		'show_ui' => true,
+		'show_in_rest' => true,
+		'show_admin_column' => true,
+		'query_var' => true,
+		'rewrite' => array('slug' => 'skill'),
+	));
+}

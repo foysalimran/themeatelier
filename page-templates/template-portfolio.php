@@ -37,7 +37,7 @@ get_header(); ?>
                     </div>
                     <div class="p-5 px-[30px] pb-[26px]">
                         <div class="text-[13px] font-medium text-primary">
-                            <?php the_category(); ?>
+                            <?php the_terms($post->ID, 'skills', '', ', ', ' '); ?>
                         </div>
 
                         <h3 class="text-lg leading-6 font-medium mt-3 mb-2">
