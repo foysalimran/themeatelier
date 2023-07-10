@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,33 +11,35 @@ h4,
 h5,
 h6,
 strong {
-  @apply text-font-color font-bold;
+  @apply text-font-color font-black;
+  font-family: 'Lato', sans-serif;
 }
 body,
 p,
 a {
   @apply text-font-color-light;
+  font-family: 'Lato', sans-serif;
 }
 h1 {
-  @apply text-5xl;
+  @apply text-4xl lg:text-5xl;
 }
 h2 {
-  @apply text-4xl;
+  @apply text-3xl lg:text-4xl;
 }
 h3 {
-  @apply text-3xl;
+  @apply text-2xl lg:text-3xl;
 }
 h4 {
-  @apply text-2xl;
+  @apply text-xl lg:text-2xl;
 }
 h5 {
-  @apply text-xl;
+  @apply text-lg lg:text-xl;
 }
 h6 {
-  @apply text-lg;
+  @apply text-base lg:text-lg;
 }
 .ta-btn-primary {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white font-medium ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
 }
 .ta-btn-secondary {
   @apply !py-1 lg:!py-1.5 px-5 lg:px-8 bg-white hover:bg-primary rounded-full border-2 border-primary !text-primary hover:!text-white ease-linear duration-300 inline-block;
@@ -46,7 +50,7 @@ h6 {
   @apply py-5 absolute ease-linear duration-200 w-full z-20 bg-secondary;
 }
 .ta-header ul {
-  @apply md:flex items-center font-medium;
+  @apply md:flex items-center ;
 }
 .ta-header ul li {
   @apply my-1 lg:my-0 md:flex hidden;
@@ -96,6 +100,17 @@ h6 {
     margin-top: -60px;
   }
 }
+.category-list a {
+  font-size: 13px
+}
+.post-thumbnail img {
+  max-height: 375px;
+  width: 100%;
+  object-fit: cover;
+}
+form .search-field {
+  @apply focus:outline-none;
+}
 
 /* Footer css */
 .ta-footer ul li {
@@ -117,7 +132,7 @@ h6 {
   @apply flex items-center justify-center gap-2;
 }
 .ta-pagination .page-numbers {
-  @apply border-2 border-secondary rounded font-medium text-font-color-light w-9 h-9 flex items-center justify-center;
+  @apply border-2 border-secondary rounded  text-font-color-light w-9 h-9 flex items-center justify-center;
 }
 .ta-pagination .page-numbers:hover,
 .ta-pagination .page-numbers.current {
@@ -161,11 +176,11 @@ h6 {
 }
 .ta-blog-details h2,
 .ta-blog-details h2 strong {
-  @apply text-3xl font-medium mb-4;
+  @apply text-3xl  mb-4;
 }
 .ta-blog-details h3,
 .ta-blog-details h3 strong {
-  @apply text-3xl font-medium mb-4;
+  @apply text-3xl  mb-4;
 }
 .ta-blog-details ol {
   @apply mb-4 sm:mb-5 pl-5 sm:pl-9;
@@ -190,7 +205,7 @@ h6 {
 }
 
 .ta-single-blog input[type=submit] {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white font-medium ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
 }
 .ta-single-blog .post-categories {
     @apply flex items-center justify-center gap-2 flex-wrap;
@@ -235,7 +250,7 @@ h6 {
   @apply mt-2;
 }
 .ta-single-blog .wp-block-search__button-outside .wp-block-search__inside-wrapper button {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white font-medium ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
 }
 .ta-single-blog .wp-social-link-fivehundredpx a svg {
   @apply text-white;

@@ -11,9 +11,20 @@
     <header class="ta-header" id="menu">
 
       <nav class="container flex flex-wrap items-center">
-      <div class="site-logo" style="margin-right: 20px;">
-        <a href="<?php bloginfo('url');?>"><?php bloginfo( 'name' );?></a>
-      </div>
+      <div class="site-branding">
+						<?php
+						the_custom_logo();
+						?>
+							<h1 class="text-2xl text-font-color"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+						<?php
+						
+						$themeatellier_description = get_bloginfo('description', 'display');
+						if ($themeatellier_description || is_customize_preview()) :
+						?>
+							<p class="site-description"><?php echo $themeatellier_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
+														?></p>
+						<?php endif; ?>
+					</div><!-- .site-branding -->
         <div class="shrink-0">
           <?php wp_nav_menu( 
               array(

@@ -3,7 +3,7 @@
 <!--====== Page title start ======-->
 <section class="h-[380px] bg-secondary">
     <div class="container text-center">
-        <h1 class="text-3xl sm:text-4xl font-bold pt-44 mb-0"><?php the_title(); ?></h1>
+        <h1 class="text-3xl sm:text-4xl pt-44 mb-0"><?php the_title(); ?></h1>
         <p class="text-lg mt-5">
             <?php the_excerpt(); ?>
         </p>
@@ -52,7 +52,7 @@
         <div class="border-t border-secondary py-12">
             <div class="grid grid-cols-3 gap-5">
                 <div class="col-span-1">
-                    <h3 class="font-medium text-xl">Objective</h3>
+                    <h3 class=" text-xl">Objective</h3>
                 </div>
                 <div class="col-span-2">
                     <p class="text-lg">
@@ -67,7 +67,7 @@
         <div class="border-t border-secondary py-12">
             <div class="grid grid-cols-3 gap-5">
                 <div class="col-span-1">
-                    <h3 class="font-medium text-xl">Problems</h3>
+                    <h3 class=" text-xl">Problems</h3>
                 </div>
                 <div class="col-span-2">
                     <p class="text-lg mb-5">
@@ -88,7 +88,7 @@
         <div class="border-t border-secondary py-12">
             <div class="grid grid-cols-3 gap-5">
                 <div class="col-span-1">
-                    <h3 class="font-medium text-xl">Challenges</h3>
+                    <h3 class=" text-xl">Challenges</h3>
                 </div>
                 <div class="col-span-2">
                     <p class="text-lg mb-5">
@@ -117,7 +117,7 @@
         <div class="border-t border-secondary py-12">
             <div class="grid grid-cols-3 gap-5">
                 <div class="col-span-1">
-                    <h3 class="font-medium text-xl">Our Solutions</h3>
+                    <h3 class=" text-xl">Our Solutions</h3>
                 </div>
                 <div class="col-span-2">
                     <p class="text-lg mb-5">
@@ -139,7 +139,7 @@
         <div class="border-t border-secondary py-12">
             <div class="grid grid-cols-3 gap-5">
                 <div class="col-span-1">
-                    <h3 class="font-medium text-xl">Approach</h3>
+                    <h3 class=" text-xl">Approach</h3>
                 </div>
                 <div class="col-span-2">
                     <p class="text-lg">
@@ -155,7 +155,7 @@
         <div class="border-t border-secondary py-12">
             <div class="grid grid-cols-3 gap-5">
                 <div class="col-span-1">
-                    <h3 class="font-medium text-xl">Sketching</h3>
+                    <h3 class=" text-xl">Sketching</h3>
                 </div>
                 <div class="col-span-2">
                     <p class="text-lg">

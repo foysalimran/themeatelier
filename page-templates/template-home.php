@@ -11,7 +11,7 @@ get_header(); ?>
           class="relative z-10 items-center block h-full grid-cols-5 gap-8 lg:grid xl:grid-cols-6"
         >
           <div class="col-span-3 pt-48 lg:pt-0">
-            <h1 class="mb-0 text-3xl font-bold xl:text-ta-section-title">
+            <h1 class="mb-0 text-3xl xl:text-ta-section-title">
               Most Professional
               <span class="text-primary">WordPress Plugins</span>
               <br class="hidden lg:block" />
@@ -75,7 +75,7 @@ get_header(); ?>
     <section class="py-16 ta-featured sm:py-20">
       <div class="container">
         <div class="mb-20 text-center">
-          <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
+          <h2 class="text-ta-section-title -mt-1.5 mb-0 ">
             Our Featured Plugins
           </h2>
           <span class="inline-block mt-5 text-lg font-normal"
@@ -101,7 +101,7 @@ get_header(); ?>
                 />
               </div>
               <div>
-                <h3 class="mt-5 mb-0 text-xl font-medium">WP Carousel</h3>
+                <h3 class="mt-5 mb-0 text-xl ">WP Carousel</h3>
                 <p class="mt-3 text-base font-normal"></p>
                 <p>
                   The most powerful and user-friendly multi-purpose carousel,
@@ -140,7 +140,7 @@ get_header(); ?>
                 />
               </div>
               <div>
-                <h3 class="mt-5 mb-0 text-xl font-medium">
+                <h3 class="mt-5 mb-0 text-xl ">
                   Product Slider for WooCommerce
                 </h3>
                 <p class="mt-3 text-base font-normal"></p>
@@ -181,7 +181,7 @@ get_header(); ?>
                 />
               </div>
               <div>
-                <h3 class="mt-5 mb-0 text-xl font-medium">Logo Carousel</h3>
+                <h3 class="mt-5 mb-0 text-xl ">Logo Carousel</h3>
                 <p class="mt-3 text-base font-normal"></p>
                 <p>
                   Showcase a group of logo images with Title, Description,
@@ -220,7 +220,7 @@ get_header(); ?>
                 />
               </div>
               <div>
-                <h3 class="mt-5 mb-0 text-xl font-medium">Smart Post Show</h3>
+                <h3 class="mt-5 mb-0 text-xl ">Smart Post Show</h3>
                 <p class="mt-3 text-base font-normal"></p>
                 <p>
                   Filter and display posts (any post types), pages, taxonomy,
@@ -259,7 +259,7 @@ get_header(); ?>
                 />
               </div>
               <div>
-                <h3 class="mt-5 mb-0 text-xl font-medium">Easy Accordion</h3>
+                <h3 class="mt-5 mb-0 text-xl ">Easy Accordion</h3>
                 <p class="mt-3 text-base font-normal"></p>
                 <p>
                   Minimize customer support by offering comprehensive FAQs and
@@ -298,7 +298,7 @@ get_header(); ?>
                 />
               </div>
               <div>
-                <h3 class="mt-5 mb-0 text-xl font-medium">Real Testimonials</h3>
+                <h3 class="mt-5 mb-0 text-xl ">Real Testimonials</h3>
                 <p class="mt-3 text-base font-normal"></p>
                 <p>
                   Simply collect, manage, and display Testimonials on your
@@ -325,7 +325,7 @@ get_header(); ?>
         </div>
         <div class="text-center">
           <a
-            class="inline-block px-6 py-3 mt-10 text-base font-medium text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group"
+            class="inline-block px-6 py-3 mt-10 text-base  text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group"
             href="#"
             >View All Plugins
             <svg
@@ -348,7 +348,7 @@ get_header(); ?>
     <section class="py-16 ta-why-choose-us bg-secondary sm:py-20">
       <div class="container">
         <div class="mb-20 text-center">
-          <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
+          <h2 class="text-ta-section-title -mt-1.5 mb-0 ">
             Why customers love Fixolab?
           </h2>
           <span class="inline-block mt-5 text-lg font-normal"
@@ -366,7 +366,7 @@ get_header(); ?>
               src="<?php echo get_template_directory_uri(); ?>/assets/images/code.svg"
               alt=""
             />
-            <h3 class="mt-5 mb-0 text-xl font-medium">Standard Code</h3>
+            <h3 class="mt-5 mb-0 text-xl ">Standard Code</h3>
             <p class="mt-2 text-start">
               We have expert developers who follow the WordPress coding
               standards to provide you with secure and up-to-date plugins that
@@ -381,7 +381,7 @@ get_header(); ?>
               src="<?php echo get_template_directory_uri(); ?>/assets/images/pricing-icon.svg"
               alt=""
             />
-            <h3 class="mt-5 mb-0 text-xl font-medium">
+            <h3 class="mt-5 mb-0 text-xl ">
               Most Affordable Pricing
             </h3>
             <p class="mt-2 text-start">
@@ -398,7 +398,7 @@ get_header(); ?>
               src="<?php echo get_template_directory_uri(); ?>/assets/images/support-icon.svg"
               alt=""
             />
-            <h3 class="mt-5 mb-0 text-xl font-medium">World-Class Support</h3>
+            <h3 class="mt-5 mb-0 text-xl ">World-Class Support</h3>
             <p class="mt-2 text-start">
               We provide dedicatedly One To One top-notch email support
               instantly whenever you face any issues. Over 90% of our customers
@@ -413,7 +413,7 @@ get_header(); ?>
               src="<?php echo get_template_directory_uri(); ?>/assets/images/refund.svg"
               alt=""
             />
-            <h3 class="mt-5 mb-0 text-xl font-medium">Easy Refund Policy</h3>
+            <h3 class="mt-5 mb-0 text-xl ">Easy Refund Policy</h3>
             <p class="mt-2 text-start">
               Get a full refund within 14 days after your first purchase If you
               don't like any of our plugin(s). We follow a No Questions Asked
@@ -428,7 +428,7 @@ get_header(); ?>
               src="<?php echo get_template_directory_uri(); ?>/assets/images/multilangual-icon.svg"
               alt=""
             />
-            <h3 class="mt-5 mb-0 text-xl font-medium">Multilingual Ready</h3>
+            <h3 class="mt-5 mb-0 text-xl ">Multilingual Ready</h3>
             <p class="mt-2 text-start">
               You can translate our plugins in your language with .po & .mo
               files. This plugin is Right To Left-RTL ready. You can even create
@@ -443,7 +443,7 @@ get_header(); ?>
               src="<?php echo get_template_directory_uri(); ?>/assets/images/robust-icon.svg"
               alt=""
             />
-            <h3 class="mt-5 mb-0 text-xl font-medium">
+            <h3 class="mt-5 mb-0 text-xl ">
               Robust Free & Pro Plugins
             </h3>
             <p class="mt-2 text-start">
@@ -543,7 +543,7 @@ get_header(); ?>
           <div
             class="col-span-1 md:p-10 md:min-h-[350px] flex flex-col justify-center"
           >
-            <h3 class="mb-0 text-2xl font-medium">
+            <h3 class="mb-0 text-2xl ">
               Have a question? <span class="text-primary">Just ask</span>
             </h3>
             <span class="inline-block mt-2"
@@ -575,7 +575,7 @@ get_header(); ?>
     <section class="py-16 ta-testimonial sm:py-20 bg-secondary">
       <div class="container">
         <div class="mb-20 text-center">
-          <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
+          <h2 class="text-ta-section-title -mt-1.5 mb-0 ">
             Testimonials
           </h2>
           <span class="inline-block mt-5 text-lg font-normal"
@@ -595,7 +595,7 @@ get_header(); ?>
                 />
               </div>
               <div class="text-left">
-                <h6 class="font-medium">Veronica Anluz</h6>
+                <h6 class="">Veronica Anluz</h6>
                 <p class="mb-1">Web Developer</p>
                 <ul class="flex gap-1">
                   <li>
@@ -682,7 +682,7 @@ get_header(); ?>
                 />
               </div>
               <div class="text-left">
-                <h6 class="font-medium">Jonny Miller</h6>
+                <h6 class="">Jonny Miller</h6>
                 <p class="mb-1">Web Designer</p>
                 <ul class="flex gap-1">
                   <li>
@@ -769,7 +769,7 @@ get_header(); ?>
                 />
               </div>
               <div class="text-left">
-                <h6 class="font-medium">Peter Capidal</h6>
+                <h6 class="">Peter Capidal</h6>
                 <p class="mb-1">Digital Marketer</p>
                 <ul class="flex gap-1">
                   <li>

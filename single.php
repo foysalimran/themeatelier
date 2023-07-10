@@ -11,11 +11,11 @@
                     <?php the_post_thumbnail(); ?>
                 </div>
                 <div class="text-center mb-10 mt-12">
-                    <div class="text-[13px] font-medium text-[#167496]">
+                    <div class="text-[13px]  text-[#167496]">
                         <?php the_category(); ?>
                     </div>
 
-                    <h1 class="text-4xl font-medium mt-5 mb-0 break-all">
+                    <h1 class="text-4xl  mt-5 mb-0 break-all">
                         <?php the_title(); ?>
                     </h1>
                     <div class="flex items-center justify-center mt-6">
@@ -31,7 +31,7 @@
                 </div>
                 <ul class="flex items-center gap-4 flex-wrap mt-8 clear-both">
                     <li>
-                        <h3 class="font-medium text-xl">Share:</h3>
+                        <h3 class=" text-xl">Share:</h3>
                     </li>
                     <li>
                         <a class="flex items-center gap-2 border border-secondary px-2 py-1 rounded" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_permalink(); ?>">
@@ -92,7 +92,7 @@
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>
         <div class="mt-20">
-            <h4 class="text-[22px] font-medium mb-0">Related Articles</h4>
+            <h4 class="text-[22px]  mb-0">Related Articles</h4>
             <div class="grid md:grid-cols-2 gap-8 mt-8">
                 <!-- featured_post -->
                 <?php global $post;
@@ -119,11 +119,11 @@
                                 <a href="<?php the_permalink(); ?>" class="inline-block"><?php echo the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive wp-post-image entered lazyloaded']) ?></a>
                             </div>
                             <div class="p-5 px-[30px] pb-[26px]">
-                                <div class="text-[13px] font-medium text-primary">
+                                <div class="text-[13px]  text-primary">
                                     <?php the_category() ?>
                                 </div>
 
-                                <h3 class="text-lg leading-6 font-medium mt-3 mb-0">
+                                <h3 class="text-lg leading-6  mt-3 mb-0">
                                     <a class="text-font-color hover:text-primary" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
                                 </h3>
                                 <span class="text-xs font-normal text-font-color-light mt-3 flex justify-between">
