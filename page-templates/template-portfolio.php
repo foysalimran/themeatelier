@@ -16,8 +16,7 @@ get_header(); ?>
 <!--====== Plugin list start ======-->
 <section class="ta-case-study py-20">
     <div class="container">
-        <h3 class="mb-5"><?php the_title(); ?></h3>
-        <p><?php the_content(); ?></p>
+
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
 
             <?php

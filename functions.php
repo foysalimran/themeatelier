@@ -10,6 +10,7 @@ function themeatelier_initialize()
 	add_theme_support('automatic-feed-links');
 	add_theme_support('title-tag');
 	add_theme_support('post-thumbnails');
+	add_theme_support('wp-block-styles');
 	add_theme_support('html5', array(
 		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
 	));
@@ -95,6 +96,7 @@ function themeateler_register_portfolio_cpt()
 		"menu_icon" => "dashicons-portfolio",
 		"supports" => ["title", "editor", "thumbnail", "excerpt", "custom-fields", "author"],
 		"show_in_graphql" => false,
+		'taxonomies'          => array('category'),
 	];
 
 	register_post_type("portfolio", $args);
