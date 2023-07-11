@@ -53,18 +53,19 @@
         </form>
       </div>
     </div>
-    <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-ta-box-shadow lg:grid border-secondary">
-      <?php
-      $args  = array(
-        'posts_per_page'      => 1,
-        'post__in'            => get_option('sticky_posts'),
-        'ignore_sticky_posts' => 1,
-      );
-      $sec_query = new WP_Query($args);
-      ?>
-      <?php if ($sec_query->have_posts()) : ?>
-        <?php while ($sec_query->have_posts()) : $sec_query->the_post(); ?>
 
+    <?php
+    $args  = array(
+      'posts_per_page'      => 1,
+      'post__in'            => get_option('sticky_posts'),
+      'ignore_sticky_posts' => 1,
+    );
+    $sec_query = new WP_Query($args);
+    ?>
+    <?php if ($sec_query->have_posts()) : ?>
+
+      <?php while ($sec_query->have_posts()) : $sec_query->the_post(); ?>
+        <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-ta-box-shadow lg:grid border-secondary">
           <div class="col-span-3 p-9">
             <div class="text-sm  text-primary">
               <?php the_category(', ', '', ''); ?>
@@ -92,15 +93,16 @@
               <?php the_post_thumbnail('medium_large'); ?>
             </a>
           </div>
-        <?php endwhile; ?>
-      <?php else : ?>
-        <?php _e('Sorry, no posts matched your criteria.', 'themeatelier'); ?>
-      <?php endif; ?>
 
-      <!-- reset global post variable. After this point, we are back to the Main Query object -->
-      <?php wp_reset_postdata(); ?>
+        </div>
+      <?php endwhile; ?>
+    <?php else : ?>
+      <?php _e('Sorry, no posts matched your criteria.', 'themeatelier'); ?>
+    <?php endif; ?>
 
-    </div>
+    <!-- reset global post variable. After this point, we are back to the Main Query object -->
+    <?php wp_reset_postdata(); ?>
+
     <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
       <?php
       $args  = array(
