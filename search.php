@@ -1,26 +1,18 @@
-<?php
-
-/**
- * The template for displaying search results pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package themeatellier
- */
-
-get_header();
-?>
+<?php get_header(); ?>
+<section class="h-[380px] bg-secondary">
+	<div class="container text-center">
+		<h1 class="mb-0 text-3xl sm:text-4xl pt-44">
+			<?php
+			/* translators: %s: search query. */
+			printf(esc_html__('Search Results for: %s', 'themeatellier'), '<span>' . get_search_query() . '</span>');
+			?>
+		</h1>
+	</div>
+</section>
 <div class="container py-28">
 	<main id="primary" class="site-main">
 		<?php if (have_posts()) : ?>
-			<header class="text-center">
-				<h1>
-					<?php
-					/* translators: %s: search query. */
-					printf(esc_html__('Search Results for: %s', 'themeatellier'), '<span>' . get_search_query() . '</span>');
-					?>
-				</h1>
-			</header><!-- .page-header -->
+
 
 
 			<div class="grid gap-5 mt-16 md:grid-cols-2 lg:grid-cols-3">

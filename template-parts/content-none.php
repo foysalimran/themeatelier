@@ -9,12 +9,12 @@
 
 ?>
 
-<section class="no-results not-found">
-	<header class="page-header">
+<section class="text-center">
+	<header class="mb-5">
 		<h1 class="page-title"><?php esc_html_e( 'Nothing Found', 'themeatellier' ); ?></h1>
 	</header><!-- .page-header -->
 
-	<div class="page-content">
+	<div class="not-found">
 		<?php
 		if ( is_home() && current_user_can( 'publish_posts' ) ) :
 
@@ -34,7 +34,7 @@
 		elseif ( is_search() ) :
 			?>
 
-			<p><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'themeatellier' ); ?></p>
+			<p class="mb-5"><?php esc_html_e( 'Sorry, but nothing matched your search terms. Please try again with some different keywords.', 'themeatellier' ); ?></p>
 			<?php
 			get_search_form();
 
