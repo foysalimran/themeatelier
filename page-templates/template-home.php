@@ -283,7 +283,7 @@ get_header(); ?>
       <div class="p-4 bg-white rounded-md ta-testimonial-item lg:p-6">
         <div class="flex gap-3 mb-5">
           <div class="w-20 h-20">
-            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_02.png" alt="" />
+            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="" />
           </div>
           <div class="text-left">
             <h6 class="font-medium">Firmafotografering</h6>
@@ -324,7 +324,7 @@ get_header(); ?>
       <div class="p-4 bg-white rounded-md ta-testimonial-item lg:p-6">
         <div class="flex gap-3 mb-5">
           <div class="w-20 h-20">
-            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_03.png" alt="" />
+            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="" />
           </div>
           <div class="text-left">
             <h6 class="font-medium">Guzzala Malik</h6>

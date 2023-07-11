@@ -57,7 +57,7 @@ h6 {
 }
 
 .ta-header ul li a {
-  @apply py-1 lg:py-3 inline-block hover:text-primary text-font-color;
+  @apply py-1 lg:py-3 inline-block hover:text-primary text-font-color font-bold;
 }
 .ta-sticky-menu {
   @apply fixed px-0 py-3 top-0 left-0 w-full bg-white;
