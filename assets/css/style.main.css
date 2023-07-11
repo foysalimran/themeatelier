@@ -633,12 +633,12 @@ video {
   right: 3rem;
 }
 
-.top-12{
-  top: 3rem;
-}
-
 .right-4{
   right: 1rem;
+}
+
+.top-12{
+  top: 3rem;
 }
 
 .top-8{
@@ -661,24 +661,16 @@ video {
   grid-column: span 1 / span 1;
 }
 
+.col-span-12{
+  grid-column: span 12 / span 12;
+}
+
 .col-span-2{
   grid-column: span 2 / span 2;
 }
 
 .col-span-3{
   grid-column: span 3 / span 3;
-}
-
-.col-span-4{
-  grid-column: span 4 / span 4;
-}
-
-.col-span-8{
-  grid-column: span 8 / span 8;
-}
-
-.col-span-12{
-  grid-column: span 12 / span 12;
 }
 
 .float-right{
@@ -1007,12 +999,12 @@ video {
   width: 100%;
 }
 
-.max-w-\[64px\]{
-  max-width: 64px;
-}
-
 .max-w-\[50px\]{
   max-width: 50px;
+}
+
+.max-w-\[64px\]{
+  max-width: 64px;
 }
 
 .flex-shrink{
@@ -2255,6 +2247,10 @@ video {
   padding: 0.625rem;
 }
 
+.p-3{
+  padding: 0.75rem;
+}
+
 .p-4{
   padding: 1rem;
 }
@@ -2267,12 +2263,12 @@ video {
   padding: 1.75rem;
 }
 
-.p-9{
-  padding: 2.25rem;
+.p-8{
+  padding: 2rem;
 }
 
-.p-3{
-  padding: 0.75rem;
+.p-9{
+  padding: 2.25rem;
 }
 
 .px-10{
@@ -2293,11 +2289,6 @@ video {
 .px-4{
   padding-left: 1rem;
   padding-right: 1rem;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .px-6{
@@ -2343,11 +2334,6 @@ video {
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-}
-
-.py-6{
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
 }
 
 .py-8{
@@ -3208,6 +3194,10 @@ input[type="submit"]{
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+input[type="checkbox"]{
+  width: auto;
+}
+
 label{
   margin-bottom: 0.75rem;
   margin-top: 1rem;
@@ -3712,18 +3702,6 @@ ul .tab.tab-active svg{
   color: rgb(52 100 224 / var(--tw-text-opacity)) !important;
 }
 
-.ta-single-blog .comment-form-comment textarea,
-.ta-single-blog .comment-form-comment input{
-  margin-bottom: 0.75rem;
-  border-radius: 0.25rem;
-}
-
-.ta-single-blog .comment-form-comment textarea:focus,
-.ta-single-blog .comment-form-comment input:focus{
-  outline: 2px solid transparent;
-  outline-offset: 2px;
-}
-
 .ta-single-blog .comment-form-comment label,
 .ta-single-blog .comment-form-author label,
 .ta-single-blog .comment-form-email label,
@@ -3735,12 +3713,6 @@ ul .tab.tab-active svg{
 
 .ta-single-blog form.comment-form p{
   margin-bottom: 1rem;
-}
-
-.ta-single-blog .comment-form-cookies-consent input{
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
-  width: auto;
 }
 
 .ta-single-blog input[type="submit"]{
@@ -4409,16 +4381,16 @@ ol li .fn a{
     top: 1.25rem;
   }
 
+  .md\:col-span-4{
+    grid-column: span 4 / span 4;
+  }
+
   .md\:col-span-6{
     grid-column: span 6 / span 6;
   }
 
   .md\:col-span-8{
     grid-column: span 8 / span 8;
-  }
-
-  .md\:col-span-4{
-    grid-column: span 4 / span 4;
   }
 
   .md\:mb-0{

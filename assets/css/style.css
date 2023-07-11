@@ -53,6 +53,9 @@ textarea {
 input[type="submit"] {
   @apply w-auto py-2 px-5 bg-primary rounded text-white mt-4;
 }
+input[type="checkbox"] {
+  @apply w-auto;
+}
 label {
   @apply font-bold mb-3 capitalize inline-block mt-4 text-font-color;
 }
@@ -270,10 +273,7 @@ ul .tab.tab-active svg {
 .ta-single-blog a {
   @apply !text-primary;
 }
-.ta-single-blog .comment-form-comment textarea,
-.ta-single-blog .comment-form-comment input {
-  @apply rounded focus:outline-none mb-3;
-}
+
 .ta-single-blog .comment-form-comment label,
 .ta-single-blog .comment-form-author label,
 .ta-single-blog .comment-form-email label,
@@ -284,9 +284,6 @@ ul .tab.tab-active svg {
   @apply mb-4;
 }
 
-.ta-single-blog .comment-form-cookies-consent input {
-  @apply w-auto my-3;
-}
 .ta-single-blog input[type="submit"] {
   @apply w-1/3 mx-auto;
 }
