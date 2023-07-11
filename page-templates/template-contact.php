@@ -63,7 +63,7 @@ get_header(); ?>
             <div>
               <h3 class="mt-5 mb-0 text-xl">Documentation</h3>
               <p class="mt-3 text-base font-normal"></p>
-              <p>
+              <p class="mb-0">
                 Please refer to this guide for downloading, installing, and using to get started with using our plugins.
               </p>
               <p></p>
@@ -81,7 +81,7 @@ get_header(); ?>
             <div>
               <h3 class="mt-5 mb-0 text-xl">Video Tutorials</h3>
               <p class="mt-3 text-base font-normal"></p>
-              <p>
+              <p class="mb-0">
                 Check our rich video tutorials cover everything you need to know to get started using our plugins.
               </p>
               <p></p>
@@ -99,7 +99,7 @@ get_header(); ?>
             <div>
               <h3 class="mt-5 mb-0 text-xl">FAQs</h3>
               <p class="mt-3 text-base font-normal"></p>
-              <p>
+              <p class="mb-0">
                 If you have any questions about our products, please see the following most frequently asked questions.
               </p>
               <p></p>

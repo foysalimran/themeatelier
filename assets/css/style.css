@@ -20,6 +20,9 @@ a {
   @apply text-font-color-light;
   font-family: "Lato", sans-serif;
 }
+p {
+  @apply mb-4;
+}
 h1 {
   @apply text-4xl lg:text-5xl;
 }
@@ -57,7 +60,7 @@ input[type="checkbox"] {
   @apply w-auto;
 }
 label {
-  @apply font-bold mb-3 capitalize inline-block mt-4 text-font-color;
+  @apply font-bold capitalize block mb-3 text-font-color;
 }
 
 /* Header Css */
