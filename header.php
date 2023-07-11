@@ -7,33 +7,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <?php wp_head(); ?>
 </head>
+<header class="ta-header">
+<nav class="container flex gap-2 flex-wrap items-center">
+  <div class="site-branding">
+    <?php
+    the_custom_logo();
+    ?>
+    <h1 class="text-2xl text-font-color"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+    <?php
 
-<body <?php body_class(); ?>>
+    $themeatellier_description = get_bloginfo('description', 'display');
+    if ($themeatellier_description || is_customize_preview()) :
+    ?>
+      <p class="site-description"><?php echo $themeatellier_description; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped 
+                                  ?></p>
+    <?php endif; ?>
+  </div><!-- .site-branding -->
+  <div class="shrink-0">
+    <?php wp_nav_menu(
+      array(
+        'theme_location'  => 'main'
+      )
+    ); ?>
 
-  <header class="ta-header" id="menu">
+  </div>
+  <button id="menu-button" type="button" class="inline-flex items-center ml-auto md:hidden">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+    </svg>
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+    </svg>
+  </button>
 
-    <nav class="container flex flex-wrap items-center">
-      <div class="site-logo" style="margin-right: 20px;">
-        <a href="<?php bloginfo('url'); ?>"><?php bloginfo('name'); ?></a>
-      </div>
-      <div class="shrink-0">
-        <?php wp_nav_menu(
-          array(
-            'theme_location'  => 'main'
-          )
-        ); ?>
+  </div>
+  <button id="menu-button" type="button" class="inline-flex items-center ml-auto md:hidden">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+    </svg>
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+      <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+    </svg>
+  </button>
 
-      </div>
-      <button id="menu-button" type="button" class="inline-flex items-center ml-auto md:hidden">
-        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path>
-        </svg>
-        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
-        </svg>
-      </button>
-
-      <!-- 
+  <!-- 
       <div class="w-full ml-auto md:flex md:w-auto">
         <ul>
           <li class="pb-2 md:pb-0">
@@ -43,11 +60,11 @@
             </a>
           </li> -->
 
-      <!-- <li>
+  <!-- <li>
               <a class="ta-btn-secondary" href="#">Login</a>
             </li> -->
-      <!-- </ul>
+  <!-- </ul>
       </div> -->
-    </nav>
-  </header>
-  <!--====== Header section end ======-->
+</nav>
+</header>
+<!--====== Header section end ======-->

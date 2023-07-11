@@ -2,6 +2,13 @@
 require('lib/codestar/codestar-framework.php');
 include_once('inc/admin-options.php');
 include_once('inc/metabox-options.php');
+
+if (site_url() == "themeatelier-official.local") {
+	define("VERSION", time());
+} else {
+	define("VERSION", wp_get_theme()->get("Version"));
+}
+
 // ADD THEME SUPPORT
 function themeatelier_initialize()
 {
@@ -17,6 +24,18 @@ function themeatelier_initialize()
 	add_theme_support('post-formats', array(
 		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
 	));
+	// Add theme support for selective refresh for widgets.
+	add_theme_support('customize-selective-refresh-widgets');
+	// Add support for core custom logo.
+	add_theme_support(
+		'custom-logo',
+		array(
+			'height'      => 250,
+			'width'       => 250,
+			'flex-width'  => true,
+			'flex-height' => true,
+		)
+	);
 	// REGISTER NAV MENUS
 	register_nav_menus(
 		array(
@@ -29,11 +48,10 @@ add_action('after_setup_theme', 'themeatelier_initialize');
 // ENQUEUE STYLES AND SCRIPTS
 function themeatelier_theme_scripts()
 {
-	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.css');
-	wp_enqueue_style('stylesheet', get_stylesheet_uri());
+	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.css',array(), time() );
+	wp_enqueue_style('stylesheet', get_stylesheet_uri(), VERSION);
 
-	wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), 0.1, true);
-	wp_enqueue_script('jquery');
+	wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), VERSION, true);
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
@@ -42,17 +60,25 @@ function themeatelier_theme_scripts()
 add_action('wp_enqueue_scripts', 'themeatelier_theme_scripts');
 
 
+require get_template_directory() . '/inc/template-tags.php';
+
+// function remove_search_input_value($form) {
+//     $form = str_replace('value="' . get_search_query() . '"', '', $form);
+//     return $form;
+// }
+// add_filter('get_search_form', 'remove_search_input_value');
+
 
 // REGISTER WIDGETS
 function themeatelier_widegets_init()
 {
 	register_sidebar(array(
-		'name'	=> __('Footer Widget', 'themeatelier'),
+		'name'	=> esc_html__('Footer Widget', 'themeatelier'),
 		'id'	=> 'footer__widget',
-		'description'	=> __('Add widget for the footer', 'themeatelier'),
+		'description'	=> esc_html__('Add widget for the footer', 'themeatelier'),
 		'before_widget'	=> '<div>',
 		'after_widget'	=> '</div>',
-		'before_title'	=> '<h3 class="mb-5 text-base font-medium">',
+		'before_title'	=> '<h3 class="mb-5 text-base ">',
 		'after_title'	=> '</h3>'
 	));
 }

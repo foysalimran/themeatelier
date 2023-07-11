@@ -11,11 +11,11 @@
                     <?php the_post_thumbnail(); ?>
                 </div>
                 <div class="text-center mb-10 mt-12">
-                    <div class="text-[13px] font-medium text-[#167496]">
+                    <div class="text-[13px]  text-[#167496]">
                         <?php the_category(); ?>
                     </div>
 
-                    <h1 class="text-4xl font-medium mt-5 mb-0 break-all">
+                    <h1 class="text-4xl  mt-5 mb-0 break-all">
                         <?php the_title(); ?>
                     </h1>
                     <div class="flex items-center justify-center mt-6">
@@ -31,7 +31,7 @@
                 </div>
                 <ul class="flex items-center gap-4 flex-wrap mt-8 clear-both">
                     <li>
-                        <h3 class="font-medium text-xl">Share:</h3>
+                        <h3 class=" text-xl">Share:</h3>
                     </li>
                     <li>
                         <a class="flex items-center gap-2 border border-secondary px-2 py-1 rounded" href="https://www.facebook.com/sharer/sharer.php?u=<?php echo the_permalink(); ?>">
@@ -92,7 +92,7 @@
         <?php endif; ?>
         <?php wp_reset_postdata(); ?>
         <div class="mt-20">
-            <h4 class="text-[22px] font-medium mb-0">Related Articles</h4>
+            <h4 class="text-[22px]  mb-0">Related Articles</h4>
             <div class="grid md:grid-cols-2 gap-8 mt-8">
                 <!-- featured_post -->
                 <?php global $post;
@@ -109,60 +109,27 @@
                         'ignore_sticky_posts' => 1
                     );
                     $related_posts = new wp_query($args);
-                    while ($related_posts->have_posts()) {
+
+                    while ($related_posts->have_posts()) :
                         $related_posts->the_post();
                         global $post;
-                ?>
-                        <!-- blog -->
-                        <div class="shadow-ta-box-shadow rounded border border-secondary overflow-hidden">
-                            <div class="post-thumbnail">
-                                <a href="<?php the_permalink(); ?>" class="inline-block"><?php echo the_post_thumbnail('post-thumbnail', ['class' => 'img-responsive wp-post-image entered lazyloaded']) ?></a>
-                            </div>
-                            <div class="p-5 px-[30px] pb-[26px]">
-                                <div class="text-[13px] font-medium text-primary">
-                                    <?php the_category() ?>
-                                </div>
-
-                                <h3 class="text-lg leading-6 font-medium mt-3 mb-0">
-                                    <a class="text-font-color hover:text-primary" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
-                                </h3>
-                                <span class="text-xs font-normal text-font-color-light mt-3 flex justify-between">
-                                    <span><?php _e("By", "themeatler") ?>
-                                        <a class="hover:text-primary" href="<?php echo esc_url(get_author_posts_url(get_the_author_meta("ID"))); ?>" rel="author"><?php the_author(); ?></a></span>
-                                    <span class="flex items-center gap-2">
-                                        <svg width="14" height="14" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                                            <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z" />
-                                        </svg>
-                                        <?php the_date() ?></span>
-                                </span>
-                            </div>
-                        </div>
-                        <!-- blog -->
-                <?php }
+                        get_template_part('template-parts/content', get_post_type());
+                    endwhile;
                 }
                 wp_reset_postdata();
                 ?>
             </div>
         </div>
+
+
+
         <div id="comments" class="comment-form ta-contact-form rounded mt-24">
             <div id="respond" class="border border-secondary shadow-ta-box-shadow p-5 sm:p-9">
-                <h3 class="mb-4 mt-0 text-xl">
-                    Leave a comment
-                    <small><a rel="nofollow" id="cancel-comment-reply-link" href="#" style="display: none">Cancel reply</a></small>
-                </h3>
-                <form method="post" id="commentform" class="comment-form">
-                    <div class="mt-5">
-                        <label for="author" class="block text-lg mb-1">Name<span class="text-[#c12f3c]"> *</span></label><input class="form-control" id="author" name="author" type="text" value="" size="30" />
-                    </div>
-                    <div class="mt-5">
-                        <label for="email" class="block text-lg">Email<span class="text-[#c12f3c]"> *</span></label><input class="form-control" id="email" name="email" type="text" value="" size="30" />
-                    </div>
-
-                    <div class="mt-5">
-                        <label for="comment" class="block text-lg">Comments<span class="text-[#c12f3c]"> *</span></label><textarea id="comment" placeholder="Write your comment..." name="comment" aria-required="true" rows="7"></textarea>
-                    </div>
-                    <button class="ta-btn-primary mt-8">Post Comment</button>
-                </form>
+                <?php
+                if (!post_password_required()) {
+                    comments_template();
+                }
+                ?>
             </div>
             <!-- #respond -->
         </div>

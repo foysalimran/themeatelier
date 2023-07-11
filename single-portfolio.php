@@ -3,7 +3,7 @@
 <!--====== Page title start ======-->
 <section class="h-[380px] bg-secondary">
     <div class="container text-center">
-        <h1 class="text-3xl sm:text-4xl font-bold pt-44 mb-0"><?php the_title(); ?></h1>
+        <h1 class="text-3xl sm:text-4xl pt-44 mb-0"><?php the_title(); ?></h1>
         <p class="text-lg mt-5">
             <?php the_excerpt(); ?>
         </p>

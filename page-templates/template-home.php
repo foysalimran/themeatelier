@@ -10,7 +10,7 @@ get_header(); ?>
   <div class="container h-full px-4 m-auto">
     <div class="relative z-10 items-center block h-full grid-cols-5 gap-8 lg:grid xl:grid-cols-6">
       <div class="col-span-3 pt-48 lg:pt-0">
-        <h1 class="mb-0 text-3xl font-bold xl:text-ta-section-title">
+        <h1 class="mb-0 text-3xl xl:text-ta-section-title">
           Reliable & Professional
           <span class="text-primary">WordPress Plugins</span>
           To grow your business
@@ -56,7 +56,7 @@ get_header(); ?>
 <section class="py-16 ta-featured sm:py-20">
   <div class="container">
     <div class="mb-20 text-center">
-      <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
+      <h2 class="text-ta-section-title -mt-1.5 mb-0">
         Our Featured Plugins
       </h2>
       <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
@@ -68,7 +68,7 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">Domain For Sale</h3>
+            <h3 class="mt-5 mb-0 text-xl">Domain For Sale</h3>
             <p class="mt-3 text-base font-normal"></p>
             <p>
               The ultimate tool for parking and selling your unused domain names.
@@ -87,7 +87,7 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">
+            <h3 class="mt-5 mb-0 text-xl">
               Greet - Video Bubble Warm Welcome
             </h3>
             <p class="mt-3 text-base font-normal"></p>
@@ -108,7 +108,7 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">BizReview - Business Review Plugin</h3>
+            <h3 class="mt-5 mb-0 text-xl">BizReview - Business Review Plugin</h3>
             <p class="mt-3 text-base font-normal"></p>
             <p>
               A suitable plugin to show your business reviews from different platforms like Google business review, Facebook business review, Trustpilot, Yelp, etc.
@@ -127,7 +127,7 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl font-medium">iDonate - Blood Donation Plugin</h3>
+            <h3 class="mt-5 mb-0 text-xl">iDonate - Blood Donation Plugin</h3>
             <p class="mt-3 text-base font-normal"></p>
             <p>
               A professional Blood request and blood donor management system for any kind of WordPress website
@@ -143,7 +143,7 @@ get_header(); ?>
 
     </div>
     <div class="text-center">
-      <a class="inline-block px-6 py-3 mt-10 text-base font-medium text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://codecanyon.net/user/themeatelier">
+      <a class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://codecanyon.net/user/themeatelier">
         <?php _e('View All Plugins', 'themeatelier'); ?>
         <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
           <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
@@ -158,7 +158,7 @@ get_header(); ?>
 <!-- <section class="py-16 ta-why-choose-us bg-secondary sm:py-20">
   <div class="container">
     <div class="mb-20 text-center">
-      <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
+      <h2 class="text-ta-section-title -mt-1.5 mb-0">
         Why customers love Fixolab?
       </h2>
       <span class="inline-block mt-5 text-lg font-normal">Our robust WordPress plugins help businesses and organizations
@@ -168,7 +168,7 @@ get_header(); ?>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-7">
       <div class="text-center bg-white rounded-md p-7">
         <img width="51" height="40" class="m-auto entered lazyloaded" src="<?php echo get_template_directory_uri(); ?>/assets/images/code.svg" alt="" />
-        <h3 class="mt-5 mb-0 text-xl font-medium">Standard Code</h3>
+        <h3 class="mt-5 mb-0 text-xl">Standard Code</h3>
         <p class="mt-2 text-start">
           We have expert developers who follow the WordPress coding
           standards to provide you with secure and up-to-date plugins that
@@ -177,7 +177,7 @@ get_header(); ?>
       </div>
       <div class="text-center bg-white rounded-md p-7">
         <img width="51" height="40" class="m-auto entered lazyloaded" src="<?php echo get_template_directory_uri(); ?>/assets/images/pricing-icon.svg" alt="" />
-        <h3 class="mt-5 mb-0 text-xl font-medium">
+        <h3 class="mt-5 mb-0 text-xl">
           Most Affordable Pricing
         </h3>
         <p class="mt-2 text-start">
@@ -188,7 +188,7 @@ get_header(); ?>
       </div>
       <div class="text-center bg-white rounded-md p-7">
         <img width="51" height="40" class="m-auto entered lazyloaded" src="<?php echo get_template_directory_uri(); ?>/assets/images/support-icon.svg" alt="" />
-        <h3 class="mt-5 mb-0 text-xl font-medium">World-Class Support</h3>
+        <h3 class="mt-5 mb-0 text-xl">World-Class Support</h3>
         <p class="mt-2 text-start">
           We provide dedicatedly One To One top-notch email support
           instantly whenever you face any issues. Over 90% of our customers
@@ -197,7 +197,7 @@ get_header(); ?>
       </div>
       <div class="text-center bg-white rounded-md p-7">
         <img width="51" height="40" class="m-auto entered lazyloaded" src="<?php echo get_template_directory_uri(); ?>/assets/images/refund.svg" alt="" />
-        <h3 class="mt-5 mb-0 text-xl font-medium">Easy Refund Policy</h3>
+        <h3 class="mt-5 mb-0 text-xl">Easy Refund Policy</h3>
         <p class="mt-2 text-start">
           Get a full refund within 14 days after your first purchase If you
           don't like any of our plugin(s). We follow a No Questions Asked
@@ -206,7 +206,7 @@ get_header(); ?>
       </div>
       <div class="text-center bg-white rounded-md p-7">
         <img width="51" height="40" class="m-auto entered lazyloaded" src="<?php echo get_template_directory_uri(); ?>/assets/images/multilangual-icon.svg" alt="" />
-        <h3 class="mt-5 mb-0 text-xl font-medium">Multilingual Ready</h3>
+        <h3 class="mt-5 mb-0 text-xl">Multilingual Ready</h3>
         <p class="mt-2 text-start">
           You can translate our plugins in your language with .po & .mo
           files. This plugin is Right To Left-RTL ready. You can even create
@@ -215,7 +215,7 @@ get_header(); ?>
       </div>
       <div class="text-center bg-white rounded-md p-7">
         <img width="51" height="40" class="m-auto entered lazyloaded" src="<?php echo get_template_directory_uri(); ?>/assets/images/robust-icon.svg" alt="" />
-        <h3 class="mt-5 mb-0 text-xl font-medium">
+        <h3 class="mt-5 mb-0 text-xl">
           Robust Free & Pro Plugins
         </h3>
         <p class="mt-2 text-start">
@@ -233,7 +233,7 @@ get_header(); ?>
 <section class="py-16 ta-testimonial sm:py-20 bg-secondary">
   <div class="container">
     <div class="mb-20 text-center">
-      <h2 class="text-ta-section-title -mt-1.5 mb-0 font-medium">
+      <h2 class="text-ta-section-title -mt-1.5 mb-0">
         Testimonials
       </h2>
       <span class="inline-block mt-5 text-lg font-normal">What People Think About Our Products</span>
