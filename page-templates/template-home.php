@@ -18,7 +18,7 @@ get_header(); ?>
         <p class="mt-6 text-lg">
           We specialize in crafting exceptional WordPress-based solutions, empowering your business to thrive and achieve accelerated growth.
         </p>
-        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-12 ta-btn-primary group">See Our Plugins
+        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-9 ta-btn-primary group">See Our Plugins
           <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
           </svg>
@@ -70,7 +70,7 @@ get_header(); ?>
           <div>
             <h3 class="mt-5 mb-0 text-xl">Domain For Sale</h3>
             <p class="mt-3 text-base font-normal"></p>
-            <p>
+            <p class="mb-0">
               The ultimate tool for parking and selling your unused domain names.
             </p>
             <p></p>
@@ -91,7 +91,7 @@ get_header(); ?>
               Greet - Video Bubble Warm Welcome
             </h3>
             <p class="mt-3 text-base font-normal"></p>
-            <p>
+            <p class="mb-0">
               A powerful and user-friendly video bubble plugin for WordPress that provides an opportunity to create a dynamic and engaging welcome experience for your visitors.
             </p>
             <p></p>
@@ -110,7 +110,7 @@ get_header(); ?>
           <div>
             <h3 class="mt-5 mb-0 text-xl">BizReview - Business Review Plugin</h3>
             <p class="mt-3 text-base font-normal"></p>
-            <p>
+            <p class="mb-0">
               A suitable plugin to show your business reviews from different platforms like Google business review, Facebook business review, Trustpilot, Yelp, etc.
             </p>
             <p></p>
@@ -129,7 +129,7 @@ get_header(); ?>
           <div>
             <h3 class="mt-5 mb-0 text-xl">iDonate - Blood Donation Plugin</h3>
             <p class="mt-3 text-base font-normal"></p>
-            <p>
+            <p class="mb-0">
               A professional Blood request and blood donor management system for any kind of WordPress website
             </p>
             <p></p>
@@ -276,7 +276,7 @@ get_header(); ?>
             </ul>
           </div>
         </div>
-        <p>
+        <p class="mb-0">
           Very nice & clean code as well, i can select just one reason, or i would select many design, code quality, flexibility, customizability and great customer support! Good luck!
         </p>
       </div>
@@ -317,7 +317,7 @@ get_header(); ?>
             </ul>
           </div>
         </div>
-        <p>
+        <p class="mb-0">
           Hi - this plugin is awesome, and just what I needed without monthly fees. Keep up the good work. You can see an example on my homepage here: www.firmafotografering.dk
         </p>
       </div>
@@ -358,7 +358,7 @@ get_header(); ?>
             </ul>
           </div>
         </div>
-        <p>
+        <p class="mb-0">
           The customer service is EXCELLENT. If I had any technical issues they addressed it right away and helped fixed the issue. I strongly recommend their work to anyone. It is very hard to get good support and they addressed all my concerns and fixed all the issues I had. They even went their way to help me with additional things I needed for my website. I highly recommend their template and services!
         </p>
       </div>
