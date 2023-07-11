@@ -6,7 +6,7 @@ get_header(); ?>
 <!--====== Page title start ======-->
 <section class="h-[380px] bg-secondary">
     <div class="container text-center">
-        <h1 class="text-3xl sm:text-4xl font-bold pt-44 mb-0"><?php the_title(); ?></h1>
+        <h1 class="text-3xl sm:text-4xl pt-44 mb-0"><?php the_title(); ?></h1>
         <p class="text-lg mt-5">
             <?php the_content(); ?>
         </p>
@@ -35,12 +35,12 @@ get_header(); ?>
                             <?php the_post_thumbnail(); ?>
                         </a>
                     </div>
-                    <div class="p-5 px-[30px] pb-[26px]">
-                        <div class="text-[13px] font-medium text-primary">
+                    <div class="p-5 px-[30px] pb-[26px] related-articles">
+                        <div class="text-[13px] text-primary">
                             <?php the_terms($post->ID, 'skills', '', ', ', ' '); ?>
                         </div>
 
-                        <h3 class="text-lg leading-6 font-medium mt-3 mb-2">
+                        <h3 class="text-lg leading-6  mt-3 mb-2">
                             <a class="text-font-color hover:text-primary break-all" href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>
                             </a>

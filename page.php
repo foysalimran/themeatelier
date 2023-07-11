@@ -2,7 +2,7 @@
 <?php while ( have_posts() ) : the_post(); ?>
 <section class="">
       <div class="container px-4 m-auto text-center">
-        <h1 class="pt-40 mb-0 text-4xl font-medium"><?php the_title(); ?></h1>
+        <h1 class="pt-40 mb-0 text-4xl "><?php the_title(); ?></h1>
       </div>
     </section>
     
