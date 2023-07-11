@@ -97,7 +97,7 @@
         </div>
       <?php endwhile; ?>
     <?php else : ?>
-      <?php _e('Sorry, no posts matched your criteria.', 'themeatelier'); ?>
+
     <?php endif; ?>
 
     <!-- reset global post variable. After this point, we are back to the Main Query object -->
