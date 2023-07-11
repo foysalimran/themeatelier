@@ -19,7 +19,7 @@
                         <?php the_title(); ?>
                     </h1>
                     <div class="flex items-center justify-center mt-6">
-                        <?php echo get_avatar(get_the_author_meta('user_email'), '35', null, null, array('class' => array('rounded-full', 'shadow-ta-box-shadow', 'mr-2.5', 'border', 'border-[#ededed]', 'entered'))); ?>
+                        <?php echo get_avatar(get_the_author_meta('user_email'), '35', null, null, array('class' => array('rounded-full', 'shadow-lg', 'mr-2.5', 'border', 'border-[#ededed]', 'entered'))); ?>
                         <p class="text-lg font-normal">
                             <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>" title="<?php echo esc_attr(get_the_author()); ?>"><?php the_author(); ?></a><span class="text-sm text-gray-400">&nbsp;|&nbsp;<time class="entry-date updated" datetime="2023-04-20T09:27:09+06:00">Apr 20, 2023</time>&nbsp;|&nbsp;3 Minutes Read&nbsp;|&nbsp;86&nbsp;Views</span>
                         </p>
@@ -66,7 +66,7 @@
                         </a>
                     </li>
                 </ul>
-                <div class="sm:flex block shadow-ta-box-shadow rounded border border-secondary items-center mt-16 p-9">
+                <div class="sm:flex block shadow-lg rounded border border-secondary items-center mt-16 p-9">
                     <div class="shrink-0 mr-7">
                         <?php echo get_avatar(get_the_author_meta("ID"), 'avatar', '', '', array('class' => 'avatar avatar-100 photo rounded-full border border-secondary')); ?>
                     </div>
@@ -124,7 +124,7 @@
 <?php if ( is_single() && comments_open() ) : ?>
 
         <div id="comments" class="comment-form ta-contact-form rounded mt-24">
-            <div id="respond" class="border border-secondary shadow-ta-box-shadow p-5 sm:p-9">
+            <div id="respond" class="border border-secondary shadow-lg p-5 sm:p-9">
                 <?php
                 if (!post_password_required()) {
                     comments_template();
