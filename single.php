@@ -121,7 +121,7 @@
             </div>
         </div>
 
-
+<?php if ( is_single() && comments_open() ) : ?>
 
         <div id="comments" class="comment-form ta-contact-form rounded mt-24">
             <div id="respond" class="border border-secondary shadow-ta-box-shadow p-5 sm:p-9">
@@ -133,6 +133,7 @@
             </div>
             <!-- #respond -->
         </div>
+        <?php endif; ?>
     </div>
 </section>
 <!--====== Blog details end ======-->

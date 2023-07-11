@@ -26,7 +26,7 @@ if ( post_password_required() ) {
 	// You can start editing here -- including this comment!
 	if ( have_comments() ) :
 		?>
-		<h3 class="mb-4">
+		<h3 class="mb-4 text-xl">
 			<?php
 			$themeatelier_comment_count = get_comments_number();
 			if ( '1' === $themeatelier_comment_count ) {

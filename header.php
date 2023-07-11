@@ -13,7 +13,7 @@
     <?php
     the_custom_logo();
     ?>
-    <h1 class="text-2xl text-font-color"><a href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+    <h1 class="text-2xl text-font-color"><a class="text-font-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
     <?php
 
     $themeatellier_description = get_bloginfo('description', 'display');

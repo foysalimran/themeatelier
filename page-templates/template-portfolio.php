@@ -35,7 +35,7 @@ get_header(); ?>
                             <?php the_post_thumbnail(); ?>
                         </a>
                     </div>
-                    <div class="p-5 px-[30px] pb-[26px]">
+                    <div class="p-5 px-[30px] pb-[26px] related-articles">
                         <div class="text-[13px] text-primary">
                             <?php the_terms($post->ID, 'skills', '', ', ', ' '); ?>
                         </div>
