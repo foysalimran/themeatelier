@@ -29,7 +29,7 @@ get_header(); ?>
                 $the_query->the_post();
             ?>
 
-                <div class="shadow-ta-box-shadow rounded border border-secondary overflow-hidden">
+                <div class="shadow-lg rounded border border-secondary overflow-hidden">
                     <div class="post-thumbnail">
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
                             <?php the_post_thumbnail(); ?>

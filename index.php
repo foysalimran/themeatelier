@@ -65,7 +65,7 @@
     <?php if ($sec_query->have_posts()) : ?>
 
       <?php while ($sec_query->have_posts()) : $sec_query->the_post(); ?>
-        <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-ta-box-shadow lg:grid border-secondary">
+        <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-lg lg:grid border-secondary">
           <div class="col-span-3 p-9">
             <div class="text-sm  text-primary">
               <?php the_category(', ', '', ''); ?>

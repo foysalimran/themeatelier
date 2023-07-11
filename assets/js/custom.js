@@ -18,6 +18,23 @@ PATH.HeaderFixed = function () {
   }
 };
 
+// Get all tab buttons and tab content panes
+const tabButtons = document.querySelectorAll(".tab");
+const tabContentPanes = document.querySelectorAll(".tab-pane");
+
+// Add click event listeners to each tab button
+tabButtons.forEach((li, index) => {
+  li.addEventListener("click", () => {
+    // Remove 'tab-active' class from all tab buttons and tab panes
+    tabButtons.forEach((btn) => btn.classList.remove("tab-active"));
+    tabContentPanes.forEach((pane) => pane.classList.remove("tab-pane-active"));
+
+    // Add 'tab-active' class to the clicked tab button and corresponding tab pane
+    li.classList.add("tab-active");
+    tabContentPanes[index].classList.add("tab-pane-active");
+  });
+});
+
 /******************** TOGGLE MENU ********************/
 const menuButton = document.getElementById("menu-button");
 const toggleMenu = document.getElementById("menu");

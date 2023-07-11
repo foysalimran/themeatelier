@@ -1,4 +1,4 @@
-<div class="overflow-hidden border rounded shadow-ta-box-shadow border-secondary">
+<div class="overflow-hidden border rounded shadow-lg border-secondary">
 	<div class="post-thumbnail">
 		<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
 			<?php the_post_thumbnail(); ?>
