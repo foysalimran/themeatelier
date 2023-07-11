@@ -4,14 +4,14 @@
 			<?php the_post_thumbnail(); ?>
 		</a>
 	</div>
-	<div class="p-5 px-[30px] pb-[26px]">
+	<div class="p-5 px-[30px] pb-[26px] related-articles">
 		<div class="text-[13px]  text-primary">
 
 			<?php the_category(', ', '', ''); ?>
 		</div>
 
 		<h3 class="mt-3 mb-0 text-lg  leading-6">
-			<a class="text-font-color hover:text-primary break-all" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+			<a class="!text-font-color hover:text-primary break-all" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 		</h3>
 		<span class="flex justify-between mt-3 text-xs font-normal text-font-color-light">
 			<span><?php _e('By', 'themeatelier'); ?>
