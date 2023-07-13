@@ -63,7 +63,6 @@
     $sec_query = new WP_Query($args);
     ?>
     <?php if ($sec_query->have_posts()) : ?>
-
       <?php while ($sec_query->have_posts()) : $sec_query->the_post(); ?>
         <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-lg lg:grid border-secondary">
           <div class="col-span-3 p-9">
@@ -106,20 +105,21 @@
 
     <?php
     $args  = array(
-
       'ignore_sticky_posts' => 1,
     );
     $the_query = new WP_Query($args); ?>
 
     <?php if ($the_query->have_posts()) : ?>
-      <?php
-      while (have_posts()) : ?>
-        <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
-          <?php the_post();
+      <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+        <?php
+        while ($the_query->have_posts()) : ?>
+
+          <?php $the_query->the_post();
           get_template_part('template-parts/content', get_post_type());
           ?>
-        </div><?php
-            endwhile; ?>
+        <?php
+        endwhile; ?>
+      </div>
     <?php
     else :
       get_template_part('template-parts/content', 'none');
