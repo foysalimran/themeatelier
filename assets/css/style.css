@@ -120,8 +120,13 @@ label {
   object-fit: cover;
 }
 form .search-field {
-  @apply focus:outline-none;
+  @apply focus:outline-none !bg-inherit border-none;
 }
+#category-select select {
+  background: inherit;
+  border: none;
+}
+
 .not-found form input {
   display: none;
 }
