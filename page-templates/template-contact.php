@@ -15,7 +15,7 @@ get_header(); ?>
 </section>
 <section class="py-20">
   <div class="container">
-    <div class="grid grid-cols-12 gap-5">
+    <div class="grid grid-cols-12 gap-8">
       <div class="md:col-span-8 col-span-12">
         <div class="p-8 rounded shadow-lg border border-secondary">
 
