@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Contact Page Template
+ * Template Name: Contact
  */
 get_header(); ?>
 
@@ -9,7 +9,8 @@ get_header(); ?>
 <section class="h-[380px] bg-secondary">
   <div class="container text-center">
     <h1 class="mb-0 text-3xl sm:text-4xl pt-44">
-      Contact Us </h1>
+      <?php the_title(); ?>
+    </h1>
   </div>
 </section>
 <section class="py-20">
@@ -56,7 +57,7 @@ get_header(); ?>
       </div>
       <div class="md:col-span-4 col-span-12">
         <div class="relative group ta-featured-item mb-5">
-          <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="#">
+          <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="<?php bloginfo('home'); ?>/docs">
             <div class="border-2 p-1 inline-block border-secondary rounded">
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/doc-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
@@ -64,7 +65,7 @@ get_header(); ?>
               <h3 class="mt-5 mb-0 text-xl">Documentation</h3>
               <p class="mt-3 text-base font-normal"></p>
               <p class="mb-0">
-                Please refer to this guide for downloading, installing, and using to get started with using our plugins.
+                To begin utilizing our plugins, kindly consult this guide, which provides instructions on how to download, install, and effectively utilize them.
               </p>
               <p></p>
             </div>
@@ -74,7 +75,7 @@ get_header(); ?>
           </a>
         </div>
         <div class="relative group ta-featured-item mb-5">
-          <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="#">
+          <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://www.youtube.com/@themeatelier/videos">
             <div class="border-2 p-1 inline-block border-secondary rounded">
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/video-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
@@ -82,7 +83,7 @@ get_header(); ?>
               <h3 class="mt-5 mb-0 text-xl">Video Tutorials</h3>
               <p class="mt-3 text-base font-normal"></p>
               <p class="mb-0">
-                Check our rich video tutorials cover everything you need to know to get started using our plugins.
+                Our comprehensive video tutorials encompass all the essential information you require to initiate your journey with our plugins. Make sure to explore them for a thorough understanding and seamless usage experience.
               </p>
               <p></p>
             </div>
@@ -92,7 +93,7 @@ get_header(); ?>
           </a>
         </div>
         <div class="relative group ta-featured-item">
-          <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="#">
+          <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="<?php bloginfo('home'); ?>/faqs">
             <div class="border-2 p-1 inline-block border-secondary rounded">
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/faq-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
@@ -100,9 +101,8 @@ get_header(); ?>
               <h3 class="mt-5 mb-0 text-xl">FAQs</h3>
               <p class="mt-3 text-base font-normal"></p>
               <p class="mb-0">
-                If you have any questions about our products, please see the following most frequently asked questions.
+                If you have inquiries regarding our products, please refer to the following compilation of frequently asked questions for answers and assistance.
               </p>
-              <p></p>
             </div>
             <span class="text-primary text-sm leading-[30px] text-center absolute top-8 lg:top-12 right-4 lg:right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100">
               <button class="ta-btn-primary">Browse FAQs</button>
