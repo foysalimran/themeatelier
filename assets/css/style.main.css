@@ -2235,6 +2235,10 @@ video {
      object-fit: scale-down;
 }
 
+.p-0{
+  padding: 0px;
+}
+
 .p-1{
   padding: 0.25rem;
 }
@@ -3364,9 +3368,19 @@ label{
      object-fit: cover;
 }
 
+form .search-field{
+  border-style: none;
+  background-color: inherit !important;
+}
+
 form .search-field:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+#category-select select {
+  background: inherit;
+  border: none;
 }
 
 .not-found form input {

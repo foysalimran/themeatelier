@@ -17,19 +17,19 @@
     <div class="flex flex-col justify-between gap-4 mb-8 md:flex-row">
       <h3 class="text-2xl "><?php _e('Blog & Stories', 'themeatelier'); ?></h3>
       <div class="flex flex-col items-center gap-4 sm:flex-row">
-        <form class="border-b border-b-secondary flex gap-2 items-center w-full md:w-[250px] py-2">
+        <form class="border-b border-b-secondary flex gap-2 items-center w-full md:w-[250px]">
           <svg width="16" height="16" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
           </svg>
           <form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
-            <label class="w-full">
+            <label class="w-full mb-0 p-0">
               <span class="screen-reader-text"><?php echo _x('Search for:', 'label', 'your-theme-textdomain'); ?></span>
-              <input type="search" class="search-field w-full" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'your-theme-textdomain'); ?>" name="s" />
+              <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'your-theme-textdomain'); ?>" name="s" />
             </label>
           </form>
         </form>
 
-        <form class="block w-full px-3 py-2 mt-1 bg-white border rounded-md md:w-44 border-secondary focus:outline-none focus:ring-primary focus:border-indigo-500 sm:text-sm" id="category-select" class="category-select" action="<?php echo esc_url(home_url('/')); ?>" method="get">
+        <form class="block w-full  mt-1 bg-white border rounded-md md:w-44 border-secondary focus:outline-none focus:ring-primary focus:border-indigo-500 sm:text-sm" id="category-select" class="category-select" action="<?php echo esc_url(home_url('/')); ?>" method="get">
 
           <?php
           $args = array(
@@ -113,7 +113,6 @@
       <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
         <?php
         while ($the_query->have_posts()) : ?>
-
           <?php $the_query->the_post();
           get_template_part('template-parts/content', get_post_type());
           ?>
