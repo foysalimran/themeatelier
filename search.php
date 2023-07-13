@@ -9,10 +9,10 @@
 		</h1>
 	</div>
 </section>
-<div class="container py-28">
+<div class="container py-20">
 	<main id="primary" class="site-main">
 		<?php if (have_posts()) : ?>
-			<div class="grid gap-5 mt-16 md:grid-cols-2 lg:grid-cols-3">
+			<div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
 			<?php
 			while (have_posts()) :
 				the_post();
@@ -38,5 +38,4 @@
 	</main><!-- #main -->
 </div>
 <?php
-
 get_footer();
