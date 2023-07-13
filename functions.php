@@ -48,7 +48,7 @@ add_action('after_setup_theme', 'themeatelier_initialize');
 // ENQUEUE STYLES AND SCRIPTS
 function themeatelier_theme_scripts()
 {
-	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.css',array(), time() );
+	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.css', array(), time());
 	wp_enqueue_style('stylesheet', get_stylesheet_uri(), VERSION);
 
 	wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), VERSION, true);
@@ -122,7 +122,6 @@ function themeateler_register_portfolio_cpt()
 		"menu_icon" => "dashicons-portfolio",
 		"supports" => ["title", "editor", "thumbnail", "excerpt", "custom-fields", "author"],
 		"show_in_graphql" => false,
-		'taxonomies'          => array('category'),
 	];
 
 	register_post_type("portfolio", $args);

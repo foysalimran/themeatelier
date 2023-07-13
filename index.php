@@ -103,26 +103,30 @@
     <!-- reset global post variable. After this point, we are back to the Main Query object -->
     <?php wp_reset_postdata(); ?>
 
-    <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
-      <?php
-      $args  = array(
 
-        'ignore_sticky_posts' => 1,
-      );
-      $the_query = new WP_Query($args); ?>
+    <?php
+    $args  = array(
 
-      <?php if ($the_query->have_posts()) : ?>
+      'ignore_sticky_posts' => 1,
+    );
+    $the_query = new WP_Query($args); ?>
+
+    <?php if ($the_query->have_posts()) : ?>
       <?php
-        while (have_posts()) :
-          the_post();
+      while (have_posts()) : ?>
+        <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+          <?php the_post();
           get_template_part('template-parts/content', get_post_type());
-        endwhile;
-      else :
-        get_template_part('template-parts/content', 'none');
+          ?>
+        </div><?php
+            endwhile; ?>
+    <?php
+    else :
+      get_template_part('template-parts/content', 'none');
 
-      endif;
-      ?>
-    </div>
+    endif;
+    ?>
+
     <div class="mt-12">
       <div class="ta-pagination">
         <?php the_posts_pagination(

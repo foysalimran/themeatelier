@@ -2,28 +2,31 @@
 
 <main id="primary">
 	<?php if (have_posts()) : ?>
-	<section class="h-[380px] bg-secondary">
-		<div class="container text-center">
-			<?php
-			the_archive_title('<h1 class="mb-0 text-3xl sm:text-4xl pt-44">', '</h1>');
-			the_archive_description('<div class="text-lg">', '</div>');
-			?>
-		</div>
-	</section>
+		<section class="h-[380px] bg-secondary">
+			<div class="container text-center">
+				<?php
+				the_archive_title('<h1 class="mb-0 text-3xl sm:text-4xl pt-44">', '</h1>');
+				the_archive_description('<div class="text-lg">', '</div>');
+				?>
+			</div>
+		</section>
 
-	<div class="container">
-		<div class="grid gap-5 mt-16 md:grid-cols-2 lg:grid-cols-3">
+		<div class="container">
+			<?php
+			while (have_posts()) : ?>
+				<div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+					<?php the_post();
+					get_template_part('template-parts/content', get_post_type()); ?>
+				</div>
+			<?php
+			endwhile; ?>
 		<?php
-		while (have_posts()) :
-			the_post();
-			get_template_part('template-parts/content', get_post_type());
-		endwhile;
 	else :
 		get_template_part('template-parts/content', 'none');
 
 	endif;
 		?>
-		</div>
+
 		<div class="mt-12">
 			<div class="ta-pagination">
 				<?php the_posts_pagination(
@@ -35,7 +38,7 @@
 				) ?>
 			</div>
 		</div>
-	</div>
+		</div>
 </main><!-- #main -->
 <?php
 get_footer();
