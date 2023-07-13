@@ -36,7 +36,6 @@
 				</div>
 			</div>
 	</main><!-- #main -->
-
 </div>
 <?php
 get_footer();

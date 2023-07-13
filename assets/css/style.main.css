@@ -3361,7 +3361,7 @@ label{
   font-size: 13px;
 }
 
-.post-thumbnail img {
+.post-thumbnail img{
   max-height: 375px;
   width: 100%;
   -o-object-fit: cover;
@@ -3383,7 +3383,11 @@ form .search-field:focus{
   border: none;
 }
 
-.not-found form input {
+.wpcf7-response-output{
+  text-align: center;
+}
+
+.not-found form input{
   display: none;
 }
 
@@ -3625,6 +3629,7 @@ ul .tab.tab-active svg{
 
 .ta-single-blog input[type="submit"]{
   display: inline-block;
+  cursor: pointer;
   border-radius: 1.5rem;
   --tw-bg-opacity: 1;
   background-color: rgb(52 100 224 / var(--tw-bg-opacity));
