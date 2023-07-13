@@ -131,7 +131,7 @@ form .search-field {
   @apply hidden;
 }
 .not-found form label input {
-  @apply block bg-secondary border-b border-b-primary rounded-none p-2 focus:outline-none w-1/3 mx-auto;
+  @apply block !bg-secondary border border-primary rounded p-2 focus:outline-none w-1/3 mx-auto;
 }
 
 /*Contact*/

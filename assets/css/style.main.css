@@ -2334,11 +2334,6 @@ video {
   padding-bottom: 5rem;
 }
 
-.py-28{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -3396,24 +3391,13 @@ form .search-field:focus{
   margin-right: auto;
   display: block;
   width: 33.333333%;
-  border-radius: 0px;
-  border-bottom-width: 1px;
+  border-radius: 0.25rem;
+  border-width: 1px;
   --tw-border-opacity: 1;
-  border-bottom-color: rgb(52 100 224 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 246 255 / var(--tw-bg-opacity));
-  padding: 0.5rem;
-}
-
-.ta-footer.not-found form label input form,
-.ta-footer.not-found form label input form input{
+  border-color: rgb(52 100 224 / var(--tw-border-opacity));
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
-}
-
-.ta-footer.not-found form label input .ta-footer-bottom{
-  --tw-border-opacity: 1 !important;
-  border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity)) !important;
+  padding: 0.5rem;
 }
 
 .not-found form label input:focus{
