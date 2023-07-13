@@ -15,13 +15,13 @@
                         <?php the_category(); ?>
                     </div>
 
-                    <h1 class="text-4xl  mt-5 mb-0 break-all">
+                    <h1 class="text-4xl  mt-5 mb-0">
                         <?php the_title(); ?>
                     </h1>
                     <div class="flex items-center justify-center mt-6">
                         <?php echo get_avatar(get_the_author_meta('user_email'), '35', null, null, array('class' => array('rounded-full', 'shadow-lg', 'mr-2.5', 'border', 'border-[#ededed]', 'entered'))); ?>
                         <p class="text-lg font-normal">
-                            <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>" title="<?php echo esc_attr(get_the_author()); ?>"><?php the_author(); ?></a><span class="text-sm text-gray-400">&nbsp;|&nbsp;<time class="entry-date updated" datetime="2023-04-20T09:27:09+06:00">Apr 20, 2023</time>&nbsp;|&nbsp;3 Minutes Read&nbsp;|&nbsp;86&nbsp;Views</span>
+                            <a href="<?php echo esc_url(get_author_posts_url(get_the_author_meta('ID'))); ?>" title="<?php echo esc_attr(get_the_author()); ?>"><?php the_author(); ?></a><span class="text-sm text-gray-400">&nbsp;|&nbsp;<time class="entry-date updated" datetime="2023-04-20T09:27:09+06:00"><?php the_date() ?></time>&nbsp;</span>
                         </p>
                     </div>
                 </div>

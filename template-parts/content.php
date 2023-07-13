@@ -11,7 +11,7 @@
 		</div>
 
 		<h3 class="mt-3 mb-0 text-lg  leading-6">
-			<a class="!text-font-color hover:text-primary break-all" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+			<a class="!text-font-color hover:text-primary" href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
 		</h3>
 		<span class="flex justify-between mt-3 text-xs font-normal text-font-color-light">
 			<span><?php _e('By', 'themeatelier'); ?>
