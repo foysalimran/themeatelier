@@ -30,19 +30,19 @@ get_header(); ?>
           </p>
           <div class="grid grid-cols-5 gap-2 md:gap-4">
             <div class="flex flex-col justify-center col-span-1">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/freemius.png" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/freemius.png" alt="freemius" />
             </div>
             <div class="flex flex-col justify-center col-span-1">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sponsor-page-logo-mayor.png" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/sponsor-page-logo-mayor.png" alt="WP mayor" />
             </div>
             <div class="flex flex-col justify-center col-span-1">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/WPLeaders-Logo.png" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/WPLeaders-Logo.png" alt="WPLeaders" />
             </div>
             <div class="flex flex-col justify-center col-span-1">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Page-1.png" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Page-1.png" alt="themefisher" />
             </div>
             <div class="flex flex-col justify-center col-span-1">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpallclub-logo.png" alt="" />
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpallclub-logo.png" alt="all cloud" />
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ get_header(); ?>
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
           <div class="border-2 p-1 inline-block border-secondary rounded">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="Domain for sale" class="max-w-[64px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl">Domain For Sale</h3>
@@ -84,7 +84,7 @@ get_header(); ?>
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/greetwp-video-bubble-wordpress-plugin/39588757">
           <div class="border-2 p-1 inline-block border-secondary rounded">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="Greet video bubble" class="max-w-[64px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl">
@@ -105,7 +105,7 @@ get_header(); ?>
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/bizreview-business-review-wordpress-plugin/24235499">
           <div class="border-2 p-1 inline-block border-secondary rounded">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="BizReview" class="max-w-[64px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl">BizReview - Business Review Plugin</h3>
@@ -124,7 +124,7 @@ get_header(); ?>
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/idonatepro-blood-request-and-blood-donor-management-system-wordpress-plugin/21525871">
           <div class="border-2 p-1 inline-block border-secondary rounded">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="IDonate" class="max-w-[64px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl">iDonate - Blood Donation Plugin</h3>
@@ -242,7 +242,7 @@ get_header(); ?>
       <div class="p-4 bg-white rounded-md ta-testimonial-item lg:p-6">
         <div class="flex gap-3 mb-5">
           <div class="w-20 h-20">
-            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="" />
+            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="User" />
           </div>
           <div class="text-left">
             <h6 class="font-medium">CoderCafeThemes</h6>
@@ -283,7 +283,7 @@ get_header(); ?>
       <div class="p-4 bg-white rounded-md ta-testimonial-item lg:p-6">
         <div class="flex gap-3 mb-5">
           <div class="w-20 h-20">
-            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="" />
+            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="User" />
           </div>
           <div class="text-left">
             <h6 class="font-medium">Firmafotografering</h6>
@@ -324,7 +324,7 @@ get_header(); ?>
       <div class="p-4 bg-white rounded-md ta-testimonial-item lg:p-6">
         <div class="flex gap-3 mb-5">
           <div class="w-20 h-20">
-            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="" />
+            <img class="w-full rounded-full" src="<?php echo get_template_directory_uri(); ?>/assets/images/user_01.png" alt="User" />
           </div>
           <div class="text-left">
             <h6 class="font-medium">Guzzala Malik</h6>
