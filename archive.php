@@ -2,14 +2,17 @@
 
 <main id="primary">
 	<?php if (have_posts()) : ?>
-		<section class="h-[380px] bg-secondary">
+		<section class="bg-secondary">
 			<div class="container text-center">
-				<?php
-				the_archive_title('<h1 class="mb-0 text-3xl sm:text-4xl pt-44">', '</h1>');
-				the_archive_description('<div class="text-lg">', '</div>');
-				?>
+				<div class="max-w-[70%] mx-auto pt-24 md:pt-44 pb-16 md:pb-20">
+					<?php
+					the_archive_title('<h1 class="mb-5 text-3xl sm:text-4xl">', '</h1>');
+					the_archive_description('<div class="text-lg">', '</div>');
+					?>
+				</div>
 			</div>
 		</section>
+
 
 		<div class="container">
 			<?php
