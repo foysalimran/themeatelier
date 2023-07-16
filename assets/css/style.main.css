@@ -1003,12 +1003,20 @@ video {
   width: 100%;
 }
 
+.max-w-\[2\/3\]{
+  max-width: 2/3;
+}
+
 .max-w-\[50px\]{
   max-width: 50px;
 }
 
 .max-w-\[64px\]{
   max-width: 64px;
+}
+
+.max-w-\[70\%\]{
+  max-width: 70%;
 }
 
 .flex-shrink{
@@ -2334,11 +2342,6 @@ video {
   padding-bottom: 5rem;
 }
 
-.py-28{
-  padding-top: 7rem;
-  padding-bottom: 7rem;
-}
-
 .py-3{
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
@@ -2403,6 +2406,10 @@ video {
 
 .pt-5{
   padding-top: 1.25rem;
+}
+
+.pt-24{
+  padding-top: 6rem;
 }
 
 .text-left{
@@ -4504,6 +4511,14 @@ ol li .fn a{
 
   .md\:pb-0{
     padding-bottom: 0px;
+  }
+
+  .md\:pb-20{
+    padding-bottom: 5rem;
+  }
+
+  .md\:pt-44{
+    padding-top: 11rem;
   }
 }
 
