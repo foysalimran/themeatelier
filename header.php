@@ -13,7 +13,7 @@
       <?php
       the_custom_logo();
       ?>
-      <h1 class="text-2xl text-font-color"><a class="text-font-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a></h1>
+      <a class="text-font-color text-2xl font-black" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
 
     </div><!-- .site-branding -->
     <div class="shrink-0">

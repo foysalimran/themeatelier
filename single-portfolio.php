@@ -61,22 +61,41 @@
 
         <?php the_content(); ?>
 
-        <div class="bg-secondary px-10 py-8">
-            <div class="flex justify-between items-center">
-                <div class="prev-post">
-                    <?php previous_post_link(); ?>
-                </div>
-                <a href="<?php bloginfo('home'); ?>/portfolio"><svg width="32" height="32" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-                        <path d="M384 96V224H256V96H384zm0 192V416H256V288H384zM192 224H64V96H192V224zM64 288H192V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
-                    </svg>
-                </a>
 
-                <div class="next-post">
-                    <?php next_post_link(); ?>
-                </div>
 
+        <?php
+        $args = array(
+            'post_type' => 'portfolio',
+        );
+        $the_query = new WP_Query($args);
+        $count = $the_query->found_posts;
+
+
+        ?>
+
+        <?php
+        if ($count > 1) {
+        ?>
+            <div class="bg-secondary px-10 py-8">
+                <div class="grid grid-cols-3 items-center">
+                    <div class="prev-post">
+                        <?php previous_post_link(); ?>
+                    </div>
+                    <a href="<?php bloginfo('home'); ?>/portfolio" class="flex items-center justify-center"><svg width="32" height="32" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M384 96V224H256V96H384zm0 192V416H256V288H384zM192 224H64V96H192V224zM64 288H192V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z" />
+                        </svg>
+                    </a>
+
+                    <div class="next-post">
+                        <?php next_post_link(); ?>
+                    </div>
+
+                </div>
             </div>
-        </div>
+        <?php
+        }
+        ?>
+
     </div>
 </section>
 <!--====== Plugin description end ======-->
