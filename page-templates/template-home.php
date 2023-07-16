@@ -68,7 +68,7 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="Domain for sale" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl">Domain For Sale</h3>
+            <h3 class="mt-5 mb-2 text-xl">Domain For Sale</h3>
             <p class="mb-0 text-font-color">
               The ultimate tool for parking and selling your unused domain names.
             </p>
@@ -85,7 +85,7 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="Greet video bubble" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl">
+            <h3 class="mt-5 mb-2 text-xl">
               Greet - Video Bubble Warm Welcome
             </h3>
             <p class="mb-0 text-font-color">
@@ -104,7 +104,7 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="BizReview" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl">BizReview - Business Review Plugin</h3>
+            <h3 class="mt-5 mb-2 text-xl">BizReview - Business Review Plugin</h3>
             <p class="mb-0 text-font-color">
               A suitable plugin to show your business reviews from different platforms like Google business review, Facebook business review, Trustpilot, Yelp, etc.
             </p>
@@ -121,8 +121,8 @@ get_header(); ?>
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="IDonate" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-0 text-xl">iDonate - Blood Donation Plugin</h3>
-            <p class="mb-0">
+            <h3 class="mt-5 mb-2 text-xl">iDonate - Blood Donation Plugin</h3>
+            <p class="mb-0 text-font-color">
               A professional Blood request and blood donor management system for any kind of WordPress website
             </p>
           </div>
