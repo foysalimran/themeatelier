@@ -4,12 +4,12 @@
  */
 get_header(); ?>
 <!--====== Page title start ======-->
-<section class="h-[380px] bg-secondary">
+<section class="bg-secondary">
     <div class="container text-center">
-        <h1 class="text-3xl sm:text-4xl pt-44 mb-0"><?php the_title(); ?></h1>
-        <p class="text-lg mt-5">
+        <div class="max-w-[70%] mx-auto pt-24 md:pt-44 pb-16 md:pb-20">
+            <h1 class="text-3xl sm:text-4xl mb-0"><?php the_title(); ?></h1>
             <?php the_content(); ?>
-        </p>
+        </div>
     </div>
 </section>
 <!--====== Page title end ======-->
