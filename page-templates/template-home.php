@@ -69,11 +69,9 @@ get_header(); ?>
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl">Domain For Sale</h3>
-            <p class="mt-3 text-base font-normal"></p>
-            <p class="mb-0">
+            <p class="mb-0 text-font-color">
               The ultimate tool for parking and selling your unused domain names.
             </p>
-            <p></p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
@@ -90,11 +88,9 @@ get_header(); ?>
             <h3 class="mt-5 mb-0 text-xl">
               Greet - Video Bubble Warm Welcome
             </h3>
-            <p class="mt-3 text-base font-normal"></p>
-            <p class="mb-0">
+            <p class="mb-0 text-font-color">
               A powerful and user-friendly video bubble plugin for WordPress that provides an opportunity to create a dynamic and engaging welcome experience for your visitors.
             </p>
-            <p></p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
@@ -109,11 +105,9 @@ get_header(); ?>
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl">BizReview - Business Review Plugin</h3>
-            <p class="mt-3 text-base font-normal"></p>
-            <p class="mb-0">
+            <p class="mb-0 text-font-color">
               A suitable plugin to show your business reviews from different platforms like Google business review, Facebook business review, Trustpilot, Yelp, etc.
             </p>
-            <p></p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
@@ -128,11 +122,9 @@ get_header(); ?>
           </div>
           <div>
             <h3 class="mt-5 mb-0 text-xl">iDonate - Blood Donation Plugin</h3>
-            <p class="mt-3 text-base font-normal"></p>
             <p class="mb-0">
               A professional Blood request and blood donor management system for any kind of WordPress website
             </p>
-            <p></p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
               <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
@@ -140,7 +132,6 @@ get_header(); ?>
           </span>
         </a>
       </div>
-
     </div>
     <div class="text-center">
       <a class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://codecanyon.net/user/themeatelier">

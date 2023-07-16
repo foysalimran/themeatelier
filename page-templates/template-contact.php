@@ -63,11 +63,9 @@ get_header(); ?>
             </div>
             <div>
               <h3 class="mt-5 mb-0 text-xl">Documentation</h3>
-              <p class="mt-3 text-base font-normal"></p>
-              <p class="mb-0">
+              <p class="mb-0 text-font-color">
                 To begin utilizing our plugins, kindly consult this guide, which provides instructions on how to download, install, and effectively utilize them.
               </p>
-              <p></p>
             </div>
             <span class="text-primary text-sm leading-[30px] text-center absolute top-8 lg:top-12 right-4 lg:right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100">
               <button class="ta-btn-primary">Read Docs</button>
@@ -81,11 +79,9 @@ get_header(); ?>
             </div>
             <div>
               <h3 class="mt-5 mb-0 text-xl">Video Tutorials</h3>
-              <p class="mt-3 text-base font-normal"></p>
-              <p class="mb-0">
+              <p class="mb-0 text-font-color">
                 Our comprehensive video tutorials encompass all the essential information you require to initiate your journey with our plugins. Make sure to explore them for a thorough understanding and seamless usage experience.
               </p>
-              <p></p>
             </div>
             <span class="text-primary text-sm leading-[30px] text-center absolute top-8 lg:top-12 right-4 lg:right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100">
               <button class="ta-btn-primary">Watch Video</button>
@@ -99,8 +95,7 @@ get_header(); ?>
             </div>
             <div>
               <h3 class="mt-5 mb-0 text-xl">FAQs</h3>
-              <p class="mt-3 text-base font-normal"></p>
-              <p class="mb-0">
+              <p class="mb-0 text-font-color">
                 If you have inquiries regarding our products, please refer to the following compilation of frequently asked questions for answers and assistance.
               </p>
             </div>
@@ -111,7 +106,6 @@ get_header(); ?>
         </div>
       </div>
     </div>
-
   </div>
 </section>
 
