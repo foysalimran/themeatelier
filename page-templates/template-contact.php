@@ -62,7 +62,7 @@ get_header(); ?>
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/doc-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
             <div>
-              <h3 class="mt-5 mb-0 text-xl">Documentation</h3>
+              <h3 class="mt-5 mb-2 text-xl">Documentation</h3>
               <p class="mb-0 text-font-color">
                 To begin utilizing our plugins, kindly consult this guide, which provides instructions on how to download, install, and effectively utilize them.
               </p>
@@ -78,7 +78,7 @@ get_header(); ?>
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/video-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
             <div>
-              <h3 class="mt-5 mb-0 text-xl">Video Tutorials</h3>
+              <h3 class="mt-5 mb-2 text-xl">Video Tutorials</h3>
               <p class="mb-0 text-font-color">
                 Our comprehensive video tutorials encompass all the essential information you require to initiate your journey with our plugins. Make sure to explore them for a thorough understanding and seamless usage experience.
               </p>
@@ -94,7 +94,7 @@ get_header(); ?>
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/faq-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
             <div>
-              <h3 class="mt-5 mb-0 text-xl">FAQs</h3>
+              <h3 class="mt-5 mb-2 text-xl">FAQs</h3>
               <p class="mb-0 text-font-color">
                 If you have inquiries regarding our products, please refer to the following compilation of frequently asked questions for answers and assistance.
               </p>
