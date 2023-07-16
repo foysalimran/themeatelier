@@ -13,7 +13,7 @@
 
 
 <!--====== Plugin description start ======-->
-<section class="py-16 sm:py-20">
+<section class="py-16 sm:py-20 ta-case-study">
     <div class="container">
         <div class="md:grid md:grid-cols-12 gap-8 mb-12">
             <div class="rounded-lg  md:col-span-6 lg:col-span-7 mb-8 md:mb-0">
@@ -76,7 +76,7 @@
         <?php
         if ($count > 1) {
         ?>
-            <div class="bg-secondary px-10 py-8">
+            <div class="bg-secondary px-10 py-8 mt-8">
                 <div class="grid grid-cols-3 items-center">
                     <div class="prev-post">
                         <?php previous_post_link(); ?>

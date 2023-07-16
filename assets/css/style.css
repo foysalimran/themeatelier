@@ -14,14 +14,15 @@ strong {
   @apply text-font-color font-black;
   font-family: "Lato", sans-serif;
 }
-body,
-p,
-a {
+body {
   @apply text-font-color-light;
   font-family: "Lato", sans-serif;
 }
 p {
   @apply mb-4;
+}
+a {
+  @apply text-primary;
 }
 h1 {
   @apply text-4xl lg:text-5xl;
@@ -234,6 +235,10 @@ ul .tab.tab-active svg {
 }
 .ta-btn-secondary.live-demo {
   padding: 10px 32px !important;
+}
+/* Case Study */
+.ta-case-study h3 {
+  @apply mb-2;
 }
 
 /* extra css */
