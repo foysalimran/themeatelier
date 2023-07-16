@@ -1,14 +1,17 @@
 <?php get_header(); ?>
-<section class="h-[380px] bg-secondary">
+<section class="bg-secondary">
 	<div class="container text-center">
-		<h1 class="mb-0 text-3xl sm:text-4xl pt-44">
-			<?php
-			/* translators: %s: search query. */
-			printf(esc_html__('Search Results for: %s', 'themeatellier'), '<span>' . get_search_query() . '</span>');
-			?>
-		</h1>
+		<div class="max-w-[70%] mx-auto pt-24 md:pt-44 pb-16 md:pb-20">
+			<h1 class="mb-0 text-3xl sm:text-4xl">
+				<?php
+				/* translators: %s: search query. */
+				printf(esc_html__('Search Results for: %s', 'themeatellier'), '<span>' . get_search_query() . '</span>');
+				?>
+			</h1>
+		</div>
 	</div>
 </section>
+
 <div class="container py-20">
 	<main id="primary" class="site-main">
 		<?php if (have_posts()) : ?>
