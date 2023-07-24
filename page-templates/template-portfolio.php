@@ -17,7 +17,7 @@ get_header(); ?>
 <section class="ta-case-study py-20">
     <div class="container">
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
 
             <?php
             $args = array(
@@ -28,6 +28,7 @@ get_header(); ?>
             while ($the_query->have_posts()) {
                 $the_query->the_post();
             ?>
+
                 <div class="shadow-lg rounded border border-secondary overflow-hidden">
                     <div class="post-thumbnail">
                         <a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
@@ -44,7 +45,9 @@ get_header(); ?>
                                 <?php the_title(); ?>
                             </a>
                         </h3>
-                        <?php echo '<p class="mb-0">' . get_the_excerpt() . '</p>'; ?>
+                        <p>
+                            <?php the_excerpt(); ?>
+                        </p>
                     </div>
                 </div>
             <?php
