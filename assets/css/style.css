@@ -96,7 +96,7 @@ label {
   @apply !flex;
 }
 .ta-header.menu-active button {
-  @apply py-4;
+  @apply py-2;
 }
 .ta-header.menu-active button svg:last-child {
   @apply !flex;
