@@ -17,7 +17,7 @@ get_header(); ?>
 <section class="ta-case-study py-20">
     <div class="container">
 
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8>
 
             <?php
             $args = array(

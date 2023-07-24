@@ -164,3 +164,4 @@ function create_portfolio_taxonomy()
 		'rewrite' => array('slug' => 'skill'),
 	));
 }
+
