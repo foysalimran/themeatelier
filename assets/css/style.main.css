@@ -2994,11 +2994,6 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
-
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -3022,11 +3017,6 @@ video {
 .py-1{
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-12{
@@ -3054,14 +3044,14 @@ video {
   padding-bottom: 0.75rem;
 }
 
-.py-8{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .pb-16{
