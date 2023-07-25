@@ -14,7 +14,7 @@
   <section class="pt-16 pb-24 bg-white">
     <div class="container px-4 m-auto text-lg font-normal sp-single-page">
 
-      <div class="entry-content prose lg:prose-xl">
+      <div class="entry-content prose lg:prose-xl shadow px-10 py-6 m-auto">
         <?php the_content(); ?>
       </div>
       <!-- .entry-content -->
