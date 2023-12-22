@@ -46,7 +46,7 @@ get_header(); ?>
             </div>
             <div class="flex flex-col justify-center col-span-1">
               <a target="_blank" href="https://grabhosts.net/">
-              <img src="//grabhosts.net/wp-content/uploads/2023/10/Grabhost-logo-300.png" alt="all cloud" />
+              <img src="grabhosts.net/wp-content/uploads/2023/10/Grabhost-logo-300.png" alt="all cloud" />
               </a>
             </div>
           </div>
