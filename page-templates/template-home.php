@@ -43,9 +43,7 @@ get_header(); ?>
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpallclub-logo.png" alt="all cloud" />
             </div>
             <div class="flex flex-col justify-center col-span-1">
-              <a target="_blank" href="https://grabhosts.net/">
               <img src="//grabhosts.net/wp-content/uploads/2023/10/Grabhost-logo-300.png" alt="all cloud" />
-              </a>
             </div>
             
           </div>
@@ -68,8 +66,8 @@ get_header(); ?>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
 		
 				      <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/eventful">
-          <div class="border-2 p-1 inline-block border-secondary rounded">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/eventful">
+          <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/eventufl.png" alt="EventFul" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -86,8 +84,8 @@ get_header(); ?>
       </div>
 		
 		      <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/darkify">
-          <div class="border-2 p-1 inline-block border-secondary rounded">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/darkify">
+          <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/darkify.png" alt="Darkify" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -104,8 +102,8 @@ get_header(); ?>
       </div>
 		
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
-          <div class="border-2 p-1 inline-block border-secondary rounded">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
+          <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="Domain for sale" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -121,8 +119,8 @@ get_header(); ?>
         </a>
       </div>
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/greetwp-video-bubble-wordpress-plugin/39588757">
-          <div class="border-2 p-1 inline-block border-secondary rounded">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/greetwp-video-bubble-wordpress-plugin/39588757">
+          <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="Greet video bubble" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -140,8 +138,8 @@ get_header(); ?>
         </a>
       </div>
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/bizreview-business-review-wordpress-plugin/24235499">
-          <div class="border-2 p-1 inline-block border-secondary rounded">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/bizreview-business-review-wordpress-plugin/24235499">
+          <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="BizReview" class="max-w-[64px] rounded-md" />
           </div>
           <div>
@@ -157,8 +155,8 @@ get_header(); ?>
         </a>
       </div>
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/idonatepro-blood-request-and-blood-donor-management-system-wordpress-plugin/21525871">
-          <div class="border-2 p-1 inline-block border-secondary rounded">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/idonatepro-blood-request-and-blood-donor-management-system-wordpress-plugin/21525871">
+          <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="IDonate" class="max-w-[64px] rounded-md" />
           </div>
           <div>
