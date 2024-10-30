@@ -38,17 +38,16 @@ get_header(); ?>
             <div class="flex flex-col justify-center col-span-1">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/WPLeaders-Logo.png" alt="WPLeaders" />
             </div>
-            <div class="flex flex-col justify-center col-span-1">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Page-1.png" alt="themefisher" />
-            </div>
+           
             <div class="flex flex-col justify-center col-span-1">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpallclub-logo.png" alt="all cloud" />
             </div>
             <div class="flex flex-col justify-center col-span-1">
               <a target="_blank" href="https://grabhosts.net/">
-              <img src="grabhosts.net/wp-content/uploads/2023/10/Grabhost-logo-300.png" alt="all cloud" />
+              <img src="//grabhosts.net/wp-content/uploads/2023/10/Grabhost-logo-300.png" alt="all cloud" />
               </a>
             </div>
+            
           </div>
         </div>
       </div>
@@ -67,6 +66,43 @@ get_header(); ?>
       <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
+		
+				      <div class="relative group ta-featured-item">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/eventful">
+          <div class="border-2 p-1 inline-block border-secondary rounded">
+            <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/eventufl.png" alt="EventFul" class="max-w-[64px] rounded-md" />
+          </div>
+          <div>
+            <h3 class="mt-5 mb-2 text-xl">Events Showcase For The Events Calendar</h3>
+            <p class="mb-0 text-font-color">
+              A range of powerful features and tools that empower you to take your event showcasing to the next level.
+            </p>
+          </div>
+          <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+            </svg>
+          </span>
+        </a>
+      </div>
+		
+		      <div class="relative group ta-featured-item">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/darkify">
+          <div class="border-2 p-1 inline-block border-secondary rounded">
+            <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/darkify.png" alt="Darkify" class="max-w-[64px] rounded-md" />
+          </div>
+          <div>
+            <h3 class="mt-5 mb-2 text-xl">WordPress Dark Mode Plugin</h3>
+            <p class="mb-0 text-font-color">
+              An extraimly advanced dark mode plugin for any WordPress website
+            </p>
+          </div>
+          <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
+            </svg>
+          </span>
+        </a>
+      </div>
+		
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded hover:-translate-y-1 shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
           <div class="border-2 p-1 inline-block border-secondary rounded">
@@ -139,7 +175,7 @@ get_header(); ?>
       </div>
     </div>
     <div class="text-center">
-      <a class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://codecanyon.net/user/themeatelier">
+      <a class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://1.envato.market/ta-plugins">
         <?php _e('View All Plugins', 'themeatelier'); ?>
         <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
           <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>

@@ -1,4 +1,5 @@
-   <!--====== Footer section start ======-->
+
+<!--====== Footer section start ======-->
    <footer class="ta-footer<?php if (!is_front_page()) : ?> bg-secondary<?php endif; ?>">
      <div class="container">
        <div class="pt-20 pb-20">
