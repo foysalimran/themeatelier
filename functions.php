@@ -1,7 +1,6 @@
 <?php
 require('lib/codestar/codestar-framework.php');
 include_once('inc/admin-options.php');
-include_once('inc/metabox-options.php');
 
 if (site_url() == "themeatelier-official.local") {
 	define("VERSION", time());
