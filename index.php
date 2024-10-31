@@ -6,7 +6,7 @@
       <?php _e('The Themeatelier Blog', 'themeateler'); ?>
     </h1>
     <p class="mt-5 text-lg">
-      <?php _e('Get Updated with latest Tips, Tutorials, Inspirations and Collections', 'themeatelier'); ?>
+      <?php _e('Stay Updated with the Latest Tips, Tutorials, Inspiration, and Curated Collections', 'themeatelier'); ?>
     </p>
   </div>
 </section>
@@ -22,14 +22,14 @@
             <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
           </svg>
           <form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
-            <label class="w-full mb-0 p-0">
+            <label class="w-full p-0 mb-0">
               <span class="screen-reader-text"><?php echo _x('Search for:', 'label', 'your-theme-textdomain'); ?></span>
               <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'your-theme-textdomain'); ?>" name="s" />
             </label>
           </form>
         </div>
 
-        <form class="block w-full  mt-1 bg-white border rounded-md md:w-44 border-secondary focus:outline-none focus:ring-primary focus:border-indigo-500 sm:text-sm" id="category-select" class="category-select" action="<?php echo esc_url(home_url('/')); ?>" method="get">
+        <form class="block w-full mt-1 bg-white border rounded-md md:w-44 border-secondary focus:outline-none focus:ring-primary focus:border-indigo-500 sm:text-sm" id="category-select" class="category-select" action="<?php echo esc_url(home_url('/')); ?>" method="get">
 
           <?php
           $args = array(
@@ -66,7 +66,7 @@
       <?php while ($sec_query->have_posts()) : $sec_query->the_post(); ?>
         <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-lg lg:grid border-secondary">
           <div class="col-span-3 p-9">
-            <div class="text-sm  text-primary">
+            <div class="text-sm text-primary">
               <?php the_category(', ', '', ''); ?>
             </div>
             <h2 class="mt-5 mb-0 text-2xl ">

@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
-
 <head>
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,13 +9,13 @@
 
 <body <?php body_class(); ?>>
   <header class="ta-header" id="menu">
-    <nav class="container flex gap-2 flex-wrap items-center">
-      <div class="md:flex items-center">
+    <nav class="container flex flex-wrap items-center gap-2">
+      <div class="items-center md:flex">
         <div class="site-branding">
           <?php
           the_custom_logo();
           ?>
-          <a class="text-font-color text-2xl font-black" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
+          <a class="text-2xl font-black text-font-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
 
         </div><!-- .site-branding -->
         <div class="shrink-0">

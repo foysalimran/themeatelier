@@ -51,6 +51,7 @@ function themeatelier_theme_scripts()
 	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.css', array(), time());
 	wp_enqueue_style('stylesheet', get_stylesheet_uri(), VERSION);
 
+	wp_enqueue_script('multi-countdown', get_template_directory_uri() . '/assets/js/multi-countdown.js', array('jquery'), VERSION, true);
 	wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), VERSION, true);
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {

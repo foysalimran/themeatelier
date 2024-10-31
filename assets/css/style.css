@@ -1,5 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+.aclonica-regular {
+  font-family: "Aclonica", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.blackfriday-hero{
+  background-image: url(../images/black-friday-banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom center;
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,7 +22,7 @@ h4,
 h5,
 h6,
 strong {
-  @apply text-font-color font-black;
+  @apply font-black text-font-color;
   font-family: "Lato", sans-serif;
 }
 body {
@@ -25,7 +36,7 @@ a {
   @apply text-primary;
 }
 img {
-  @apply max-w-full h-auto;
+  @apply h-auto max-w-full;
 }
 figure {
   width: auto !important;
@@ -57,44 +68,44 @@ h6 {
 input,
 textarea,
 select {
-  @apply bg-secondary rounded border border-secondary w-full focus:outline-none p-3;
+  @apply w-full p-3 border rounded bg-secondary border-secondary focus:outline-none;
 }
 textarea {
   @apply h-[150px];
 }
 input[type="submit"] {
-  @apply w-auto py-2 px-5 bg-primary rounded text-white mt-4;
+  @apply w-auto px-5 py-2 mt-4 text-white rounded bg-primary;
 }
 input[type="checkbox"] {
   @apply w-auto;
 }
 label {
-  @apply font-bold capitalize block mb-3 text-font-color;
+  @apply block mb-3 font-bold capitalize text-font-color;
 }
 
 /* Header Css */
 .ta-header {
-  @apply py-5 absolute ease-linear duration-200 w-full z-20 bg-secondary;
+  @apply absolute z-20 w-full py-5 duration-200 ease-linear bg-secondary;
 }
 .ta-header ul {
-  @apply md:flex items-center;
+  @apply items-center md:flex;
 }
 .ta-header ul li {
-  @apply my-1 lg:my-0 md:flex hidden md:ml-6 lg:ml-8;
+  @apply hidden my-1 lg:my-0 md:flex md:ml-6 lg:ml-8;
 }
 
 .ta-header ul li a {
-  @apply py-1 lg:py-3 inline-block hover:text-primary text-font-color font-bold;
+  @apply inline-block py-1 font-bold lg:py-3 hover:text-primary text-font-color;
 }
 .ta-sticky-menu {
-  @apply fixed px-0 py-3 top-0 left-0 w-full bg-white;
+  @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
   box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
 }
 .ta-header button svg:last-child {
   @apply !hidden;
 }
 .ta-header.menu-active {
-  @apply fixed px-0 py-3 top-0 left-0 w-full bg-white;
+  @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
   box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
 }
 .ta-header.menu-active nav {
@@ -178,7 +189,7 @@ ul .tab.tab-active svg {
   @apply !border-font-color-light;
 }
 .ta-footer .wp-block-heading {
-  @apply text-base mb-5 font-bold;
+  @apply mb-5 text-base font-bold;
 }
 
 /* Blog css */
@@ -186,7 +197,7 @@ ul .tab.tab-active svg {
   @apply flex items-center justify-center gap-2;
 }
 .ta-pagination .page-numbers {
-  @apply border-2 border-secondary rounded  text-font-color-light w-9 h-9 flex items-center justify-center;
+  @apply flex items-center justify-center border-2 rounded border-secondary text-font-color-light w-9 h-9;
 }
 .ta-pagination .page-numbers:hover,
 .ta-pagination .page-numbers.current {
@@ -204,12 +215,12 @@ ul .tab.tab-active svg {
 }
 
 .ta-contact-form .form-control {
-  @apply block w-full  text-base text-font-color-light mb-0;
+  @apply block w-full mb-0 text-base text-font-color-light;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .ta-blog-details ul {
-  @apply mb-4 sm:mb-5 pl-5 sm:pl-9 list-disc;
+  @apply pl-5 mb-4 list-disc sm:mb-5 sm:pl-9;
 }
 .ta-blog-details a {
   @apply text-primary text-xl inline-block pb-1.5;
@@ -219,22 +230,22 @@ ul .tab.tab-active svg {
 }
 .ta-blog-details h2,
 .ta-blog-details h2 strong {
-  @apply text-3xl  mb-4;
+  @apply mb-4 text-3xl;
 }
 .ta-blog-details h3,
 .ta-blog-details h3 strong {
-  @apply text-3xl  mb-4;
+  @apply mb-4 text-3xl;
 }
 .ta-blog-details ol {
-  @apply mb-4 sm:mb-5 pl-5 sm:pl-9;
+  @apply pl-5 mb-4 sm:mb-5 sm:pl-9;
   list-style: auto;
 }
 .ta-blog-details .wp-block-avatar img {
-  @apply w-10 h-10 rounded-full object-cover;
+  @apply object-cover w-10 h-10 rounded-full;
 }
 
 .ta-blog-details figcaption {
-  @apply text-xs text-center text-secondary mt-2 mb-4;
+  @apply mt-2 mb-4 text-xs text-center text-secondary;
   line-height: 1;
 }
 .ta-blog-details .wp-block-image img {
@@ -258,7 +269,7 @@ ul .tab.tab-active svg {
   @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block cursor-pointer;
 }
 .ta-single-blog .post-categories {
-  @apply flex items-center justify-center gap-2 flex-wrap;
+  @apply flex flex-wrap items-center justify-center gap-2;
 }
 .ta-single-blog .post-categories li a {
   @apply bg-primary py-1 px-2 !text-white;
@@ -276,7 +287,7 @@ ul .tab.tab-active svg {
   @apply border-none;
 }
 .ta-single-blog .wp-block-site-title a {
-  @apply p-0 text-3xl border-b border-font-color pb-1 text-font-color capitalize mb-3;
+  @apply p-0 pb-1 mb-3 text-3xl capitalize border-b border-font-color text-font-color;
 }
 .ta-single-blog .wp-block-post-template,
 .ta-single-blog .wp-block-comments .wp-block-comment-template {
@@ -299,7 +310,7 @@ ul .tab.tab-active svg {
 .ta-single-blog .comment-form-author label,
 .ta-single-blog .comment-form-email label,
 .ta-single-blog .comment-form-url label {
-  @apply mb-3 block font-bold;
+  @apply block mb-3 font-bold;
 }
 .ta-single-blog form.comment-form p {
   @apply mb-4;
@@ -360,7 +371,7 @@ ul .tab.tab-active svg {
   @apply !text-lg;
 }
 .ta-single-blog blockquote.has-text-align-right {
-  @apply border-r-4 pr-4 pl-0 border-l-0;
+  @apply pl-0 pr-4 border-l-0 border-r-4;
 }
 .ta-single-blog blockquote p {
   @apply italic;
@@ -369,7 +380,7 @@ ul .tab.tab-active svg {
   @apply my-4;
 }
 .ta-single-blog code {
-  @apply p-4 bg-secondary rounded-lg;
+  @apply p-4 rounded-lg bg-secondary;
 }
 .ta-single-blog pre {
   @apply p-5 bg-secondary;
@@ -401,16 +412,16 @@ ul .tab.tab-active svg {
   @apply text-left;
 }
 .ta-single-blog select {
-  @apply border border-font-color rounded-md focus:outline-none py-1 px-2 my-2;
+  @apply px-2 py-1 my-2 border rounded-md border-font-color focus:outline-none;
 }
 .ta-single-blog .wp-block-search__inside-wrapper {
   @apply mb-3;
 }
 .ta-single-blog .wp-block-search__inside-wrapper input {
-  @apply border border-font-color rounded-md focus:outline-none py-1 px-2;
+  @apply px-2 py-1 border rounded-md border-font-color focus:outline-none;
 }
 .ta-single-blog .wp-block-group__inner-container {
-  @apply pt-4 px-5;
+  @apply px-5 pt-4;
 }
 .ta-single-blog .wp-block-table {
   @apply mb-5;
@@ -419,10 +430,10 @@ ul .tab.tab-active svg {
   @apply text-base;
 }
 .ta-single-blog .ta-blog-details dl dt {
-  @apply font-semibold text-base mb-2;
+  @apply mb-2 text-base font-semibold;
 }
 .ta-single-blog .ta-blog-details dl dd {
-  @apply pl-5 font-normal text-base mb-4;
+  @apply pl-5 mb-4 text-base font-normal;
 }
 .ta-single-blog .ta-blog-details p code {
   @apply leading-loose bg-inherit;
@@ -431,7 +442,7 @@ ul .tab.tab-active svg {
   @apply mb-2;
 }
 .ta-single-blog .ta-blog-details pre {
-  @apply w-full overflow-auto mb-5;
+  @apply w-full mb-5 overflow-auto;
 }
 .ta-single-blog .ta-blog-details .aligncenter {
   @apply ml-auto mr-auto;
@@ -443,10 +454,10 @@ ul .tab.tab-active svg {
   @apply max-w-full;
 }
 .ta-single-blog .ta-blog-details ul li code {
-  @apply bg-inherit p-0;
+  @apply p-0 bg-inherit;
 }
 .ta-single-blog .ta-blog-details input {
-  @apply py-2 px-3 border border-font-color rounded focus:outline-none;
+  @apply px-3 py-2 border rounded border-font-color focus:outline-none;
 }
 .ta-single-blog .ta-blog-details input[type="submit"] {
   padding: 10px 1rem;
@@ -476,7 +487,7 @@ ol li .fn a {
   border-bottom: 1px solid rgba(225, 225, 225, 0.9);
 }
 .comment-list .children {
-  @apply relative p-0 m-0 z-0 ml-10;
+  @apply relative z-0 p-0 m-0 ml-10;
 }
 .comment-body .reply {
   @apply text-right;
@@ -485,7 +496,7 @@ ol li .fn a {
   max-width: 100%;
 }
 .reply a {
-  @apply text-sm font-bold inline-block;
+  @apply inline-block text-sm font-bold;
   padding: 5px 17px;
   transition: 0.3s ease-in-out 0s;
   border-radius: 0;
@@ -493,7 +504,7 @@ ol li .fn a {
   border-style: solid;
 }
 .comments-area .comment-meta {
-  @apply flex flex-wrap items-start flex-row;
+  @apply flex flex-row flex-wrap items-start;
   display: -ms-flexbox;
   -ms-flex-wrap: wrap;
   -ms-flex-align: flex-start;
@@ -508,7 +519,7 @@ ol li .fn a {
   padding: 16px 40px 16px 0;
 }
 .comments-area img.avatar {
-  @apply rounded-full absolute z-0 left-0 top-7 w-16 h-16;
+  @apply absolute left-0 z-0 w-16 h-16 rounded-full top-7;
   box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 3px 1px -2px rgb(0 0 0 / 20%),
     0 1px 5px 0 rgb(0 0 0 / 12%);
 }
@@ -516,7 +527,7 @@ ol li .fn a {
   @apply !text-white bg-primary border-primary;
 }
 .comment-reply-title {
-  @apply mb-4 mt-0 text-xl;
+  @apply mt-0 mb-4 text-xl;
 }
 .comment-reply-title a {
   @apply capitalize !text-font-color;

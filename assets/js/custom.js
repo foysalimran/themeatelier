@@ -46,6 +46,7 @@ menuButton.addEventListener("click", function () {
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 
 /******************** WINDOW ON SCROLL FUNCTION ********************/
+
 window.addEventListener("scroll", function () {
   PATH.HeaderFixed();
 });
