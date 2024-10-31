@@ -62,8 +62,12 @@ h6 {
 .ta-btn-primary {
   @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
 }
+.ta-btn-primary:hover{
+  @apply bg-black;
+}
+
 .ta-btn-secondary {
-  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-white hover:bg-primary rounded-full border-2 border-primary !text-primary hover:!text-white ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-white hover:bg-primary rounded-full border-2 border-primary text-primary hover:!text-white ease-linear duration-300 inline-block;
 }
 input,
 textarea,
