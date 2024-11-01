@@ -317,67 +317,71 @@ get_header(); ?>
             <!-- Single product start -->
             <div class="overflow-hidden transition-all duration-300 bg-white border rounded shadow-xl hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
-                    <div class="flex items-start gap-5 mb-5">
+                    <div class="flex items-start gap-5 mb-3">
                         <div class="inline-block p-1 bg-white border rounded border-slate-200">
                             <a href="https://1.envato.market/gbdm79" target="_blank">
                                 <img src="https://s3.envato.com/files/405653361/Thumbnail.jpg" class="max-w-[100px] rounded-sm" />
                             </a>
                         </div>
                         <div>
-                            <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
-                                Flat 40% Off
+                            <div class="flex gap-2">
+                                <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
+                                    HTML
+                                </div>
+                                <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
+                                    Flat 40% Off
+                                </div>
+                            </div>
 
-                            </div>
-                            <div class="font-bold pricing">
-                                <sup class="font-bold text-[#7535FB] text-lg">$</sup> <span class="font-bold text-[#7535FB] text-4xl">29</span> <sub>/Lifetime</sub>
-                            </div>
+                            <h3 class="m-0 text-2xl leading-6 leading-8">
+                                <a target="_blank" class="text-font-color hover:text-[#7535FB] transition-all duration-300" href="https://1.envato.market/gbdm79">Greet.wp - Video bubble WordPress plugin</a>
+                            </h3>
                         </div>
                     </div>
 
-                    <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
-                        <a target="_blank" class="text-font-color hover:text-[#7535FB] transition-all duration-300" href="https://1.envato.market/gbdm79">Greet.wp - Video bubble WordPress plugin</a>
-                    </h3>
+
                     <p class="text-lg ">
                         Greet is a powerful, user-friendly video bubble plugin for WordPress, designed to create dynamic and engaging welcome experiences for your website visitors.
                     </p>
 
                     <div class="flex gap-2">
                         <a target="_blank" href="http://wp-plugins.themeatelier.net/greet/" class="ta-btn-secondary !border-[#7535FB] hover:bg-[#7535fb] !text-[#7535fb]">Live Demo</a>
-                        <a target="_blank" href="https://1.envato.market/gbdm79" class="ta-btn-primary !bg-[#7535fb] hover:!bg-[#000000]">Purchase Now</a>
+                        <a target="_blank" href="https://1.envato.market/gbdm79" class="ta-btn-primary !bg-[#7535fb] hover:!bg-[#000000]">Buy Now For $29</a>
                     </div>
                 </div>
             </div>
-            <!-- Single product end -->
-            <!-- Single product start -->
             <div class="overflow-hidden transition-all duration-300 bg-white border rounded shadow-xl hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
-                    <div class="flex items-start gap-5 mb-5">
+                    <div class="flex items-start gap-5 mb-3">
                         <div class="inline-block p-1 bg-white border rounded border-slate-200">
                             <a href="https://1.envato.market/gbdm79" target="_blank">
                                 <img src="https://s3.envato.com/files/405653361/Thumbnail.jpg" class="max-w-[100px] rounded-sm" />
                             </a>
                         </div>
                         <div>
-                            <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
-                                Flat 40% Off
+                            <div class="flex gap-2">
+                                <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
+                                    HTML
+                                </div>
+                                <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
+                                    Flat 40% Off
+                                </div>
+                            </div>
 
-                            </div>
-                            <div class="font-bold pricing">
-                                <sup class="font-bold text-[#7535FB] text-lg">$</sup> <span class="font-bold text-[#7535FB] text-4xl">29</span> <sub>/Lifetime</sub>
-                            </div>
+                            <h3 class="m-0 text-2xl leading-6 leading-8">
+                                <a target="_blank" class="text-font-color hover:text-[#7535FB] transition-all duration-300" href="https://1.envato.market/gbdm79">Greet.wp - Video bubble WordPress plugin</a>
+                            </h3>
                         </div>
                     </div>
 
-                    <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
-                        <a target="_blank" class="text-font-color hover:text-[#7535FB] transition-all duration-300" href="https://1.envato.market/gbdm79">Greet.wp - Video bubble WordPress plugin</a>
-                    </h3>
+
                     <p class="text-lg ">
                         Greet is a powerful, user-friendly video bubble plugin for WordPress, designed to create dynamic and engaging welcome experiences for your website visitors.
                     </p>
 
                     <div class="flex gap-2">
                         <a target="_blank" href="http://wp-plugins.themeatelier.net/greet/" class="ta-btn-secondary !border-[#7535FB] hover:bg-[#7535fb] !text-[#7535fb]">Live Demo</a>
-                        <a target="_blank" href="https://1.envato.market/gbdm79" class="ta-btn-primary !bg-[#7535fb] hover:!bg-[#000000]">Purchase Now</a>
+                        <a target="_blank" href="https://1.envato.market/gbdm79" class="ta-btn-primary !bg-[#7535fb] hover:!bg-[#000000]">Buy Now For $29</a>
                     </div>
                 </div>
             </div>
