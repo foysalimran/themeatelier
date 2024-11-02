@@ -38,15 +38,15 @@ get_header(); ?>
             <div class="flex flex-col justify-center col-span-1">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/WPLeaders-Logo.png" alt="WPLeaders" />
             </div>
-           
+
             <div class="flex flex-col justify-center col-span-1">
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wpallclub-logo.png" alt="all cloud" />
-              
+
             </div>
             <div class="flex flex-col justify-center col-span-1">
               <img src="//grabhosts.net/wp-content/uploads/2023/10/Grabhost-logo-300.png" alt="all cloud" />
             </div>
-            
+
           </div>
         </div>
       </div>
@@ -56,17 +56,17 @@ get_header(); ?>
 </section>
 <!--====== Hero section end ======-->
 <!--====== Featured section start ======-->
-<section class="py-16 ta-featured sm:py-20">
+<section class="py-12 ta-featured md:py-20">
   <div class="container">
-    <div class="mb-20 text-center">
+    <div class="mb-12 text-center">
       <h2 class="text-ta-section-title -mt-1.5 mb-0">
         Our Featured Plugins
       </h2>
       <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
-		
-				      <div class="relative group ta-featured-item">
+
+      <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/eventful">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/eventufl.png" alt="EventFul" class="max-w-[64px] rounded-md" />
@@ -83,8 +83,8 @@ get_header(); ?>
           </span>
         </a>
       </div>
-		
-		      <div class="relative group ta-featured-item">
+
+      <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/darkify">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/darkify.png" alt="Darkify" class="max-w-[64px] rounded-md" />
@@ -101,7 +101,7 @@ get_header(); ?>
           </span>
         </a>
       </div>
-		
+
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
           <div class="inline-block p-1 border-2 rounded border-secondary">
@@ -261,9 +261,9 @@ get_header(); ?>
 <!--====== Why choose us section end ======-->
 
 <!--====== Testimonial section start ======-->
-<section class="py-16 ta-testimonial sm:py-20 bg-secondary">
+<section class="py-12 ta-testimonial md:py-20 bg-secondary">
   <div class="container">
-    <div class="mb-20 text-center">
+    <div class="mb-12 text-center">
       <h2 class="text-ta-section-title -mt-1.5 mb-0">
         Testimonials
       </h2>

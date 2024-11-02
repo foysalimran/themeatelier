@@ -8,38 +8,38 @@ get_header(); ?>
 <!--====== Hero section start ======-->
 <section class="pt-[180px] pb-[180px] bg-[#111] text-white blackfriday-hero">
     <div class="container text-center">
-        <h2 class="mb-10 text-5xl text-white aclonica-regular">Black Friday Exclusive Deals</h2>
-        <h2 class="mb-10 text-white aclonica-regular text-9xl">Up to 40% OFF</h2>
+        <h2 class="mb-10 text-4xl text-white lg:text-5xl aclonica-regular">Black Friday Exclusive Deals</h2>
+        <h2 class="mb-10 text-6xl text-white md:text-7xl aclonica-regular lg:text-9xl">Up to 40% OFF</h2>
         <div class="countdown" data-Date='2024/12/03 23:59:00'>
             <div class="text-xl font-medium tracking-wider uppercase">
                 <p>Deals are Expiring in:</p>
             </div>
             <div class="justify-center font-mono text-2xl running">
-                <timer class="flex gap-5">
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[100px] h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                <timer class="flex flex-wrap justify-center gap-5">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
-                            <span class="block text-4xl days aclonica-regular"></span>
+                            <span class="block text-3xl md:text-4xl days aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Days</span>
                         </div>
                     </div>
 
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[100px] h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
-                            <span class="block text-4xl hours aclonica-regular"></span>
+                            <span class="block text-3xl md:text-4xl hours aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Hours</span>
                         </div>
                     </div>
 
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[100px] h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
-                            <span class="block text-4xl minutes aclonica-regular"></span>
+                            <span class="block text-3xl md:text-4xl minutes aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Minutes</span>
                         </div>
                     </div>
 
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[100px] h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
-                            <span class="block text-4xl seconds aclonica-regular"></span>
+                            <span class="block text-3xl md:text-4xl seconds aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Seconds</span>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ get_header(); ?>
     </div>
 </section>
 
-<section class="pb-20">
+<section class="py-12 lg:py-20">
     <div class="container">
         <div class="grid gap-8 -mt-[100px] md:grid-cols-2 lg:grid-cols-3">
             <!-- Single product start -->
@@ -303,7 +303,7 @@ get_header(); ?>
            Single product end -->
 
         </div>
-        <div class="container mt-12 justify-center flex">
+        <div class="container flex justify-center mt-12">
             <a target="_blank" class="ta-btn-secondary" href="https://1.envato.market/ta-plugins">
                 Check All Items
             </a>
