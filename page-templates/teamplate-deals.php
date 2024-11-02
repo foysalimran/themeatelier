@@ -84,7 +84,6 @@ get_header(); ?>
             </div>
             <!-- Single product end -->
 
-
             <!-- Single product start -->
             <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
@@ -116,7 +115,7 @@ get_header(); ?>
             </div>
             <!-- Single product end -->
 
-            <!-- Single product start -->
+            <!-- Single product start
             <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
                     <div class="flex items-start justify-between gap-3 mb-5">
@@ -145,7 +144,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <!-- Single product end -->
+             -->
 
             <!-- Single product start -->
             <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
@@ -272,7 +271,7 @@ get_header(); ?>
             </div>
             <!-- Single product end -->
 
-            <!-- Single product start -->
+            <!-- Single product start
             <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
                     <div class="flex items-start justify-between gap-3 mb-5">
@@ -301,8 +300,13 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <!-- Single product end -->
+           Single product end -->
 
+        </div>
+        <div class="container mt-12 justify-center flex">
+            <a target="_blank" class="ta-btn-secondary" href="https://1.envato.market/ta-plugins">
+                Check All Items
+            </a>
         </div>
     </div>
 </section>
