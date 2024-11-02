@@ -542,3 +542,29 @@ ol li .fn a {
 .ta-single-blog .related-articles a {
   @apply !text-font-color hover:!text-primary;
 }
+/* FAQ */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all .5s cubic-bezier(0,1,0,1);
+}
+.accordion-content.show {
+  transition: all .5s cubic-bezier(1,0,1,0);
+  max-height: 9999px;
+  height: auto;
+  @apply pb-4;
+}
+.accordion-header {
+  transition: width .35s ease;
+  @apply pt-4 pb-4;
+}
+.accordion-header.active {
+  @apply pb-0;
+}
+.accordion-header svg {
+  width: 18px;
+  transition: all .35s;
+}
+.accordion-header.active svg {
+  transform: rotate(180deg);
+}
