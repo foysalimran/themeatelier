@@ -3017,6 +3017,10 @@ video {
   background-color: rgb(104 68 156 / var(--tw-bg-opacity)) !important;
 }
 
+.bg-transparent{
+  background-color: transparent;
+}
+
 .decoration-slice{
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -3354,6 +3358,10 @@ video {
 
 .pt-\[180px\]{
   padding-top: 180px;
+}
+
+.pb-\[100px\]{
+  padding-bottom: 100px;
 }
 
 .text-left{

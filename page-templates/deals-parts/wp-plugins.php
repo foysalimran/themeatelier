@@ -1,6 +1,12 @@
 <section id="wp_plugins" class="py-12 lg:py-20">
     <div class="container">
-        <div class="grid gap-8 -mt-[100px] md:grid-cols-2 lg:grid-cols-3">
+    <div class="mb-12 text-center">
+            <h2 class="text-ta-section-title -mt-1.5 mb-0">
+                WordPress Plugins
+            </h2>
+            <p></p>
+        </div>
+        <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <!-- Single product start -->
             <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">

@@ -4,6 +4,13 @@
  * Template Name: Deals
  */
 get_header();
+?>
+<style>
+    html{
+        scroll-behavior: smooth;
+    }
+</style>
+<?php
 get_template_part( 'page-templates/deals-parts/hero' );
 get_template_part( 'page-templates/deals-parts/wp-plugins' );
 get_template_part( 'page-templates/deals-parts/elementor-plugins' );
