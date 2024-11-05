@@ -30,7 +30,7 @@
                         <a target="_blank" class="text-font-color hover:text-[#7535FB] transition-all duration-300" href="https://1.envato.market/gbdm79">Greet.wp - Video bubble WordPress plugin</a>
                     </h3>
                     <p class="text-lg ">
-                        Greet is a powerful, user-friendly video bubble plugin for WordPress, designed to create dynamic and engaging welcome experiences for your website visitors.
+                    Greet is a powerful, user-friendly video bubble plugin for WordPress, expertly designed to create dynamic, personalized, and engaging welcome experiences for your website visitors.
                     </p>
 
                     <div class="flex gap-2">
@@ -65,7 +65,7 @@
                         <a target="_blank" class="text-font-color hover:text-[#19BC9E] transition-all duration-300" href="https://1.envato.market/LPeXVY">Nilam - Domain For Sale & Auction Plugin</a>
                     </h3>
                     <p class="text-lg ">
-                        Turn your domains into cash with the Domain For Sale WordPress Plugin—the perfect tool for transforming your unused domain names into profitable opportunities.
+                    Turn your domains into cash quickly with the Domain For Sale WordPress Plugin—the perfect tool for transforming your unused domain names into profitable business opportunities.
                     </p>
 
                     <div class="flex gap-2">
