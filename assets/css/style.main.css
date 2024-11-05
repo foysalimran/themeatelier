@@ -2909,6 +2909,21 @@ video {
   border-color: rgb(0 21 181 / var(--tw-border-opacity)) !important;
 }
 
+.\!border-\[\#93003A\]{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(147 0 58 / var(--tw-border-opacity)) !important;
+}
+
+.\!border-\[\#03ADB1\]{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(3 173 177 / var(--tw-border-opacity)) !important;
+}
+
+.\!border-\[\#03ABB0\]{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(3 171 176 / var(--tw-border-opacity)) !important;
+}
+
 .border-b-secondary{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(243 246 255 / var(--tw-border-opacity));
@@ -3049,6 +3064,21 @@ video {
 .\!bg-\[\#0015B5\]{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(0 21 181 / var(--tw-bg-opacity)) !important;
+}
+
+.\!bg-\[\#93003A\]{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(147 0 58 / var(--tw-bg-opacity)) !important;
+}
+
+.\!bg-\[\#03ADB1\]{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(3 173 177 / var(--tw-bg-opacity)) !important;
+}
+
+.\!bg-\[\#03ABB0\]{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(3 171 176 / var(--tw-bg-opacity)) !important;
 }
 
 .decoration-slice{
@@ -3828,6 +3858,36 @@ video {
 .text-\[\#0015B5\]{
   --tw-text-opacity: 1;
   color: rgb(0 21 181 / var(--tw-text-opacity));
+}
+
+.\!text-\[\#93003A\]{
+  --tw-text-opacity: 1 !important;
+  color: rgb(147 0 58 / var(--tw-text-opacity)) !important;
+}
+
+.text-\[\#93003A\]{
+  --tw-text-opacity: 1;
+  color: rgb(147 0 58 / var(--tw-text-opacity));
+}
+
+.\!text-\[\#03ADB1\]{
+  --tw-text-opacity: 1 !important;
+  color: rgb(3 173 177 / var(--tw-text-opacity)) !important;
+}
+
+.text-\[\#03ADB1\]{
+  --tw-text-opacity: 1;
+  color: rgb(3 173 177 / var(--tw-text-opacity));
+}
+
+.\!text-\[\#03ABB0\]{
+  --tw-text-opacity: 1 !important;
+  color: rgb(3 171 176 / var(--tw-text-opacity)) !important;
+}
+
+.text-\[\#03ABB0\]{
+  --tw-text-opacity: 1;
+  color: rgb(3 171 176 / var(--tw-text-opacity));
 }
 
 .underline{
@@ -7126,6 +7186,21 @@ ol li .fn a{
   background-color: rgb(0 21 181 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#93003A\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 0 58 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#03ADB1\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 173 177 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#03ABB0\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 171 176 / var(--tw-bg-opacity));
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -7208,6 +7283,21 @@ ol li .fn a{
 .hover\:text-\[\#0015B5\]:hover{
   --tw-text-opacity: 1;
   color: rgb(0 21 181 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#93003A\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(147 0 58 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#03ADB1\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(3 173 177 / var(--tw-text-opacity));
+}
+
+.hover\:text-\[\#03ABB0\]:hover{
+  --tw-text-opacity: 1;
+  color: rgb(3 171 176 / var(--tw-text-opacity));
 }
 
 .hover\:shadow-none:hover{

@@ -52,7 +52,7 @@
                 <div class="p-5 px-[30px] pb-[26px]">
                     <div class="flex items-start justify-between gap-3 mb-5">
                         <div class="inline-block p-1 bg-white border rounded border-slate-200">
-                            <a href="https://1.envato.market/jWP0qZ" target="_blank">
+                            <a href="https://1.envato.market/essential-elementor" target="_blank">
                                 <img src="https://s3.envato.com/files/500778298/Thumbnail.png" class="max-w-[100px] rounded-sm" />
                             </a>
                         </div>
@@ -62,23 +62,23 @@
                         </div>
 
                         <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
-                            JavaScript
+                            Bundle
                         </div>
                         </div>
                     </div>
 
                     <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
-                        <a target="_blank" class="text-font-color hover:text-[#148C7F] transition-all duration-300" href="https://1.envato.market/jWP0qZ">Essential Addons Bundle for Elementor Page Builder</a>
+                        <a target="_blank" class="text-font-color hover:text-[#93003A] transition-all duration-300" href="https://1.envato.market/essential-elementor">Essential Addons Bundle for Elementor Page Builder</a>
                     </h3>
                     <p class="text-lg ">
-                    WhatsHelp enables visitors to message you on WhatsApp in just three quick clicks for direct consultation. They can easily connect via the bubble or plugin buttons, turning website visits into valuable potential customers.
+                    The "Essential Addons Bundle for Elementor" is a curated plugin collection crafted to enhance your WordPress experience, boosting site functionality, user engagement, and overall performance for website owners.
                     </p>
                     <div class="mb-5 font-bold pricing">
-                        <del>$14</del> <sup class="font-bold text-[#148C7F] text-lg">$</sup> <span class="font-bold text-[#148C7F] text-4xl">9</span> <sub>/Lifetime</sub>
+                        <del>$39</del> <sup class="font-bold text-[#93003A] text-lg">$</sup> <span class="font-bold text-[#93003A] text-4xl">27</span> <sub>/Lifetime</sub>
                     </div>
                     <div class="flex gap-2">
-                        <a target="_blank" href="https://js-plugins.themeatelier.net/whtshelp/" class="ta-btn-secondary !border-[#148C7F] hover:bg-[#148C7F] !text-[#148C7F]">Live Demo</a>
-                        <a target="_blank" href="https://1.envato.market/jWP0qZ" class="ta-btn-primary !bg-[#148C7F] hover:!bg-[#000000]">Purchase Now</a>
+                        <a target="_blank" href="#" class="ta-btn-secondary !border-[#93003A] hover:bg-[#93003A] !text-[#93003A]">Live Demo</a>
+                        <a target="_blank" href="https://1.envato.market/essential-elementor" class="ta-btn-primary !bg-[#93003A] hover:!bg-[#000000]">Purchase Now</a>
                     </div>
                 </div>
             </div>
@@ -90,33 +90,33 @@
                 <div class="p-5 px-[30px] pb-[26px]">
                     <div class="flex items-start justify-between gap-3 mb-5">
                         <div class="inline-block p-1 bg-white border rounded border-slate-200">
-                            <a href="https://1.envato.market/7m3oGd" target="_blank">
+                            <a href="https://1.envato.market/postify-for-elementor" target="_blank">
                                 <img src="https://s3.envato.com/files/489764066/Thumbnail.png" class="max-w-[100px] rounded-sm" />
                             </a>
                         </div>
                         <div class="flex gap-2">
                         <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
-                            Flat 30% Off
+                            Flat 40% Off
                         </div>
 
                         <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
-                            JavaScript
+                            Elementor
                         </div>
                         </div>
                     </div>
 
                     <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
-                        <a target="_blank" class="text-font-color hover:text-[#016189] transition-all duration-300" href="https://1.envato.market/7m3oGd">Smart Post Layout for Elementor</a>
+                        <a target="_blank" class="text-font-color hover:text-[#03ABB0] transition-all duration-300" href="https://1.envato.market/postify-for-elementor">Smart Post Layout for Elementor</a>
                     </h3>
                     <p class="text-lg ">
-                    ASK is a modern and stylish FAQ plugin that offers both Tab and Accordion layouts. It supports text, audio, and video answers, helping audiences quickly find information and enhancing your site’s unique, contemporary appeal.
+                    Smart Post Layout for Elementor is a powerful plugin crafted for Elementor, showcasing blog posts elegantly. With two layouts (Carousel and Grid) and five themes, it enhances appeal, boosts views, and is optimized for fast loading.
                     </p>
                     <div class="mb-5 font-bold pricing">
-                        <del>$14</del> <sup class="font-bold text-[#016189] text-lg">$</sup> <span class="font-bold text-[#016189] text-4xl">9</span> <sub>/Lifetime</sub>
+                        <del>$29</del> <sup class="font-bold text-[#03ABB0] text-lg">$</sup> <span class="font-bold text-[#03ABB0] text-4xl">17</span> <sub>/Lifetime</sub>
                     </div>
                     <div class="flex gap-2">
-                        <a target="_blank" href="https://js-plugins.themeatelier.net/ask/index.html" class="ta-btn-secondary !border-[#016189] hover:bg-[#016189] !text-[#016189]">Live Demo</a>
-                        <a target="_blank" href="https://1.envato.market/7m3oGd" class="ta-btn-primary !bg-[#016189] hover:!bg-[#000000]">Purchase Now</a>
+                        <a target="_blank" href="https://wp-plugins.themeatelier.net/postify/postify-el-carousel/" class="ta-btn-secondary !border-[#03ABB0] hover:bg-[#03ABB0] !text-[#03ABB0]">Live Demo</a>
+                        <a target="_blank" href="https://1.envato.market/postify-for-elementor" class="ta-btn-primary !bg-[#03ABB0] hover:!bg-[#000000]">Purchase Now</a>
                     </div>
                 </div>
             </div>
