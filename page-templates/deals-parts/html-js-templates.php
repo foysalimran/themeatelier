@@ -1,9 +1,10 @@
 <section id="html_js" class="py-12 lg:py-20 bg-secondary">
     <div class="container">
         <div class="mb-12 text-center">
-            <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                HTML & JS Templates
+            <h2 class="mb-2 text-ta-section-title">
+            HTML & JavaScript Templates
             </h2>
+            <p class="text-xl">Kickstart your next project with our collection of responsive HTML and JavaScript templates. These templates are crafted for flexibility and high performance. Enjoy substantial savings on Black Friday!</p>
         </div>
         <div class="grid gap-8 m-auto md:grid-cols-2">
             <!-- Single product start -->

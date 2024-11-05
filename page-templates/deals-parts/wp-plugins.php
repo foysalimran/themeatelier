@@ -1,10 +1,10 @@
 <section id="wp_plugins" class="py-12 lg:py-20">
     <div class="container">
-    <div class="mb-12 text-center">
-            <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                WordPress Plugins
+        <div class="mb-12 text-center">
+            <h2 class="mb-2 text-ta-section-title">
+                Powerful WordPress Plugins
             </h2>
-            <p></p>
+            <p class="text-xl">Explore our top-rated WordPress plugins designed to elevate your website. These plugins offer reliable, user-friendly features to take your site to the next level. Grab them at unbeatable Black Friday prices!</p>
         </div>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <!-- Single product start -->

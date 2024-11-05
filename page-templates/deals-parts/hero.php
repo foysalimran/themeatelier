@@ -39,12 +39,21 @@
                 </timer>
             </div>
 
-    <div class="flex flex-wrap justify-center gap-2 mt-12 text-center align-middle">
-        <a class="ta-btn-primary" href="#wp_plugins">Wp Plugins</a>
-        <a class="ta-btn-primary" href="#event">Event Addons</a>
-        <a class="ta-btn-primary" href="#elementor">Elementor Addons</a>
-        <a class="ta-btn-primary" href="#html_js">HTML & JS Templates</a>
-    </div>
+            <div class="flex flex-wrap justify-center gap-2 mt-12 text-center align-middle running">
+                <a class="ta-btn-primary" href="#wp_plugins">Wp Plugins</a>
+                <a class="ta-btn-primary" href="#event">Event Addons</a>
+                <a class="ta-btn-primary" href="#elementor">Elementor Addons</a>
+                <a class="ta-btn-primary" href="#html_js">HTML & JS Templates</a>
+            </div>
+            <div class="text-xl font-medium tracking-wider uppercase ended">
+                <p>This deal has ended. Subscribe using the form below to be notified of future deals.</p>
+                <?php echo do_shortcode('[fluentform id="4"]') ; ?>
+            </div>
+            <div class="flex flex-wrap justify-center gap-2 mt-5 text-center align-middle ended">
+                <a target="_blank" class="ta-btn-primary" href="https://1.envato.market/ta-plugins">Codecanyon Items</a>
+                <a target="_blank" class="ta-btn-primary" href="https://themeforest.net/user/themeatelier/portfolio">ThemeForest Items</a>
+               
+            </div>
 
         </div>
     </div>

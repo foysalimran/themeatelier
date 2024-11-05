@@ -1,9 +1,12 @@
 <section id="event" class="py-12 lg:py-20">
     <div class="container">
         <div class="mb-12 text-center">
-            <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                The Event Calendar Addons
+            <h2 class="mb-2 text-ta-section-title">
+           The Event Calendar Add-ons
             </h2>
+            <p class="text-xl">
+            Keep your audience informed and engaged with our versatile Event Calendar add-ons. These add-ons allow you to customize, manage, and showcase your events with ease. Don’t miss out on these limited-time deals!
+            </p>
         </div>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
             <!-- Single product start -->

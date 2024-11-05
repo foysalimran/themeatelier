@@ -1,9 +1,10 @@
 <section id="elementor" class="py-12 lg:py-20 bg-secondary">
     <div class="container">
         <div class="mb-12 text-center">
-            <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Elementor Addons
+            <h2 class="mb-2 text-ta-section-title">
+            Premium Elementor Add-ons
             </h2>
+            <p class="text-xl">Create stunning web pages effortlessly with our exclusive Elementor add-ons.These tools make it easy to add custom widgets, animations, and features that bring your ideas to life. Get them now at a special Black Friday discount!</p>
         </div>
         <div class="grid max-w-lg gap-8 m-auto md:grid-cols-1">
             <!-- Single product start -->
