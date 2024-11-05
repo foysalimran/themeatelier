@@ -16,28 +16,28 @@ get_header(); ?>
             </div>
             <div class="justify-center font-mono text-2xl running">
                 <timer class="flex flex-wrap justify-center gap-5">
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[90px] h-[90px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
                             <span class="block text-3xl md:text-4xl days aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Days</span>
                         </div>
                     </div>
 
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[90px] h-[90px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
                             <span class="block text-3xl md:text-4xl hours aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Hours</span>
                         </div>
                     </div>
 
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[90px] h-[90px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
                             <span class="block text-3xl md:text-4xl minutes aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Minutes</span>
                         </div>
                     </div>
 
-                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[80px] h-[80px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
+                    <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[90px] h-[90px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
                             <span class="block text-3xl md:text-4xl seconds aclonica-regular"></span>
                             <span class="block text-lg uppercase timer-title text-slate-400">Seconds</span>
@@ -74,7 +74,7 @@ get_header(); ?>
                         Greet is a powerful, user-friendly video bubble plugin for WordPress, designed to create dynamic and engaging welcome experiences for your website visitors.
                     </p>
                     <div class="mb-5 font-bold pricing">
-                        <sup class="font-bold text-[#7535FB] text-lg">$</sup> <span class="font-bold text-[#7535FB] text-4xl">29</span> <sub>/Lifetime</sub>
+                    <del>$29</del> <sup class="font-bold text-[#7535FB] text-lg">$</sup> <span class="font-bold text-[#7535FB] text-4xl">17</span><sub>/Lifetime</sub>
                     </div>
                     <div class="flex gap-2">
                         <a target="_blank" href="http://wp-plugins.themeatelier.net/greet/" class="ta-btn-secondary !border-[#7535FB] hover:bg-[#7535fb] !text-[#7535fb]">Live Demo</a>
@@ -105,7 +105,7 @@ get_header(); ?>
                         Turn your domains into cash with the Domain For Sale WordPress Plugin—the perfect tool for transforming your unused domain names into profitable opportunities.
                     </p>
                     <div class="mb-5 font-bold pricing">
-                        <sup class="font-bold text-[#19BC9E] text-lg">$</sup> <span class="font-bold text-[#19BC9E] text-4xl">29</span> <sub>/Lifetime</sub>
+                    <del>$29</del> <sup class="font-bold text-[#19BC9E] text-lg">$</sup> <span class="font-bold text-[#19BC9E] text-4xl">20</span> <sub>/Lifetime</sub>
                     </div>
                     <div class="flex gap-2">
                         <a target="_blank" href="https://wp-plugins.themeatelier.net/nilam/" class="ta-btn-secondary !border-[#19BC9E] hover:bg-[#19BC9E] !text-[#19BC9E]">Live Demo</a>
@@ -146,7 +146,7 @@ get_header(); ?>
             </div>
              -->
 
-            <!-- Single product start -->
+            <!-- Single product start
             <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
                     <div class="flex items-start justify-between gap-3 mb-5">
@@ -175,9 +175,9 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <!-- Single product end -->
+          Single product end -->
 
-            <!-- Single product start -->
+            <!-- Single product start
             <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
                     <div class="flex items-start justify-between gap-3 mb-5">
@@ -206,7 +206,105 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
+        Single product end -->
+
+
+
+            <!-- Single product start -->
+            <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
+                <div class="p-5 px-[30px] pb-[26px]">
+                    <div class="flex items-start justify-between gap-3 mb-5">
+                        <div class="inline-block p-1 bg-white border rounded border-slate-200">
+                            <a href="http://1.envato.market/darkify" target="_blank">
+                                <img src="https://s3.envato.com/files/479349553/Thumbnail.png" class="max-w-[100px] rounded-sm" />
+                            </a>
+                        </div>
+                        <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
+                            Flat 40% Off
+                        </div>
+                    </div>
+
+                    <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
+                        <a target="_blank" class="text-font-color hover:text-[#171717] transition-all duration-300" href="http://1.envato.market/darkify">Darkify -WordPress Dark Mode Plugin</a>
+                    </h3>
+                    <p class="text-lg ">
+                        Darkify – is an extremely advanced dark mode plugin for any WordPress website. The plugin has the option to enable a dark mode switcher for the front end and also WordPress admin.
+                    </p>
+                    <div class="mb-5 font-bold pricing">
+                        <del>$29</del> <sup class="font-bold text-[#171717] text-lg">$</sup> <span class="font-bold text-[#171717] text-4xl">17</span> <sub>/Lifetime</sub>
+                    </div>
+                    <div class="flex gap-2">
+                        <a target="_blank" href="https://wp-plugins.themeatelier.net/" class="ta-btn-secondary !border-[#171717] hover:bg-[#171717] !text-[#171717]">Live Demo</a>
+                        <a target="_blank" href="http://1.envato.market/darkify" class="ta-btn-primary !bg-[#171717] hover:!bg-[#000000]">Purchase Now</a>
+                    </div>
+                </div>
+            </div>
             <!-- Single product end -->
+
+            <!-- Single product start -->
+            <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
+                <div class="p-5 px-[30px] pb-[26px]">
+                    <div class="flex items-start justify-between gap-3 mb-5">
+                        <div class="inline-block p-1 bg-white border rounded border-slate-200">
+                            <a href="http://1.envato.market/bookify" target="_blank">
+                                <img src="https://s3.envato.com/files/485327030/Thumbnail.jpg" class="max-w-[100px] rounded-sm" />
+                            </a>
+                        </div>
+                        <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
+                            Flat 40% Off
+                        </div>
+                    </div>
+
+                    <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
+                        <a target="_blank" class="text-font-color hover:text-[#C27B7F] transition-all duration-300" href="http://1.envato.market/bookify">Bookify - Smart Book Showcase For WordPress</a>
+                    </h3>
+                    <p class="text-lg ">
+                    "Smart Book Showcase for WordPress" is the ideal plugin for authors, publishers, and book lovers to beautifully display books, integrating seamlessly with WordPress for easy, stylish book showcasing.
+                    </p>
+                    <div class="mb-5 font-bold pricing">
+                        <del>$29</del> <sup class="font-bold text-[#C27B7F] text-lg">$</sup> <span class="font-bold text-[#C27B7F] text-4xl">17</span> <sub>/Lifetime</sub>
+                    </div>
+                    <div class="flex gap-2">
+                        <a target="_blank" href="https://wp-plugins.themeatelier.net/bookify" class="ta-btn-secondary !border-[#C27B7F] hover:bg-[#C27B7F] !text-[#C27B7F]">Live Demo</a>
+                        <a target="_blank" href="http://1.envato.market/bookify" class="ta-btn-primary !bg-[#C27B7F] hover:!bg-[#000000]">Purchase Now</a>
+                    </div>
+                </div>
+            </div>
+          <!-- Single product end -->
+
+
+
+           <!-- Single product start -->
+           <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
+                <div class="p-5 px-[30px] pb-[26px]">
+                    <div class="flex items-start justify-between gap-3 mb-5">
+                        <div class="inline-block p-1 bg-white border rounded border-slate-200">
+                            <a href="https://1.envato.market/catshowcase" target="_blank">
+                                <img src="https://s3.envato.com/files/493176077/Thumbnail.jpg" class="max-w-[100px] rounded-sm" />
+                            </a>
+                        </div>
+                        <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
+                            Flat 35% Off
+                        </div>
+                    </div>
+
+                    <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
+                        <a target="_blank" class="text-font-color hover:text-[#68449C] transition-all duration-300" href="https://1.envato.market/catshowcase">CatShowcase - Category Showcase for WooCommerce</a>
+                    </h3>
+                    <p class="text-lg ">
+                    CatShowcase presents WooCommerce categories in a sleek sliding format, ideal for featuring new arrivals, spotlighting specific categories, or organizing products in a visually appealing way.
+                    </p>
+                    <div class="mb-5 font-bold pricing">
+                        <del>$29</del> <sup class="font-bold text-[#68449C] text-lg">$</sup> <span class="font-bold text-[#68449C] text-4xl">18</span> <sub>/Lifetime</sub>
+                    </div>
+                    <div class="flex gap-2">
+                        <a target="_blank" href="https://wp-plugins.themeatelier.net/productify/catshowcase/" class="ta-btn-secondary !border-[#68449C] hover:bg-[#68449C] !text-[#68449C]">Live Demo</a>
+                        <a target="_blank" href="https://1.envato.market/catshowcase" class="ta-btn-primary !bg-[#68449C] hover:!bg-[#000000]">Purchase Now</a>
+                    </div>
+                </div>
+            </div>
+          <!-- Single product end -->
+
 
 
             <!-- Single product start -->
@@ -230,7 +328,7 @@ get_header(); ?>
                         The best suitable plugin if you want to show your business reviews from different platforms like Google review, Facebook review, Trustpilot, Yelp, etc. There has different carousels to showcase.
                     </p>
                     <div class="mb-5 font-bold pricing">
-                        <sup class="font-bold text-[#03B677] text-lg">$</sup> <span class="font-bold text-[#03B677] text-4xl">29</span> <sub>/Lifetime</sub>
+                        <del>$29</del> <sup class="font-bold text-[#03B677] text-lg">$</sup> <span class="font-bold text-[#03B677] text-4xl">17</span> <sub>/Lifetime</sub>
                     </div>
                     <div class="flex gap-2">
                         <a target="_blank" href="https://wp-plugins.themeatelier.net/bizreview/" class="ta-btn-secondary !border-[#03B677] hover:bg-[#03B677] !text-[#03B677]">Live Demo</a>
@@ -239,68 +337,6 @@ get_header(); ?>
                 </div>
             </div>
             <!-- Single product end -->
-
-            <!-- Single product start -->
-            <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
-                <div class="p-5 px-[30px] pb-[26px]">
-                    <div class="flex items-start justify-between gap-3 mb-5">
-                        <div class="inline-block p-1 bg-white border rounded border-slate-200">
-                            <a href="http://1.envato.market/darkify" target="_blank">
-                                <img src="https://s3.envato.com/files/479349553/Thumbnail.png" class="max-w-[100px] rounded-sm" />
-                            </a>
-                        </div>
-                        <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
-                            Flat 40% Off
-                        </div>
-                    </div>
-
-                    <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
-                        <a target="_blank" class="text-font-color hover:text-[#171717] transition-all duration-300" href="http://1.envato.market/darkify">Darkify -WordPress Dark Mode Plugin</a>
-                    </h3>
-                    <p class="text-lg ">
-                        Darkify – is an extremely advanced dark mode plugin for any WordPress website. The plugin has the option to enable a dark mode switcher for the front end and also WordPress admin.
-                    </p>
-                    <div class="mb-5 font-bold pricing">
-                        <sup class="font-bold text-[#171717] text-lg">$</sup> <span class="font-bold text-[#171717] text-4xl">29</span> <sub>/Lifetime</sub>
-                    </div>
-                    <div class="flex gap-2">
-                        <a target="_blank" href="https://wp-plugins.themeatelier.net/" class="ta-btn-secondary !border-[#171717] hover:bg-[#171717] !text-[#171717]">Live Demo</a>
-                        <a target="_blank" href="http://1.envato.market/darkify" class="ta-btn-primary !bg-[#171717] hover:!bg-[#000000]">Purchase Now</a>
-                    </div>
-                </div>
-            </div>
-            <!-- Single product end -->
-
-            <!-- Single product start
-            <div class="overflow-hidden transition-all duration-300 border rounded shadow-xl bg-secondary hover:shadow-none">
-                <div class="p-5 px-[30px] pb-[26px]">
-                    <div class="flex items-start justify-between gap-3 mb-5">
-                        <div class="inline-block p-1 bg-white border rounded border-slate-200">
-                            <a href="http://1.envato.market/bookify" target="_blank">
-                                <img src="https://s3.envato.com/files/485327030/Thumbnail.jpg" class="max-w-[100px] rounded-sm" />
-                            </a>
-                        </div>
-                        <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300">
-                            Flat 40% Off
-                        </div>
-                    </div>
-
-                    <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
-                        <a target="_blank" class="text-font-color hover:text-[#C27B7F] transition-all duration-300" href="http://1.envato.market/bookify">Bookify - Smart Book Showcase For WordPress</a>
-                    </h3>
-                    <p class="text-lg ">
-                        Darkify – is an extremely advanced dark mode plugin for any WordPress website. The plugin has the option to enable a dark mode switcher for the front end and also WordPress admin.
-                    </p>
-                    <div class="mb-5 font-bold pricing">
-                        <sup class="font-bold text-[#C27B7F] text-lg">$</sup> <span class="font-bold text-[#C27B7F] text-4xl">29</span> <sub>/Lifetime</sub>
-                    </div>
-                    <div class="flex gap-2">
-                        <a target="_blank" href="https://wp-plugins.themeatelier.net/bookify" class="ta-btn-secondary !border-[#C27B7F] hover:bg-[#C27B7F] !text-[#C27B7F]">Live Demo</a>
-                        <a target="_blank" href="http://1.envato.market/bookify" class="ta-btn-primary !bg-[#C27B7F] hover:!bg-[#000000]">Purchase Now</a>
-                    </div>
-                </div>
-            </div>
-           Single product end -->
 
         </div>
         <div class="container flex justify-center mt-12">
@@ -314,10 +350,10 @@ get_header(); ?>
     <div class="container">
         <div class="mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                HTML Templates
+                Templates Offer
             </h2>
         </div>
-        <div class="grid gap-8 md:grid-cols-2">
+        <div class="grid max-w-lg gap-8 m-auto md:grid-cols-1">
             <!-- Single product start -->
             <div class="overflow-hidden transition-all duration-300 bg-white border rounded shadow-xl hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
@@ -338,22 +374,23 @@ get_header(); ?>
                             </div>
 
                             <h3 class="m-0 text-2xl leading-6 leading-8">
-                                <a target="_blank" class="text-font-color hover:text-[#c27b7f] transition-all duration-300" href="https://ta-demo-nu.vercel.app/wonted">Wonted - Book & Author Landing page</a>
+                                <a target="_blank" class="text-font-color hover:text-[#c27b7f] transition-all duration-300" href="https://1.envato.market/wonted">Wonted - Book & Author Landing page</a>
                             </h3>
                         </div>
                     </div>
 
 
                     <p class="text-lg ">
-                        Greet is a powerful, user-friendly video bubble plugin for WordPress, designed to create dynamic and engaging welcome experiences for your website visitors.
+                    This is a single-page template for book authors, built with HTML5, CSS3, Bootstrap, SASS, JavaScript, and jQuery. Fully responsive and modern, it’s designed to showcase books, eBooks, audiobooks, podcasts, and portfolios. With 6 unique homepages and 50+ customizable components, each element offers alternate background options for versatile styling.
                     </p>
 
                     <div class="flex gap-2">
                         <a target="_blank" href="https://ta-demo-nu.vercel.app/wonted" class="ta-btn-secondary !border-[#c27b7f] hover:bg-[#c27b7f] !text-[#c27b7f]">Live Demo</a>
-                        <a target="_blank" href="https://1.envato.market/wonted" class="ta-btn-primary !bg-[#c27b7f] hover:!bg-[#000000]">Buy Now For $21</a>
+                        <a target="_blank" href="https://1.envato.market/wonted" class="ta-btn-primary !bg-[#c27b7f] hover:!bg-[#000000]">Buy Now For <del>$21</del> $13</a>
                     </div>
                 </div>
             </div>
+            <!-- 
             <div class="overflow-hidden transition-all duration-300 bg-white border rounded shadow-xl hover:shadow-none">
                 <div class="p-5 px-[30px] pb-[26px]">
                     <div class="flex items-start gap-5 mb-3">
@@ -365,7 +402,7 @@ get_header(); ?>
                         <div>
                             <div class="flex gap-2">
                                 <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
-                                    HTML
+                                    REACT
                                 </div>
                                 <div class="inline-block bg-green-100 text-green-800 text-xs font-medium px-2.5 py-0.5 rounded-full dark:bg-green-900 dark:text-green-300 mb-3">
                                     Flat 35% Off
@@ -380,7 +417,7 @@ get_header(); ?>
 
 
                     <p class="text-lg ">
-                        Greet is a powerful, user-friendly video bubble plugin for WordPress, designed to create dynamic and engaging welcome experiences for your website visitors.
+                    Wonted (Book & Author React Template) is a single-page template for authors to showcase and sell books or build a portfolio. Built with React and React-Bootstrap, it’s responsive, modern, and clean. With 6 homepages and 40+ customizable components, Wonted supports flexible backgrounds and multimedia content like audiobooks and podcasts.
                     </p>
 
                     <div class="flex gap-2">
@@ -389,7 +426,7 @@ get_header(); ?>
                     </div>
                 </div>
             </div>
-            <!-- Single product end -->
+            Single product end -->
         </div>
     </div>
 </section>
@@ -398,7 +435,7 @@ get_header(); ?>
     <div class="container">
         <div class="mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Essential Bundles
+                Essential Bundles Offer
             </h2>
         </div>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
@@ -503,8 +540,7 @@ get_header(); ?>
 <section class="py-12 lg:py-20 bg-secondary">
     <div class="container">
         <div class="mb-12 text-center">
-            <h2 class="text-ta-section-title -mt-1.5 mb-4">Have any Question?</h2>
-            <p>Here are some frequently asked questions by our users.</p>
+            <h2 class="text-ta-section-title -mt-1.5 mb-4">Frequently Asked Questions</h2>
         </div>
     </div>
     <div class="container">
@@ -580,54 +616,68 @@ get_header(); ?>
                     </g>
                 </svg>
             </div>
-            <div class="hidden lg:col-span-1 lg:block"></div>
+            
             <div class="col-span-12 lg:col-span-6">
-
                 <!-- Accordion items -->
                 <div class="mb-4 bg-white" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">Question 01</h3>
+                        <h3 class="mb-0 text-xl">What is your refund policy?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>
                     </div>
                     <div class="px-6 accordion-content">
-                        <p class="p-0 mt-3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam libero. Hic a, ratione ad, sunt ab laborum voluptates quas deserunt blanditiis dicta voluptatem magnam.</p>
+                        <p class="p-0 mt-3 mb-0">We fully stand behind our plugins and are committed to delivering quality. However, we understand that not every plugin will be a perfect fit for everyone. If you’re not satisfied with your purchase, encounter any issues, or if there’s a problem we can’t resolve, we’re happy to offer a full 100% refund within 14 days of your original purchase—no questions asked.</p>
                     </div>
                 </div>
                 <div class="mb-4 bg-white" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">Question 01</h3>
+                        <h3 class="mb-0 text-xl">Can I use a ThemeAtelier plugin on more than one site?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>
                     </div>
                     <div class="px-6 accordion-content">
-                        <p class="p-0 mt-3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam libero. Hic a, ratione ad, sunt ab laborum voluptates quas deserunt blanditiis dicta voluptatem magnam.</p>
+                        <p class="p-0 mt-3 mb-2">When purchasing a ThemeAtelier plugin from CodeCanyon, the licensing terms are governed by CodeCanyon's standard licenses. According to these terms, each license permits the use of the plugin on a single end product, which typically translates to one website or domain. This means that to use the plugin on multiple sites, you would need to purchase separate licenses for each site.</p>
+                        <p>
+                        It's important to note that CodeCanyon does not offer a developer or multi-site license for themes and code items. Therefore, even with an Extended License, the usage is still limited to a single end product and does not extend to multiple sites. </p>
                     </div>
                 </div>
                 <div class="mb-4 bg-white" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">Question 01</h3>
+                        <h3 class="mb-0 text-xl">Can I customize the plugin?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>
                     </div>
                     <div class="px-6 accordion-content">
-                        <p class="p-0 mt-3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam libero. Hic a, ratione ad, sunt ab laborum voluptates quas deserunt blanditiis dicta voluptatem magnam.</p>
+                        <p class="p-0 mt-3 mb-0">Our plugins are fully customizable, giving you complete control over the styling. Each plugin includes an easy-to-use settings panel, allowing you to adjust all features without needing to touch a single line of code.</p>
                     </div>
                 </div>
                 <div class="mb-4 bg-white" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">Question 01</h3>
+                        <h3 class="mb-0 text-xl">How often are plugins updated?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>
                     </div>
                     <div class="px-6 accordion-content">
-                        <p class="p-0 mt-3 mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quibusdam libero. Hic a, ratione ad, sunt ab laborum voluptates quas deserunt blanditiis dicta voluptatem magnam.</p>
+                        <p class="p-0 mt-3 mb-0">Plugin updates depend on several factors. Security patches and critical bug fixes are prioritized and released as quickly as possible. Updates that enhance our plugin framework and introduce new features are provided regularly.</p>
                     </div>
                 </div>
+
+                <div class="mb-4 bg-white" data-index="0">
+                    <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
+                        <h3 class="mb-0 text-xl">Are the plugins translation-ready?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </div>
+                    <div class="px-6 accordion-content">
+                        <p class="p-0 mt-3 mb-0">Yes, ThemeAtelier plugins are fully translatable and have been tested with WPML, Polylang, Loco Translate, qTranslate-X, GTranslate, Google Language Translator, WPGlobus, and more.</p>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
