@@ -1,4 +1,4 @@
-<section class="py-12 lg:py-20 bg-secondary">
+<section id="html_js" class="py-12 lg:py-20 bg-secondary">
     <div class="container">
         <div class="mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">

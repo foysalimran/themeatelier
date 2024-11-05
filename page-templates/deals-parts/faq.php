@@ -1,6 +1,6 @@
 
 <!-- ========== Faq section start ========== -->
-<section class="py-12 lg:py-20 bg-secondary">
+<section id="faq" class="py-12 lg:py-20 bg-secondary">
     <div class="container">
         <div class="mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-4">Frequently Asked Questions</h2>
@@ -95,7 +95,7 @@
                 </div>
                 <div class="mb-4 bg-white" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">Can I use a ThemeAtelier plugin on more than one site?</h3>
+                        <h3 class="mb-0 text-xl">Can I use a ThemeAtelier plugins on more than one site?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>

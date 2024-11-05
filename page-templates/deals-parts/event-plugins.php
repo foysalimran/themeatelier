@@ -1,8 +1,8 @@
-<section class="py-12 lg:py-20">
+<section id="event" class="py-12 lg:py-20">
     <div class="container">
         <div class="mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Eevent calendar plugins Offer
+                The Event Calendar Addons
             </h2>
         </div>
         <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">

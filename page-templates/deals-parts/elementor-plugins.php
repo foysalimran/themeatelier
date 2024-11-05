@@ -1,8 +1,8 @@
-<section class="py-12 lg:py-20 bg-secondary">
+<section id="elementor" class="py-12 lg:py-20 bg-secondary">
     <div class="container">
         <div class="mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Elementor Plugins Offer
+                Elementor Addons
             </h2>
         </div>
         <div class="grid max-w-lg gap-8 m-auto md:grid-cols-1">

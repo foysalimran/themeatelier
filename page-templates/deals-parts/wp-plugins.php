@@ -1,4 +1,4 @@
-<section class="py-12 lg:py-20">
+<section id="wp_plugins" class="py-12 lg:py-20">
     <div class="container">
         <div class="grid gap-8 -mt-[100px] md:grid-cols-2 lg:grid-cols-3">
             <!-- Single product start -->
