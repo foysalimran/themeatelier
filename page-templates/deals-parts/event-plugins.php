@@ -38,7 +38,7 @@
                     </p>
 
                     <div class="flex gap-2">
-                        <a target="_blank" href="#" class="ta-btn-secondary !border-[#0015B5] hover:bg-[#0015B5] !text-[#0015B5]">Live Demo</a>
+                        <a target="_blank" href="https://ta-demo-nu.vercel.app/event-bundle/#demo" class="ta-btn-secondary !border-[#0015B5] hover:bg-[#0015B5] !text-[#0015B5]">Live Demo</a>
                         <a target="_blank" href="https://1.envato.market/dOKoyQ" class="ta-btn-primary !bg-[#0015B5] hover:!bg-[#000000]">Buy Now For <del>$39</del> $27</a>
                     </div>
                 </div>
