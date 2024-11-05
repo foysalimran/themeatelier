@@ -85,6 +85,7 @@
                         <a target="_blank" href="https://1.envato.market/essential-elementor" class="ta-btn-primary !bg-[#93003A] hover:!bg-[#000000]">Purchase Now</a>
                     </div>
                 </div>
+                
             </div>
             <!-- Single product end -->
 
