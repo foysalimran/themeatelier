@@ -6,7 +6,7 @@
             <div class="text-xl font-medium tracking-wider uppercase">
                 <p>Deals are Expiring in:</p>
             </div>
-            <div class="justify-center font-mono text-2xl ended">
+            <div class="justify-center font-mono text-2xl running">
                 <timer class="flex flex-wrap justify-center gap-5">
                     <div class="shadow-lg bg-[#ffffff14] single_timer_container w-[90px] h-[90px] md:w-[100px] md:h-[100px] flex items-center justify-center rounded gap-0 p-2  border border-solid border-slate-400">
                         <div>
@@ -46,7 +46,7 @@
                 <a class="ta-btn-primary" href="#html_js">HTML & JS Templates</a>
             </div>
             <div class="text-xl font-medium tracking-wider uppercase ended">
-                <p>This deal has ended. Click button below to check all our items.</p>
+                <p>This deal has ended.</p>
             </div>
             <div class="flex flex-wrap justify-center gap-2 mt-5 text-center align-middle ended">
                 <a target="_blank" class="ta-btn-primary" href="https://1.envato.market/ta-plugins">Codecanyon Items</a>
