@@ -7,8 +7,8 @@
         </div>
     </div>
     <div class="container">
-        <div class="grid grid-cols-12 gap-4">
-            <div class="col-span-12 lg:col-span-5">
+        <div class="grid grid-cols-12 gap-8">
+            <div class="col-span-12 lg:col-span-6">
                 <svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 572.826 512.288">
                     <g>
                         <path d="M560.939,344.8a271.423,271.423,0,0,1-56.823,166.609H72.494A271.423,271.423,0,0,1,15.671,344.8c0-150.573,122.067-272.628,272.64-272.628S560.939,194.231,560.939,344.8Z" fill="#fff"></path>
