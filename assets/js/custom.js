@@ -30,13 +30,13 @@
     accordionHeaders.forEach((header, index) => {
       header.addEventListener("click", function () {
         const isOpen = header.classList.contains("active");
-        
+
         // Close any open accordion items
         document.querySelectorAll(".accordion-header.active").forEach(activeHeader => {
           activeHeader.classList.remove("active");
           activeHeader.nextElementSibling.classList.remove("show");
         });
-        
+
         // Toggle the clicked accordion item
         if (!isOpen) {
           header.classList.add("active");
@@ -76,6 +76,29 @@
   /******************** WINDOW ON SCROLL FUNCTION ********************/
   window.addEventListener("scroll", function () {
     PATH.HeaderFixed();
+  });
+
+  /******************** FANCYBOX ********************/
+  document.addEventListener('DOMContentLoaded', function () {
+    Fancybox.bind("[data-fancybox='gallery']", {
+      Thumbs: {
+        autoStart: true,
+      },
+    });
+  });
+
+  Fancybox.bind("[data-fancybox='gallery']", {
+    Thumbs: {
+      autoStart: true, 
+      axis: "x", 
+    },
+    Toolbar: {
+      display: [
+        "zoom",
+        "close",
+        "thumbs",
+      ],
+    },
   });
 
 })(jQuery);
