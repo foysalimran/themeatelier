@@ -571,6 +571,9 @@ ol li .fn a {
 .features-list li {
   @apply relative mb-1 font-semibold leading-9 list-none;
 }
+.offers .features-list li {
+  @apply font-normal;
+}
 .features-list li::before {
   content: "";
   background: url("../images/check-mark.svg");

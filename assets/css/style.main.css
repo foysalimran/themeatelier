@@ -5559,6 +5559,10 @@ ol li .fn a{
   line-height: 2.25rem;
 }
 
+.offers .features-list li{
+  font-weight: 400;
+}
+
 .features-list li::before {
   content: "";
   background: url("../images/check-mark.svg");
