@@ -7,7 +7,7 @@
             <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
         </div>
         <div class="gallery">
-            <div class="grid items-center grid-cols-2 gap-8 md:grid-cols-3 lg:grid-cols-4">
+            <div class="grid items-center grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-6 xl:gap-8 md:grid-cols-3 lg:grid-cols-4">
                 <a class="gallery_item" href="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" data-fancybox="gallery">
                     <div class="gallery_item_icon">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">

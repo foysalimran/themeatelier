@@ -7,7 +7,7 @@
             <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
         </div>
 
-        <div class="grid items-center gap-8 mb-20 lg:grid-cols-2">
+        <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
                 <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
             </div>
@@ -35,7 +35,7 @@
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group">Live Demo</a>
             </div>
         </div>
-        <div class="grid items-center gap-8 mb-20 lg:grid-cols-2">
+        <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quisquam.
@@ -65,13 +65,16 @@
         </div>
         <div class="p-0 overflow-hidden rounded-lg bg-primary">
             <div class="grid items-center grid-cols-12 gap-8 features_cta">
-                <div class="col-span-8">
+                <div class="col-span-12 text-center lg:col-span-8 lg:text-start">
                     <h3 class="mb-1 text-4xl text-white xl:text-ta-section-title">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet autem rem sint!
                     </h3>
                 </div>
-                <div class="flex justify-end col-span-4">
-                    <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="ta-btn-primary group !bg-white !text-primary">Get Chat Whatsapp Now</a>
+                <div class="flex justify-center col-span-12 text-center lg:justify-end lg:col-span-4">
+                    <div class="">
+                        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="ta-btn-primary group !bg-white !text-primary">Get Chat Whatsapp Now</a>
+                        <p class="text-sm text-white">14-Day No Question Asked <a class="text-white border-b border-white border-dotted" href="https://shapedplugin.com/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
+                    </div>
                 </div>
             </div>
         </div>

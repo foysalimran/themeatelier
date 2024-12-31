@@ -1,4 +1,4 @@
-<section class="py-12 ta-featured md:py-20 bg-secondary">
+<section class="py-12 offers md:py-20">
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
@@ -6,7 +6,7 @@
             </h2>
             <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
         </div>
-        <div class="grid items-center gap-8 mb-20 lg:grid-cols-2">
+        <div class="grid items-center lg:gap-8 lg:grid-cols-2">
             <ul class="features-list">
                 <li>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

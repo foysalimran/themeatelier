@@ -17,7 +17,8 @@ get_template_part( 'page-templates/chat-whatsapp/layouts' );
 get_template_part( 'page-templates/chat-whatsapp/features' );
 get_template_part( 'page-templates/chat-whatsapp/offers' );
 get_template_part( 'page-templates/chat-whatsapp/backend-screenshots' );
-
+get_template_part( 'page-templates/chat-whatsapp/pricing' );
+get_template_part( 'page-templates/chat-whatsapp/money-back' );
 get_template_part( 'page-templates/deals-parts/faq' );
 get_footer();
 ?>

@@ -1,7 +1,7 @@
 <section class="h-full pb-20 lg:pb-0 lg:h-[750px] bg-secondary">
     <div class="container h-full px-4 m-auto">
-        <div class="relative z-10 items-center block h-full grid-cols-5 gap-8 lg:grid xl:grid-cols-6">
-            <div class="col-span-3 pt-48 lg:pt-0">
+        <div class="relative z-10 grid items-center h-full grid-cols-1 gap-8 lg:grid-cols-2">
+            <div class="order-2 lg:order-1">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quisquam.
                 </h1>
@@ -10,8 +10,11 @@
                 </p>
                 <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-9 ta-btn-primary group">Get Chat Whatsapp Now</a>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group">Live Demo</a>
+                <p class="text-sm">14-Day No Question Asked <a class="border-b border-dotted text-font-color-light border-font-color-light" href="https://shapedplugin.com/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
             </div>
-            <div class="my-20 lg:my-0 ml-auto h-[350px] xl:h-[400px] bg-banner-img w-full bg-no-repeat bg-center bg-contain xl:bg-right col-span-2 xl:col-span-3 relative z-10"></div>
+            <div class="order-1 pt-36 lg:order-2 lg:pt-0">
+                <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            </div>
         </div>
     </div>
 </section>

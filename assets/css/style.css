@@ -585,20 +585,24 @@ ol li .fn a {
   @apply m-0 overflow-visible bg-scroll bg-center bg-no-repeat bg-cover border-solid border-spacing-2;
 }
 .gallery_item {
-  @apply relative border-[5px] border-solid rounded-md border-[#DCDCDE];
+  @apply relative border-[5px] border-solid rounded-md border-[#DCDCDE] focus:outline-none;
+  transition: all 0.3s;
+}
+.gallery_item img {
+  @apply rounded;
 }
 .gallery_item:hover {
   @apply border-primary;
 }
 .gallery_item_icon {
-  @apply absolute z-50 invisible w-8 h-8 bg-transparent opacity-0 top-1/2 left-1/2;
+  @apply absolute z-50 invisible w-5 h-5 bg-transparent opacity-0 top-1/2 left-1/2;
   transform: translate(-50%, -50%);
 }
-.gallery_item:hover .gallery_item_icon{
+.gallery_item:hover .gallery_item_icon {
   @apply visible opacity-100;
 }
 .gallery_item:hover .gallery_item_icon svg {
-  @apply fill-[#fff]
+  @apply fill-[#fff];
 }
 .gallery_item::after {
   content: "";
@@ -608,4 +612,38 @@ ol li .fn a {
 .gallery_item:hover::after {
   @apply bg-[#08080882];
 }
-
+.is-classic .is-nav-selected .f-thumbs__slide__button::after {
+  @apply border-[3px] border-solid border-primary;
+}
+.f-button {
+  @apply bg-transparent;
+}
+.fancybox__slide {
+  @apply px-24 py-16;
+}
+.pricing_item:not(:last-child) {
+  @apply border-r-[1.5px] border-solid border-[#b0b3bc];
+}
+.offers {
+  background: linear-gradient(160deg, #f3f6ff 0%, #fff 73%);
+}
+.popular {
+  @apply relative;
+}
+.popular::after {
+  @apply absolute bg-primary w-48 rotate-[450] text-center top-4 -right-16 p-1 text-white font-semibold text-xs;
+}
+.changelog_item {
+  @apply grid items-center gap-2;
+  grid-template-columns: 40px 1fr;
+}
+.changelog_item p {
+  @apply mb-0 text-sm;
+}
+.changelog_item h4 {
+  @apply mb-0 text-xl;
+}
+.money-back_content {
+  @apply grid;
+  grid-template-columns: 150px 1fr;
+}
