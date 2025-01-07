@@ -4506,14 +4506,14 @@ select{
   padding: 0.75rem;
 }
 
-<<<<<<< HEAD ======= input.ta-footer form,<<<<<<< HEAD ======= 
-textarea.ta-footer form,<<<<<<< HEAD ======= 
+input.ta-footer form,
+textarea.ta-footer form,
 select.ta-footer form{
   background-color: transparent !important;
 }
 
->>>>>>>main input.ta-footer form input,>>>>>>>main 
-textarea.ta-footer form input,>>>>>>>main 
+input.ta-footer form input,
+textarea.ta-footer form input,
 select.ta-footer form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
@@ -4578,11 +4578,11 @@ label{
   transition-timing-function: linear;
 }
 
-<<<<<<< HEAD ======= .ta-footer.ta-header form{
+.ta-footer.ta-header form{
   background-color: transparent !important;
 }
 
->>>>>>>main .ta-footer.ta-header form input{
+.ta-footer.ta-header form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
@@ -4802,11 +4802,11 @@ ul .tab.tab-active svg{
   line-height: 1.25rem;
 }
 
-<<<<<<< HEAD ======= .ta-footer.bg-secondary form{
+.ta-footer.bg-secondary form{
   background-color: transparent !important;
 }
 
->>>>>>>main .ta-footer.bg-secondary form input{
+.ta-footer.bg-secondary form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
@@ -5241,11 +5241,11 @@ ul .tab.tab-active svg{
   padding: 1rem;
 }
 
-<<<<<<< HEAD ======= .ta-footer.ta-single-blog code form{
+.ta-footer.ta-single-blog code form{
   background-color: transparent !important;
 }
 
->>>>>>>main .ta-footer.ta-single-blog code form input{
+.ta-footer.ta-single-blog code form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
@@ -5261,11 +5261,11 @@ ul .tab.tab-active svg{
   padding: 1.25rem;
 }
 
-<<<<<<< HEAD ======= .ta-footer.ta-single-blog pre form{
+.ta-footer.ta-single-blog pre form{
   background-color: transparent !important;
 }
 
->>>>>>>main .ta-footer.ta-single-blog pre form input{
+.ta-footer.ta-single-blog pre form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
