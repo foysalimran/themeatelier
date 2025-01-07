@@ -61,9 +61,18 @@ if ($orders) :
 					<td class="edd_download_download_name">
 						<?php
 						$download_image =  get_post_meta($item->product_id, 'edd_download_images', true);
+						if($download_image) {
+							$download_image = $download_image[0]['image'];
+						}
 						?>
 						<div class="flex gap-2">
-							<img src="<?php echo esc_url($download_image[0]['image']); ?>" alt="">
+							<?php
+							if($download_image) {
+								?>
+								<img src="<?php echo esc_url($download_image); ?>" alt="">
+								<?php
+							}
+							?>
 							<div class="">
 								<h4><?php echo esc_html($download_name); ?></h4>
 								<p><?php echo esc_html($price_name); ?></p>
