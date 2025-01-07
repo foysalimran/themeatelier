@@ -23,8 +23,10 @@
 
     // Open the first item by default
     const firstHeader = accordionHeaders[0];
-    firstHeader.classList.add("active");
-    firstHeader.nextElementSibling.classList.add("show");
+    if(firstHeader) {
+      firstHeader.classList.add("active");
+      firstHeader.nextElementSibling.classList.add("show");
+    }
 
     // Toggle functionality for other items
     accordionHeaders.forEach((header, index) => {

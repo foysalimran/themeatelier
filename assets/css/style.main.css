@@ -1558,6 +1558,10 @@ video {
   margin-top: 2.25rem;
 }
 
+.ml-8{
+  margin-left: 2rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -2960,6 +2964,11 @@ video {
   background-color: rgb(178 223 219 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#EBF8F9\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(235 248 249 / var(--tw-bg-opacity));
+}
+
 .bg-\[\#F8BBD0\]{
   --tw-bg-opacity: 1;
   background-color: rgb(248 187 208 / var(--tw-bg-opacity));
@@ -3149,6 +3158,10 @@ video {
   padding: 2.5rem;
 }
 
+.p-12{
+  padding: 3rem;
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -3264,6 +3277,15 @@ video {
 .py-8{
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.px-8{
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.pb-14{
+  padding-bottom: 3.5rem;
 }
 
 .pb-16{
@@ -3458,6 +3480,10 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[15px\]{
+  font-size: 15px;
 }
 
 .font-black{
@@ -4299,14 +4325,15 @@ select{
   padding: 0.75rem;
 }
 
-input.ta-footer form,input
-.ta-footer form input,
+input.ta-footer form,
 textarea.ta-footer form,
-textarea
-.ta-footer form input,
-select.ta-footer form,
-select
-.ta-footer form input{
+select.ta-footer form{
+  background-color: transparent !important;
+}
+
+input.ta-footer form input,
+textarea.ta-footer form input,
+select.ta-footer form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
@@ -4370,7 +4397,10 @@ label{
   transition-timing-function: linear;
 }
 
-.ta-footer.ta-header form,
+.ta-footer.ta-header form{
+  background-color: transparent !important;
+}
+
 .ta-footer.ta-header form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
@@ -4588,10 +4618,28 @@ ul .tab.tab-active svg{
   line-height: 1.25rem;
 }
 
-.ta-footer.bg-secondary form,
+.ta-footer.bg-secondary form{
+  background-color: transparent !important;
+}
+
 .ta-footer.bg-secondary form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+.ta-footer form label{
+  margin-bottom: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+}
+
+.ta-footer form button{
+  width: 100%;
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(52 100 224 / var(--tw-bg-opacity)) !important;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .ta-footer.bg-secondary .ta-footer-bottom{
@@ -5009,7 +5057,10 @@ ul .tab.tab-active svg{
   padding: 1rem;
 }
 
-.ta-footer.ta-single-blog code form,
+.ta-footer.ta-single-blog code form{
+  background-color: transparent !important;
+}
+
 .ta-footer.ta-single-blog code form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
@@ -5026,7 +5077,10 @@ ul .tab.tab-active svg{
   padding: 1.25rem;
 }
 
-.ta-footer.ta-single-blog pre form,
+.ta-footer.ta-single-blog pre form{
+  background-color: transparent !important;
+}
+
 .ta-footer.ta-single-blog pre form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
@@ -5374,6 +5428,113 @@ ol li .fn a{
 
 .accordion-header.active svg {
   transform: rotate(180deg);
+}
+
+.edd_form .edd-submit{
+  width: 100%;
+}
+
+.edd_form .custom-message{
+  margin-bottom: 0px;
+}
+
+/* Dashboard Account */
+
+.ta-dashboard-tab-menu li:first-child a {
+  border-top-width: 0;
+}
+
+.ta-dashboard-tab-menu li a {
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: block;
+  border-color: transparent;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  position: relative;
+  padding-left: 3rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.ta-dashboard-tab-menu li a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  margin-left: 1rem;
+}
+
+.ta-dashboard-tab-menu li:nth-child(1) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-1.svg);
+  top: 0.75rem;
+  width: 21px;
+  height: 21px;
+}
+
+.ta-dashboard-tab-menu li:nth-child(2) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-2.svg);
+  top: 0.7rem;
+  width: 22px;
+  height: 22px;
+}
+
+.ta-dashboard-tab-menu li:nth-child(3) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-3.svg);
+  top: 0.72rem;
+  width: 21px;
+  height: 21px;
+}
+
+.ta-dashboard-tab-menu li:nth-child(4) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-4.svg);
+  top: 0.8rem;
+  width: 22px;
+  height: 22px;
+}
+
+.ta-dashboard-tab-menu li:nth-child(5) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-5.svg);
+  top: 0.8rem;
+  width: 20px;
+  height: 20px;
+}
+
+.ta-dashboard-tab-menu li:nth-child(6) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-6.svg);
+  top: 0.7rem;
+  width: 23px;
+  height: 23px;
+}
+
+.ta-dashboard-tab-menu li:nth-child(7) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-7.svg);
+  top: 0.8rem;
+  width: 21px;
+  height: 21px;
+}
+
+.ta-dashboard-tab-menu li a:hover,
+.ta-dashboard-tab-menu li.active a {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(212 237 240 / var(--tw-border-opacity));
+}
+
+.ta-dashboard-tab-menu li a:hover::after,
+.ta-dashboard-tab-menu li.active a::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  width: 2px;
+  height: 100%;
+  right: -2px;
+  top: 0px;
+  position: absolute;
+  display: block;
 }
 
 .hover\:prose-lg:hover{
@@ -7457,12 +7618,20 @@ ol li .fn a{
     width: 11rem;
   }
 
+  .md\:w-60{
+    width: 15rem;
+  }
+
   .md\:w-\[100px\]{
     width: 100px;
   }
 
   .md\:w-\[250px\]{
     width: 250px;
+  }
+
+  .md\:w-\[540px\]{
+    width: 540px;
   }
 
   .md\:w-auto{
@@ -7511,6 +7680,10 @@ ol li .fn a{
 
   .md\:rounded-xl{
     border-radius: 0.75rem;
+  }
+
+  .md\:border-r-2{
+    border-right-width: 2px;
   }
 
   .md\:p-0{

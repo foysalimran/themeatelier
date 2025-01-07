@@ -19,10 +19,22 @@ function themeatelier_initialize()
 	add_theme_support('post-thumbnails');
 	add_theme_support('wp-block-styles');
 	add_theme_support('html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption'
+		'search-form',
+		'comment-form',
+		'comment-list',
+		'gallery',
+		'caption'
 	));
 	add_theme_support('post-formats', array(
-		'aside', 'image', 'video', 'quote', 'link', 'gallery', 'status', 'audio', 'chat'
+		'aside',
+		'image',
+		'video',
+		'quote',
+		'link',
+		'gallery',
+		'status',
+		'audio',
+		'chat'
 	));
 	// Add theme support for selective refresh for widgets.
 	add_theme_support('customize-selective-refresh-widgets');
@@ -39,7 +51,7 @@ function themeatelier_initialize()
 	// REGISTER NAV MENUS
 	register_nav_menus(
 		array(
-			'main' => __('Main Menu', 'themeatlier'),
+			'main' => __('Main Menu', 'themeatelier'),
 		)
 	);
 }
@@ -130,11 +142,7 @@ function themeateler_register_portfolio_cpt()
 
 add_action('init', 'themeateler_register_portfolio_cpt');
 
-
-
-
 add_action('init', 'create_portfolio_taxonomy', 0);
-
 
 function create_portfolio_taxonomy()
 {
@@ -143,15 +151,15 @@ function create_portfolio_taxonomy()
 	$labels = array(
 		'name' => _x('Skills', 'taxonomy general name'),
 		'singular_name' => _x('Skill', 'taxonomy singular name'),
-		'search_items' =>  __('Search Skill'),
-		'all_items' => __('All Skills'),
-		'parent_item' => __('Parent Skill'),
-		'parent_item_colon' => __('Parent Skill:'),
-		'edit_item' => __('Edit Skill'),
-		'update_item' => __('Update Skill'),
-		'add_new_item' => __('Add New Skill'),
-		'new_item_name' => __('New Skill Name'),
-		'menu_name' => __('Skills'),
+		'search_items' =>  __('Search Skill', 'themeatelier'),
+		'all_items' => __('All Skills', 'themeatelier'),
+		'parent_item' => __('Parent Skill', 'themeatelier'),
+		'parent_item_colon' => __('Parent Skill:', 'themeatelier'),
+		'edit_item' => __('Edit Skill', 'themeatelier'),
+		'update_item' => __('Update Skill', 'themeatelier'),
+		'add_new_item' => __('Add New Skill', 'themeatelier'),
+		'new_item_name' => __('New Skill Name', 'themeatelier'),
+		'menu_name' => __('Skills', 'themeatelier'),
 	);
 
 	// Now register the taxonomy
@@ -166,3 +174,225 @@ function create_portfolio_taxonomy()
 	));
 }
 
+// function custom_edd_login_fields_before() {
+//     echo '<p class="custom-message">' . __( 'Welcome! Please log in to access your account.', 'themeatelier' ) . '</p>';
+// }
+// add_action( 'edd_login_fields_before', 'custom_edd_login_fields_before' );
+function custom_edd_login_fields_after()
+{
+	echo '<p class="custom-message">' . __(
+		'Don\'t have an account? <a href="' . esc_url(get_site_url(null, '/sign-up')) . '">Sign Up</a>',
+		'themeatelier'
+	) . '</p>';
+}
+add_action('edd_login_fields_after', 'custom_edd_login_fields_after');
+
+function custom_edd_register_fields_after()
+{
+	echo '<p class="custom-message">' . __(
+		'Already have an account? <a href="' . esc_url(get_site_url(null, '/login')) . '">Login</a>',
+		'themeatelier'
+	) . '</p>';
+}
+add_action('edd_register_form_fields_after', 'custom_edd_register_fields_after');
+
+
+//======= Account Dashboard Menu =======//
+function avalue_dot($key = null, $array = array(), $default = false)
+{
+	$array = (array) $array;
+	if (! $key || ! count($array)) {
+		return $default;
+	}
+	$option_key_array = explode('.', $key);
+
+	$value = $array;
+
+	foreach ($option_key_array as $dot_key) {
+		if (isset($value[$dot_key])) {
+			$value = $value[$dot_key];
+		} else {
+			return $default;
+		}
+	}
+	return $value;
+}
+
+function array_get($key = null, $array = array(), $default = false)
+{
+	return avalue_dot($key, $array, $default);
+}
+
+function account_dashboard_pages()
+{
+	$nav_menu      = array(
+		'index'            => array(
+			'title' => __('Account Dashboard', 'themeatelier'),
+		),
+		'purchase-history'    => array(
+			'title' => __('Purchase History', 'themeatelier'),
+		),
+		'license-key'    => array(
+			'title' => __('License Keys', 'themeatelier'),
+		),
+		'my-subscriptions'    => array(
+			'title' => __('My Subscriptions', 'themeatelier'),
+		),
+		'file-downloads'    => array(
+			'title' => __('File Downloads', 'themeatelier'),
+		),
+		'edit-profile'    => array(
+			'title' => __('Edit Profile', 'themeatelier'),
+		),
+		'logout'      => array(
+			'title' => __('Logout', 'themeatelier'),
+		),
+	);
+	return apply_filters('account_dashboard/nav_items_all', $nav_menu);
+}
+
+function account_dashboard_nav_ui_items()
+{
+	$nav_items = account_dashboard_pages();
+	foreach ($nav_items as $key => $nav_item) {
+		if (is_array($nav_item)) {
+
+			if (isset($nav_item['show_ui']) && ! array_get('show_ui', $nav_item)) {
+				unset($nav_items[$key]);
+			}
+			if (isset($nav_item['auth_cap']) && ! current_user_can($nav_item['auth_cap'])) {
+				unset($nav_items[$key]);
+			}
+		}
+	}
+	return apply_filters('account_dashboard/nav_ui_items', $nav_items);
+}
+
+
+function account_dashboard_page_permalink($page_key = '')
+{
+	if ('index' === $page_key) {
+		$page_key = '';
+	}
+	return trailingslashit(get_permalink(null)) . $page_key;
+}
+
+if (! function_exists('account_get_template')) {
+	/**
+	 * Load template with override file system
+	 *
+	 * @since 1.0.0
+	 *
+	 * @param null $template template.
+	 *
+	 * @return bool|string
+	 */
+	function account_get_template($template = null)
+	{
+		if (! $template) {
+			return false;
+		}
+		$template = str_replace('.', DIRECTORY_SEPARATOR, $template);
+
+		/**
+		 * Get template first from child-theme if exists
+		 * If child theme not exists, then get template from parent theme
+		 */
+		$template_location = trailingslashit(account_function()->path) . "page-templates/{$template}.php";
+
+		return apply_filters('account_get_template_path', $template_location, $template);
+	}
+}
+
+if (! function_exists('account_function')) {
+	/**
+	 * Idonate helper function.
+	 *
+	 * @since 1.0.0
+	 *
+	 * @return object
+	 */
+	function account_function()
+
+	{
+		if (isset($GLOBALS['account_plugin_info'])) {
+			return $GLOBALS['account_plugin_info'];
+		}
+		$path    = plugin_dir_path(__FILE__);
+
+		// Prepare the basepath.
+		$home_url  = get_home_url();
+		$parsed    = wp_parse_url($home_url);
+		$base_path = (is_array($parsed) && isset($parsed['path'])) ? $parsed['path'] : '/';
+		$base_path = rtrim($base_path, '/') . '/';
+		// Get current URL.
+		$current_url = trailingslashit($home_url) . substr($_SERVER['REQUEST_URI'], strlen($base_path)); //phpcs:ignore
+
+		$plugin_data = get_file_data(__FILE__, array('Version' => 'Version'));
+		$version = $plugin_data['Version'];
+
+		$info = array(
+			'path'                   => $path,
+			'url'                    => plugin_dir_url(__FILE__),
+			'icon_dir'               => plugin_dir_url(__FILE__) . 'assets/images/images-v2/icons/',
+			'v2_img_dir'             => plugin_dir_url(__FILE__) . 'assets/images/images-v2/',
+			'current_url'            => $current_url,
+			'basename'               => plugin_basename(__FILE__),
+			'basepath'               => $base_path,
+			'version'                => $version, // Dynamically set version
+			'nonce_action'           => 'account_nonce_action',
+			'nonce'                  => '_account_nonce',
+		);
+
+
+		$GLOBALS['account_plugin_info'] = (object) $info;
+		return $GLOBALS['account_plugin_info'];
+	}
+}
+
+
+function account_load_template($template = null, $variables = array())
+{
+	$variables = (array) $variables;
+	$variables = apply_filters('get_account_load_template_variables', $variables);
+	extract($variables);
+	$isLoad = apply_filters('should_account_load_template', true, $template, $variables);
+	if (! $isLoad) {
+		return;
+	}
+
+	do_action('account_load_template_before', $template, $variables);
+	$template_file = account_get_template($template);
+
+	if (file_exists($template_file)) {
+		include account_get_template($template);
+	} else {
+		do_action('account_after_template_not_found', $template);
+	}
+	do_action('account_load_template_after', $template, $variables);
+}
+
+
+add_filter('query_vars', 'account_register_query_vars');
+function account_register_query_vars($vars)
+{
+	$vars[] = 'account_dashboard_page';
+	$vars[] = 'account_dashboard_sub_page';
+
+	$vars[] = 'account_profile_username';
+	return $vars;
+}
+
+
+add_action('generate_rewrite_rules', 'add_rewrite_rules');
+function add_rewrite_rules(\WP_Rewrite $wp_rewrite)
+{
+	$dashboard_page_slug = 'account-dashboard';
+
+	$new_rules = array(
+		"({$dashboard_page_slug})/(.+?)/?$" => 'index.php?pagename=' . $wp_rewrite->preg_index(1) . '&account_dashboard_page&account_dashboard_sub_page=' . $wp_rewrite->preg_index(1),
+	);
+
+
+	$wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
+}
