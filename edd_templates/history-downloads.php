@@ -54,15 +54,23 @@ if ($orders) :
 					$price_id       = $item->price_id;
 					$download_files = edd_get_download_files($item->product_id, $price_id);
 					$download_name = edd_get_download_name($item->product_id);
-
-					// $price_name = edd_get_price_option_name( $item->product_id, $price_id );
-					// echo '<pre>';
-					// print_r($price_name);
-					// echo '</pre>';
+					$price_name = edd_get_price_option_name($item->product_id, $price_id);
 
 					do_action('edd_download_history_row_start', $order->id, $item->product_id);
 					?>
-					<td class="edd_download_download_name"><?php echo esc_html($name); ?></td>
+					<td class="edd_download_download_name">
+						<?php
+						$download_image =  get_post_meta($item->product_id, 'edd_download_images', true);
+						?>
+						<div class="flex gap-2">
+							<img src="<?php echo esc_url($download_image[0]['image']); ?>" alt="">
+							<div class="">
+								<h4><?php echo esc_html($download_name); ?></h4>
+								<p><?php echo esc_html($price_name); ?></p>
+							</div>
+						</div>
+
+					</td>
 
 					<?php if (! edd_no_redownload()) : ?>
 						<td class="edd_download_download_files">
@@ -78,7 +86,7 @@ if ($orders) :
 
 										<div class="edd_download_file">
 											<a href="<?php echo esc_url($download_url); ?>" class="edd_download_file_link">
-												<?php echo esc_html(edd_get_file_name($file)); ?>
+												<?php echo esc_html__('Download', 'themeatelier'); ?>
 											</a>
 										</div>
 
