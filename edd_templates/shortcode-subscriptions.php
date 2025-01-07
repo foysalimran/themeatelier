@@ -64,10 +64,17 @@ if (is_user_logged_in()):
 						}
 
 						$download_image =  get_post_meta($subscription->product_id, 'edd_download_images', true);
-
+						if($download_image) {
+							$download_image = $download_image[0]['image'];
+						}
+						
 						?>
 						<div class="flex gap-2">
-							<img src="<?php echo esc_url($download_image[0]['image']); ?>" alt="">
+							<?php if($download_image) {
+?>
+								<img src="<?php echo esc_url($download_image); ?>" alt="">
+								<?php
+							} ?>
 							<div class="">
 								<h4 class="edd_subscription_name"><?php echo esc_html($product_name); ?></h4>
 								<p class="edd_subscription_name"><?php echo esc_html($price_name) . ' &mdash; ' .
