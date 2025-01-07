@@ -186,10 +186,10 @@ ul .tab.tab-active svg {
 .ta-footer ul li a {
   @apply text-sm;
 }
-<<<<<<< HEAD ======= .ta-footer.bg-secondary form {
+.ta-footer.bg-secondary form {
   @apply !bg-transparent;
 }
->>>>>>>main .ta-footer.bg-secondary form input {
+.ta-footer.bg-secondary form input {
   @apply !bg-white;
 }
 .ta-footer form label {
@@ -721,17 +721,23 @@ ol li .fn a {
   width: 20px;
   height: 20px;
 }
-.ta-dashboard-tab-menu li:nth-child(6) a::before {
+/* .ta-dashboard-tab-menu li:nth-child(6) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-6.svg);
   top: 0.7rem;
   width: 23px;
   height: 23px;
-}
-.ta-dashboard-tab-menu li:nth-child(7) a::before {
+} */
+.ta-dashboard-tab-menu li:nth-child(6) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-7.svg);
   top: 0.8rem;
   width: 21px;
   height: 21px;
+}
+.ta-dashboard-tab-menu li:nth-child(7) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-8.svg);
+  top: 0.8rem;
+  width: 20px;
+  height: 20px;
 }
 .ta-dashboard-tab-menu li a:hover,
 .ta-dashboard-tab-menu li.active a {

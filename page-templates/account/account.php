@@ -38,7 +38,7 @@ if ($user_id) {
     <div class="mt-6">
         <div class="border border-secondary">
             <h4 class="text-primary text-sm font-medium border-b border-secondary bg-[#EBF8F9] py-3 px-8 mb-0">Personal Info
-                <a class="float-right hover:text-primary" href="<?php echo get_home_url() ?>/account-dashboard/edit-profile/">Edit</a>
+                <a class="float-right hover:text-primary" href="<?php echo get_home_url() ?>/account/edit-profile/">Edit</a>
             </h4>
             <ul class="px-8 py-6 text-sm">
                 <li><strong><?php echo esc_html__('Email:', 'themeatelier') ?> </strong><?php echo esc_html($email) ?></li>
