@@ -2,9 +2,9 @@
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, dolor.
+                Main Features of <mark style="background-color:rgba(0, 0, 0, 0);color:#428A7E">WhatsApp Chat Help</mark>
             </h2>
-            <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
+            <span class="inline-block mt-5 text-lg font-normal">WhatsApp Chat Help provides extensive features and customization options, allowing you to create floating chat bubbles, WooCommerce buttons, and shortcode-enabled buttons for WhatsApp integration.</span>
         </div>
 
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
