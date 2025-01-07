@@ -1,4 +1,4 @@
-<section class="py-12 pricing tabs md:py-20 ">
+<section id="pricing" class="py-12 pricing tabs md:py-20 ">
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">

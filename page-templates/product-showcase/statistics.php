@@ -31,7 +31,7 @@
                 </div>
                 <div class="content">
                     <p class="text-2xl text-[#333] pb-0 mb-0 font-bold">90%</p>
-                    <p>Average Sales Growth</p>
+                    <p>All Time Downloads</p>
                 </div>
             </div>
         </div>
