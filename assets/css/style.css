@@ -186,8 +186,17 @@ ul .tab.tab-active svg {
 .ta-footer ul li a {
   @apply text-sm;
 }
-.ta-footer.bg-secondary form input {
+<<<<<<< HEAD ======= .ta-footer.bg-secondary form {
+  @apply !bg-transparent;
+}
+>>>>>>>main .ta-footer.bg-secondary form input {
   @apply !bg-white;
+}
+.ta-footer form label {
+  @apply mb-5 text-base font-bold;
+}
+.ta-footer form button {
+  @apply !bg-primary text-white w-full;
 }
 .ta-footer.bg-secondary .ta-footer-bottom {
   @apply !border-font-color-light;
@@ -649,4 +658,97 @@ ol li .fn a {
 .money-back_content {
   @apply grid;
   grid-template-columns: 150px 1fr;
+}
+.edd_form .edd-submit {
+  @apply w-full;
+}
+.edd_form .custom-message {
+  @apply mb-0;
+}
+
+/* Dashboard Account */
+.ta-dashboard-tab-menu li:first-child a {
+  border-top-width: 0;
+}
+.ta-dashboard-tab-menu li a {
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  display: block;
+  border-color: transparent;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  position: relative;
+  padding-left: 3rem;
+  font-weight: 500;
+  font-size: 16px;
+}
+.ta-dashboard-tab-menu li a::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  background-repeat: no-repeat;
+  margin-left: 1rem;
+}
+.ta-dashboard-tab-menu li:nth-child(1) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-1.svg);
+  top: 0.75rem;
+  width: 21px;
+  height: 21px;
+}
+.ta-dashboard-tab-menu li:nth-child(2) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-2.svg);
+  top: 0.7rem;
+  width: 22px;
+  height: 22px;
+}
+.ta-dashboard-tab-menu li:nth-child(3) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-3.svg);
+  top: 0.72rem;
+  width: 21px;
+  height: 21px;
+}
+.ta-dashboard-tab-menu li:nth-child(4) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-4.svg);
+  top: 0.8rem;
+  width: 22px;
+  height: 22px;
+}
+.ta-dashboard-tab-menu li:nth-child(5) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-5.svg);
+  top: 0.8rem;
+  width: 20px;
+  height: 20px;
+}
+.ta-dashboard-tab-menu li:nth-child(6) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-6.svg);
+  top: 0.7rem;
+  width: 23px;
+  height: 23px;
+}
+.ta-dashboard-tab-menu li:nth-child(7) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-7.svg);
+  top: 0.8rem;
+  width: 21px;
+  height: 21px;
+}
+.ta-dashboard-tab-menu li a:hover,
+.ta-dashboard-tab-menu li.active a {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-border-opacity: 1;
+  border-color: rgb(212 237 240 / var(--tw-border-opacity));
+}
+.ta-dashboard-tab-menu li a:hover::after,
+.ta-dashboard-tab-menu li.active a::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  width: 2px;
+  height: 100%;
+  right: -2px;
+  top: 0px;
+  position: absolute;
+  display: block;
 }
