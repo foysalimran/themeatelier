@@ -176,29 +176,6 @@ function create_portfolio_taxonomy()
 	));
 }
 
-// function custom_edd_login_fields_before() {
-//     echo '<p class="custom-message">' . __( 'Welcome! Please log in to access your account.', 'themeatelier' ) . '</p>';
-// }
-// add_action( 'edd_login_fields_before', 'custom_edd_login_fields_before' );
-function custom_edd_login_fields_after()
-{
-	echo '<p class="custom-message">' . __(
-		'Don\'t have an account? <a href="' . esc_url(get_site_url(null, '/sign-up')) . '">Sign Up</a>',
-		'themeatelier'
-	) . '</p>';
-}
-add_action('edd_login_fields_after', 'custom_edd_login_fields_after');
-
-function custom_edd_register_fields_after()
-{
-	echo '<p class="custom-message">' . __(
-		'Already have an account? <a href="' . esc_url(get_site_url(null, '/login')) . '">Login</a>',
-		'themeatelier'
-	) . '</p>';
-}
-add_action('edd_register_form_fields_after', 'custom_edd_register_fields_after');
-
-
 //======= Account Dashboard Menu =======//
 function avalue_dot($key = null, $array = array(), $default = false)
 {
@@ -225,7 +202,7 @@ function array_get($key = null, $array = array(), $default = false)
 	return avalue_dot($key, $array, $default);
 }
 
-function account_dashboard_pages()
+function account_pages()
 {
 	$nav_menu      = array(
 		'index'            => array(
@@ -234,13 +211,13 @@ function account_dashboard_pages()
 		'purchase-history'    => array(
 			'title' => __('Purchase History', 'themeatelier'),
 		),
-		'license-key'    => array(
+		'license-keys'    => array(
 			'title' => __('License Keys', 'themeatelier'),
 		),
-		'my-subscriptions'    => array(
+		'subscriptions'    => array(
 			'title' => __('My Subscriptions', 'themeatelier'),
 		),
-		'file-downloads'    => array(
+		'downloads'    => array(
 			'title' => __('File Downloads', 'themeatelier'),
 		),
 		'edit-profile'    => array(
@@ -250,12 +227,12 @@ function account_dashboard_pages()
 			'title' => __('Logout', 'themeatelier'),
 		),
 	);
-	return apply_filters('account_dashboard/nav_items_all', $nav_menu);
+	return apply_filters('account/nav_items_all', $nav_menu);
 }
 
-function account_dashboard_nav_ui_items()
+function account_nav_ui_items()
 {
-	$nav_items = account_dashboard_pages();
+	$nav_items = account_pages();
 	foreach ($nav_items as $key => $nav_item) {
 		if (is_array($nav_item)) {
 
@@ -267,11 +244,11 @@ function account_dashboard_nav_ui_items()
 			}
 		}
 	}
-	return apply_filters('account_dashboard/nav_ui_items', $nav_items);
+	return apply_filters('account/nav_ui_items', $nav_items);
 }
 
 
-function account_dashboard_page_permalink($page_key = '')
+function account_page_permalink($page_key = '')
 {
 	if ('index' === $page_key) {
 		$page_key = '';
@@ -378,8 +355,8 @@ function account_load_template($template = null, $variables = array())
 add_filter('query_vars', 'account_register_query_vars');
 function account_register_query_vars($vars)
 {
-	$vars[] = 'account_dashboard_page';
-	$vars[] = 'account_dashboard_sub_page';
+	$vars[] = 'account_page';
+	$vars[] = 'account_sub_page';
 
 	$vars[] = 'account_profile_username';
 	return $vars;
@@ -389,12 +366,21 @@ function account_register_query_vars($vars)
 add_action('generate_rewrite_rules', 'add_rewrite_rules');
 function add_rewrite_rules(\WP_Rewrite $wp_rewrite)
 {
-	$dashboard_page_slug = 'account-dashboard';
+	$dashboard_page_slug = 'account';
 
 	$new_rules = array(
-		"({$dashboard_page_slug})/(.+?)/?$" => 'index.php?pagename=' . $wp_rewrite->preg_index(1) . '&account_dashboard_page&account_dashboard_sub_page=' . $wp_rewrite->preg_index(1),
+		"({$dashboard_page_slug})/(.+?)/?$" => 'index.php?pagename=' . $wp_rewrite->preg_index(1) . '&account_page&account_sub_page=' . $wp_rewrite->preg_index(2),
 	);
 
 
 	$wp_rewrite->rules = $new_rules + $wp_rewrite->rules;
 }
+
+
+// Flush rewrite rules on theme activation.
+function themeatelier_activate()
+{
+	flush_rewrite_rules();
+}
+
+add_action('after_switch_theme', 'themeatelier_activate');

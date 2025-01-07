@@ -18,7 +18,7 @@ get_header(); ?>
         <p class="mt-6 text-lg">
           We specialize in crafting exceptional WordPress-based solutions, empowering your business to thrive and achieve accelerated growth.
         </p>
-        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-9 ta-btn-primary group">See Our Plugins
+        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-9 ta-btn-primary group inline-flex gap-1.5 items-center">See Our Plugins
           <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
           </svg>

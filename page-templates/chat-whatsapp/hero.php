@@ -8,7 +8,7 @@
                 <p class="mt-6 text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
                 </p>
-                <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-9 ta-btn-primary group">Get Chat Whatsapp Now</a>
+                <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-9 ta-btn-primary group inline-flex gap-1.5 items-center">Get Chat Whatsapp Now</a>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group">Live Demo</a>
                 <p class="text-sm">14-Day No Question Asked <a class="border-b border-dotted text-font-color-light border-font-color-light" href="https://shapedplugin.com/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
             </div>

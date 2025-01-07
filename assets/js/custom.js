@@ -23,7 +23,7 @@
 
     // Open the first item by default
     const firstHeader = accordionHeaders[0];
-    if(firstHeader) {
+    if (firstHeader) {
       firstHeader.classList.add("active");
       firstHeader.nextElementSibling.classList.add("show");
     }
@@ -99,21 +99,27 @@
     const closePopup = document.getElementById('closePopup');
 
     // Show popup when changelog is clicked
-    changelog.addEventListener('click', () => {
-      popup.classList.remove('hidden');
-    });
+    if (changelog) {
+      changelog.addEventListener('click', () => {
+        popup.classList.remove('hidden');
+      });
+    }
 
     // Close popup when close button is clicked
-    closePopup.addEventListener('click', () => {
-      popup.classList.add('hidden');
-    });
+    if (closePopup) {
+      closePopup.addEventListener('click', () => {
+        popup.classList.add('hidden');
+      });
+    }
 
     // Close popup when clicking outside the popup content
-    popup.addEventListener('click', (e) => {
-      if (e.target === popup) {
-        popup.classList.add('hidden');
-      }
-    });
+    if (popup) {
+      popup.addEventListener('click', (e) => {
+        if (e.target === popup) {
+          popup.classList.add('hidden');
+        }
+      });
+    }
   });
 
 
