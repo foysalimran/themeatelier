@@ -186,10 +186,10 @@ ul .tab.tab-active svg {
 .ta-footer ul li a {
   @apply text-sm;
 }
-<<<<<<< HEAD ======= .ta-footer.bg-secondary form {
+.ta-footer.bg-secondary form {
   @apply !bg-transparent;
 }
->>>>>>>main .ta-footer.bg-secondary form input {
+.ta-footer.bg-secondary form input {
   @apply !bg-white;
 }
 .ta-footer form label {
