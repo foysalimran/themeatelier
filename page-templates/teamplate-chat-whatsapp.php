@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Chat Whatsapp
+ * Template Name: Product Showcase
  */
 get_header();
 ?>
@@ -11,14 +11,14 @@ get_header();
     }
 </style>
 <?php
-get_template_part( 'page-templates/chat-whatsapp/hero' );
-get_template_part( 'page-templates/chat-whatsapp/statistics' );
-get_template_part( 'page-templates/chat-whatsapp/layouts' );
-get_template_part( 'page-templates/chat-whatsapp/features' );
-get_template_part( 'page-templates/chat-whatsapp/offers' );
-get_template_part( 'page-templates/chat-whatsapp/backend-screenshots' );
-get_template_part( 'page-templates/chat-whatsapp/pricing' );
-get_template_part( 'page-templates/chat-whatsapp/money-back' );
+get_template_part( 'page-templates/product-showcase/hero' );
+get_template_part( 'page-templates/product-showcase/statistics' );
+get_template_part( 'page-templates/product-showcase/layouts' );
+get_template_part( 'page-templates/product-showcase/features' );
+get_template_part( 'page-templates/product-showcase/offers' );
+get_template_part( 'page-templates/product-showcase/backend-screenshots' );
+get_template_part( 'page-templates/product-showcase/pricing' );
+get_template_part( 'page-templates/product-showcase/money-back' );
 get_template_part( 'page-templates/deals-parts/faq' );
 get_footer();
 ?>

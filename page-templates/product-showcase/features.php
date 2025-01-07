@@ -73,7 +73,7 @@
                 <div class="flex justify-center col-span-12 text-center lg:justify-end lg:col-span-4">
                     <div class="">
                         <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="ta-btn-primary group !bg-white !text-primary">Get Chat Whatsapp Now</a>
-                        <p class="text-sm text-white">14-Day No Question Asked <a class="text-white border-b border-white border-dotted" href="https://shapedplugin.com/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
+                        <p class="text-sm text-white">14-Day No Question Asked <a class="text-white border-b border-white border-dotted" href="/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
                     </div>
                 </div>
             </div>

@@ -10,7 +10,7 @@
                 </p>
                 <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="mt-9 ta-btn-primary group">Get Chat Whatsapp Now</a>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group">Live Demo</a>
-                <p class="text-sm">14-Day No Question Asked <a class="border-b border-dotted text-font-color-light border-font-color-light" href="https://shapedplugin.com/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
+                <p class="text-sm">14-Day No Question Asked <a class="border-b border-dotted text-font-color-light border-font-color-light" href="https://themeatelier.net/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
             </div>
             <div class="order-1 pt-36 lg:order-2 lg:pt-0">
                 <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">

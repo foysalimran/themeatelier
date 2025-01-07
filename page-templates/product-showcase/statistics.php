@@ -48,42 +48,42 @@
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
             <div class="p-6 border border-solid rounded-md shadow-md border-secondary">
                 <div class="flex items-center gap-3 mb-2">
-                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
+                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
                     <h3 class="text-lg">Lorem ipsum dolor sit.</h3>
                 </div>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laborum ducimus facere praesentium magni? Deleniti suscipit architecto hic non, inventore quae ullam repudiandae maxime eum!</span>
             </div>
             <div class="p-6 border border-solid rounded-md shadow-md border-secondary">
                 <div class="flex items-center gap-3 mb-2">
-                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
+                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
                     <h3 class="text-lg">Lorem ipsum dolor sit.</h3>
                 </div>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laborum ducimus facere praesentium magni? Deleniti suscipit architecto hic non, inventore quae ullam repudiandae maxime eum!</span>
             </div>
             <div class="p-6 border border-solid rounded-md shadow-md border-secondary">
                 <div class="flex items-center gap-3 mb-2">
-                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
+                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
                     <h3 class="text-lg">Lorem ipsum dolor sit.</h3>
                 </div>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laborum ducimus facere praesentium magni? Deleniti suscipit architecto hic non, inventore quae ullam repudiandae maxime eum!</span>
             </div>
             <div class="p-6 border border-solid rounded-md shadow-md border-secondary">
                 <div class="flex items-center gap-3 mb-2">
-                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
+                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
                     <h3 class="text-lg">Lorem ipsum dolor sit.</h3>
                 </div>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laborum ducimus facere praesentium magni? Deleniti suscipit architecto hic non, inventore quae ullam repudiandae maxime eum!</span>
             </div>
             <div class="p-6 border border-solid rounded-md shadow-md border-secondary">
                 <div class="flex items-center gap-3 mb-2">
-                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
+                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
                     <h3 class="text-lg">Lorem ipsum dolor sit.</h3>
                 </div>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laborum ducimus facere praesentium magni? Deleniti suscipit architecto hic non, inventore quae ullam repudiandae maxime eum!</span>
             </div>
             <div class="p-6 border border-solid rounded-md shadow-md border-secondary">
                 <div class="flex items-center gap-3 mb-2">
-                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://shapedplugin.com/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
+                    <img width="40" height="40" decoding="async" alt="" class="styble-d-i-block entered lazyloaded" src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-lazy-src="https://themeatelier.net/wp-content/uploads/2024/11/05.svg" data-ll-status="loaded">
                     <h3 class="text-lg">Lorem ipsum dolor sit.</h3>
                 </div>
                 <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis laborum ducimus facere praesentium magni? Deleniti suscipit architecto hic non, inventore quae ullam repudiandae maxime eum!</span>
