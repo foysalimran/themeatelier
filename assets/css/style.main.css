@@ -3137,6 +3137,11 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#F0FDFA\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 253 250 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -3236,10 +3241,6 @@ video {
 
 .fill-\[\#009BF0\]{
   fill: #009BF0;
-}
-
-.fill-\[\#00A98D\]{
-  fill: #00A98D;
 }
 
 .fill-\[\#FFB900\]{

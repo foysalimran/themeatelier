@@ -1,4 +1,4 @@
-<section class="py-12 layouts tabs md:py-20 bg-secondary">
+<section class="py-12 layouts tabs md:py-20 bg-[#F0FDFA]">
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
@@ -15,13 +15,14 @@
         </div>
         <div class="mt-9 tab-content">
             <div class="tab-pane tab-pane-active">
-                <img class="rounded-lg" src="https://images.pexels.com/photos/18732663/pexels-photo-18732663/free-photo-of-sailboats-on-ocean.jpeg" alt="">
+            <img class="rounded-lg" src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
             </div>
             <div class="tab-pane">
-                <img class="rounded-lg" src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/single-agent.png" alt="">
+                
             </div>
             <div class="tab-pane">
-                <img class="rounded-lg" src="https://images.pexels.com/photos/9807701/pexels-photo-9807701.jpeg" alt="">
+            <img class="rounded-lg" src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
             </div>
             <div class="tab-pane">
                 <img class="rounded-lg" src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
