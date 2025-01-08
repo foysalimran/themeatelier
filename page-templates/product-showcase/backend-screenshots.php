@@ -2,9 +2,9 @@
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, dolor.
+            See Backend <mark style="background-color:rgba(0, 0, 0, 0);color:#0F8C7E">Screenshots</mark>
             </h2>
-            <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
+            <span class="inline-block mt-5 text-lg font-normal">Get a wide range of powerful and easy-to-use features and customizations, as seen in the following backend screenshot.</span>
         </div>
         <div class="gallery">
             <div class="grid items-center grid-cols-1 gap-4 sm:grid-cols-2 lg:gap-6 xl:gap-8 md:grid-cols-3 lg:grid-cols-4">

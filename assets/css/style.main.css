@@ -3157,6 +3157,10 @@ video {
   background-color: rgb(15 140 126 / var(--tw-bg-opacity)) !important;
 }
 
+.bg-\[\#\]{
+  background-color: #;
+}
+
 .bg-opacity-50{
   --tw-bg-opacity: 0.5;
 }
@@ -3980,6 +3984,11 @@ video {
 .\!text-\[\#0F8C7E\]{
   --tw-text-opacity: 1 !important;
   color: rgb(15 140 126 / var(--tw-text-opacity)) !important;
+}
+
+.text-lime-50{
+  --tw-text-opacity: 1;
+  color: rgb(247 254 231 / var(--tw-text-opacity));
 }
 
 .underline{
