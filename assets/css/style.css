@@ -860,3 +860,36 @@ ol li .fn a {
 #edd_checkout_cart td, #edd_checkout_cart th {
   @apply border border-solid border-[#e3e3e3] p-4;
 }
+#edd_checkout_cart td {
+  @apply align-middle;
+}
+/* .eddr-cart-item-notice {
+  @apply m-0 mb-8;
+} */
+.edd_cart_remove_item_btn {
+  @apply text-primary;
+}
+#edd_sl_renewal_form {
+  @apply bg-secondary mt-4 mb-2.5 p-2.5 text-base border border-[#e3e3e3];
+}
+#edd_sl_renewal_form, #edd_sl_show_renewal_form{
+  @apply text-base;
+}
+#edd_discount_code {
+  @apply mb-5;
+}
+#edd_show_discount {
+  @apply bg-secondary mb-8 text-base py-2 px-5 border border-[#e3e3e3];
+}
+.edd_discount_link {
+  @apply text-primary;
+}
+.edd-payment-icons {
+  @apply mb-5
+}
+#edd_checkout_user_info {
+  @apply border border-[#e3e3e3] p-6;
+}
+#edd_checkout_user_info, p {
+  @apply m-0
+}

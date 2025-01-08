@@ -6123,6 +6123,104 @@ ol li .fn a{
   padding: 1rem;
 }
 
+#edd_checkout_cart td{
+  vertical-align: middle;
+}
+
+/* .eddr-cart-item-notice {
+  @apply m-0 mb-8;
+} */
+
+.edd_cart_remove_item_btn{
+  --tw-text-opacity: 1;
+  color: rgb(52 100 224 / var(--tw-text-opacity));
+}
+
+#edd_sl_renewal_form{
+  margin-top: 1rem;
+  margin-bottom: 0.625rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity));
+  padding: 0.625rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.ta-footer#edd_sl_renewal_form form{
+  background-color: transparent !important;
+}
+
+.ta-footer#edd_sl_renewal_form form input{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+.ta-footer#edd_sl_renewal_form .ta-footer-bottom{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
+}
+
+#edd_sl_renewal_form, #edd_sl_show_renewal_form{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+#edd_discount_code{
+  margin-bottom: 1.25rem;
+}
+
+#edd_show_discount{
+  margin-bottom: 2rem;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity));
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.ta-footer#edd_show_discount form{
+  background-color: transparent !important;
+}
+
+.ta-footer#edd_show_discount form input{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+.ta-footer#edd_show_discount .ta-footer-bottom{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
+}
+
+.edd_discount_link{
+  --tw-text-opacity: 1;
+  color: rgb(52 100 224 / var(--tw-text-opacity));
+}
+
+.edd-payment-icons{
+  margin-bottom: 1.25rem;
+}
+
+#edd_checkout_user_info{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  padding: 1.5rem;
+}
+
+#edd_checkout_user_info, p{
+  margin: 0px;
+}
+
 .hover\:prose-lg:hover{
   font-size: 1.125rem;
   line-height: 1.7777778;
