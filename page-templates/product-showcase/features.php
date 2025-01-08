@@ -10,6 +10,7 @@
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/floating-chat.png" alt="">
+                
             </div>
             <div class="">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
@@ -60,13 +61,15 @@
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
             <div class="">
-                <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/whatsapp-quote.png" alt="">
+            
             </div>
         </div>
 
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
-                <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/button-shortcodes.png" alt="">
+            
             </div>
             <div class="">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
@@ -118,7 +121,7 @@
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
             <div class="">
-                <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-button-block.png" alt="">
             </div>
         </div>
         
