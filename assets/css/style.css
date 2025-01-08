@@ -679,7 +679,7 @@ ol li .fn a {
 .ta-dashboard-tab-menu li a {
   transition-duration: 300ms;
   transition-timing-function: linear;
-  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-7;
+  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-3;
 }
 .ta-dashboard-tab-menu li a::before {
   content: "";
@@ -858,5 +858,56 @@ ol li .fn a {
   @apply mt-2;
 }
 #edd_checkout_cart td, #edd_checkout_cart th {
-  @apply border border-solid border-[#e3e3e3] p-4;
+  @apply border border-solid border-border-color p-4;
+}
+
+/* Subscription */
+.edd-table {
+  @apply w-full;
+}
+.edd-table thead tr {
+  @apply text-left font-bold mb-6 border border-border-color bg-secondary rounded-lg;
+}
+.edd-table thead tr th {
+  @apply p-4;
+}
+.edd-table tbody tr {
+  @apply shadow-lg rounded-lg bg-white mt-4;
+}
+.edd-table tbody tr td {
+  @apply p-3;
+}
+.edd-table tbody tr td h4 {
+  @apply text-lg;
+}
+.edd-table tbody tr td p {
+  @apply mb-0;
+}
+.edd-table .edd_subscription_status.Cancelled {
+  @apply text-red-600;
+}
+.edd-table .edd_subscription_status.Expired {
+  @apply text-red-500;
+}
+.edd-table .edd_subscription_status.Active {
+  @apply text-green-600;
+}
+
+.edd-table .edd_subscription_cancel {
+  @apply text-red-600 py-1.5 px-3 rounded-3xl bg-red-300 border border-solid border-red-600;
+}
+.edd-table .edd_subscription_renew {
+  @apply text-green-500 py-1.5 px-3 rounded-3xl bg-green-300 border border-solid border-green-500;
+}
+.edd-table .edd-subscription-reactivate {
+  @apply text-green-500 py-1.5 px-3 rounded-3xl bg-green-300 border border-solid border-green-500;
+}
+.edd-table .edd_update_info {
+  @apply text-sky-500 py-1.5 px-3 rounded-3xl border border-solid border-sky-500;
+}
+.file_download table tbody tr {
+  @apply border border-solid border-secondary;
+}
+.file_download table tbody tr .edd_download_file a {
+  @apply py-2 px-3 rounded-3xl bg-primary text-white;
 }

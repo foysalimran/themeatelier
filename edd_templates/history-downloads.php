@@ -38,7 +38,7 @@ if (! empty($customer)) {
 
 if ($orders) :
 	do_action('edd_before_download_history'); ?>
-	<table id="edd_user_history" class="edd-table">
+	<table id="edd_user_history" class="edd-table w-full">
 		<?php
 		foreach ($orders as $order) :
 			foreach ($order->get_items_with_bundles() as $key => $item) :
@@ -65,11 +65,11 @@ if ($orders) :
 							$download_image = $download_image[0]['image'];
 						}
 						?>
-						<div class="flex gap-2">
+						<div class="flex gap-2 items-center">
 							<?php
 							if($download_image) {
 								?>
-								<img src="<?php echo esc_url($download_image); ?>" alt="">
+								<img class="w-16 h-16 rounded-md" src="<?php echo esc_url($download_image); ?>" alt="">
 								<?php
 							}
 							?>
