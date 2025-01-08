@@ -52,7 +52,6 @@ if ( $orders ) :
 				<th class="edd_purchase_date"><?php esc_html_e( 'Date', 'themeatelier' ); ?></th>
 				<th class="edd_purchase_amount"><?php esc_html_e( 'Amount', 'themeatelier' ); ?></th>
 				<th class="edd_purchase_status"><?php esc_html_e( 'Status', 'themeatelier' ); ?></th>
-				<th class="edd_purchase_details"><?php esc_html_e( 'Details', 'themeatelier' ); ?></th>
 				<?php do_action( 'edd_purchase_history_header_after' ); ?>
 			</tr>
 		</thead>
@@ -64,23 +63,7 @@ if ( $orders ) :
 				<td class="edd_purchase_amount">
 					<span class="edd_purchase_amount"><?php echo esc_html( edd_display_amount( $order->total, $order->currency ) ); ?></span>
 				</td>
-				<td class="edd_purchase_status"><?php echo esc_html( $order->status ); ?></td>
-				<td class="edd_purchase_details">
-					<?php
-					if ( ! in_array( $order->status, array( 'complete', 'partially_refunded' ), true ) ) : ?>
-						<span class="edd_purchase_status <?php echo esc_html( $order->status ); ?>"><?php echo esc_html( edd_get_status_label( $order->status ) ); ?></span>
-						<?php
-						$recovery_url = $order->get_recovery_url();
-						if ( $recovery_url ) :
-							?>
-							&mdash; <a href="<?php echo esc_url( $recovery_url ); ?>"><?php esc_html_e( 'Complete Purchase', 'themeatelier' ); ?></a>
-							<?php
-						endif;
-						?>
-					<?php else: ?>
-						<a href="<?php echo esc_url( edd_get_receipt_page_uri( $order->id ) ); ?>"><?php esc_html_e( 'View Details and Downloads', 'themeatelier' ); ?></a>
-					<?php endif; ?>
-				</td>
+				<td class="edd_purchase_status <?php echo esc_attr( $order->status ); ?>"><?php echo esc_html( $order->status ); ?></td>
 				<?php do_action( 'edd_order_history_row_end', $order ); ?>
 			</tr>
 		<?php endforeach; ?>
@@ -101,6 +84,6 @@ if ( $orders ) :
 	do_action( 'edd_after_order_history', $orders );
 	?>
 <?php else : ?>
-	<p class="edd-no-purchases"><?php esc_html_e( 'You have not made any purchases.', 'themeatelier' ); ?></p>
+	<p class="edd-no-purchases rounded-md px-10 py-10 shadow-lg text-red-500 font-normal border border-solid border-secondary"><?php esc_html_e( 'You have not made any purchases.', 'themeatelier' ); ?></p>
 	<?php
 endif;

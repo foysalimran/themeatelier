@@ -33,7 +33,7 @@ $dashboard_page_name = apply_filters('account_sub_page_template', $dashboard_pag
 <div class="pt-40 pb-20 bg-white">
   <div class="container mx-auto">
     <div class="border-2 border-secondary md:flex">
-      <div class="md:w-60 shrink-0 bg-[#EBF8F9] md:border-r-2 border-secondary">
+      <div class="md:w-60 shrink-0 bg-secondary md:border-r-2 border-border-color">
         <div class="ta-dashboard-tab-menu">
           <ul>
             <?php

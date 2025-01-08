@@ -122,5 +122,34 @@
     }
   });
 
+  document.addEventListener("DOMContentLoaded", function () {
+    const licenseInput = document.querySelector('.edd_sl_license_key');
+
+    licenseInput.addEventListener('click', function () {
+      navigator.clipboard.writeText(licenseInput.value)
+        .then(() => {
+          const notice = document.createElement('div');
+          notice.textContent = 'License key copied!';
+          notice.style.position = 'absolute';
+          notice.style.backgroundColor = '#3464E0';
+          notice.style.color = '#fff';
+          notice.style.padding = '10px';
+          notice.style.borderRadius = '5px';
+          notice.style.fontSize = '14px';
+          notice.style.bottom = '30px';
+          notice.style.left = '50%';
+          notice.style.transform = 'translateX(-50%)';
+          document.body.appendChild(notice);
+          setTimeout(() => {
+            notice.remove();
+          }, 3000);
+        })
+        .catch(err => {
+          console.error('Failed to copy license key: ', err);
+        });
+    });
+  });
+
+
 
 })(jQuery);
