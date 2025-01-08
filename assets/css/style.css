@@ -60,7 +60,7 @@ h6 {
   @apply text-base lg:text-lg;
 }
 .ta-btn-primary {
-  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-3xl text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-full text-white  ease-linear duration-300 inline-block;
 }
 .ta-btn-primary:hover {
   @apply bg-black;
@@ -285,7 +285,7 @@ ul .tab.tab-active svg {
 }
 
 .ta-single-blog input[type="submit"] {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block cursor-pointer;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block cursor-pointer;
 }
 .ta-single-blog .post-categories {
   @apply flex flex-wrap items-center justify-center gap-2;
@@ -353,7 +353,7 @@ ul .tab.tab-active svg {
   .wp-block-search__button-outside
   .wp-block-search__inside-wrapper
   button {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block;
 }
 .ta-single-blog .wp-social-link-fivehundredpx a svg {
   @apply text-white;
@@ -674,12 +674,12 @@ ol li .fn a {
 
 /* Dashboard Account */
 .ta-dashboard-tab-menu li:first-child a {
-  @apply border-t-0
+  @apply border-t-0;
 }
 .ta-dashboard-tab-menu li a {
   transition-duration: 300ms;
   transition-timing-function: linear;
-  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-7;
+  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-3;
 }
 .ta-dashboard-tab-menu li a::before {
   content: "";
@@ -728,15 +728,11 @@ ol li .fn a {
 .ta-dashboard-tab-menu li:nth-child(7) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-8.svg);
   top: 0.8rem;
-  width: 20px;
-  height: 20px;
+  @apply w-5 h-5;
 }
 .ta-dashboard-tab-menu li a:hover,
 .ta-dashboard-tab-menu li.active a {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-border-opacity: 1;
-  border-color: rgb(212 237 240 / var(--tw-border-opacity));
+  @apply bg-white border-border-color;
 }
 .ta-dashboard-tab-menu li a:hover::after,
 .ta-dashboard-tab-menu li.active a::after {
@@ -760,12 +756,16 @@ ol li .fn a {
 
 .group:hover .group-hover\:translate-x-2 {
   --tw-translate-x: 0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:translate-x-1 {
   --tw-translate-x: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:bg-\[\#4F2CD2\] {
@@ -837,10 +837,19 @@ ol li .fn a {
 
 /* Checkout */
 .checkout #edd_checkout_wrap {
-  @apply max-w-[800px] my-0 mx-auto rounded-lg border border-solid border-secondary bg-white shadow-lg pt-12 pl-12 pb-9 pr-12;
+  @apply max-w-[800px] my-0 mx-auto rounded-lg border border-solid border-secondary bg-white shadow-lg pt-9 pl-10 pb-9 pr-10;
+}
+.checkout #edd_checkout_wrap .edd_empty_cart {
+  @apply text-red-600;
 }
 .checkout #edd_checkout_cart {
   @apply !mt-0 !mb-0;
+}
+.checkout p {
+  @apply !m-0;
+}
+.checkout .eddr-notice {
+  @apply !mt-3;
 }
 .checkout #edd_sl_show_renewal_form {
   @apply !bg-transparent !text-font-color underline leading-6;
@@ -858,7 +867,10 @@ ol li .fn a {
   @apply mt-2;
 }
 #edd_checkout_cart td, #edd_checkout_cart th {
-  @apply border border-solid border-[#e3e3e3] p-4;
+  @apply border border-solid border-border-color p-4;
+}
+#edd_checkout_cart td a {
+  text-decoration: none;
 }
 #edd_checkout_cart td {
   @apply align-middle;
@@ -870,7 +882,7 @@ ol li .fn a {
   @apply text-primary;
 }
 #edd_sl_renewal_form {
-  @apply bg-secondary mt-4 mb-2.5 p-2.5 text-base border border-[#e3e3e3];
+  @apply bg-secondary mt-4 mb-3.5 p-2 text-base border border-border-color;
 }
 #edd_sl_renewal_form, #edd_sl_show_renewal_form{
   @apply text-base;
@@ -879,7 +891,7 @@ ol li .fn a {
   @apply mb-5;
 }
 #edd_show_discount {
-  @apply bg-secondary mb-8 text-base py-2 px-5 border border-[#e3e3e3];
+  @apply bg-secondary mb-8 text-base py-2 px-5 border border-border-color;
 }
 .edd_discount_link {
   @apply text-primary;
@@ -887,9 +899,123 @@ ol li .fn a {
 .edd-payment-icons {
   @apply mb-5
 }
-#edd_checkout_user_info {
-  @apply border border-[#e3e3e3] p-6;
+#edd_checkout_login_register legend {
+  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
 }
-#edd_checkout_user_info, p {
-  @apply m-0
+#edd_checkout_login_register a, #edd_purchase_form a {
+  @apply text-primary;
+  text-decoration: none
+}
+
+#edd_checkout_login_register p {
+  @apply m-0 !mb-7;
+}
+#edd_checkout_login_register p#edd-user-pass-confirm-wrap {
+  @apply !mb-0;
+}
+#edd_checkout_login_register p label {
+  @apply text-lg mb-0;
+}
+#edd_checkout_login_register p .edd-description {
+  @apply text-sm;
+}
+#edd_checkout_login_register p input {
+  @apply border border-solid border-border-color pt-3 pb-3 px-5 rounded-md;
+  line-height: 24px
+}
+#edd_checkout_cart td,
+#edd_checkout_cart th {
+  @apply border border-solid border-border-color p-4;
+}
+#edd_checkout_login_register #edd_register_fields, #edd_checkout_login_register #edd_login_fields {
+  @apply border border-solid border-border-color pl-5 pr-5 pb-5;
+}
+#edd_checkout_login_register #edd_login_fields p label {
+  @apply mb-2;
+}
+#edd_checkout_login_register #edd_login_fields #edd-user-login-submit {
+  @apply !mb-0;
+}
+#edd_checkout_login_register #edd-login-account-wrap {
+  @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
+}
+#edd_purchase_submit #edd_final_total_wrap {
+  @apply !mt-3;
+}
+
+/* Subscription */
+.edd-table {
+  @apply w-full;
+}
+.edd-table thead tr {
+  @apply text-left font-bold mb-6 border border-border-color bg-secondary rounded-lg;
+}
+.edd-table thead tr th {
+  @apply p-4;
+}
+.edd-table tbody tr {
+  @apply shadow-lg rounded-lg bg-white mt-4;
+}
+.edd-table tbody tr td {
+  @apply p-3;
+}
+.edd-table tbody tr td h4 {
+  @apply text-lg;
+}
+.edd-table tbody tr td p {
+  @apply mb-0;
+}
+.edd-table .edd_subscription_status.Cancelled {
+  @apply text-red-600;
+}
+.edd-table .edd_subscription_status.Expired {
+  @apply text-red-500;
+}
+.edd-table .edd_subscription_status.Active {
+  @apply text-green-600;
+}
+
+.edd-table .edd_subscription_cancel {
+  @apply text-red-600 py-1.5 px-3 rounded-full bg-red-300 border border-solid border-red-600;
+}
+.edd-table .edd_subscription_renew {
+  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
+}
+.edd-table .edd-subscription-reactivate {
+  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
+}
+.edd-table .edd_update_info {
+  @apply text-sky-500 py-1.5 px-3 rounded-full border border-solid border-sky-500;
+}
+.file_download table tbody tr {
+  @apply border border-solid border-secondary;
+}
+.file_download table tbody tr .edd_download_file a {
+  @apply py-2 px-3 rounded-full bg-primary text-white;
+}
+.edd_purchase_row .edd_purchase_status.pending {
+  @apply text-yellow-400;
+}
+.edd_purchase_row .edd_purchase_status.complete {
+  @apply text-green-500;
+}
+#edd_user_history .edd_purchase_row {
+  @apply border-b border-solid border-border-color;
+}
+#edd_sl_license_add_site_form {
+  @apply mt-5;
+}
+.edd-submit.button {
+  @apply py-1.5 px-3 bg-primary text-white rounded-full;
+}
+
+.edd_sl_license_row .edd_sl_item_name {
+  @apply mb-3;
+}
+
+.edd_sl_license_row .edd_sl_license_key {
+  background-image: url(../images/copy.svg);
+  background-position: right 15px center;
+  background-size: 20px 20px;
+  @apply bg-no-repeat cursor-pointer;
 }

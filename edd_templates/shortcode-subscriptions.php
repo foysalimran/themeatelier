@@ -29,16 +29,16 @@ if (is_user_logged_in()):
 	if ($subscriptions) :
 		do_action('edd_before_purchase_history'); ?>
 
-		<table id="edd_user_history">
+		<table id="edd_user_history" class="edd-table">
 			<thead class="bg-secondary">
-				<tr class="text-left text-sm font-bold mb-6 text-gray-600 border-2 border-primary edd_purchase_row">
+				<tr class="edd_purchase_row">
 					<?php do_action('edd_recurring_history_header_before'); ?>
-					<th class="p-4"><?php _e('Subscription', 'edd-recurring'); ?></th>
-					<th class="p-4"><?php _e('Status', 'edd-recurring'); ?></th>
-					<th class="p-4"><?php _e('Renewal Date', 'edd-recurring'); ?></th>
-					<th class="p-4"><?php _e('Initial Amount', 'edd-recurring'); ?></th>
-					<th class="p-4"><?php _e('Actions', 'edd-recurring'); ?></th>
-					<th class="p-4"><?php _e('Billing Info', 'edd-recurring'); ?></th>
+					<th><?php _e('Subscription', 'edd-recurring'); ?></th>
+					<th><?php _e('Status', 'edd-recurring'); ?></th>
+					<th><?php _e('Renewal Date', 'edd-recurring'); ?></th>
+					<th><?php _e('Initial Amount', 'edd-recurring'); ?></th>
+					<th><?php _e('Actions', 'edd-recurring'); ?></th>
+					<th><?php _e('Billing Info', 'edd-recurring'); ?></th>
 					<?php do_action('edd_recurring_history_header_after'); ?>
 				</tr>
 			</thead>
@@ -69,10 +69,10 @@ if (is_user_logged_in()):
 						}
 						
 						?>
-						<div class="flex gap-2">
+						<div class="flex gap-2 items-center">
 							<?php if($download_image) {
 ?>
-								<img src="<?php echo esc_url($download_image); ?>" alt="">
+								<img class="w-16 h-16 rounded-md" src="<?php echo esc_url($download_image); ?>" alt="">
 								<?php
 							} ?>
 							<div class="">
@@ -83,7 +83,7 @@ if (is_user_logged_in()):
 						</div>
 					</td>
 					<td>
-						<span class="edd_subscription_status"><?php echo $subscription->get_status_label(); ?></span>
+						<span class="edd_subscription_status <?php echo esc_attr($subscription->get_status_label()) ?>"><?php echo $subscription->get_status_label(); ?></span>
 					</td>
 					<td>
 						<?php if ('trialling' == $subscription->status) : ?>
@@ -109,7 +109,7 @@ if (is_user_logged_in()):
 					</td>
 					<td>
 						<?php if ($subscription->can_update()) : ?>
-							<a href="<?php echo esc_url($subscription->get_update_url()); ?>"><?php _e('Update Info', 'edd-recurring'); ?></a>
+							<a href="<?php echo esc_url($subscription->get_update_url()); ?>" class="edd_update_info"><?php _e('Update Info', 'edd-recurring'); ?></a>
 						<?php endif; ?>
 					</td>
 					<?php do_action('edd_recurring_history_row_end', $subscription); ?>
@@ -122,7 +122,7 @@ if (is_user_logged_in()):
 
 	<?php else : ?>
 
-		<p class="edd-no-purchases"><?php _e('You have not made any subscription purchases.', 'edd-recurring'); ?></p>
+		<p class="edd-no-purchases rounded-md px-10 py-10 shadow-lg text-red-500 font-normal border border-solid border-secondary"><?php _e('You have not made any subscription purchases.', 'edd-recurring'); ?></p>
 
 	<?php endif; //end if subscription 
 	?>
