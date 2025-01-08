@@ -60,7 +60,7 @@ h6 {
   @apply text-base lg:text-lg;
 }
 .ta-btn-primary {
-  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-3xl text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-full text-white  ease-linear duration-300 inline-block;
 }
 .ta-btn-primary:hover {
   @apply bg-black;
@@ -285,7 +285,7 @@ ul .tab.tab-active svg {
 }
 
 .ta-single-blog input[type="submit"] {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block cursor-pointer;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block cursor-pointer;
 }
 .ta-single-blog .post-categories {
   @apply flex flex-wrap items-center justify-center gap-2;
@@ -353,7 +353,7 @@ ul .tab.tab-active svg {
   .wp-block-search__button-outside
   .wp-block-search__inside-wrapper
   button {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block;
 }
 .ta-single-blog .wp-social-link-fivehundredpx a svg {
   @apply text-white;
@@ -674,7 +674,7 @@ ol li .fn a {
 
 /* Dashboard Account */
 .ta-dashboard-tab-menu li:first-child a {
-  @apply border-t-0
+  @apply border-t-0;
 }
 .ta-dashboard-tab-menu li a {
   transition-duration: 300ms;
@@ -728,15 +728,11 @@ ol li .fn a {
 .ta-dashboard-tab-menu li:nth-child(7) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-8.svg);
   top: 0.8rem;
-  width: 20px;
-  height: 20px;
+  @apply w-5 h-5;
 }
 .ta-dashboard-tab-menu li a:hover,
 .ta-dashboard-tab-menu li.active a {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-border-opacity: 1;
-  border-color: rgb(212 237 240 / var(--tw-border-opacity));
+  @apply bg-white border-border-color;
 }
 .ta-dashboard-tab-menu li a:hover::after,
 .ta-dashboard-tab-menu li.active a::after {
@@ -760,12 +756,16 @@ ol li .fn a {
 
 .group:hover .group-hover\:translate-x-2 {
   --tw-translate-x: 0.5rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:translate-x-1 {
   --tw-translate-x: 0.25rem;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group:hover .group-hover\:bg-\[\#4F2CD2\] {
@@ -857,7 +857,8 @@ ol li .fn a {
 .checkout #edd_show_discount {
   @apply mt-2;
 }
-#edd_checkout_cart td, #edd_checkout_cart th {
+#edd_checkout_cart td,
+#edd_checkout_cart th {
   @apply border border-solid border-border-color p-4;
 }
 
@@ -894,20 +895,46 @@ ol li .fn a {
 }
 
 .edd-table .edd_subscription_cancel {
-  @apply text-red-600 py-1.5 px-3 rounded-3xl bg-red-300 border border-solid border-red-600;
+  @apply text-red-600 py-1.5 px-3 rounded-full bg-red-300 border border-solid border-red-600;
 }
 .edd-table .edd_subscription_renew {
-  @apply text-green-500 py-1.5 px-3 rounded-3xl bg-green-300 border border-solid border-green-500;
+  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
 }
 .edd-table .edd-subscription-reactivate {
-  @apply text-green-500 py-1.5 px-3 rounded-3xl bg-green-300 border border-solid border-green-500;
+  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
 }
 .edd-table .edd_update_info {
-  @apply text-sky-500 py-1.5 px-3 rounded-3xl border border-solid border-sky-500;
+  @apply text-sky-500 py-1.5 px-3 rounded-full border border-solid border-sky-500;
 }
 .file_download table tbody tr {
   @apply border border-solid border-secondary;
 }
 .file_download table tbody tr .edd_download_file a {
-  @apply py-2 px-3 rounded-3xl bg-primary text-white;
+  @apply py-2 px-3 rounded-full bg-primary text-white;
+}
+.edd_purchase_row .edd_purchase_status.pending {
+  @apply text-yellow-400;
+}
+.edd_purchase_row .edd_purchase_status.complete {
+  @apply text-green-500;
+}
+#edd_user_history .edd_purchase_row {
+  @apply border-b border-solid border-border-color;
+}
+#edd_sl_license_add_site_form {
+  @apply mt-5;
+}
+.edd-submit.button {
+  @apply py-1.5 px-3 bg-primary text-white rounded-full;
+}
+
+.edd_sl_license_row .edd_sl_item_name {
+  @apply mb-3;
+}
+
+.edd_sl_license_row .edd_sl_license_key {
+  background-image: url(../images/copy.svg);
+  background-position: right 15px center;
+  background-size: 20px 20px;
+  @apply bg-no-repeat cursor-pointer;
 }

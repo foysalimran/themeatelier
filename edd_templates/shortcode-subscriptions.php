@@ -122,7 +122,7 @@ if (is_user_logged_in()):
 
 	<?php else : ?>
 
-		<p class="edd-no-purchases"><?php _e('You have not made any subscription purchases.', 'edd-recurring'); ?></p>
+		<p class="edd-no-purchases rounded-md px-10 py-10 shadow-lg text-red-500 font-normal border border-solid border-secondary"><?php _e('You have not made any subscription purchases.', 'edd-recurring'); ?></p>
 
 	<?php endif; //end if subscription 
 	?>

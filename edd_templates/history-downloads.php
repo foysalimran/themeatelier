@@ -150,5 +150,5 @@ if ($orders) :
 	?>
 	<?php do_action('edd_after_download_history'); ?>
 <?php else : ?>
-	<p class="edd-no-downloads"><?php esc_html_e('You have not purchased any downloads', 'themeatelier'); ?></p>
+	<p class="edd-no-downloads rounded-md px-10 py-10 shadow-lg text-red-500 font-normal border border-solid border-secondary"><?php esc_html_e('You have not purchased any downloads', 'themeatelier'); ?></p>
 <?php endif; ?>

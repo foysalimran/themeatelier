@@ -37,7 +37,7 @@ if ($user_id) {
     <h3 class="mt-10 mb-0 text-lg font-semibold"><?php echo esc_html__('Account details', 'themeatelier') ?></h3>
     <div class="mt-6">
         <div class="border border-secondary">
-            <h4 class="text-primary text-sm font-medium border-b border-secondary bg-[#EBF8F9] py-3 px-8 mb-0">Personal Info
+            <h4 class="text-primary text-sm font-medium border-b border-border-color bg-secondary py-3 px-8 mb-0">Personal Info
                 <a class="float-right hover:text-primary" href="<?php echo get_home_url() ?>/account/edit-profile/">Edit</a>
             </h4>
             <ul class="px-8 py-6 text-sm">
