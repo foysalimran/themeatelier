@@ -837,10 +837,19 @@ ol li .fn a {
 
 /* Checkout */
 .checkout #edd_checkout_wrap {
-  @apply max-w-[800px] my-0 mx-auto rounded-lg border border-solid border-secondary bg-white shadow-lg pt-12 pl-12 pb-9 pr-12;
+  @apply max-w-[800px] my-0 mx-auto rounded-lg border border-solid border-secondary bg-white shadow-lg pt-9 pl-10 pb-9 pr-10;
+}
+.checkout #edd_checkout_wrap .edd_empty_cart {
+  @apply text-red-600;
 }
 .checkout #edd_checkout_cart {
   @apply !mt-0 !mb-0;
+}
+.checkout p {
+  @apply !m-0;
+}
+.checkout .eddr-notice {
+  @apply !mt-3;
 }
 .checkout #edd_sl_show_renewal_form {
   @apply !bg-transparent !text-font-color underline leading-6;
@@ -857,9 +866,81 @@ ol li .fn a {
 .checkout #edd_show_discount {
   @apply mt-2;
 }
+#edd_checkout_cart td, #edd_checkout_cart th {
+  @apply border border-solid border-border-color p-4;
+}
+#edd_checkout_cart td a {
+  text-decoration: none;
+}
+#edd_checkout_cart td {
+  @apply align-middle;
+}
+/* .eddr-cart-item-notice {
+  @apply m-0 mb-8;
+} */
+.edd_cart_remove_item_btn {
+  @apply text-primary;
+}
+#edd_sl_renewal_form {
+  @apply bg-secondary mt-4 mb-3.5 p-2 text-base border border-border-color;
+}
+#edd_sl_renewal_form, #edd_sl_show_renewal_form{
+  @apply text-base;
+}
+#edd_discount_code {
+  @apply mb-5;
+}
+#edd_show_discount {
+  @apply bg-secondary mb-8 text-base py-2 px-5 border border-border-color;
+}
+.edd_discount_link {
+  @apply text-primary;
+}
+.edd-payment-icons {
+  @apply mb-5
+}
+#edd_checkout_login_register legend {
+  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+}
+#edd_checkout_login_register a, #edd_purchase_form a {
+  @apply text-primary;
+  text-decoration: none
+}
+
+#edd_checkout_login_register p {
+  @apply m-0 !mb-7;
+}
+#edd_checkout_login_register p#edd-user-pass-confirm-wrap {
+  @apply !mb-0;
+}
+#edd_checkout_login_register p label {
+  @apply text-lg mb-0;
+}
+#edd_checkout_login_register p .edd-description {
+  @apply text-sm;
+}
+#edd_checkout_login_register p input {
+  @apply border border-solid border-border-color pt-3 pb-3 px-5 rounded-md;
+  line-height: 24px
+}
 #edd_checkout_cart td,
 #edd_checkout_cart th {
   @apply border border-solid border-border-color p-4;
+}
+#edd_checkout_login_register #edd_register_fields, #edd_checkout_login_register #edd_login_fields {
+  @apply border border-solid border-border-color pl-5 pr-5 pb-5;
+}
+#edd_checkout_login_register #edd_login_fields p label {
+  @apply mb-2;
+}
+#edd_checkout_login_register #edd_login_fields #edd-user-login-submit {
+  @apply !mb-0;
+}
+#edd_checkout_login_register #edd-login-account-wrap {
+  @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
+}
+#edd_purchase_submit #edd_final_total_wrap {
+  @apply !mt-3;
 }
 
 /* Subscription */

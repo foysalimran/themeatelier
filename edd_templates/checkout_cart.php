@@ -6,11 +6,11 @@
 global $post; ?>
 <table id="edd_checkout_cart" <?php if ( ! edd_is_ajax_disabled() ) { echo 'class="ajaxed"'; } ?>>
 	<thead>
-		<tr class="edd_cart_header_row">
+		<tr class="edd_cart_header_row bg-secondary">
 			<?php do_action( 'edd_checkout_table_header_first' ); ?>
-			<th class="edd_cart_item_name"><?php _e( 'Item Name Test', 'easy-digital-downloads' ); ?></th>
-			<th class="edd_cart_item_price"><?php _e( 'Item Price', 'easy-digital-downloads' ); ?></th>
-			<th class="edd_cart_actions"><?php _e( 'Actions', 'easy-digital-downloads' ); ?></th>
+			<th class="edd_cart_item_name p-3 text-base	"><?php _e( 'Item Name Test', 'easy-digital-downloads' ); ?></th>
+			<th class="edd_cart_item_price p-3 text-base"><?php _e( 'Item Price', 'easy-digital-downloads' ); ?></th>
+			<th class="edd_cart_actions p-3 text-base"><?php _e( 'Actions', 'easy-digital-downloads' ); ?></th>
 			<?php do_action( 'edd_checkout_table_header_last' ); ?>
 		</tr>
 	</thead>
