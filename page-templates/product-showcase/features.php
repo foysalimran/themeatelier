@@ -9,11 +9,11 @@
 
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
-                <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/floating-chat.png" alt="">
             </div>
             <div class="">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
-                    Floating Chat
+                    Floating Chat Bubbles
                 </h1>
                 <p class="mt-6 text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
