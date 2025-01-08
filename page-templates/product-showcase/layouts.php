@@ -15,17 +15,17 @@
         </div>
         <div class="mt-9 tab-content">
             <div class="tab-pane tab-pane-active">
-            <img class="rounded-lg" src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/single-form.webp" alt="">
             </div>
             <div class="tab-pane">
-            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/single-agent.png" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/single-agent.webp" alt="">
                 
             </div>
             <div class="tab-pane">
-            <img class="rounded-lg" src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/simple-button.webp" alt="">
             </div>
             <div class="tab-pane">
-                <img class="rounded-lg" src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+                <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/multi-agents.webp" alt="">
             </div>
         </div>
     </div>
