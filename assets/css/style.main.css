@@ -2979,6 +2979,11 @@ video {
   border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
+.\!border-\[\#0F8C7E\]{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(15 140 126 / var(--tw-border-opacity)) !important;
+}
+
 .border-b-secondary{
   --tw-border-opacity: 1;
   border-bottom-color: rgb(243 246 255 / var(--tw-border-opacity));
@@ -3140,6 +3145,16 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.bg-\[\#0F8C7E\]{
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 140 126 / var(--tw-bg-opacity));
+}
+
+.\!bg-\[\#0F8C7E\]{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(15 140 126 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-opacity-50{
@@ -3960,6 +3975,11 @@ video {
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.\!text-\[\#0F8C7E\]{
+  --tw-text-opacity: 1 !important;
+  color: rgb(15 140 126 / var(--tw-text-opacity)) !important;
 }
 
 .underline{
@@ -7565,6 +7585,40 @@ ol li .fn a{
   background-color: rgb(52 100 224 / var(--tw-bg-opacity));
 }
 
+.hover\:bg-\[\#\!border-\[\#0F8C7E\]\]:hover{
+  background-color: #!border-[#0F8C7E];
+}
+
+.hover\:bg-\[\#0F8C7E\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(15 140 126 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#428A7E\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(66 138 126 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#111\]:hover{
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity));
+}
+
+.hover\:\!bg-\[\#111\]:hover{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity)) !important;
+}
+
+.hover\:\!bg-\[\#428A7E\]:hover{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(66 138 126 / var(--tw-bg-opacity)) !important;
+}
+
+.hover\:\!bg-\[\#111111\]:hover{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(17 17 17 / var(--tw-bg-opacity)) !important;
+}
+
 .hover\:font-bold:hover{
   font-weight: 700;
 }
@@ -7642,6 +7696,11 @@ ol li .fn a{
 .hover\:text-primary:hover{
   --tw-text-opacity: 1;
   color: rgb(52 100 224 / var(--tw-text-opacity));
+}
+
+.hover\:\!text-\[\#fff\]:hover{
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
 .hover\:shadow-none:hover{

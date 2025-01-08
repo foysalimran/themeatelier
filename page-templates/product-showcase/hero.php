@@ -9,8 +9,8 @@
                 It will help users & customers to contact the site owner and to ask for support with one click using their WhatsApp account.
                 </p>
                 <div class="flex gap-3 mb-1">
-                <a href="#pricing" class="mt-9 ta-btn-primary group">Get WhatsApp Chat Help Now</a>
-                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group">Live Demo</a>
+                <a href="#pricing" class="mt-9 ta-btn-primary group !bg-[#0F8C7E] hover:!bg-[#111111]">Get WhatsApp Chat Help Now</a>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
                 </div>
                 <p class="text-sm">14-Day No Question Asked <a class="border-b border-dotted text-font-color-light border-font-color-light" href="https://themeatelier.net/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
             </div>

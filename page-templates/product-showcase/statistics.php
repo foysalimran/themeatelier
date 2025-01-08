@@ -44,7 +44,7 @@
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Key Benefits: Why Should You Use <br><mark style="background-color:rgba(0, 0, 0, 0);color:#428A7E">WhatsApp Chat Help?</mark>
+                Key Benefits: Why Should You Use <br><mark style="background-color:rgba(0, 0, 0, 0);color:#0F8C7E">WhatsApp Chat Help?</mark>
             </h2>
         </div>
         <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">

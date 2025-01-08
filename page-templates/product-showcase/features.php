@@ -2,7 +2,7 @@
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Main Features of <mark style="background-color:rgba(0, 0, 0, 0);color:#428A7E">WhatsApp Chat Help</mark>
+                Main Features of <mark style="background-color:rgba(0, 0, 0, 0);color:#0F8C7E">WhatsApp Chat Help</mark>
             </h2>
             <span class="inline-block mt-5 text-lg font-normal">WhatsApp Chat Help provides extensive features and customization options, allowing you to create floating chat bubbles, WooCommerce buttons, and shortcode-enabled buttons for WhatsApp integration.</span>
         </div>
@@ -32,7 +32,7 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </li>
                 </ul>
-                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group">Live Demo</a>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
         </div>
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
@@ -63,7 +63,7 @@
                 <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
             </div>
         </div>
-        <div class="p-0 overflow-hidden rounded-lg bg-primary">
+        <div class="p-0 overflow-hidden rounded-lg bg-[#0F8C7E]">
             <div class="grid items-center grid-cols-12 gap-8 features_cta">
                 <div class="col-span-12 text-center lg:col-span-8 lg:text-start">
                     <h3 class="mb-1 text-4xl text-white xl:text-ta-section-title">
@@ -72,7 +72,7 @@
                 </div>
                 <div class="flex justify-center col-span-12 text-center lg:justify-end lg:col-span-4">
                     <div class="">
-                        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="ta-btn-primary group !bg-white !text-primary">Get Chat Whatsapp Now</a>
+                        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="ta-btn-primary group !bg-white hover:!bg-[#111111] hover:!text-[#fff] mb-2 !text-[#0F8C7E]">Get Chat Whatsapp Now</a>
                         <p class="text-sm text-white">14-Day No Question Asked <a class="text-white border-b border-white border-dotted" href="/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
                     </div>
                 </div>
