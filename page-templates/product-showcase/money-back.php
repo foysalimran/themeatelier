@@ -48,7 +48,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Changelog</h4>
-                                <p class="cursor-pointer text-primary" id="changelog">View Changelog</p>
+                                <p class="cursor-pointer text-[#0F8C7E]" id="changelog">View Changelog</p>
 
                                 <!-- Popup Container -->
                                 <div id="popup" class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black bg-opacity-50">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Documentation</h4>
-                                <p class="text-primary"><a href="https://wpchatplugins.com/whatsapp-chat-support/?storefront=envato-elements" target="_blank" rel="noopener noreferrer">View Docs</a></p>
+                                <p><a class="text-[#0F8C7E]" href="https://docs.themeatelier.net/docs/whatsapp-chat-help-pro/overview/" target="_blank" rel="noopener noreferrer">View Docs</a></p>
                             </div>
                         </div>
                     </div>

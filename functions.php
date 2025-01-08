@@ -61,6 +61,7 @@ add_action('after_setup_theme', 'themeatelier_initialize');
 function themeatelier_theme_scripts()
 {
 	wp_enqueue_style('fancybox', get_template_directory_uri() . '/assets/css/fancybox.css', array(), time());
+	wp_enqueue_style('icofont', get_template_directory_uri() . '/assets/css/icofont.css', array(), time());
 	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.css', array(), time());
 	wp_enqueue_style('stylesheet', get_stylesheet_uri(), VERSION);
 
