@@ -17,21 +17,15 @@
                     Floating Chat Bubbles
                 </h1>
                 <p class="mt-6 text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
+                Enhance user engagement with customizable floating chat bubbles that make WhatsApp interactions seamless. Adjust the design, position, and behavior to fit your website's style and provide effortless support or communication.
                 </p>
                 <ul class="features-list">
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
+                    <li><strong>Multiple Variations</strong>: Choose from four variations – <strong>Single With Form</strong>, <strong>Single Agent</strong>, <strong>Simple Button</strong>, and <strong>Multi-Agents</strong> – to suit your specific communication needs.</li>
+                    <li><strong>Customizable Design</strong>: Adjust colors, icons, and shapes to match your website’s branding.</li>
+                    <li><strong>Position Control</strong>: Place chat bubbles on any corner of the screen for optimal visibility.</li>
+                    <li><strong>Time-Based Availability</strong>: Schedule agents availability based on specific hours of weekdays.</li>
+                    <li><strong>Mobile-Friendly</strong>: Fully responsive design ensures smooth functionality on all devices.</li>
+
                 </ul>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
@@ -42,21 +36,14 @@
                     WooCommerce Button
                 </h1>
                 <p class="mt-6 text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
+                Simplify customer inquiries with a customizable WooCommerce Quote Button that integrates seamlessly with WhatsApp. Allow users to request quotes directly from product pages, streamlining communication and boosting conversions.
                 </p>
                 <ul class="features-list">
                     <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <strong>Dynamic Quote Requests</strong>: Enable users to request product quotes directly from WooCommerce product pages.
                     </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
+                   <li><strong>Customizable Button Text</strong>: Personalize the button label to fit your store's tone.</li>
+                   <li><strong>Button Positioning</strong>: Position button on different places like before cart, after cart etc.</li>
                 </ul>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
@@ -76,7 +63,7 @@
                     Shortcode Buttons
                 </h1>
                 <p class="mt-6 text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
+                Create flexible WhatsApp buttons anywhere on your site with shortcode support. Customize their style and placement to enhance user interaction and streamline communication effortlessly.
                 </p>
                 <ul class="features-list">
                     <li>
@@ -102,7 +89,7 @@
                     Gutenberg Button Block
                 </h1>
                 <p class="mt-6 text-lg">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
+                Easily add WhatsApp buttons to your pages with the Gutenberg Button Block. Customize the design and functionality directly within the editor for seamless integration and enhanced user interaction.
                 </p>
                 <ul class="features-list">
                     <li>
