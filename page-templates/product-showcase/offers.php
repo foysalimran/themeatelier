@@ -2,9 +2,9 @@
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias, dolor.
+            Key Features at a Glance
             </h2>
-            <span class="inline-block mt-5 text-lg font-normal">Unlock Limitless Possibilities with our Empowering Suite of WordPress Plugins</span>
+          
         </div>
         <div class="grid items-center lg:gap-8 lg:grid-cols-2">
             <ul class="features-list">

@@ -13,7 +13,7 @@
             </div>
             <div class="">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quisquam.
+                    Floating Chat
                 </h1>
                 <p class="mt-6 text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
@@ -38,7 +38,7 @@
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, quisquam.
+                    WooCommerce Button
                 </h1>
                 <p class="mt-6 text-lg">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
@@ -57,12 +57,71 @@
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </li>
                 </ul>
-                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group">Live Demo</a>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
             <div class="">
                 <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
             </div>
         </div>
+
+        <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
+            <div class="">
+                <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            </div>
+            <div class="">
+                <h1 class="mb-0 text-4xl xl:text-ta-section-title">
+                    Shortcode Buttons
+                </h1>
+                <p class="mt-6 text-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
+                </p>
+                <ul class="features-list">
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
+            </div>
+        </div>
+
+        <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
+            <div class="">
+                <h1 class="mb-0 text-4xl xl:text-ta-section-title">
+                    Gutenberg Button Block
+                </h1>
+                <p class="mt-6 text-lg">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis adipisci praesentium voluptatem necessitatibus aperiam ratione fugiat unde aliquam assumenda numquam?
+                </p>
+                <ul class="features-list">
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                    <li>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    </li>
+                </ul>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
+            </div>
+            <div class="">
+                <img src="https://images.pexels.com/photos/29907156/pexels-photo-29907156.jpeg" alt="">
+            </div>
+        </div>
+        
         <div class="p-0 overflow-hidden rounded-lg bg-[#0F8C7E]">
             <div class="grid items-center grid-cols-12 gap-8 features_cta">
                 <div class="col-span-12 text-center lg:col-span-8 lg:text-start">
