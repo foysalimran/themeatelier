@@ -66,18 +66,10 @@
                 Create flexible WhatsApp buttons anywhere on your site with shortcode support. Customize their style and placement to enhance user interaction and streamline communication effortlessly.
                 </p>
                 <ul class="features-list">
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
+                <li><strong>Custom Styling Options</strong>: Style buttons using shortcode attributes for full control.</li>
+                <li><strong>Flexible Placement</strong>: Add buttons to posts, pages, widgets, or custom sections.</li>
+                <li><strong>Pre-filled Messages</strong>: Define default WhatsApp messages for users to send.</li>
+                <li><strong>Multi-Agent Support</strong>: Link to different WhatsApp accounts based on button usage.</li>
                 </ul>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
@@ -92,18 +84,12 @@
                 Easily add WhatsApp buttons to your pages with the Gutenberg Button Block. Customize the design and functionality directly within the editor for seamless integration and enhanced user interaction.
                 </p>
                 <ul class="features-list">
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
-                    <li>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    </li>
+                    <li><strong>Drag-and-Drop Functionality</strong>: Easily add buttons to any Gutenberg block section.</li>
+                    <li><strong>Customizable Appearance</strong>: Adjust colors, fonts, and button size within the editor.</li>
+                    <li><strong>Pre-defined Message Support</strong>: Set default WhatsApp messages for faster user interaction.</li>
+                    <li><strong>Multiple Button Styles</strong>: Choose between icon-only, text-only, or a combination layout.</li>
+                    <li><strong>Real-Time Preview</strong>: View design changes instantly while editing in Gutenberg.</li>
+                   
                 </ul>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Live Demo</a>
             </div>
@@ -115,13 +101,14 @@
         <div class="p-0 overflow-hidden rounded-lg bg-[#0F8C7E]">
             <div class="grid items-center grid-cols-12 gap-8 features_cta">
                 <div class="col-span-12 text-center lg:col-span-8 lg:text-start">
-                    <h3 class="mb-1 text-4xl text-white xl:text-ta-section-title">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet autem rem sint!
+                    <h3 class="mb-2 text-4xl text-white xl:text-ta-section-title">
+                    Collect Leads with WhatsApp Effortlessly
                     </h3>
+                    <p class="text-xl text-white">Engage with your customers anytime, anywhere, and never miss a potential lead! With our plugin, connecting with your audience has never been easier, ensuring you turn every interaction into an opportunity.</p>
                 </div>
                 <div class="flex justify-center col-span-12 text-center lg:justify-end lg:col-span-4">
                     <div class="">
-                        <a target="_blank" href="https://codecanyon.net/user/themeatelier" class="ta-btn-primary group !bg-white hover:!bg-[#111111] hover:!text-[#fff] mb-2 !text-[#0F8C7E]">Get Chat Whatsapp Now</a>
+                        <a href="#pricing" class="ta-btn-primary group !bg-white hover:!bg-[#111111] hover:!text-[#fff] mb-2 !text-[#0F8C7E]">Get Chat Whatsapp Now</a>
                         <p class="text-sm text-white">14-Day No Question Asked <a class="text-white border-b border-white border-dotted" href="/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
                     </div>
                 </div>
