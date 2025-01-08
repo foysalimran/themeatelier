@@ -45,9 +45,31 @@
               </svg>
             </a>
           </li>
-          <li>
-            <a class="ta-btn-secondary" href="<?php echo esc_url(get_home_url() . '/login') ?>">Login</a>
-          </li>
+          <?php if (!is_user_logged_in()) : ?>
+            <li>
+              <a class="ta-btn-secondary" href="<?php echo esc_url(get_home_url() . '/login') ?>">Login</a>
+            </li>
+          <?php else :
+            $logout = wp_logout_url();
+            $current_user = wp_get_current_user(); 
+            $avatar_url = get_avatar_url($current_user->ID);
+          ?>
+            <li class="group relative ml-0 lg:!ml-4 my-1 lg:my-0">
+              <a class="py-1 lg:py-3 inline-block" href="#">
+                <span class="inline-block mr-2 float-left">
+                  <img src="<?php echo esc_url($avatar_url); ?>" alt="User Avatar" class="avatar avatar-20 photo rounded-full mt-1 w-5 h-5">
+                </span>
+                <?php echo esc_html__('My Account', 'themeatelier') ?>
+              </a>
+              <div class="top-12 lg:pt-6 lg:group-hover:pt-3 left-[15px] lg:absolute hidden group-hover:block lg:block lg:invisible group-hover:visible">
+                <ul class="dropdown_menu !block bg-white after:border-b-white after:z-50 rounded-md min-w-[180px] lg:shadow-lg group-hover:py-2 lg:opacity-0 group-hover:opacity-100 ease-linear duration-100 after:invisible after:opacity-0 group-hover:after:opacity-100 lg:after:visible after:absolute after:left-16 after:border-[10px] after:-top-2 after:border-transparent">
+                  <li><a href="/account"><?php echo esc_html__('Dashboard', 'themeatelier') ?></a></li>
+                  <li><a href="<?php echo esc_url($logout); ?>"><?php echo esc_html__('Logout', 'themeatelier') ?></a></li>
+                </ul>
+              </div>
+            </li>
+          <?php endif; ?>
+
         </ul>
       </div>
     </nav>

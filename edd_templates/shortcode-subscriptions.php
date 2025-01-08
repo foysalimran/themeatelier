@@ -30,15 +30,15 @@ if (is_user_logged_in()):
 		do_action('edd_before_purchase_history'); ?>
 
 		<table id="edd_user_history">
-			<thead>
-				<tr class="edd_purchase_row">
+			<thead class="bg-secondary">
+				<tr class="text-left text-sm font-bold mb-6 text-gray-600 border-2 border-primary edd_purchase_row">
 					<?php do_action('edd_recurring_history_header_before'); ?>
-					<th><?php _e('Subscription', 'edd-recurring'); ?></th>
-					<th><?php _e('Status', 'edd-recurring'); ?></th>
-					<th><?php _e('Renewal Date', 'edd-recurring'); ?></th>
-					<th><?php _e('Initial Amount', 'edd-recurring'); ?></th>
-					<th><?php _e('Actions', 'edd-recurring'); ?></th>
-					<th><?php _e('Billing Info', 'edd-recurring'); ?></th>
+					<th class="p-4"><?php _e('Subscription', 'edd-recurring'); ?></th>
+					<th class="p-4"><?php _e('Status', 'edd-recurring'); ?></th>
+					<th class="p-4"><?php _e('Renewal Date', 'edd-recurring'); ?></th>
+					<th class="p-4"><?php _e('Initial Amount', 'edd-recurring'); ?></th>
+					<th class="p-4"><?php _e('Actions', 'edd-recurring'); ?></th>
+					<th class="p-4"><?php _e('Billing Info', 'edd-recurring'); ?></th>
 					<?php do_action('edd_recurring_history_header_after'); ?>
 				</tr>
 			</thead>

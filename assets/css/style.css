@@ -127,6 +127,12 @@ label {
 .ta-header.menu-active button svg:first-child {
   @apply !hidden;
 }
+.ta-header ul li .dropdown_menu li {
+  @apply py-1 !ml-0 text-center px-5;
+}
+.ta-header ul li .dropdown_menu li a {
+  @apply p-0;
+}
 
 /* Hero css */
 .bg-banner-img {
@@ -668,34 +674,20 @@ ol li .fn a {
 
 /* Dashboard Account */
 .ta-dashboard-tab-menu li:first-child a {
-  border-top-width: 0;
+  @apply border-t-0
 }
 .ta-dashboard-tab-menu li a {
   transition-duration: 300ms;
   transition-timing-function: linear;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  display: block;
-  border-color: transparent;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
-  position: relative;
-  padding-left: 3rem;
-  font-weight: 500;
-  font-size: 16px;
+  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-7;
 }
 .ta-dashboard-tab-menu li a::before {
   content: "";
-  position: absolute;
-  left: 0;
-  background-repeat: no-repeat;
-  margin-left: 1rem;
+  @apply absolute left-0 bg-no-repeat ml-4;
 }
 .ta-dashboard-tab-menu li:nth-child(1) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-1.svg);
-  top: 0.75rem;
-  width: 21px;
-  height: 21px;
+  @apply top-3 w-[21px] h-[21px];
 }
 .ta-dashboard-tab-menu li:nth-child(2) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-2.svg);
@@ -751,10 +743,120 @@ ol li .fn a {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  width: 2px;
-  height: 100%;
-  right: -2px;
-  top: 0px;
-  position: absolute;
-  display: block;
+  @apply w-0.5 h-full -right-0.5 top-0 absolute block;
+}
+
+.group:hover .group-hover\:visible {
+  @apply visible;
+}
+
+.group:hover .group-hover\:invisible {
+  @apply invisible;
+}
+
+.group:hover .group-hover\:block {
+  @apply block;
+}
+
+.group:hover .group-hover\:translate-x-2 {
+  --tw-translate-x: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:translate-x-1 {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:bg-\[\#4F2CD2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 44 210 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#128266\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 130 102 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#D23743\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 55 67 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#936C01\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 108 1 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#315D89\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 93 137 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#007BC2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 194 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#821C6E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(130 28 110 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#15844E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 132 78 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:fill-white {
+  fill: #fff;
+}
+
+.group:hover .group-hover\:py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.group:hover .group-hover\:pt-3 {
+  padding-top: 0.75rem;
+}
+
+.group:hover .group-hover\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:after\:opacity-100::after {
+  content: var(--tw-content);
+  opacity: 1;
+}
+
+/* Checkout */
+.checkout #edd_checkout_wrap {
+  @apply max-w-[800px] my-0 mx-auto rounded-lg border border-solid border-secondary bg-white shadow-lg pt-12 pl-12 pb-9 pr-12;
+}
+.checkout #edd_checkout_cart {
+  @apply !mt-0 !mb-0;
+}
+.checkout #edd_sl_show_renewal_form {
+  @apply !bg-transparent !text-font-color underline leading-6;
+}
+.checkout .edd-payment-icons {
+  @apply flex gap-2;
+}
+.checkout #edd_payment_mode_select_wrap {
+  @apply hidden;
+}
+.checkout .edd_cart_total {
+  @apply pt-2;
+}
+.checkout #edd_show_discount {
+  @apply mt-2;
+}
+#edd_checkout_cart td, #edd_checkout_cart th {
+  @apply border border-solid border-[#e3e3e3] p-4;
 }
