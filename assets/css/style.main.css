@@ -6436,7 +6436,8 @@ ol li .fn a{
   margin-bottom: 0px !important;
 }
 
-#edd_purchase_form_wrap #edd-login-account-wrap, #edd_purchase_form_wrap #edd-new-account-wrap{
+#edd_purchase_form_wrap #edd-login-account-wrap,
+#edd_purchase_form_wrap #edd-new-account-wrap{
   margin-left: -1.25rem !important;
   margin-right: -1.25rem !important;
   margin-bottom: 1.25rem !important;
@@ -6453,16 +6454,19 @@ ol li .fn a{
   line-height: 1.5rem;
 }
 
-.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form,.ta-footer #edd_purchase_form_wrap #edd-new-account-wrap form{
+.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form,.ta-footer
+#edd_purchase_form_wrap #edd-new-account-wrap form{
   background-color: transparent !important;
 }
 
-.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form input,.ta-footer #edd_purchase_form_wrap #edd-new-account-wrap form input{
+.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form input,.ta-footer
+#edd_purchase_form_wrap #edd-new-account-wrap form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
-.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer #edd_purchase_form_wrap #edd-new-account-wrap .ta-footer-bottom{
+.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer
+#edd_purchase_form_wrap #edd-new-account-wrap .ta-footer-bottom{
   --tw-border-opacity: 1 !important;
   border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
 }
@@ -6805,7 +6809,8 @@ p#edd-user-pass-confirm-wrap{
   background-image: url(../images/close.svg);
 }
 
-.checkout .edd-payment-icons img, .checkout .edd-payment-icons svg{
+.checkout .edd-payment-icons img,
+.checkout .edd-payment-icons svg{
   margin: 0px !important;
   height: 1.25rem;
   width: 2rem;
@@ -6815,6 +6820,56 @@ p#edd-user-pass-confirm-wrap{
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
   -o-object-fit: contain;
      object-fit: contain;
+}
+
+#edd_sl_license_keys{
+  overflow: hidden;
+}
+
+.edd-submit{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.edd_sl_license_row th{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.edd_sl_license_row td{
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  vertical-align: middle;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.edd_sl_license_row td a{
+  --tw-text-opacity: 1;
+  color: rgb(52 100 224 / var(--tw-text-opacity));
+}
+
+#edd_sl_license_sites{
+  overflow: hidden;
+}
+
+.edd_sl_license_row td[colspan="2"]{
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.edd-blocks-orders__order{
+  gap: 0.75rem !important;
+  border-width: 1px;
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity)) !important;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 /* PLUGIN DEMO CSS  */

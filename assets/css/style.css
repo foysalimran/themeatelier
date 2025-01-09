@@ -969,7 +969,8 @@ ol li .fn a {
 #edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit {
   @apply !mb-0;
 }
-#edd_purchase_form_wrap #edd-login-account-wrap, #edd_purchase_form_wrap #edd-new-account-wrap {
+#edd_purchase_form_wrap #edd-login-account-wrap,
+#edd_purchase_form_wrap #edd-new-account-wrap {
   @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
 }
 #edd_purchase_submit #edd_final_total_wrap {
@@ -1105,7 +1106,7 @@ p#edd-user-pass-confirm-wrap {
 }
 
 .edd_cart_footer_row .edd_cart_discount {
- @apply text-lg font-normal;
+  @apply text-lg font-normal;
 }
 .edd_discount_remove {
   @apply relative;
@@ -1115,10 +1116,35 @@ p#edd-user-pass-confirm-wrap {
   @apply absolute w-4 h-4 top-1 -right-7 bg-no-repeat;
   background-image: url(../images/close.svg);
 }
-.checkout .edd-payment-icons img, .checkout .edd-payment-icons svg {
+.checkout .edd-payment-icons img,
+.checkout .edd-payment-icons svg {
   @apply w-8 h-5 object-contain border border-solid border-border-color !m-0;
 }
 
+#edd_sl_license_keys {
+  @apply overflow-hidden;
+}
+.edd-submit {
+  @apply text-base;
+}
+.edd_sl_license_row th {
+  @apply align-middle text-base border border-border-color;
+}
+.edd_sl_license_row td {
+  @apply border border-border-color align-middle text-base;
+}
+.edd_sl_license_row td a {
+  @apply text-primary;
+}
+#edd_sl_license_sites {
+  @apply overflow-hidden;
+}
+.edd_sl_license_row td[colspan="2"] {
+  @apply text-red-600;
+}
+.edd-blocks-orders__order {
+  @apply text-base !gap-3 border !border-border-color;
+}
 
 /* PLUGIN DEMO CSS  */
 .demo_btn_primary {
