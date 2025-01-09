@@ -1,9 +1,4 @@
 <section
-    style="
---primary: #0F8C7E;
---secondary: #F0FDFA;
---dark: #111111;
-"
     class="py-12 ta-featured md:py-20">
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">

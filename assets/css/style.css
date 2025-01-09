@@ -241,6 +241,10 @@ ul .tab.tab-active svg {
   @apply block w-full mb-0 text-base text-font-color-light;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+.contact ul .tab.tab-active,
+.contact .tab.tab-active {
+  @apply bg-primary;
+}
 
 .ta-blog-details ul {
   @apply pl-5 mb-4 list-disc sm:mb-5 sm:pl-9;
@@ -588,7 +592,7 @@ ol li .fn a {
   transform: rotate(180deg);
 }
 .features-list li {
-  @apply relative mb-1 leading-9 list-none;
+  @apply relative mb-1 leading-9 list-none pl-6;
 }
 .offers .features-list li {
   @apply font-normal;
@@ -597,7 +601,7 @@ ol li .fn a {
   content: "\eed9";
   font-family: IcoFont;
   color: var(--primary);
-  @apply inline-block w-5 h-5 mr-2 -mb-1 bg-cover text-lg;
+  @apply inline-block w-5 h-5 mr-2 -mb-1 bg-cover text-lg absolute top-1 left-0;
 }
 .features_cta {
   padding: 66px 38px 60px 50px;
@@ -608,11 +612,12 @@ ol li .fn a {
   @apply m-0 overflow-visible bg-scroll bg-center bg-no-repeat bg-cover border-solid border-spacing-2;
 }
 .gallery_item {
-  @apply relative border-[5px] border-solid rounded-md border-[#DCDCDE] focus:outline-none;
+  @apply relative border-[5px] border-solid rounded-md border-[#DCDCDE] focus:outline-none h-[250px];
   transition: all 0.3s;
 }
 .gallery_item img {
-  @apply rounded;
+  @apply rounded w-full h-full object-cover;
+  object-position: top center;
 }
 
 .gallery_item_icon {
@@ -642,11 +647,21 @@ ol li .fn a {
 .fancybox__slide {
   @apply px-24 py-16;
 }
+/* PRICING CSS */
 .pricing_item:not(:last-child) {
-  @apply border-r-[1.5px] border-solid border-[#b0b3bc];
+  @apply border-r-[1.5px] border-solid border-border-color;
+}
+.pricing_item.popular {
+  @apply relative overflow-hidden;
+}
+.pricing_item.popular::after {
+  content: "Popular";
+  background-color: var(--primary);
+  transform: rotate(45deg);
+  @apply absolute w-[200px] text-center top-4 -right-[66px] p-[5px] text-white font-semibold text-sm;
 }
 .offers {
-  background: linear-gradient(160deg, var(--secondary) 0%, #fff 73%);
+  background: linear-gradient(160deg, var(--secondary) 0%, #fff 90%);
 }
 .popular {
   @apply relative;
@@ -1146,8 +1161,13 @@ p#edd-user-pass-confirm-wrap {
   @apply text-base !gap-3 border !border-border-color;
 }
 
-.edd_sl_license_row, .edd_sl_key {
-@apply min-w-[275px];
+.edd_sl_license_row,
+.edd_sl_key {
+  @apply min-w-[275px];
+}
+#paddle_pay_now_btn {
+  @apply py-2 bg-primary text-white px-5 rounded-full ease-linear duration-300 border-2 border-primary border-solid hover:bg-black hover:border-black;
+  text-decoration: none;
 }
 /* PLUGIN DEMO CSS  */
 .demo_btn_primary {
