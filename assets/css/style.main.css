@@ -3328,6 +3328,10 @@ video {
      object-fit: scale-down;
 }
 
+.\!p-0{
+  padding: 0px !important;
+}
+
 .p-0{
   padding: 0px;
 }
@@ -3378,10 +3382,6 @@ video {
 
 .p-9{
   padding: 2.25rem;
-}
-
-.\!p-0{
-  padding: 0px !important;
 }
 
 .px-10{
@@ -3483,6 +3483,10 @@ video {
   padding-bottom: 0px;
 }
 
+.pb-10{
+  padding-bottom: 2.5rem;
+}
+
 .pb-12{
   padding-bottom: 3rem;
 }
@@ -3567,16 +3571,12 @@ video {
   padding-top: 1.25rem;
 }
 
-.pt-\[180px\]{
-  padding-top: 180px;
-}
-
-.pb-10{
-  padding-bottom: 2.5rem;
-}
-
 .pt-6{
   padding-top: 1.5rem;
+}
+
+.pt-\[180px\]{
+  padding-top: 180px;
 }
 
 .text-left{
@@ -4216,6 +4216,12 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
+.\!shadow-none{
+  --tw-shadow: 0 0 #0000 !important;
+  --tw-shadow-colored: 0 0 #0000 !important;
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
+}
+
 .shadow{
   --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);
@@ -4234,22 +4240,10 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.shadow-none{
-  --tw-shadow: 0 0 #0000;
-  --tw-shadow-colored: 0 0 #0000;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
 .shadow-xl{
   --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.\!shadow-none{
-  --tw-shadow: 0 0 #0000 !important;
-  --tw-shadow-colored: 0 0 #0000 !important;
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow) !important;
 }
 
 .outline-none{

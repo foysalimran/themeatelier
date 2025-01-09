@@ -34,10 +34,12 @@
         const isOpen = header.classList.contains("active");
 
         // Close any open accordion items
-        document.querySelectorAll(".accordion-header.active").forEach(activeHeader => {
-          activeHeader.classList.remove("active");
-          activeHeader.nextElementSibling.classList.remove("show");
-        });
+        document
+          .querySelectorAll(".accordion-header.active")
+          .forEach((activeHeader) => {
+            activeHeader.classList.remove("active");
+            activeHeader.nextElementSibling.classList.remove("show");
+          });
 
         // Toggle the clicked accordion item
         if (!isOpen) {
@@ -59,14 +61,16 @@
       li.addEventListener("click", () => {
         // Remove 'tab-active' class from all tab buttons and tab panes
         tabButtons.forEach((btn) => btn.classList.remove("tab-active"));
-        tabContentPanes.forEach((pane) => pane.classList.remove("tab-pane-active"));
+        tabContentPanes.forEach((pane) =>
+          pane.classList.remove("tab-pane-active")
+        );
 
         // Add 'tab-active' class to the clicked tab button and corresponding tab pane
         li.classList.add("tab-active");
         tabContentPanes[index].classList.add("tab-pane-active");
       });
     });
-  })
+  });
 
   /******************** TOGGLE MENU ********************/
   const menuButton = document.getElementById("menu-button");
@@ -84,7 +88,7 @@
   });
 
   /******************** FANCYBOX ********************/
-  document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener("DOMContentLoaded", function () {
     Fancybox.bind("[data-fancybox='gallery']", {
       Thumbs: {
         autoStart: true,
@@ -93,63 +97,62 @@
     });
   });
 
-  document.addEventListener('DOMContentLoaded', function () {
-    const changelog = document.getElementById('changelog');
-    const popup = document.getElementById('popup');
-    const closePopup = document.getElementById('closePopup');
+  document.addEventListener("DOMContentLoaded", function () {
+    const changelog = document.getElementById("changelog");
+    const popup = document.getElementById("popup");
+    const closePopup = document.getElementById("closePopup");
 
     // Show popup when changelog is clicked
     if (changelog) {
-      changelog.addEventListener('click', () => {
-        popup.classList.remove('hidden');
+      changelog.addEventListener("click", () => {
+        popup.classList.remove("hidden");
       });
     }
 
     // Close popup when close button is clicked
     if (closePopup) {
-      closePopup.addEventListener('click', () => {
-        popup.classList.add('hidden');
+      closePopup.addEventListener("click", () => {
+        popup.classList.add("hidden");
       });
     }
 
     // Close popup when clicking outside the popup content
     if (popup) {
-      popup.addEventListener('click', (e) => {
+      popup.addEventListener("click", (e) => {
         if (e.target === popup) {
-          popup.classList.add('hidden');
+          popup.classList.add("hidden");
         }
       });
     }
   });
 
   document.addEventListener("DOMContentLoaded", function () {
-    const licenseInput = document.querySelector('.edd_sl_license_key');
-
-    licenseInput.addEventListener('click', function () {
-      navigator.clipboard.writeText(licenseInput.value)
-        .then(() => {
-          const notice = document.createElement('div');
-          notice.textContent = 'License key copied!';
-          notice.style.position = 'absolute';
-          notice.style.backgroundColor = '#3464E0';
-          notice.style.color = '#fff';
-          notice.style.padding = '10px';
-          notice.style.borderRadius = '5px';
-          notice.style.fontSize = '14px';
-          notice.style.bottom = '30px';
-          notice.style.left = '50%';
-          notice.style.transform = 'translateX(-50%)';
-          document.body.appendChild(notice);
-          setTimeout(() => {
-            notice.remove();
-          }, 3000);
-        })
-        .catch(err => {
-          console.error('Failed to copy license key: ', err);
-        });
-    });
+    const licenseInput = document.querySelector(".edd_sl_license_key");
+    if (licenseInput) {
+      licenseInput.addEventListener("click", function () {
+        navigator.clipboard
+          .writeText(licenseInput.value)
+          .then(() => {
+            const notice = document.createElement("div");
+            notice.textContent = "License key copied!";
+            notice.style.position = "absolute";
+            notice.style.backgroundColor = "#3464E0";
+            notice.style.color = "#fff";
+            notice.style.padding = "10px";
+            notice.style.borderRadius = "5px";
+            notice.style.fontSize = "14px";
+            notice.style.bottom = "30px";
+            notice.style.left = "50%";
+            notice.style.transform = "translateX(-50%)";
+            document.body.appendChild(notice);
+            setTimeout(() => {
+              notice.remove();
+            }, 3000);
+          })
+          .catch((err) => {
+            console.error("Failed to copy license key: ", err);
+          });
+      });
+    }
   });
-
-
-
 })(jQuery);
