@@ -62,8 +62,8 @@
                 </span>
                 <?php echo esc_html__('My Account', 'themeatelier') ?>
               </a>
-              <div class="top-12 lg:pt-6 lg:group-hover:pt-3 left-[15px] lg:absolute hidden group-hover:block lg:block lg:invisible group-hover:visible">
-                <ul class="dropdown_menu !block bg-white after:border-b-white after:z-50 rounded-md min-w-[180px] lg:shadow-lg group-hover:py-2 lg:opacity-0 group-hover:opacity-100 ease-linear duration-100 after:invisible after:opacity-0 group-hover:after:opacity-100 lg:after:visible after:absolute after:left-16 after:border-[10px] after:-top-2 after:border-transparent">
+              <div class="top-12 lg:pt-6 lg:group-hover:pt-3 -left-8 lg:absolute hidden group-hover:block lg:block lg:invisible group-hover:visible">
+                <ul class="dropdown_menu !block bg-white after:border-b-white after:z-50 min-w-[150px] rounded-md lg:shadow-lg group-hover:py-2 lg:opacity-0 group-hover:opacity-100 ease-linear duration-100 after:invisible after:opacity-0 group-hover:after:opacity-100 lg:after:visible after:absolute after:left-16 after:border-[10px] after:-top-2 after:border-transparent">
                   <li><a href="/account"><?php echo esc_html__('Dashboard', 'themeatelier') ?></a></li>
                   <li><a href="<?php echo esc_url($logout); ?>"><?php echo esc_html__('Logout', 'themeatelier') ?></a></li>
                 </ul>
