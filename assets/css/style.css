@@ -1118,3 +1118,27 @@ p#edd-user-pass-confirm-wrap {
 .checkout .edd-payment-icons img, .checkout .edd-payment-icons svg {
   @apply w-8 h-5 object-contain border border-solid border-border-color !m-0;
 }
+#edd_sl_license_keys {
+  @apply overflow-hidden;
+}
+.edd-submit {
+  @apply text-base;
+}
+.edd_sl_license_row th {
+  @apply align-middle text-base border border-border-color;
+}
+.edd_sl_license_row td {
+  @apply border border-border-color align-middle text-base;
+}
+.edd_sl_license_row td a {
+  @apply text-primary;
+}
+#edd_sl_license_sites {
+  @apply overflow-hidden;
+}
+.edd_sl_license_row td[colspan="2"] {
+  @apply text-red-600;
+}
+.edd-blocks-orders__order {
+  @apply text-base !gap-3 border !border-border-color
+}
