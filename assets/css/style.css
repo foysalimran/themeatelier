@@ -1146,6 +1146,9 @@ p#edd-user-pass-confirm-wrap {
   @apply text-base !gap-3 border !border-border-color;
 }
 
+.edd_sl_license_row, .edd_sl_key {
+@apply min-w-[275px];
+}
 /* PLUGIN DEMO CSS  */
 .demo_btn_primary {
   background-color: var(--primary);

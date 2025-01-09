@@ -6872,6 +6872,10 @@ p#edd-user-pass-confirm-wrap{
   line-height: 1.5rem;
 }
 
+.edd_sl_license_row, .edd_sl_key{
+  min-width: 275px;
+}
+
 /* PLUGIN DEMO CSS  */
 
 .demo_btn_primary {
