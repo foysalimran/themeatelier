@@ -6,7 +6,7 @@
 get_header(); ?>
 
 <!--====== Hero section start ======-->
-<section class="h-[380px] bg-secondary">
+<section class="h-[340px] bg-secondary">
   <div class="container text-center">
     <h1 class="mb-0 text-3xl sm:text-4xl pt-44">
       <?php the_title(); ?>

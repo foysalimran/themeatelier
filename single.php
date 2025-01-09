@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<section class="h-[380px] bg-secondary"></section>
+<section class="h-[340px] bg-secondary"></section>
 <!--====== Blog details start ======-->
 
 <section class="pb-16 sm:pb-20 ta-single-blog">

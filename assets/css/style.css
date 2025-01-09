@@ -179,7 +179,8 @@ ul .tab {
 }
 ul .tab.tab-active,
 .tab.tab-active {
-  @apply text-white bg-primary;
+  @apply text-white;
+  background-color: var(--primary);
 }
 ul .tab.tab-active span {
   @apply text-white;
@@ -593,9 +594,10 @@ ol li .fn a {
   @apply font-normal;
 }
 .features-list li::before {
-  content: "";
-  background: url("../images/check-mark.svg");
-  @apply inline-block w-5 h-5 mr-2 -mb-1 bg-cover;
+  content: "\eed9";
+  font-family: IcoFont;
+  color: var(--primary);
+  @apply inline-block w-5 h-5 mr-2 -mb-1 bg-cover text-lg;
 }
 .features_cta {
   padding: 66px 38px 60px 50px;
@@ -612,9 +614,7 @@ ol li .fn a {
 .gallery_item img {
   @apply rounded;
 }
-.gallery_item:hover {
-  @apply border-primary;
-}
+
 .gallery_item_icon {
   @apply absolute z-50 invisible w-5 h-5 bg-transparent opacity-0 top-1/2 left-1/2;
   transform: translate(-50%, -50%);
@@ -646,7 +646,7 @@ ol li .fn a {
   @apply border-r-[1.5px] border-solid border-[#b0b3bc];
 }
 .offers {
-  background: linear-gradient(160deg, #f3f6ff 0%, #fff 73%);
+  background: linear-gradient(160deg, var(--secondary) 0%, #fff 73%);
 }
 .popular {
   @apply relative;
@@ -969,7 +969,8 @@ ol li .fn a {
 #edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit {
   @apply !mb-0;
 }
-#edd_purchase_form_wrap #edd-login-account-wrap, #edd_purchase_form_wrap #edd-new-account-wrap {
+#edd_purchase_form_wrap #edd-login-account-wrap,
+#edd_purchase_form_wrap #edd-new-account-wrap {
   @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
 }
 #edd_purchase_submit #edd_final_total_wrap {
@@ -1105,7 +1106,7 @@ p#edd-user-pass-confirm-wrap {
 }
 
 .edd_cart_footer_row .edd_cart_discount {
- @apply text-lg font-normal;
+  @apply text-lg font-normal;
 }
 .edd_discount_remove {
   @apply relative;
@@ -1115,9 +1116,11 @@ p#edd-user-pass-confirm-wrap {
   @apply absolute w-4 h-4 top-1 -right-7 bg-no-repeat;
   background-image: url(../images/close.svg);
 }
-.checkout .edd-payment-icons img, .checkout .edd-payment-icons svg {
+.checkout .edd-payment-icons img,
+.checkout .edd-payment-icons svg {
   @apply w-8 h-5 object-contain border border-solid border-border-color !m-0;
 }
+
 #edd_sl_license_keys {
   @apply overflow-hidden;
 }
@@ -1140,5 +1143,49 @@ p#edd-user-pass-confirm-wrap {
   @apply text-red-600;
 }
 .edd-blocks-orders__order {
-  @apply text-base !gap-3 border !border-border-color
+  @apply text-base !gap-3 border !border-border-color;
+}
+
+/* PLUGIN DEMO CSS  */
+.demo_btn_primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  @apply py-1.5 lg:py-3 px-5 lg:px-8 rounded-md text-white ease-linear duration-300 inline-block border-2 border-solid text-center;
+}
+.demo_btn_primary:hover {
+  background-color: var(--dark);
+  border-color: var(--dark);
+}
+.demo_btn_secondary {
+  color: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary);
+  @apply py-1.5 lg:py-3 px-5 lg:px-8 rounded-md ease-linear duration-300 inline-block border-2 border-solid text-center;
+}
+.demo_btn_secondary:hover {
+  @apply text-white;
+  background-color: var(--primary);
+}
+.demo_section_bg {
+  background-color: var(--secondary);
+}
+.demo_text_primary {
+  color: var(--primary);
+}
+.demo_primary_bg {
+  background-color: var(--primary);
+}
+.demo_btn_primary.call_to_btn {
+  @apply py-2 rounded-full bg-white demo_text_primary border-white;
+}
+.demo_btn_primary.call_to_btn:hover {
+  background-color: var(--dark);
+  border-color: var(--dark);
+  @apply text-white;
+}
+.gallery_item:hover {
+  border-color: var(--primary);
+}
+.demo_svg_primary {
+  fill: var(--primary);
 }
