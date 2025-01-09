@@ -9,15 +9,15 @@
                             <img width="148px" height="136px" src="<?php echo get_template_directory_uri(); ?>/assets/images/money-back-guaranteed.svg" alt="">
                         </div>
                         <div class="">
-                            <h2>14 Days Money Back Guarantee! No Questions Asked.</h2>
-                            <p class="mb-0">We guarantee 100% satisfaction with our plugin and support. However, if our plugin still doesn’t meet your needs, please let us know. We will happily refund 100% of your money within 14 days of your purchase, no questions asked. You can read our <a href="" class="border-b border-dotted text-font-color-light border-font-color-light">refund policy</a> for more details.</p>
+                            <h2 class="mb-5 text-3xl">14 Days Money Back Guarantee! No Questions Asked.</h2>
+                            <p class="mb-0">We guarantee 100% satisfaction with our plugin and support. However, if our plugin still doesn’t meet your needs, please let us know. We will happily refund 100% of your money within 14 days of your purchase, no questions asked. You can read our <a href="/refund-policy" class="border-b border-dotted text-font-color-light border-font-color-light">refund policy</a> for more details.</p>
                         </div>
                     </div>
                     <hr class="mt-10 mb-6 bg-secondary text-secondary">
                     <div class="grid items-center grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                         <p class="mb-0">All pricing is in USD. You can change plans or cancel your account at any time.</p>
                         <div class="flex justify-center text-center">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/Secure-Payments-by-stripe.svg" alt="">
+                        <span class="text-lime-50 bg-[#0F8C7E] px-3 py-1 inline-block rounded">Secure Payment with Paddle</span>
                         </div>
                         <div class="flex justify-center text-end"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/cards.svg" alt=""></div>
                     </div>
@@ -48,7 +48,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Changelog</h4>
-                                <p class="text-primary" id="changelog">View Changelog</p>
+                                <p class="cursor-pointer text-[#0F8C7E]" id="changelog">View Changelog</p>
 
                                 <!-- Popup Container -->
                                 <div id="popup" class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black bg-opacity-50">
@@ -73,7 +73,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Documentation</h4>
-                                <p class="text-primary"><a href="https://wpchatplugins.com/whatsapp-chat-support/?storefront=envato-elements" target="_blank" rel="noopener noreferrer">View Docs</a></p>
+                                <p><a class="text-[#0F8C7E]" href="https://docs.themeatelier.net/docs/whatsapp-chat-help-pro/overview/" target="_blank" rel="noopener noreferrer">View Docs</a></p>
                             </div>
                         </div>
                     </div>

@@ -49,7 +49,7 @@ if (is_user_logged_in()):
 			</p>
 		</div>
 		<div class="grid grid-cols-2 gap-3">
-			<p id="edd_profile_display_name_wrap">
+			<p id="edd_profile_display_name_wrap" class="mb-0">
 				<label for="edd_display_name"><?php _e('Display Name', 'easy-digital-downloads'); ?></label>
 				<select name="edd_display_name" id="edd_display_name" class="select edd-select">
 					<?php if (! empty($current_user->first_name)): ?>
@@ -69,7 +69,7 @@ if (is_user_logged_in()):
 
 			<?php do_action('edd_profile_editor_after_name'); ?>
 
-			<p id="edd_profile_primary_email_wrap">
+			<p id="edd_profile_primary_email_wrap" class="mb-0">
 				<label for="edd_email"><?php _e('Primary Email Address', 'easy-digital-downloads'); ?></label>
 				<?php $customer = new EDD_Customer($user_id, true); ?>
 				<?php if ($customer->id > 0) : ?>
@@ -167,7 +167,7 @@ if (is_user_logged_in()):
 			</p>
 		</div>
 		<div class="grid grid-cols-2 gap-3">
-			<p id="edd_profile_billing_address_country_wrap">
+			<p id="edd_profile_billing_address_country_wrap" class="mb-0">
 				<label for="edd_address_country"><?php _e('Country', 'easy-digital-downloads'); ?></label>
 				<select name="edd_address_country" id="edd_address_country" class="select edd-select" data-nonce="<?php echo esc_attr(wp_create_nonce('edd-country-field-nonce')); ?>">
 					<?php foreach (edd_get_country_list() as $key => $country) : ?>
@@ -176,7 +176,7 @@ if (is_user_logged_in()):
 				</select>
 			</p>
 
-			<p id="edd_profile_billing_address_state_wrap">
+			<p id="edd_profile_billing_address_state_wrap" class="mb-0">
 				<label for="edd_address_state"><?php _e('State / Province', 'easy-digital-downloads'); ?></label>
 				<?php if (! empty($states)) : ?>
 					<select name="edd_address_state" id="edd_address_state" class="select edd-select">
@@ -200,12 +200,12 @@ if (is_user_logged_in()):
 		<fieldset id="edd_profile_password_fieldset" class="border border-border-color p-8 pb-10 pt-6 rounded">
 			<legend id="edd_profile_password_label"><?php _e('Change your Password', 'easy-digital-downloads'); ?></legend>
 			<div class="grid grid-cols-2 gap-3">
-				<p id="edd_profile_password_wrap">
+				<p id="edd_profile_password_wrap" class="mb-0">
 					<label for="edd_new_user_pass1"><?php esc_html_e('New Password', 'easy-digital-downloads'); ?></label>
 					<input name="edd_new_user_pass1" id="edd_new_user_pass1" class="password edd-input" type="password" />
 				</p>
 
-				<p id="edd_profile_confirm_password_wrap">
+				<p id="edd_profile_confirm_password_wrap" class="mb-0">
 					<label for="edd_new_user_pass2"><?php esc_html_e('Re-enter Password', 'easy-digital-downloads'); ?></label>
 					<input name="edd_new_user_pass2" id="edd_new_user_pass2" class="password edd-input" type="password" />
 					<?php do_action('edd_profile_editor_password'); ?>

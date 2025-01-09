@@ -75,10 +75,11 @@
   /******************** TOGGLE MENU ********************/
   const menuButton = document.getElementById("menu-button");
   const toggleMenu = document.getElementById("menu");
-
-  menuButton.addEventListener("click", function () {
-    toggleMenu.classList.toggle("menu-active");
-  });
+  if (menuButton) {
+    menuButton.addEventListener("click", function () {
+      toggleMenu.classList.toggle("menu-active");
+    });
+  }
   /******************** NEW YEAR ********************/
   document.getElementById("currentYear").innerHTML = new Date().getFullYear();
 
@@ -127,32 +128,42 @@
   });
 
   document.addEventListener("DOMContentLoaded", function () {
-    const licenseInput = document.querySelector(".edd_sl_license_key");
-    if (licenseInput) {
-      licenseInput.addEventListener("click", function () {
-        navigator.clipboard
-          .writeText(licenseInput.value)
-          .then(() => {
-            const notice = document.createElement("div");
-            notice.textContent = "License key copied!";
-            notice.style.position = "absolute";
-            notice.style.backgroundColor = "#3464E0";
-            notice.style.color = "#fff";
-            notice.style.padding = "10px";
-            notice.style.borderRadius = "5px";
-            notice.style.fontSize = "14px";
-            notice.style.bottom = "30px";
-            notice.style.left = "50%";
-            notice.style.transform = "translateX(-50%)";
-            document.body.appendChild(notice);
-            setTimeout(() => {
-              notice.remove();
-            }, 3000);
-          })
-          .catch((err) => {
-            console.error("Failed to copy license key: ", err);
-          });
+    const licenseInputs = document.querySelectorAll(".edd_sl_license_key");
+    if (licenseInputs) {
+      licenseInputs.forEach((licenseInput) => {
+        licenseInput.addEventListener("click", function () {
+          navigator.clipboard
+            .writeText(licenseInput.value)
+            .then(() => {
+              const notice = document.createElement("div");
+              notice.textContent = "License key copied!";
+              notice.style.position = "fixed";
+              notice.style.backgroundColor = "#3464E0";
+              notice.style.color = "#fff";
+              notice.style.padding = "10px";
+              notice.style.borderRadius = "5px";
+              notice.style.fontSize = "14px";
+              notice.style.bottom = "30px";
+              notice.style.left = "50%";
+              notice.style.transform = "translateX(-50%)";
+              document.body.appendChild(notice);
+              setTimeout(() => {
+                notice.remove();
+              }, 3000);
+            })
+            .catch((err) => {
+              console.error("Failed to copy license key: ", err);
+            });
+        });
       });
     }
   });
+
+  const eddDiscountLink = document.querySelector(".edd_discount_link");
+  const discountCodeWrap = document.querySelector("#edd-discount-code-wrap");
+  if (eddDiscountLink) {
+    eddDiscountLink.addEventListener("click", () => {
+      discountCodeWrap.classList.toggle("show_discount");
+    });
+  }
 })(jQuery);
