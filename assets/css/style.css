@@ -60,7 +60,7 @@ h6 {
   @apply text-base lg:text-lg;
 }
 .ta-btn-primary {
-  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-3xl text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-full text-white  ease-linear duration-300 inline-block;
 }
 .ta-btn-primary:hover {
   @apply bg-black;
@@ -72,7 +72,10 @@ h6 {
 input,
 textarea,
 select {
-  @apply w-full p-3 border rounded bg-secondary border-secondary focus:outline-none;
+  @apply w-full p-3 border text-base rounded bg-secondary border-secondary focus:outline-none;
+}
+input[type="submit"] {
+  @apply cursor-pointer;
 }
 textarea {
   @apply h-[150px];
@@ -126,6 +129,12 @@ label {
 }
 .ta-header.menu-active button svg:first-child {
   @apply !hidden;
+}
+.ta-header ul li .dropdown_menu li {
+  @apply py-1 !ml-0 text-center px-5;
+}
+.ta-header ul li .dropdown_menu li a {
+  @apply p-0;
 }
 
 /* Hero css */
@@ -279,7 +288,7 @@ ul .tab.tab-active svg {
 }
 
 .ta-single-blog input[type="submit"] {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block cursor-pointer;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block cursor-pointer;
 }
 .ta-single-blog .post-categories {
   @apply flex flex-wrap items-center justify-center gap-2;
@@ -347,7 +356,7 @@ ul .tab.tab-active svg {
   .wp-block-search__button-outside
   .wp-block-search__inside-wrapper
   button {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block;
 }
 .ta-single-blog .wp-social-link-fivehundredpx a svg {
   @apply text-white;
@@ -668,34 +677,20 @@ ol li .fn a {
 
 /* Dashboard Account */
 .ta-dashboard-tab-menu li:first-child a {
-  border-top-width: 0;
+  @apply border-t-0;
 }
 .ta-dashboard-tab-menu li a {
   transition-duration: 300ms;
   transition-timing-function: linear;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  display: block;
-  border-color: transparent;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
-  position: relative;
-  padding-left: 3rem;
-  font-weight: 500;
-  font-size: 16px;
+  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-3;
 }
 .ta-dashboard-tab-menu li a::before {
   content: "";
-  position: absolute;
-  left: 0;
-  background-repeat: no-repeat;
-  margin-left: 1rem;
+  @apply absolute left-0 bg-no-repeat ml-4;
 }
 .ta-dashboard-tab-menu li:nth-child(1) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-1.svg);
-  top: 0.75rem;
-  width: 21px;
-  height: 21px;
+  @apply top-3 w-[21px] h-[21px];
 }
 .ta-dashboard-tab-menu li:nth-child(2) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-2.svg);
@@ -721,34 +716,405 @@ ol li .fn a {
   width: 20px;
   height: 20px;
 }
-.ta-dashboard-tab-menu li:nth-child(6) a::before {
+/* .ta-dashboard-tab-menu li:nth-child(6) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-6.svg);
   top: 0.7rem;
   width: 23px;
   height: 23px;
-}
-.ta-dashboard-tab-menu li:nth-child(7) a::before {
+} */
+.ta-dashboard-tab-menu li:nth-child(6) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-7.svg);
   top: 0.8rem;
   width: 21px;
   height: 21px;
 }
+.ta-dashboard-tab-menu li:nth-child(7) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-8.svg);
+  top: 0.8rem;
+  @apply w-5 h-5;
+}
 .ta-dashboard-tab-menu li a:hover,
 .ta-dashboard-tab-menu li.active a {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-border-opacity: 1;
-  border-color: rgb(212 237 240 / var(--tw-border-opacity));
+  @apply bg-white border-border-color;
 }
 .ta-dashboard-tab-menu li a:hover::after,
 .ta-dashboard-tab-menu li.active a::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  width: 2px;
-  height: 100%;
-  right: -2px;
-  top: 0px;
-  position: absolute;
-  display: block;
+  @apply w-0.5 h-full -right-0.5 top-0 absolute block;
+}
+
+.group:hover .group-hover\:visible {
+  @apply visible;
+}
+
+.group:hover .group-hover\:invisible {
+  @apply invisible;
+}
+
+.group:hover .group-hover\:block {
+  @apply block;
+}
+
+.group:hover .group-hover\:translate-x-2 {
+  --tw-translate-x: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:translate-x-1 {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:bg-\[\#4F2CD2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 44 210 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#128266\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 130 102 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#D23743\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 55 67 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#936C01\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 108 1 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#315D89\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 93 137 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#007BC2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 194 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#821C6E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(130 28 110 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#15844E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 132 78 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:fill-white {
+  fill: #fff;
+}
+
+.group:hover .group-hover\:py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.group:hover .group-hover\:pt-3 {
+  padding-top: 0.75rem;
+}
+
+.group:hover .group-hover\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:after\:opacity-100::after {
+  content: var(--tw-content);
+  opacity: 1;
+}
+
+/* Checkout */
+.checkout #edd_checkout_wrap {
+  @apply max-w-[800px] my-0 mx-auto rounded-lg border border-solid border-secondary bg-white shadow-lg pt-9 pl-10 pb-9 pr-10;
+}
+.checkout #edd_checkout_wrap .edd_empty_cart {
+  @apply text-red-600;
+}
+.checkout #edd_checkout_cart {
+  @apply !mt-0 !mb-0;
+}
+.checkout p {
+  @apply !m-0;
+}
+.checkout .eddr-notice {
+  @apply !mt-3;
+}
+
+.checkout .edd-payment-icons {
+  @apply flex gap-2;
+}
+.checkout #edd_payment_mode_select_wrap {
+  @apply hidden;
+}
+.checkout .edd_cart_total {
+  @apply pt-2;
+}
+.checkout #edd_show_discount {
+  @apply mt-2;
+}
+#edd_checkout_cart td,
+#edd_checkout_cart th {
+  @apply border border-solid border-border-color p-4;
+}
+#edd_checkout_cart td a {
+  text-decoration: none;
+}
+#edd_checkout_cart td {
+  @apply align-middle;
+}
+/* .eddr-cart-item-notice {
+  @apply m-0 mb-8;
+} */
+.edd_cart_remove_item_btn {
+  @apply text-primary;
+}
+.edd-sl-renewal-form-fields {
+  @apply mb-5 border border-solid border-border-color py-2 px-4;
+}
+#edd_sl_show_renewal_form.button {
+  @apply !bg-secondary w-full border !text-font-color border-border-color !rounded-none mb-4;
+}
+.edd-sl-renewal-form-fields .edd-form-group__control input {
+  @apply mt-0;
+}
+.edd-sl-renewal-form-fields .edd-sl-renewal-actions button {
+  @apply !border-2 !border-solid !border-red-600 !py-1 !px-4 text-red-600 !rounded-3xl;
+}
+.edd-sl-renewal-form-fields .edd-form-group__control input {
+  @apply border border-solid rounded-md border-border-color bg-secondary;
+}
+.edd-sl-renewal-form-fields,
+#edd_sl_show_renewal_form {
+  @apply text-base;
+}
+#edd_discount_code {
+  @apply mb-5 mt-5;
+}
+#edd_show_discount {
+  @apply bg-secondary mb-8 text-base py-2 px-5 border border-border-color !block;
+}
+.edd_discount_link {
+  @apply text-primary;
+}
+.edd-payment-icons {
+  @apply mb-5;
+}
+#edd_purchase_form_wrap #edd_checkout_user_info {
+  @apply border border-solid border-border-color pl-5 pr-5 pb-5 pt-5;
+}
+#edd_purchase_form_wrap #edd_checkout_user_info .edd-description {
+  @apply hidden;
+}
+
+#edd_purchase_form_wrap #edd_checkout_user_info legend {
+  @apply inline-block w-auto border-b-0 pb-0 mb-0;
+}
+
+#edd_purchase_form_wrap a,
+#edd_purchase_form a {
+  @apply text-primary;
+  text-decoration: none;
+}
+
+#edd_purchase_form_wrap p {
+  @apply m-0 !mb-5;
+}
+#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap {
+  @apply !mb-0;
+}
+#edd_purchase_form_wrap p label {
+  @apply text-lg mb-2;
+}
+#edd_purchase_form_wrap p .edd-description {
+  @apply hidden;
+}
+#edd_purchase_form_wrap p input {
+  @apply border border-solid border-border-color pt-3 pb-3 px-5 rounded-md;
+  line-height: 24px;
+}
+#edd_checkout_cart td,
+#edd_checkout_cart th {
+  @apply border border-solid border-border-color p-4;
+}
+#edd_purchase_form_wrap #edd_register_fields,
+#edd_purchase_form_wrap #edd_login_fields {
+  @apply border border-solid border-border-color pl-5 pr-5 pb-5;
+}
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info {
+  @apply border-0 pl-0 pr-0 pb-0 pt-0;
+}
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend {
+  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+}
+#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap {
+  @apply w-full !mb-0;
+}
+#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit {
+  @apply !mb-0;
+}
+#edd_purchase_form_wrap #edd-login-account-wrap, #edd_purchase_form_wrap #edd-new-account-wrap {
+  @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
+}
+#edd_purchase_submit #edd_final_total_wrap {
+  @apply !mt-3 !mb-0;
+}
+#edd_purchase_submit .edd_error {
+  @apply p-4 rounded-md bg-red-200 text-red-600 text-base !mt-3 !mb-3;
+}
+#edd-discount-code-wrap {
+  @apply !hidden;
+}
+#edd-discount-code-wrap .edd-label,
+#edd-discount-code-wrap .edd-description {
+  @apply hidden;
+}
+#edd-discount-code-wrap .edd-input {
+  @apply border border-solid border-border-color bg-secondary;
+  line-height: 24px;
+}
+#edd-discount-code-wrap .edd-submit {
+  @apply !mt-0 max-w-[20%] rounded-md;
+}
+#edd-discount-code-wrap .edd-discount-code-field-wrap {
+  @apply flex gap-2 items-center mt-2;
+}
+#edd-discount-code-wrap .edd-discount-code-field-wrap .edd-apply-discount {
+  @apply !p-3;
+}
+#edd-discount-code-wrap.show_discount {
+  @apply !block;
+}
+p#edd-first-name-wrap,
+p#edd-last-name-wrap,
+p#edd-user-pass-wrap,
+p#edd-user-pass-confirm-wrap {
+  @apply w-[48%] inline-block !mb-0;
+}
+#edd-first-name-wrap,
+#edd-user-pass-wrap {
+  @apply float-left;
+}
+#edd-last-name-wrap,
+#edd-user-pass-confirm-wrap {
+  @apply float-right;
+}
+#edd_register_account_fields {
+  @apply mt-3;
+}
+#edd_register_account_fields legend {
+  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+}
+#edd_sl_cancel_renewal_form {
+  @apply mb-3;
+}
+#edd_sl_cancel_renewal_form .edd-submit {
+  @apply !mt-0;
+}
+/* Subscription */
+.edd-table {
+  @apply w-full;
+}
+.edd-table thead tr {
+  @apply text-left font-bold mb-6 border border-border-color bg-secondary rounded-lg;
+}
+.edd-table thead tr th {
+  @apply p-4;
+}
+.edd-table tbody tr {
+  @apply shadow-md rounded-lg bg-white mt-4;
+}
+.edd-table tbody tr td {
+  @apply p-3;
+}
+.edd-table tbody tr td h4 {
+  @apply text-lg;
+}
+.edd-table tbody tr td p {
+  @apply mb-0;
+}
+.edd-table .edd_subscription_status.Cancelled {
+  @apply text-red-600;
+}
+.edd-table .edd_subscription_status.Expired {
+  @apply text-red-500;
+}
+.edd-table .edd_subscription_status.Active {
+  @apply text-green-600;
+}
+
+.edd-table .edd_subscription_cancel {
+  @apply text-red-600 py-1.5 px-3 rounded-full bg-red-300 border border-solid border-red-600;
+}
+.edd-table .edd_subscription_renew {
+  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
+}
+.edd-table .edd-subscription-reactivate {
+  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
+}
+.edd-table .edd_update_info {
+  @apply text-sky-500 py-1.5 px-3 rounded-full border border-solid border-sky-500;
+}
+.file_download table tbody tr {
+  @apply border border-solid border-secondary;
+}
+.file_download table tbody tr .edd_download_file a {
+  @apply py-2 px-3 rounded-full bg-primary text-white;
+}
+.edd_purchase_row .edd_purchase_status.pending {
+  @apply text-yellow-400;
+}
+.edd_purchase_row .edd_purchase_status.complete {
+  @apply text-green-500;
+}
+#edd_user_history .edd_purchase_row {
+  @apply border-b border-solid border-border-color;
+}
+#edd_sl_license_add_site_form {
+  @apply mt-5;
+}
+.edd-submit.button {
+  @apply py-2 px-3 bg-primary text-white rounded-full;
+}
+
+.edd_sl_license_row .edd_sl_item_name {
+  @apply mb-3;
+}
+
+.edd_sl_license_row .edd_sl_license_key {
+  background-image: url(../images/copy.svg);
+  background-position: right 15px center;
+  background-size: 20px 20px;
+  @apply bg-no-repeat cursor-pointer;
+}
+
+.edd_cart_footer_row .edd_cart_discount {
+ @apply text-lg font-normal;
+}
+.edd_discount_remove {
+  @apply relative;
+}
+.edd_discount_remove::after {
+  content: "";
+  @apply absolute w-4 h-4 top-1 -right-7 bg-no-repeat;
+  background-image: url(../images/close.svg);
+}
+.checkout .edd-payment-icons img, .checkout .edd-payment-icons svg {
+  @apply w-8 h-5 object-contain border border-solid border-border-color !m-0;
 }
