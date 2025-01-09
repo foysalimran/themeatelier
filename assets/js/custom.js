@@ -129,32 +129,34 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     const licenseInputs = document.querySelectorAll(".edd_sl_license_key");
-    licenseInputs.forEach((licenseInput) => {
-      licenseInput.addEventListener("click", function () {
-        navigator.clipboard
-          .writeText(licenseInput.value)
-          .then(() => {
-            const notice = document.createElement("div");
-            notice.textContent = "License key copied!";
-            notice.style.position = "fixed";
-            notice.style.backgroundColor = "#3464E0";
-            notice.style.color = "#fff";
-            notice.style.padding = "10px";
-            notice.style.borderRadius = "5px";
-            notice.style.fontSize = "14px";
-            notice.style.bottom = "30px";
-            notice.style.left = "50%";
-            notice.style.transform = "translateX(-50%)";
-            document.body.appendChild(notice);
-            setTimeout(() => {
-              notice.remove();
-            }, 3000);
-          })
-          .catch((err) => {
-            console.error("Failed to copy license key: ", err);
-          });
+    if (licenseInputs) {
+      licenseInputs.forEach((licenseInput) => {
+        licenseInput.addEventListener("click", function () {
+          navigator.clipboard
+            .writeText(licenseInput.value)
+            .then(() => {
+              const notice = document.createElement("div");
+              notice.textContent = "License key copied!";
+              notice.style.position = "fixed";
+              notice.style.backgroundColor = "#3464E0";
+              notice.style.color = "#fff";
+              notice.style.padding = "10px";
+              notice.style.borderRadius = "5px";
+              notice.style.fontSize = "14px";
+              notice.style.bottom = "30px";
+              notice.style.left = "50%";
+              notice.style.transform = "translateX(-50%)";
+              document.body.appendChild(notice);
+              setTimeout(() => {
+                notice.remove();
+              }, 3000);
+            })
+            .catch((err) => {
+              console.error("Failed to copy license key: ", err);
+            });
+        });
       });
-    });
+    }
   });
 
   const eddDiscountLink = document.querySelector(".edd_discount_link");
