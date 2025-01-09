@@ -22,7 +22,7 @@
                 
             </div>
             <div class="tab-pane">
-            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/simple-button.webp" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/buttons-shortcode.png" alt="">
             </div>
             <div class="tab-pane">
                 <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/multi-agents.webp" alt="">
