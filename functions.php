@@ -384,3 +384,14 @@ function themeatelier_activate()
 }
 
 add_action('after_switch_theme', 'themeatelier_activate');
+
+
+
+function custom_move_renewal_form() {
+    // Remove the function from the original hook.
+    remove_action( 'edd_before_purchase_form', 'edd_sl_renewal_form', -1 );
+
+    // Add the function to the new hook.
+    add_action( 'edd_before_checkout_cart_form', 'edd_sl_renewal_form', 10 );
+}
+add_action( 'init', 'custom_move_renewal_form' );
