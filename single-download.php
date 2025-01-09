@@ -5,6 +5,9 @@ get_header();
     html{
         scroll-behavior: smooth;
     }
+    :root {
+        --primary: #0F8C7E; --secondary: #F0FDFA; --dark: #111111;
+    }
 </style>
 
 <?php

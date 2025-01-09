@@ -13,7 +13,7 @@ get_header(); ?>
     </h1>
   </div>
 </section>
-<section class="py-20">
+<section class="py-20 contact tabs">
   <div class="container">
     <div class="grid grid-cols-12 gap-8">
       <div class="md:col-span-8 col-span-12">

@@ -1,6 +1,4 @@
-<section
-style="--primary: #0F8C7E; --secondary: #F0FDFA; --dark: #111111;"
-class="pb-12 money-back md:pb-20">
+<section class="py-12 money-back md:py-20">
     <div class="container px-4 mx-auto">
         <div class="grid grid-cols-12">
             <div class="lg:col-span-1"></div>
