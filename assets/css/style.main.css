@@ -3551,6 +3551,10 @@ video {
   padding-top: 6rem;
 }
 
+.pt-32{
+  padding-top: 8rem;
+}
+
 .pt-36{
   padding-top: 9rem;
 }
@@ -4577,6 +4581,8 @@ select{
   --tw-bg-opacity: 1;
   background-color: rgb(243 246 255 / var(--tw-bg-opacity));
   padding: 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 input.ta-footer form,
@@ -4604,6 +4610,10 @@ textarea:focus,
 select:focus{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+input[type="submit"]{
+  cursor: pointer;
 }
 
 textarea{
@@ -6130,23 +6140,9 @@ ol li .fn a{
   margin-top: 0.75rem !important;
 }
 
-.checkout #edd_sl_show_renewal_form{
-  background-color: transparent !important;
-  line-height: 1.5rem;
-  --tw-text-opacity: 1 !important;
-  color: rgb(51 51 51 / var(--tw-text-opacity)) !important;
-  text-decoration-line: underline;
-}
-
 .checkout .edd-payment-icons{
   display: flex;
   gap: 0.5rem;
-}
-
-.checkout .edd-payment-icons img{
-  margin: 0px;
-  height: 2rem;
-  width: 50px;
 }
 
 .checkout #edd_payment_mode_select_wrap{
@@ -6161,7 +6157,8 @@ ol li .fn a{
   margin-top: 0.5rem;
 }
 
-#edd_checkout_cart td, #edd_checkout_cart th{
+#edd_checkout_cart td,
+#edd_checkout_cart th{
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -6186,79 +6183,87 @@ ol li .fn a{
   color: rgb(52 100 224 / var(--tw-text-opacity));
 }
 
-#edd_sl_renewal_form{
-  margin-top: 1rem;
-  margin-bottom: 0.875rem;
+.edd-sl-renewal-form-fields{
+  margin-bottom: 1.25rem;
   border-width: 1px;
+  border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(243 246 255 / var(--tw-bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  font-size: 1rem;
-  line-height: 1.5rem;
 }
 
-.ta-footer#edd_sl_renewal_form form{
-  background-color: transparent !important;
-}
-
-.ta-footer#edd_sl_renewal_form form input{
+#edd_sl_show_renewal_form.button{
+  margin-bottom: 1rem;
+  width: 100%;
+  border-radius: 0px !important;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity)) !important;
+  --tw-text-opacity: 1 !important;
+  color: rgb(51 51 51 / var(--tw-text-opacity)) !important;
 }
 
-.ta-footer#edd_sl_renewal_form .ta-footer-bottom{
-  --tw-border-opacity: 1 !important;
-  border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
-}
-
-#edd_sl_renewal_form button#edd_sl_show_renewal_form{
-  padding: 0px !important;
-}
-
-#edd_sl_renewal_form .edd-sl-renewal-actions input{
+.edd-sl-renewal-form-fields .edd-form-group__control input{
   margin-top: 0px;
 }
 
-#edd_sl_renewal_form .edd-sl-renewal-actions button{
-  border-radius: 1.5rem;
-  border-width: 2px;
-  border-style: solid;
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity));
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+.edd-sl-renewal-form-fields .edd-sl-renewal-actions button{
+  border-radius: 1.5rem !important;
+  border-width: 2px !important;
+  border-style: solid !important;
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity)) !important;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
   --tw-text-opacity: 1;
   color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
-#edd_sl_renewal_form .edd-form-group__control input{
+.edd-sl-renewal-form-fields .edd-form-group__control input{
   border-radius: 0.375rem;
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity));
 }
 
-#edd_sl_renewal_form, #edd_sl_show_renewal_form{
+.ta-footer.edd-sl-renewal-form-fields .edd-form-group__control input form{
+  background-color: transparent !important;
+}
+
+.ta-footer.edd-sl-renewal-form-fields .edd-form-group__control input form input{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+.ta-footer.edd-sl-renewal-form-fields .edd-form-group__control input .ta-footer-bottom{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
+}
+
+.edd-sl-renewal-form-fields,
+#edd_sl_show_renewal_form{
   font-size: 1rem;
   line-height: 1.5rem;
 }
 
 #edd_discount_code{
   margin-bottom: 1.25rem;
+  margin-top: 1.25rem;
 }
 
 #edd_show_discount{
   margin-bottom: 2rem;
+  display: block !important;
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
@@ -6306,6 +6311,10 @@ ol li .fn a{
   padding-top: 1.25rem;
 }
 
+#edd_purchase_form_wrap #edd_checkout_user_info .edd-description{
+  display: none;
+}
+
 #edd_purchase_form_wrap #edd_checkout_user_info legend{
   margin-bottom: 0px;
   display: inline-block;
@@ -6314,7 +6323,8 @@ ol li .fn a{
   padding-bottom: 0px;
 }
 
-#edd_purchase_form_wrap a, #edd_purchase_form a{
+#edd_purchase_form_wrap a,
+#edd_purchase_form a{
   --tw-text-opacity: 1;
   color: rgb(52 100 224 / var(--tw-text-opacity));
   text-decoration: none;
@@ -6330,14 +6340,13 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap p label{
-  margin-bottom: 0px;
+  margin-bottom: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
 #edd_purchase_form_wrap p .edd-description{
-  font-size: 0.875rem;
-  line-height: 1.25rem;
+  display: none;
 }
 
 #edd_purchase_form_wrap p input{
@@ -6362,7 +6371,8 @@ ol li .fn a{
   padding: 1rem;
 }
 
-#edd_purchase_form_wrap #edd_register_fields, #edd_purchase_form_wrap #edd_login_fields{
+#edd_purchase_form_wrap #edd_register_fields,
+#edd_purchase_form_wrap #edd_login_fields{
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -6372,7 +6382,8 @@ ol li .fn a{
   padding-bottom: 1.25rem;
 }
 
-#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info, #edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info{
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info{
   border-width: 0px;
   padding-left: 0px;
   padding-right: 0px;
@@ -6380,7 +6391,8 @@ ol li .fn a{
   padding-top: 0px;
 }
 
-#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend, #edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend{
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend{
   margin-bottom: 1rem;
   display: block;
   width: 100%;
@@ -6391,15 +6403,16 @@ ol li .fn a{
   padding-bottom: 0.75rem;
 }
 
-#edd_purchase_form_wrap #edd_login_fields p label{
-  margin-bottom: 0.5rem;
+#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap{
+  margin-bottom: 0px !important;
+  width: 100%;
 }
 
 #edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit{
   margin-bottom: 0px !important;
 }
 
-#edd_purchase_form_wrap #edd-login-account-wrap{
+#edd_purchase_form_wrap #edd-login-account-wrap, #edd_purchase_form_wrap #edd-new-account-wrap{
   margin-left: -1.25rem !important;
   margin-right: -1.25rem !important;
   margin-bottom: 1.25rem !important;
@@ -6416,22 +6429,135 @@ ol li .fn a{
   line-height: 1.5rem;
 }
 
-.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form{
+.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form,.ta-footer #edd_purchase_form_wrap #edd-new-account-wrap form{
   background-color: transparent !important;
 }
 
-.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form input{
+.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form input,.ta-footer #edd_purchase_form_wrap #edd-new-account-wrap form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
-.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap .ta-footer-bottom{
+.ta-footer#edd_purchase_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer #edd_purchase_form_wrap #edd-new-account-wrap .ta-footer-bottom{
   --tw-border-opacity: 1 !important;
   border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
 }
 
 #edd_purchase_submit #edd_final_total_wrap{
   margin-top: 0.75rem !important;
+  margin-bottom: 0px !important;
+}
+
+#edd_purchase_submit .edd_error{
+  margin-top: 0.75rem !important;
+  margin-bottom: 0.75rem !important;
+  border-radius: 0.375rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+#edd-discount-code-wrap{
+  display: none !important;
+}
+
+#edd-discount-code-wrap .edd-label,
+#edd-discount-code-wrap .edd-description{
+  display: none;
+}
+
+#edd-discount-code-wrap .edd-input{
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity));
+}
+
+.ta-footer#edd-discount-code-wrap .edd-input form{
+  background-color: transparent !important;
+}
+
+.ta-footer#edd-discount-code-wrap .edd-input form input{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
+}
+
+.ta-footer#edd-discount-code-wrap .edd-input .ta-footer-bottom{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
+}
+
+#edd-discount-code-wrap .edd-input {
+  line-height: 24px;
+}
+
+#edd-discount-code-wrap .edd-submit{
+  margin-top: 0px !important;
+  max-width: 20%;
+  border-radius: 0.375rem;
+}
+
+#edd-discount-code-wrap .edd-discount-code-field-wrap{
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+#edd-discount-code-wrap .edd-discount-code-field-wrap .edd-apply-discount{
+  padding: 0.75rem !important;
+}
+
+#edd-discount-code-wrap.show_discount{
+  display: block !important;
+}
+
+p#edd-first-name-wrap,
+p#edd-last-name-wrap,
+p#edd-user-pass-wrap,
+p#edd-user-pass-confirm-wrap{
+  margin-bottom: 0px !important;
+  display: inline-block;
+  width: 48%;
+}
+
+#edd-first-name-wrap,
+#edd-user-pass-wrap{
+  float: left;
+}
+
+#edd-last-name-wrap,
+#edd-user-pass-confirm-wrap{
+  float: right;
+}
+
+#edd_register_account_fields{
+  margin-top: 0.75rem;
+}
+
+#edd_register_account_fields legend{
+  margin-bottom: 1rem;
+  display: block;
+  width: 100%;
+  border-bottom-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  padding-bottom: 0.75rem;
+}
+
+#edd_sl_cancel_renewal_form{
+  margin-bottom: 0.75rem;
+}
+
+#edd_sl_cancel_renewal_form .edd-submit{
+  margin-top: 0px !important;
 }
 
 /* Subscription */
@@ -6614,8 +6740,8 @@ ol li .fn a{
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(52 100 224 / var(--tw-bg-opacity));
-  padding-top: 0.375rem;
-  padding-bottom: 0.375rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   --tw-text-opacity: 1;
@@ -6632,6 +6758,39 @@ ol li .fn a{
   background-size: 20px 20px;
   cursor: pointer;
   background-repeat: no-repeat;
+}
+
+.edd_cart_footer_row .edd_cart_discount{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 400;
+}
+
+.edd_discount_remove{
+  position: relative;
+}
+
+.edd_discount_remove::after {
+  content: "";
+  position: absolute;
+  top: 0.25rem;
+  right: -1.75rem;
+  height: 1rem;
+  width: 1rem;
+  background-repeat: no-repeat;
+  background-image: url(../images/close.svg);
+}
+
+.checkout .edd-payment-icons img, .checkout .edd-payment-icons svg{
+  margin: 0px !important;
+  height: 1.25rem;
+  width: 2rem;
+  border-width: 1px;
+  border-style: solid;
+  --tw-border-opacity: 1;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .hover\:prose-lg:hover{

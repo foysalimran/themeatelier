@@ -72,7 +72,10 @@ h6 {
 input,
 textarea,
 select {
-  @apply w-full p-3 border rounded bg-secondary border-secondary focus:outline-none;
+  @apply w-full p-3 border text-base rounded bg-secondary border-secondary focus:outline-none;
+}
+input[type="submit"] {
+  @apply cursor-pointer;
 }
 textarea {
   @apply h-[150px];
@@ -851,14 +854,9 @@ ol li .fn a {
 .checkout .eddr-notice {
   @apply !mt-3;
 }
-.checkout #edd_sl_show_renewal_form {
-  @apply !bg-transparent !text-font-color underline leading-6;
-}
+
 .checkout .edd-payment-icons {
   @apply flex gap-2;
-}
-.checkout .edd-payment-icons img {
-  @apply w-[50px] h-8 m-0;
 }
 .checkout #edd_payment_mode_select_wrap {
   @apply hidden;
@@ -869,7 +867,8 @@ ol li .fn a {
 .checkout #edd_show_discount {
   @apply mt-2;
 }
-#edd_checkout_cart td, #edd_checkout_cart th {
+#edd_checkout_cart td,
+#edd_checkout_cart th {
   @apply border border-solid border-border-color p-4;
 }
 #edd_checkout_cart td a {
@@ -884,46 +883,52 @@ ol li .fn a {
 .edd_cart_remove_item_btn {
   @apply text-primary;
 }
-#edd_sl_renewal_form {
-  @apply bg-secondary mt-4 mb-3.5 py-2 px-4 text-base border border-border-color;
+.edd-sl-renewal-form-fields {
+  @apply mb-5 border border-solid border-border-color py-2 px-4;
 }
-#edd_sl_renewal_form button#edd_sl_show_renewal_form {
-  @apply !p-0;
+#edd_sl_show_renewal_form.button {
+  @apply !bg-secondary w-full border !text-font-color border-border-color !rounded-none mb-4;
 }
-#edd_sl_renewal_form .edd-sl-renewal-actions input {
+.edd-sl-renewal-form-fields .edd-form-group__control input {
   @apply mt-0;
 }
-#edd_sl_renewal_form .edd-sl-renewal-actions button {
-  @apply border-2 border-solid border-red-600 py-1 px-4 text-red-600 rounded-3xl;
+.edd-sl-renewal-form-fields .edd-sl-renewal-actions button {
+  @apply !border-2 !border-solid !border-red-600 !py-1 !px-4 text-red-600 !rounded-3xl;
 }
-#edd_sl_renewal_form .edd-form-group__control input {
-  @apply border border-solid rounded-md border-border-color bg-white;
+.edd-sl-renewal-form-fields .edd-form-group__control input {
+  @apply border border-solid rounded-md border-border-color bg-secondary;
 }
-#edd_sl_renewal_form, #edd_sl_show_renewal_form{
+.edd-sl-renewal-form-fields,
+#edd_sl_show_renewal_form {
   @apply text-base;
 }
 #edd_discount_code {
-  @apply mb-5;
+  @apply mb-5 mt-5;
 }
 #edd_show_discount {
-  @apply bg-secondary mb-8 text-base py-2 px-5 border border-border-color;
+  @apply bg-secondary mb-8 text-base py-2 px-5 border border-border-color !block;
 }
 .edd_discount_link {
   @apply text-primary;
 }
 .edd-payment-icons {
-  @apply mb-5
+  @apply mb-5;
 }
 #edd_purchase_form_wrap #edd_checkout_user_info {
   @apply border border-solid border-border-color pl-5 pr-5 pb-5 pt-5;
 }
+#edd_purchase_form_wrap #edd_checkout_user_info .edd-description {
+  @apply hidden;
+}
+
 #edd_purchase_form_wrap #edd_checkout_user_info legend {
   @apply inline-block w-auto border-b-0 pb-0 mb-0;
 }
 
-#edd_purchase_form_wrap a, #edd_purchase_form a {
+#edd_purchase_form_wrap a,
+#edd_purchase_form a {
   @apply text-primary;
-  text-decoration: none
+  text-decoration: none;
 }
 
 #edd_purchase_form_wrap p {
@@ -933,41 +938,95 @@ ol li .fn a {
   @apply !mb-0;
 }
 #edd_purchase_form_wrap p label {
-  @apply text-lg mb-0;
+  @apply text-lg mb-2;
 }
 #edd_purchase_form_wrap p .edd-description {
-  @apply text-sm;
+  @apply hidden;
 }
 #edd_purchase_form_wrap p input {
   @apply border border-solid border-border-color pt-3 pb-3 px-5 rounded-md;
-  line-height: 24px
+  line-height: 24px;
 }
 #edd_checkout_cart td,
 #edd_checkout_cart th {
   @apply border border-solid border-border-color p-4;
 }
-#edd_purchase_form_wrap #edd_register_fields, #edd_purchase_form_wrap #edd_login_fields {
+#edd_purchase_form_wrap #edd_register_fields,
+#edd_purchase_form_wrap #edd_login_fields {
   @apply border border-solid border-border-color pl-5 pr-5 pb-5;
 }
-#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info, #edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info {
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info {
   @apply border-0 pl-0 pr-0 pb-0 pt-0;
 }
-#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend, #edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend {
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend {
   @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
 }
-#edd_purchase_form_wrap #edd_login_fields p label {
-  @apply mb-2;
+#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap {
+  @apply w-full !mb-0;
 }
 #edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit {
   @apply !mb-0;
 }
-#edd_purchase_form_wrap #edd-login-account-wrap {
+#edd_purchase_form_wrap #edd-login-account-wrap, #edd_purchase_form_wrap #edd-new-account-wrap {
   @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
 }
 #edd_purchase_submit #edd_final_total_wrap {
-  @apply !mt-3;
+  @apply !mt-3 !mb-0;
 }
-
+#edd_purchase_submit .edd_error {
+  @apply p-4 rounded-md bg-red-200 text-red-600 text-base !mt-3 !mb-3;
+}
+#edd-discount-code-wrap {
+  @apply !hidden;
+}
+#edd-discount-code-wrap .edd-label,
+#edd-discount-code-wrap .edd-description {
+  @apply hidden;
+}
+#edd-discount-code-wrap .edd-input {
+  @apply border border-solid border-border-color bg-secondary;
+  line-height: 24px;
+}
+#edd-discount-code-wrap .edd-submit {
+  @apply !mt-0 max-w-[20%] rounded-md;
+}
+#edd-discount-code-wrap .edd-discount-code-field-wrap {
+  @apply flex gap-2 items-center mt-2;
+}
+#edd-discount-code-wrap .edd-discount-code-field-wrap .edd-apply-discount {
+  @apply !p-3;
+}
+#edd-discount-code-wrap.show_discount {
+  @apply !block;
+}
+p#edd-first-name-wrap,
+p#edd-last-name-wrap,
+p#edd-user-pass-wrap,
+p#edd-user-pass-confirm-wrap {
+  @apply w-[48%] inline-block !mb-0;
+}
+#edd-first-name-wrap,
+#edd-user-pass-wrap {
+  @apply float-left;
+}
+#edd-last-name-wrap,
+#edd-user-pass-confirm-wrap {
+  @apply float-right;
+}
+#edd_register_account_fields {
+  @apply mt-3;
+}
+#edd_register_account_fields legend {
+  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+}
+#edd_sl_cancel_renewal_form {
+  @apply mb-3;
+}
+#edd_sl_cancel_renewal_form .edd-submit {
+  @apply !mt-0;
+}
 /* Subscription */
 .edd-table {
   @apply w-full;
@@ -1031,7 +1090,7 @@ ol li .fn a {
   @apply mt-5;
 }
 .edd-submit.button {
-  @apply py-1.5 px-3 bg-primary text-white rounded-full;
+  @apply py-2 px-3 bg-primary text-white rounded-full;
 }
 
 .edd_sl_license_row .edd_sl_item_name {
@@ -1043,4 +1102,19 @@ ol li .fn a {
   background-position: right 15px center;
   background-size: 20px 20px;
   @apply bg-no-repeat cursor-pointer;
+}
+
+.edd_cart_footer_row .edd_cart_discount {
+ @apply text-lg font-normal;
+}
+.edd_discount_remove {
+  @apply relative;
+}
+.edd_discount_remove::after {
+  content: "";
+  @apply absolute w-4 h-4 top-1 -right-7 bg-no-repeat;
+  background-image: url(../images/close.svg);
+}
+.checkout .edd-payment-icons img, .checkout .edd-payment-icons svg {
+  @apply w-8 h-5 object-contain border border-solid border-border-color !m-0;
 }
