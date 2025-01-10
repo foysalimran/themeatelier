@@ -12,22 +12,33 @@
             <button class="demo_btn_secondary !rounded-full !py-2 tab tab-active ">Single Form</button>
             <button class="demo_btn_secondary !rounded-full !py-2 tab">Single Agent</button>
             <button class="demo_btn_secondary !rounded-full !py-2 tab">Simple Button</button>
-            <button class="demo_btn_secondary !rounded-full !py-2 tab">Multi Agents</button>
+            <button class="demo_btn_secondary !rounded-full !py-2 tab">Multi Agents List</button>
+            <button class="demo_btn_secondary !rounded-full !py-2 tab">Multi Agents Grid</button>
+            <button class="demo_btn_secondary !rounded-full !py-2 tab">Dark Mode</button>
         </div>
         <div class="border border-solid rounded-lg shadow-md mt-9 tab-content border-border-color">
             <div class="tab-pane tab-pane-active">
-                <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/single-form.webp" alt="">
+                <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wa-chat-help-ss/explore/agent-single-form.webp" alt="">
+                
             </div>
             <div class="tab-pane">
-                <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/single-agent.webp" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wa-chat-help-ss/explore/agent-single.webp" alt="">
+            
 
             </div>
             <div class="tab-pane">
-            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(  ); ?>/assets/images/buttons-shortcode.png" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wa-chat-help-ss/explore/agent-single-button.webp" alt="">
             </div>
             <div class="tab-pane">
-                <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/multi-agents.webp" alt="">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wa-chat-help-ss/explore/agent-multi-list.webp" alt="">
             </div>
+            <div class="tab-pane">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wa-chat-help-ss/explore/agent-multi-grid.webp" alt="">
+            </div>
+            <div class="tab-pane">
+            <img class="rounded-lg" src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wa-chat-help-ss/explore/single-agent-dark-mode.webp" alt="">
+            </div>
+            
         </div>
     </div>
 </section>

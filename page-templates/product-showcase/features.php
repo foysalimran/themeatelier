@@ -10,7 +10,7 @@
 
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/floating-chat.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-chat-help-ss/features/floating-chat.webp" alt="">
 
             </div>
             <div class="">
@@ -49,14 +49,14 @@
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !rounded-full !py-2 group">Live Demo</a>
             </div>
             <div class="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/whatsapp-quote.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-chat-help-ss/features/whatsapp-quote.webp" alt="">
 
             </div>
         </div>
 
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
             <div class="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/button-shortcodes.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-chat-help-ss/features/button-shortcodes.webp" alt="">
 
             </div>
             <div class="">
@@ -95,7 +95,7 @@
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !rounded-full !py-2 group">Live Demo</a>
             </div>
             <div class="">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-button-block.png" alt="">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-chat-help-ss/features/wa-button-block.webp" alt="">
             </div>
         </div>
 
