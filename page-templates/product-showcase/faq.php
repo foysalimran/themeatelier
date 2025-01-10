@@ -1,10 +1,5 @@
 <!-- ========== Faq section start ========== -->
 <section
-    style="
---primary: #0F8C7E;
---secondary: #F0FDFA;
---dark: #111111;
-"
     id="faq" class="py-12 lg:py-20 demo_section_bg">
     <div class="container">
         <div class="mb-12 text-center">

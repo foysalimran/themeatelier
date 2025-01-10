@@ -1,6 +1,4 @@
-<section
-    style="--primary: #0F8C7E; --secondary: #F0FDFA; --dark: #111111;"
-    class="py-12 offers md:py-20 demo_section_bg">
+<section class="py-12 offers md:py-20 demo_section_bg">
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
