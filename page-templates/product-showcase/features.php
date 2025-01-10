@@ -1,5 +1,5 @@
 <section
-    class="py-12 ta-featured md:py-20">
+    class="py-12 ta-featured md:py-20" id="features">
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">

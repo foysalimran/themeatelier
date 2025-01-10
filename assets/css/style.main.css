@@ -2987,6 +2987,11 @@ video {
   border-color: rgb(194 123 127 / var(--tw-border-opacity)) !important;
 }
 
+.\!border-border-color{
+  --tw-border-opacity: 1 !important;
+  border-color: rgb(227 227 227 / var(--tw-border-opacity)) !important;
+}
+
 .border-\[\#39292c26\]{
   border-color: #39292c26;
 }
@@ -3109,6 +3114,11 @@ video {
 .\!bg-\[\#c27b7f\]{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(194 123 127 / var(--tw-bg-opacity)) !important;
+}
+
+.\!bg-white{
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
 .bg-\[\#111\]{
@@ -7043,6 +7053,87 @@ p#edd-user-pass-confirm-wrap{
 
 .demo_svg_primary {
   fill: var(--primary);
+}
+
+/* CWP HEADER CSS */
+
+.cwp-header li{
+  position: relative;
+}
+
+.cwp-header li a{
+  padding: 0px !important;
+}
+
+.cwp-header li>a::after, .cwp-header li:hover>a::after {
+  content: '';
+  display: block;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-color: var(--primary);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+
+.cwp-header li:hover a {
+  color: var(--primary) !important;
+}
+
+.cwp-header li:hover>a::after {
+  transform: scaleX(.6);
+}
+
+/* CWP FOOTER CSS */
+
+.cwp-footer p{
+  font-weight: 600;
+  text-transform: uppercase;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.cwp-footer ul li a{
+  font-size: 1rem;
+  line-height: 1.5rem;
+  --tw-text-opacity: 1;
+  color: rgb(51 51 51 / var(--tw-text-opacity));
+}
+
+.cwp-footer ul li a:hover {
+  color: var(--primary);
+}
+
+.cwp-footer .cwp-footer-icon{
+  padding-top: 2.25rem;
+}
+
+.cwp-footer .cwp-footer-icon ul{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cwp-footer .cwp-footer-icon ul a{
+  color: var(--primary);
+  border-color: var(--primary);
+  display: flex;
+  height: 1rem;
+  width: 1rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9999px;
+  border-width: 1px;
+  border-style: solid;
+  padding: 0.75rem;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 300ms;
+}
+
+.cwp-footer .cwp-footer-icon ul a:hover{
+  background-color: var(--primary);
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:prose-lg:hover{
