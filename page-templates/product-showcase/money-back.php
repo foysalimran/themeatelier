@@ -9,13 +9,15 @@
                             <img width="148px" height="136px" src="<?php echo get_template_directory_uri(); ?>/assets/images/money-back-guaranteed.svg" alt="">
                         </div>
                         <div class="">
-                            <h2 class="mb-5 text-3xl">14 Days Money Back Guarantee! No Questions Asked.</h2>
-                            <p class="mb-0">We guarantee 100% satisfaction with our plugin and support. However, if our plugin still doesn’t meet your needs, please let us know. We will happily refund 100% of your money within 14 days of your purchase, no questions asked. You can read our <a href="/refund-policy" class="border-b border-dotted text-font-color-light border-font-color-light">refund policy</a> for more details.</p>
+                            <h2 class="mb-5 text-3xl">14-Day Money-Back Guarantee – No Questions Asked</h2>
+                            <p class="mb-0">
+                            We are committed to your 100% satisfaction with our plugin and support. If our plugin doesn’t meet your needs, simply let us know. We’ll gladly issue a full refund within 14 days of your purchase, no questions asked. For more information, please review our <a href="/refund-policy" class="border-b border-dotted text-font-color-light border-font-color-light">refund policy</a>.
+                        </p>
                         </div>
                     </div>
                     <hr class="mt-10 mb-6 bg-secondary text-secondary">
                     <div class="grid items-center grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-                        <p class="mb-0">All pricing is in USD. You can change plans or cancel your account at any time.</p>
+                        <p class="mb-0">All prices are listed in USD. You can upgrade, downgrade, or cancel your plan anytime.</p>
                         <div class="flex justify-center text-center">
                         <span class="inline-block px-3 py-1 rounded text-lime-50 demo_primary_bg">Secure Payment with Paddle</span>
                         </div>
