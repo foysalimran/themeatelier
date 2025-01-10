@@ -30,7 +30,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Last Update</h4>
-                                <p>November 25, 2024</p>
+                                <p>January 10, 2025</p>
                             </div>
                         </div>
                         <div class="changelog_item">
@@ -39,7 +39,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Current Version</h4>
-                                <p>1.0.0</p>
+                                <p>2.1.0</p>
                             </div>
                         </div>
                         <div class="changelog_item">
@@ -59,12 +59,12 @@
                                         <h2 class="p-4 text-xl font-semibold text-white demo_primary_bg">Chat Whatsapp Pro Changelog</h2>
                                         <div class="p-4">
                                             <p class="!text-lg font-bold">2.0.14 - Nov 12, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                                 <li>Fixed: Some CSS issue.</li>
                                             </ul>
 
                                             <p class="!text-lg font-bold">2.0.13 - Nov 05, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Fixed: Some CSS issues.</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.12 - Oct 26, 2024</p>
@@ -73,28 +73,28 @@
                                                 <li>Improved: Some PHP Codebase.</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.11 - Oct 21, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Fixed: Some warnings from PHPCS.</li>
                                             <li>Update: Make required form input fields.</li>
                                             <li>Improved: Some CSS Codebase.</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.10 - Oct 11, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Update some codebase</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.9 - Oct 04, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             Fixed: Some PHP errors, warnings, notices
                                             <li>Fixed: Latest PHP 8.1.12 compatible</li>
                                             <li>Checked: WordPress 6.6.2 compatibility</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.8 - Sep 28, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Fixed: Tooltip helps text strong tag escaping.</li>
                                             <li>Fixed: Default tooltip width.</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.7 - Sep 27, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>NEW: Position bubble button from the screen with specific dimension.</li>
                                             <li>NEW: Added positioning option for the floating chatbox.</li>
                                             <li>NEW: Added all icon sets from icofont library.</li>
@@ -105,7 +105,7 @@
                                             <li>TESTED: WordPress 6.6.2 compatibility.</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.6 - Sep 07, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Added: Added advanced tab and moved advanced settings there.</li>
                                             <li>Updated: Existing options order for better user experience.</li>
                                             <li>Fixed: Button CSS issues.</li>
@@ -113,76 +113,76 @@
                                             <li>Update: Admin menu position.</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.5 - Sep 05, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Added: All available pages for include and exclude pages option</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.4 – Sep 03, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Added: New option for enable/disable button icon on the bubble</li>
                                             <li>Added: New option to set paddings for bubble button</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.3 – Aug 14, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Fix: Icons for admin dashboard</li>
                                             <li>Added: Exclude/include options for chat bubbles on specific pages</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.2  – Aug 14, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Update: text domain for multi-language</li>
                                             <li>Added: Appsero script</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.1  – Aug 10, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Update: Code structure</li>
                                             <li>Update: Code compatibility with the latest WordPress version</li>
                                             <li>Update: Code compatibility with the latest PHP version</li>
                                             <li>Added: New text fields</li>
                                             </ul>
                                             <p class="!text-lg font-bold">2.0.0  – Aug 08, 2024</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>>Update: Code structure</li
                                             <li>>Update: Code compatibility with the latest WordPress version</li
                                             <li>>Update: Code compatibility with the latest PHP version</li
                                             <li>>Added: New text fields</li
                                             </ul>
                                             <p class="!text-lg font-bold">Version 1.2.3 Latest - (06 March 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Updated third-party assets</li>
                                             </ul>
                                             <p class="!text-lg font-bold">Version 1.2.2 Latest - (Feb 26 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Added set time-out option for automatic popup open</li>
                                             </ul>
                                             <p class="!text-lg font-bold">Version 1.2.1 Latest - (27 November 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Fixed some CSS issues</li>
                                             </ul>
                                             <p class="!text-lg font-bold">Version 1.2.2 - (4 November 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Fixed Elementor widget</li>
                                             </ul>
                                             <p class="!text-lg font-bold">Version 1.2.1 Latest - (14 March 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Fixed button click outline issue</li>
                                             </ul>
                                             <p class="!text-lg font-bold">Version 1.2.1 - (14 June 2023)
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Added visibility option for different devices</li>
                                             <li>Added Gutenberg block for buttons</li>
                                             </ul>
                                             <p class="!text-lg font-bold">Version 1.2.0 - (9 March 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>GDPR compliance checkbox</li>
                                             </ul>
 
                                             <p class="!text-lg font-bold">Version 1.1.0 - (02 February 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Added shortcode features</li>
                                             <li>Options to change different bubble buttons</li>
                                             </ul>
 
                                             <p class="!text-lg font-bold">Version 1.0.0 - (13 January 2023)</p>
-                                            <ul class="mt-1 ml-5 list-disc">
+                                            <ul class="mt-1 mb-3 ml-5 list-disc">
                                             <li>Initial Release</li>
                                             </ul>
                                         </div>
