@@ -28,7 +28,7 @@
                     <li><strong>Mobile-Friendly</strong>: Fully responsive design ensures smooth functionality on all devices.</li>
 
                 </ul>
-                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !rounded-full !py-2 group">Live Demo</a>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !py-2 group">Live Demo</a>
             </div>
         </div>
         <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
@@ -46,7 +46,7 @@
                     <li><strong>Customizable Button Text</strong>: Personalize the button label to fit your store's tone.</li>
                     <li><strong>Button Positioning</strong>: Position button on different places like before cart, after cart etc.</li>
                 </ul>
-                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !rounded-full !py-2 group">Live Demo</a>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !py-2 group">Live Demo</a>
             </div>
             <div class="">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-chat-help-ss/features/whatsapp-quote.webp" alt="">
@@ -72,7 +72,7 @@
                     <li><strong>Pre-filled Messages</strong>: Define default WhatsApp messages for users to send.</li>
                     <li><strong>Multi-Agent Support</strong>: Link to different WhatsApp accounts based on button usage.</li>
                 </ul>
-                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !rounded-full !py-2 group">Live Demo</a>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !py-2 group">Live Demo</a>
             </div>
         </div>
 
@@ -92,7 +92,7 @@
                     <li><strong>Real-Time Preview</strong>: View design changes instantly while editing in Gutenberg.</li>
 
                 </ul>
-                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !rounded-full !py-2 group">Live Demo</a>
+                <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !py-2 group">Live Demo</a>
             </div>
             <div class="">
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/wa-chat-help-ss/features/wa-button-block.webp" alt="">
@@ -109,7 +109,7 @@
                 </div>
                 <div class="flex justify-center col-span-12 text-center lg:justify-end lg:col-span-4">
                     <div class="">
-                        <a href="#pricing" class="demo_btn_primary call_to_btn">Get Chat Whatsapp Now</a>
+                        <a href="#pricing" class="!rounded-md demo_btn_primary call_to_btn mb-1">Get Chat Whatsapp Now</a>
                         <p class="text-sm text-white">14-Day No Question Asked <a class="text-white border-b border-white border-dotted" href="/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
                     </div>
                 </div>

@@ -608,7 +608,7 @@ ol li .fn a {
   box-shadow: none;
   border-width: 0px 0px 0px 0px;
   border-color: #f4f1ed;
-  background: url("../images/call-to.png");
+  background: url("../images/cta-pattern.png");
   @apply m-0 overflow-visible bg-scroll bg-center bg-no-repeat bg-cover border-solid border-spacing-2;
 }
 .gallery_item {

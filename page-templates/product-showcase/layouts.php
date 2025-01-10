@@ -9,12 +9,12 @@
         </div>
         <!-- Tabs -->
         <div class="flex flex-wrap justify-center gap-3 mb-2">
-            <button class="demo_btn_secondary !rounded-full !py-2 tab tab-active ">Single Form</button>
-            <button class="demo_btn_secondary !rounded-full !py-2 tab">Single Agent</button>
-            <button class="demo_btn_secondary !rounded-full !py-2 tab">Simple Button</button>
-            <button class="demo_btn_secondary !rounded-full !py-2 tab">Multi Agents List</button>
-            <button class="demo_btn_secondary !rounded-full !py-2 tab">Multi Agents Grid</button>
-            <button class="demo_btn_secondary !rounded-full !py-2 tab">Dark Mode</button>
+            <button class="demo_btn_secondary !py-2 tab tab-active ">Single Form</button>
+            <button class="demo_btn_secondary !py-2 tab">Single Agent</button>
+            <button class="demo_btn_secondary !py-2 tab">Simple Button</button>
+            <button class="demo_btn_secondary !py-2 tab">Multi Agents List</button>
+            <button class="demo_btn_secondary !py-2 tab">Multi Agents Grid</button>
+            <button class="demo_btn_secondary !py-2 tab">Dark Mode</button>
         </div>
         <div class="border border-solid rounded-lg shadow-md mt-9 tab-content border-border-color">
             <div class="tab-pane tab-pane-active">

@@ -2753,6 +2753,10 @@ video {
   border-radius: 9999px !important;
 }
 
+.\!rounded-md{
+  border-radius: 0.375rem !important;
+}
+
 .rounded{
   border-radius: 0.25rem;
 }
@@ -5768,7 +5772,7 @@ ol li .fn a{
   box-shadow: none;
   border-width: 0px 0px 0px 0px;
   border-color: #f4f1ed;
-  background: url("../images/call-to.png");
+  background: url("../images/cta-pattern.png");
   margin: 0px;
   --tw-border-spacing-x: 0.5rem;
   --tw-border-spacing-y: 0.5rem;

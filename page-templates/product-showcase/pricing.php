@@ -8,8 +8,8 @@
         </div>
         <!-- Tabs -->
         <div class="flex justify-center gap-3 mb-2 shadow-md w-[fit-content] rounded-md mx-auto bg-white p-3">
-            <button class="demo_btn_secondary !py-2 !rounded-full tab tab-active">Yearly</button>
-            <button class="demo_btn_secondary !py-2 !rounded-full tab">Lifetime</button>
+            <button class="demo_btn_secondary !py-2 tab tab-active">Yearly</button>
+            <button class="demo_btn_secondary !py-2 tab">Lifetime</button>
         </div>
         <div class="mt-9 tab-content">
             <div class="tab-pane tab-pane-active">
@@ -23,7 +23,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=1" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=1" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                             <li>
@@ -50,7 +50,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=2" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=2" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -77,7 +77,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=3" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=3" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -109,7 +109,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=4" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=4" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
