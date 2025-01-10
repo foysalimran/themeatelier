@@ -31,13 +31,13 @@
       <div class="flex items-center gap-7">
         <ul class="cwp-header">
           <li>
-            <a href="#">Features</a>
+            <a href="#features">Features</a>
           </li>
           <li>
-            <a href="#">Screenshots</a>
+            <a href="#screenshots">Screenshots</a>
           </li>
           <li>
-            <a href="#">Pricing</a>
+            <a href="#pricing">Pricing</a>
           </li>
             <li class="group relative ml-0 lg:!ml-4 my-1 lg:my-0">
               <a class="py-1 lg:py-3 inline-block" href="#">
@@ -53,10 +53,10 @@
               </div>
             </li>
             <li>
-            <a href="#">FAQ</a>
+            <a href="#faq">FAQ</a>
           </li>
           <li>
-            <a href="#">Account</a>
+            <a href="/account">Account</a>
           </li>
         </ul>
         <button class="demo_btn_primary">
