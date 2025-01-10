@@ -1228,8 +1228,33 @@ p#edd-user-pass-confirm-wrap {
   transform-origin: 0% 50%;
 }
 .cwp-header li:hover a {
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 .cwp-header li:hover>a::after {
   transform: scaleX(.6);
+}
+/* CWP FOOTER CSS */
+.cwp-footer p {
+  @apply uppercase font-semibold text-font-color
+}
+.cwp-footer ul li a {
+  @apply text-base text-font-color;
+}
+.cwp-footer ul li a:hover {
+  color: var(--primary);
+}
+.cwp-footer .cwp-footer-icon {
+  @apply pt-9;
+}
+.cwp-footer .cwp-footer-icon ul{
+  @apply flex gap-2;
+}
+.cwp-footer .cwp-footer-icon ul a{
+  color: var(--primary);
+  border-color: var(--primary);
+  @apply flex w-4 h-4 justify-center items-center rounded-full p-3 border-solid border transition-all duration-300;
+}
+.cwp-footer .cwp-footer-icon ul a:hover{
+  background-color: var(--primary);
+  @apply text-white;
 }

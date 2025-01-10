@@ -20,4 +20,5 @@ get_template_part( 'page-templates/product-showcase/backend-screenshots' );
 get_template_part( 'page-templates/product-showcase/pricing' );
 get_template_part( 'page-templates/product-showcase/money-back' );
 get_template_part( 'page-templates/product-showcase/faq' );
-get_footer();
+
+get_template_part('cwp-footer');

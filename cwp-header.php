@@ -9,7 +9,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-  <header class="ta-header" id="menu">
+  <header class="ta-header !bg-white" id="menu">
     <nav class="container flex flex-wrap items-center gap-2 justify-between">
       <div class="items-center md:flex">
         <div class="site-branding">
