@@ -22,7 +22,7 @@
 
       </div>
       <div class="">
-        <span class="text-2xl font-bold text-font-color">Checkout</span>
+        <span class="text-2xl font-bold text-font-color"><?php echo get_the_title(); ?></span>
       </div>
       <div class="pb-2 md:pb-0 flex gap-2 items-center">
         <svg class="fill-primary w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

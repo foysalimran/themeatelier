@@ -1,4 +1,4 @@
-<section class="pb-12 money-back md:pb-20">
+<section class="py-12 money-back md:py-20">
     <div class="container px-4 mx-auto">
         <div class="grid grid-cols-12">
             <div class="lg:col-span-1"></div>
@@ -17,7 +17,7 @@
                     <div class="grid items-center grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
                         <p class="mb-0">All pricing is in USD. You can change plans or cancel your account at any time.</p>
                         <div class="flex justify-center text-center">
-                        <span class="text-lime-50 bg-[#0F8C7E] px-3 py-1 inline-block rounded">Secure Payment with Paddle</span>
+                        <span class="text-lime-50 demo_primary_bg px-3 py-1 inline-block rounded">Secure Payment with Paddle</span>
                         </div>
                         <div class="flex justify-center text-end"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/cards.svg" alt=""></div>
                     </div>
@@ -48,7 +48,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Changelog</h4>
-                                <p class="cursor-pointer text-[#0F8C7E]" id="changelog">View Changelog</p>
+                                <p class="cursor-pointer demo_text_primary" id="changelog">View Changelog</p>
 
                                 <!-- Popup Container -->
                                 <div id="popup" class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black bg-opacity-50">
@@ -56,7 +56,7 @@
                                         <button id="closePopup" class="absolute w-6 h-6 text-gray-500 bg-white rounded-full top-2 right-2 hover:text-gray-800">
                                             &times;
                                         </button>
-                                        <h2 class="p-4 text-xl font-semibold text-white bg-primary">Chat Whatsapp Pro Changelog</h2>
+                                        <h2 class="p-4 text-xl font-semibold text-white demo_primary_bg">Chat Whatsapp Pro Changelog</h2>
                                         <div class="p-4">
                                             <p class="!text-lg font-bold">2.0.14 - Nov 12, 2024</p>
                                             <ul class="mt-1 ml-5 list-disc">

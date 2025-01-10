@@ -6,14 +6,14 @@
 get_header(); ?>
 
 <!--====== Hero section start ======-->
-<section class="h-[380px] bg-secondary">
+<section class="h-[340px] bg-secondary">
   <div class="container text-center">
     <h1 class="mb-0 text-3xl sm:text-4xl pt-44">
       <?php the_title(); ?>
     </h1>
   </div>
 </section>
-<section class="py-20">
+<section class="py-20 contact tabs">
   <div class="container">
     <div class="grid grid-cols-12 gap-8">
       <div class="md:col-span-8 col-span-12">

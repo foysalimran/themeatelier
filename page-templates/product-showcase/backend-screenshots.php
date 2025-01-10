@@ -1,8 +1,9 @@
-<section class="py-12 ta-featured md:py-20">
+<section
+    class="py-12 ta-featured md:py-20">
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-            See Backend <mark style="background-color:rgba(0, 0, 0, 0);color:#0F8C7E">Screenshots</mark>
+                See Backend <span class="demo_text_primary">Screenshots</span>
             </h2>
             <span class="inline-block mt-5 text-lg font-normal">Get a wide range of powerful and easy-to-use features and customizations, as seen in the following backend screenshot.</span>
         </div>
