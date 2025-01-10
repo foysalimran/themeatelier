@@ -1244,7 +1244,7 @@ p#edd-user-pass-confirm-wrap {
   color: var(--primary);
 }
 .cwp-footer .cwp-footer-icon {
-  @apply pt-9;
+  @apply mt-9;
 }
 .cwp-footer .cwp-footer-icon ul{
   @apply flex gap-2;
