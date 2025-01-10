@@ -1,9 +1,9 @@
 <!--====== Footer section start ======-->
-<footer class="ta-footer<?php if (!(is_front_page()  || is_page('Deals'))) : ?> bg-secondary<?php endif; ?>">
+<footer class="ta-footer">
 
   <div class="container">
-    <div class="pt-20 pb-20">
-      <div class="cwp-footer grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="py-12 lg:py-20">
+      <div class="cwp-footer grid grid-cols-1 gap-7 xl:gap-10 md:grid-cols-3">
         <div>
           <?php echo do_shortcode('[fluentform id="4"]') ?>
         </div>
