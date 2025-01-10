@@ -1192,3 +1192,24 @@ p#edd-user-pass-confirm-wrap {
 .demo_svg_primary {
   fill: var(--primary);
 }
+/* CWP HEADER CSS */
+.cwp-header li {
+  @apply relative 
+}
+.cwp-header li a {
+  @apply !p-0
+}
+.cwp-header li>a::after, .cwp-header li:hover>a::after {
+  content: '';
+  @apply block border-b-2 border-solid;
+  border-color: var(--primary);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+.cwp-header li:hover a {
+  color: var(--primary);
+}
+.cwp-header li:hover>a::after {
+  transform: scaleX(.6);
+}

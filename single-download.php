@@ -1,5 +1,5 @@
 <?php
-get_header();
+get_template_part('cwp-header');
 ?>
 <style>
     html{

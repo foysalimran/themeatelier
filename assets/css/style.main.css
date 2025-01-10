@@ -6979,6 +6979,35 @@ p#edd-user-pass-confirm-wrap{
   fill: var(--primary);
 }
 
+/* CWP HEADER CSS */
+
+.cwp-header li{
+  position: relative;
+}
+
+.cwp-header li a{
+  padding: 0px !important;
+}
+
+.cwp-header li>a::after, .cwp-header li:hover>a::after {
+  content: '';
+  display: block;
+  border-bottom-width: 2px;
+  border-style: solid;
+  border-color: var(--primary);
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+
+.cwp-header li:hover a {
+  color: var(--primary);
+}
+
+.cwp-header li:hover>a::after {
+  transform: scaleX(.6);
+}
+
 .hover\:prose-lg:hover{
   font-size: 1.125rem;
   line-height: 1.7777778;
