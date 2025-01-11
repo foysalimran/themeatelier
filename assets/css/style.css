@@ -1129,6 +1129,10 @@ p#edd-user-pass-confirm-wrap {
   background-size: 20px 20px;
   @apply bg-no-repeat cursor-pointer;
 }
+span.edd_sl_license_key {
+  background-position: right 5px center;
+  @apply pr-8;
+}
 
 .edd_cart_footer_row .edd_cart_discount {
   @apply text-lg font-normal;
