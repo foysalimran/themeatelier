@@ -6369,7 +6369,7 @@ ol li .fn a{
   margin-bottom: 1.25rem;
 }
 
-#edd_purchase_form_wrap #edd_checkout_user_info{
+#edd_purchase_form_wrap #edd_checkout_user_info, #edd_checkout_form_wrap #edd_checkout_user_info{
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -6380,11 +6380,11 @@ ol li .fn a{
   padding-right: 1.25rem;
 }
 
-#edd_purchase_form_wrap #edd_checkout_user_info .edd-description{
+#edd_purchase_form_wrap #edd_checkout_user_info .edd-description, #edd_checkout_form_wrap #edd_checkout_user_info .edd-description{
   display: none;
 }
 
-#edd_purchase_form_wrap #edd_checkout_user_info legend{
+#edd_purchase_form_wrap #edd_checkout_user_info legend, #edd_checkout_form_wrap #edd_checkout_user_info legend{
   margin-bottom: 0px;
   display: inline-block;
   width: auto;
@@ -6393,32 +6393,33 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap a,
-#edd_purchase_form a{
+#edd_purchase_form a, #edd_checkout_form_wrap a,
+#edd_checkout_form a{
   --tw-text-opacity: 1;
   color: rgb(52 100 224 / var(--tw-text-opacity));
   text-decoration: none;
 }
 
-#edd_purchase_form_wrap p{
+#edd_purchase_form_wrap p, #edd_checkout_form_wrap p{
   margin: 0px;
   margin-bottom: 1.25rem !important;
 }
 
-#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap{
+#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap, #edd_checkout_form_wrap p#edd-user-pass-confirm-wrap{
   margin-bottom: 0px !important;
 }
 
-#edd_purchase_form_wrap p label{
+#edd_purchase_form_wrap p label, #edd_checkout_form_wrap p label{
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-#edd_purchase_form_wrap p .edd-description{
+#edd_purchase_form_wrap p .edd-description, #edd_checkout_form_wrap p .edd-description{
   display: none;
 }
 
-#edd_purchase_form_wrap p input{
+#edd_purchase_form_wrap p input, #edd_checkout_form_wrap p input{
   border-radius: 0.375rem;
   border-width: 1px;
   border-style: solid;
@@ -6441,7 +6442,8 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap #edd_register_fields,
-#edd_purchase_form_wrap #edd_login_fields{
+#edd_purchase_form_wrap #edd_login_fields, #edd_checkout_form_wrap #edd_register_fields,
+#edd_checkout_form_wrap #edd_login_fields{
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -6452,7 +6454,8 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
-#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info{
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info, #edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info,
+#edd_checkout_form_wrap #edd_login_fields #edd_checkout_user_info{
   border-width: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -6461,7 +6464,8 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
-#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend{
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend, #edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info legend,
+#edd_checkout_form_wrap #edd_login_fields #edd_checkout_user_info legend{
   margin-bottom: 1rem;
   display: block;
   width: 100%;
@@ -6472,17 +6476,18 @@ ol li .fn a{
   padding-bottom: 0.75rem;
 }
 
-#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap{
+#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap, #edd_checkout_form_wrap #edd_login_fields #edd-user-pass-wrap{
   margin-bottom: 0px !important;
   width: 100%;
 }
 
-#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit{
+#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit, #edd_checkout_form_wrap #edd_login_fields #edd-user-login-submit{
   margin-bottom: 0px !important;
 }
 
 #edd_purchase_form_wrap #edd-login-account-wrap,
-#edd_purchase_form_wrap #edd-new-account-wrap{
+#edd_purchase_form_wrap #edd-new-account-wrap, #edd_checkout_form_wrap #edd-login-account-wrap,
+#edd_checkout_form_wrap #edd-new-account-wrap{
   margin-left: -1.25rem !important;
   margin-right: -1.25rem !important;
   margin-bottom: 1.25rem !important;
@@ -6500,23 +6505,26 @@ ol li .fn a{
 }
 
 .ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form,.ta-footer
-#edd_purchase_form_wrap #edd-new-account-wrap form{
+#edd_purchase_form_wrap #edd-new-account-wrap form,.ta-footer #edd_checkout_form_wrap #edd-login-account-wrap form,.ta-footer
+#edd_checkout_form_wrap #edd-new-account-wrap form{
   background-color: transparent !important;
 }
 
 .ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form input,.ta-footer
-#edd_purchase_form_wrap #edd-new-account-wrap form input{
+#edd_purchase_form_wrap #edd-new-account-wrap form input,.ta-footer #edd_checkout_form_wrap #edd-login-account-wrap form input,.ta-footer
+#edd_checkout_form_wrap #edd-new-account-wrap form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
 .ta-footer#edd_purchase_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer
-#edd_purchase_form_wrap #edd-new-account-wrap .ta-footer-bottom{
+#edd_purchase_form_wrap #edd-new-account-wrap .ta-footer-bottom,.ta-footer #edd_checkout_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer
+#edd_checkout_form_wrap #edd-new-account-wrap .ta-footer-bottom{
   --tw-border-opacity: 1 !important;
   border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
 }
 
-#edd_purchase_submit #edd_final_total_wrap{
+#edd_purchase_submit #edd_final_total_wrap, #edd_checkout_submit #edd_final_total_wrap{
   margin-top: 0.75rem !important;
   margin-bottom: 0px !important;
 }
