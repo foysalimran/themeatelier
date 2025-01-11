@@ -6242,10 +6242,6 @@ ol li .fn a{
   vertical-align: middle;
 }
 
-/* .eddr-cart-item-notice {
-  @apply m-0 mb-8;
-} */
-
 .edd_cart_remove_item_btn{
   --tw-text-opacity: 1;
   color: rgb(52 100 224 / var(--tw-text-opacity));
@@ -6520,7 +6516,7 @@ ol li .fn a{
   margin-bottom: 0px !important;
 }
 
-#edd_purchase_submit .edd_error{
+.edd_error{
   margin-top: 0.75rem !important;
   margin-bottom: 0.75rem !important;
   border-radius: 0.375rem;
