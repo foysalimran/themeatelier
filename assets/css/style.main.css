@@ -4539,6 +4539,11 @@ h6{
   }
 }
 
+input[type=radio] {
+  width: auto;
+  margin-right: 5px;
+}
+
 .ta-btn-primary{
   display: inline-block;
   border-radius: 9999px;
@@ -5768,8 +5773,8 @@ ol li .fn a{
   font-family: IcoFont;
   color: var(--primary);
   position: absolute;
-  top: 0.25rem;
   left: 0px;
+  top: 0.25rem;
   margin-right: 0.5rem;
   margin-bottom: -0.25rem;
   display: inline-block;
@@ -5984,9 +5989,9 @@ ol li .fn a{
   border-top-width: 2px;
   border-bottom-width: 2px;
   border-color: transparent;
-  padding-left: 3rem;
-  padding-bottom: 0.75rem;
   padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 3rem;
   font-size: 1rem;
   line-height: 1.5rem;
   font-weight: 500;
@@ -6257,10 +6262,10 @@ ol li .fn a{
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 #edd_sl_show_renewal_form.button{
@@ -6325,8 +6330,8 @@ ol li .fn a{
 }
 
 #edd_discount_code{
-  margin-bottom: 1.25rem;
   margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 #edd_show_discount{
@@ -6373,10 +6378,10 @@ ol li .fn a{
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-bottom: 1.25rem;
-  padding-top: 1.25rem;
 }
 
 #edd_purchase_form_wrap #edd_checkout_user_info .edd-description{
@@ -6423,10 +6428,10 @@ ol li .fn a{
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   line-height: 24px;
 }
 
@@ -6445,18 +6450,18 @@ ol li .fn a{
   border-style: solid;
   --tw-border-opacity: 1;
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
+  padding-bottom: 1.25rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
-  padding-bottom: 1.25rem;
 }
 
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
 #edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info{
   border-width: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
   padding-left: 0px;
   padding-right: 0px;
-  padding-bottom: 0px;
-  padding-top: 0px;
 }
 
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
@@ -6779,10 +6784,10 @@ p#edd-user-pass-confirm-wrap{
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(52 100 224 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -6812,10 +6817,10 @@ p#edd-user-pass-confirm-wrap{
   border-radius: 9999px;
   --tw-bg-opacity: 1;
   background-color: rgb(52 100 224 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -6929,10 +6934,10 @@ p#edd-user-pass-confirm-wrap{
   border-color: rgb(52 100 224 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(52 100 224 / var(--tw-bg-opacity));
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
   transition-duration: 300ms;
