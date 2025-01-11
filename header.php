@@ -19,7 +19,6 @@
           <a class="text-2xl font-black text-font-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/themeatelier-logo.svg" alt="">
           </a>
-
         </div><!-- .site-branding -->
         <div class="shrink-0">
           <?php wp_nav_menu(
