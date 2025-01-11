@@ -1079,7 +1079,7 @@ p#edd-user-pass-confirm-wrap {
   @apply text-red-600 py-1.5 px-3 rounded-full bg-red-300 border border-solid border-red-600;
 }
 .edd-table .edd_subscription_renew {
-  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
+  @apply text-green-700 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-700;
 }
 .edd-table .edd-subscription-reactivate {
   @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
