@@ -12,8 +12,8 @@ if (! defined('ABSPATH')) {
     exit; // Exit if accessed directly.
 }
 
-$user_id    = get_current_user_id();
 
+$user_id    = get_current_user_id();
 if ($user_id) {
     $user = get_userdata($user_id);
 

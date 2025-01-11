@@ -53,7 +53,7 @@
                                 <p class="cursor-pointer demo_text_primary" id="changelog">View Changelog</p>
 
                                 <!-- Popup Container -->
-                                <div id="popup" class="fixed inset-0 z-50 flex items-center justify-center hidden bg-black bg-opacity-50">
+                                <div id="popup" class="fixed inset-0 z-[9999999] flex items-center justify-center hidden bg-black bg-opacity-50">
                                     <div class="relative w-1/3 bg-white shadow-lg">
                                         <button id="closePopup" class="absolute w-6 h-6 text-gray-500 bg-white rounded-full top-2 right-2 hover:text-gray-800">
                                             &times;

@@ -6,12 +6,11 @@ div#login {
     max-width: 540px;
 }
 .login h1 a {
-    background-image: url(http://themeatelier-edd.local/wp-content/themes/themeatelier/assets/images/ta-icon.png);
+    background-image: url(../images/ta-icon.png);
     height: 65px;
     width: 65px;
     background-size: contain;
     background-repeat: no-repeat;
-    padding-bottom: 30px;
     background-position: center;
 }
 body.login form {

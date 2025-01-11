@@ -1368,8 +1368,8 @@ video {
   z-index: 10;
 }
 
-.z-50{
-  z-index: 50;
+.z-\[9999999\]{
+  z-index: 9999999;
 }
 
 .order-1{
@@ -1774,16 +1774,16 @@ video {
   height: 380px;
 }
 
+.h-\[400px\]{
+  height: 400px;
+}
+
 .h-\[90px\]{
   height: 90px;
 }
 
 .h-full{
   height: 100%;
-}
-
-.h-\[400px\]{
-  height: 400px;
 }
 
 .w-1\/3{
