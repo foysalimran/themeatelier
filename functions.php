@@ -415,3 +415,9 @@ function themeatelier_login_stylesheet() {
     wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/assets/css/style-login.css' );
 }
 add_action( 'login_enqueue_scripts', 'themeatelier_login_stylesheet' );
+
+// REDIRECT ACCOUNT PAGE FROM WP-ADMIN PAGE
+function ta_login_redirect( $redirect_to, $request, $user ){
+    return home_url('/account');
+}
+add_filter( 'login_redirect', 'ta_login_redirect', 10, 3 );
