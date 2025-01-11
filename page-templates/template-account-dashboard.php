@@ -87,7 +87,7 @@ if (!is_user_logged_in()) {
                   }
                   $active_class    = $dashboard_key == $dashboard_page_name ? 'active' : '';
                   $menu_link = apply_filters('account_menu_link', $menu_link, $menu_title);
-                  $data_no_instant = 'logout' == $dashboard_key ? wp_logout_url() : $menu_link;
+                  $data_no_instant = 'logout' == $dashboard_key ? wp_logout_url('/login') : $menu_link;
               ?>
 
                   <li class='<?php echo esc_attr($active_class); ?>'>

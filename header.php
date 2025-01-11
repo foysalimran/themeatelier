@@ -51,7 +51,7 @@
               <a class="ta-btn-secondary" href="<?php echo esc_url(get_home_url() . '/login') ?>">Login</a>
             </li>
           <?php else :
-            $logout = wp_logout_url();
+            $logout = wp_logout_url('/login');
             $current_user = wp_get_current_user(); 
             $avatar_url = get_avatar_url($current_user->ID);
           ?>

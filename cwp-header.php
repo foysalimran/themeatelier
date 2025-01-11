@@ -47,11 +47,11 @@
             <div class="top-12 lg:pt-6 lg:group-hover:pt-3 -left-8 lg:absolute hidden group-hover:block lg:block lg:invisible group-hover:visible">
               <ul class="dropdown_menu !block bg-white lg:pb-2 lg:after:border-b-secondary after:z-50 min-w-[250px] rounded-md lg:opacity-0 group-hover:opacity-100 ease-linear duration-100 after:invisible after:opacity-0 group-hover:after:opacity-100 lg:after:visible after:absolute after:left-16 lg:after:border-[10px] after:-top-2 after:border-transparent lg:shadow-md lg:border border-solid border-secondary">
                 <li><a href="/blog"><?php echo esc_html__('Blog', 'themeatelier') ?></a></li>
-                <li><a id="changelog" href="#"><?php echo esc_html__('Changelogs – What’s New', 'themeatelier') ?></a></li>
-                <li><a target="_blank" id="changelog" href="https://docs.themeatelier.net/docs/whatsapp-chat-help-pro/overview/"><?php echo esc_html__('Documentation', 'themeatelier') ?></a></li>
-                <li><a target="_blank" id="changelog" href="https://www.youtube.com/watch?v=2WzK6mE6BQE"><?php echo esc_html__('Video Tutorials', 'themeatelier') ?></a></li>
-                <li><a id="changelog" href="/contact"><?php echo esc_html__('Submit a Ticket', 'themeatelier') ?></a></li>
-                <li><a id="changelog" href="/contact"><?php echo esc_html__('Contact Us', 'themeatelier') ?></a></li>
+                <li><a class="changelog_btn" href="#"><?php echo esc_html__('Changelogs – What’s New', 'themeatelier') ?></a></li>
+                <li><a target="_blank" href="https://docs.themeatelier.net/docs/whatsapp-chat-help-pro/overview/"><?php echo esc_html__('Documentation', 'themeatelier') ?></a></li>
+                <li><a target="_blank" href="https://www.youtube.com/watch?v=2WzK6mE6BQE"><?php echo esc_html__('Video Tutorials', 'themeatelier') ?></a></li>
+                <li><a href="/contact"><?php echo esc_html__('Submit a Ticket', 'themeatelier') ?></a></li>
+                <li><a href="/contact"><?php echo esc_html__('Contact Us', 'themeatelier') ?></a></li>
               </ul>
             </div>
           </li>

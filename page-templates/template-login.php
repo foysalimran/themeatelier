@@ -21,7 +21,7 @@ if (!is_user_logged_in()) {
       <div class="p-12 bg-white border rounded shadow-lg pb-14 border-secondary">
         <?php
         if (shortcode_exists('edd_login')) {
-          echo do_shortcode('[edd_login]');
+          echo do_shortcode('[edd_login redirect="/account"]');
         }
         ?>
       </div>
