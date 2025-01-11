@@ -1117,7 +1117,7 @@ p#edd-user-pass-confirm-wrap {
   @apply mb-3;
 }
 
-.edd_sl_license_row .edd_sl_license_key {
+.edd_sl_license_key {
   background-image: url(../images/copy.svg);
   background-position: right 15px center;
   background-size: 20px 20px;
