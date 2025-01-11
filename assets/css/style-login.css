@@ -1,0 +1,61 @@
+body.login {
+    background: #ffffff;
+}
+div#login {
+    width: auto;
+    max-width: 540px;
+}
+.login h1 a {
+    background-image: url(../images/ta-icon.png);
+    height: 65px;
+    width: 65px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+body.login form {
+    box-shadow: 0px 0px 30px rgba(7, 31, 66, 0.1) !important;
+    border-radius: 0.25rem !important;
+    padding: 3rem !important;
+    border-color: #EAF1EE !important;
+}
+input#wp-submit,
+#fls_2fa_confirm {
+    display: block !important;
+    width: 100% !important;
+    margin-top: 20px !important;
+    background: #3564E1 !important;
+    height: 50px !important;
+    font-weight: bold !important;
+    transition-timing-function: linear !important;
+    transition-duration: 300ms !important;
+}
+input#wp-submit:hover,
+#fls_2fa_confirm:hover {
+    background: rgb(0 0 0 / 0.8) !important;
+}
+
+.login .wp-login-log-in {
+    background: #3564E1 !important;
+    color:#fff!important;
+    padding: 12px 25px;
+    display: inline-block;
+    border-radius: 3px;
+    font-weight: 600;
+    transition: .3s;
+}
+.login .wp-login-log-in:hover{
+    background: rgb(0 0 0 / 0.8) !important;
+}
+.login .fs_auth_btn {
+    height: 40px;
+}
+.login .fs_auth_btn a:focus {
+    color: #ffffff;
+}
+.login #nav, .login #backtoblog, .login #backtoblog a {
+    text-align: center;
+}
+body.login form .forgetmenot {
+    float: unset;
+}
