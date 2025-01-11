@@ -113,32 +113,34 @@
   });
 
   document.addEventListener("DOMContentLoaded", function () {
-    const changelog = document.getElementById("changelog");
+    const changelogBtns = document.querySelectorAll(".changelog_btn");
     const popup = document.getElementById("popup");
     const closePopup = document.getElementById("closePopup");
+    changelogBtns.forEach((changelog, index) => {
+      // Show popup when changelog is clicked
+      if (changelog) {
+        changelog.addEventListener("click", () => {
+          popup.classList.remove("hidden");
+        });
+      }
 
-    // Show popup when changelog is clicked
-    if (changelog) {
-      changelog.addEventListener("click", () => {
-        popup.classList.remove("hidden");
-      });
-    }
 
-    // Close popup when close button is clicked
-    if (closePopup) {
-      closePopup.addEventListener("click", () => {
-        popup.classList.add("hidden");
-      });
-    }
-
-    // Close popup when clicking outside the popup content
-    if (popup) {
-      popup.addEventListener("click", (e) => {
-        if (e.target === popup) {
+      // Close popup when close button is clicked
+      if (closePopup) {
+        closePopup.addEventListener("click", () => {
           popup.classList.add("hidden");
-        }
-      });
-    }
+        });
+      }
+
+      // Close popup when clicking outside the popup content
+      if (popup) {
+        popup.addEventListener("click", (e) => {
+          if (e.target === popup) {
+            popup.classList.add("hidden");
+          }
+        });
+      }
+    })
   });
 
   document.addEventListener("DOMContentLoaded", function () {

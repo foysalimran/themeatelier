@@ -50,7 +50,7 @@
                             </div>
                             <div class="changelog_item_content">
                                 <h4>Changelog</h4>
-                                <p class="cursor-pointer demo_text_primary" id="changelog">View Changelog</p>
+                                <p class="cursor-pointer demo_text_primary changelog_btn">View Changelog</p>
 
                                 <!-- Popup Container -->
                                 <div id="popup" class="fixed inset-0 z-[9999999] flex items-center justify-center hidden bg-black bg-opacity-50">
