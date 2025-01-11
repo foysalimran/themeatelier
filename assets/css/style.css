@@ -989,7 +989,7 @@ ol li .fn a {
 #edd_purchase_submit #edd_final_total_wrap {
   @apply !mt-3 !mb-0;
 }
-#edd_purchase_submit .edd_error {
+.edd_error {
   @apply p-4 rounded-md bg-red-200 text-red-600 text-base !mt-3 !mb-3;
 }
 #edd-discount-code-wrap {
