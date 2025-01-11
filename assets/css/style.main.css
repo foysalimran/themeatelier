@@ -6516,17 +6516,26 @@ ol li .fn a{
   margin-bottom: 0px !important;
 }
 
+.edd_errors{
+  margin-top: 0.75rem;
+}
+
 .edd_error{
   margin-top: 0.75rem !important;
   margin-bottom: 0.75rem !important;
   border-radius: 0.375rem;
   --tw-bg-opacity: 1;
-  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
+  background-color: rgb(254 226 226 / var(--tw-bg-opacity));
   padding: 1rem;
   font-size: 1rem;
   line-height: 1.5rem;
   --tw-text-opacity: 1;
-  color: rgb(220 38 38 / var(--tw-text-opacity));
+  color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+
+.edd_error strong{
+  --tw-text-opacity: 1;
+  color: rgb(185 28 28 / var(--tw-text-opacity));
 }
 
 #edd-discount-code-wrap{
@@ -6944,6 +6953,15 @@ p#edd-user-pass-confirm-wrap{
 
 #paddle_pay_now_btn {
   text-decoration: none;
+}
+
+.wp-smartpay-edd-payment-wrapper{
+  text-align: center;
+}
+
+#paddle_pay_now_btn{
+  margin-top: 0.75rem;
+  display: inline-block;
 }
 
 /* PLUGIN DEMO CSS  */

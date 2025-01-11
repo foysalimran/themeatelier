@@ -989,8 +989,14 @@ ol li .fn a {
 #edd_purchase_submit #edd_final_total_wrap {
   @apply !mt-3 !mb-0;
 }
+.edd_errors {
+  @apply mt-3;
+}
 .edd_error {
-  @apply p-4 rounded-md bg-red-200 text-red-600 text-base !mt-3 !mb-3;
+  @apply p-4 rounded-md bg-red-100 text-red-700 text-base !mt-3 !mb-3;
+}
+.edd_error strong {
+  @apply text-red-700;
 }
 #edd-discount-code-wrap {
   @apply !hidden;
@@ -1167,6 +1173,13 @@ p#edd-user-pass-confirm-wrap {
   @apply py-2 bg-primary text-white px-5 rounded-full ease-linear duration-300 border-2 border-primary border-solid hover:bg-black hover:border-black;
   text-decoration: none;
 }
+.wp-smartpay-edd-payment-wrapper {
+  @apply text-center;
+}
+#paddle_pay_now_btn {
+  @apply inline-block mt-3;
+}
+
 /* PLUGIN DEMO CSS  */
 .demo_btn_primary {
   background-color: var(--primary);
