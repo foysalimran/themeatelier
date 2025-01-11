@@ -1,11 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400;1,700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Aclonica&display=swap");
 .aclonica-regular {
   font-family: "Aclonica", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
-.blackfriday-hero{
+.blackfriday-hero {
   background-image: url(../images/black-friday-banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -60,19 +60,22 @@ h6 {
   @apply text-base lg:text-lg;
 }
 .ta-btn-primary {
-  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-full text-white  ease-linear duration-300 inline-block;
 }
-.ta-btn-primary:hover{
+.ta-btn-primary:hover {
   @apply bg-black;
 }
 
 .ta-btn-secondary {
-  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-white hover:bg-primary rounded-full border-2 border-primary text-primary hover:!text-white ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-inherit hover:bg-primary rounded-full border-2 border-primary text-primary hover:!text-white ease-linear duration-300 inline-block;
 }
 input,
 textarea,
 select {
-  @apply w-full p-3 border rounded bg-secondary border-secondary focus:outline-none;
+  @apply w-full p-3 border text-base rounded bg-secondary border-secondary focus:outline-none;
+}
+input[type="submit"] {
+  @apply cursor-pointer;
 }
 textarea {
   @apply h-[150px];
@@ -95,13 +98,13 @@ label {
   @apply items-center md:flex;
 }
 .ta-header ul li {
-  @apply hidden my-1 lg:my-0 md:flex md:ml-6 lg:ml-8;
+  @apply hidden my-1 lg:my-0 md:flex md:ml-6 xl:ml-8;
 }
 
 .ta-header ul li a {
   @apply inline-block py-1 font-bold lg:py-3 hover:text-primary text-font-color;
 }
-.ta-sticky-menu {
+.ta-header.ta-sticky-menu {
   @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
   box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
 }
@@ -126,6 +129,12 @@ label {
 }
 .ta-header.menu-active button svg:first-child {
   @apply !hidden;
+}
+.ta-header ul li .dropdown_menu li {
+  @apply py-1 !ml-0 text-center px-5;
+}
+.ta-header ul li .dropdown_menu li a {
+  @apply p-0;
 }
 
 /* Hero css */
@@ -168,8 +177,10 @@ form .search-field {
 ul .tab {
   @apply transition-all duration-500;
 }
-ul .tab.tab-active {
-  @apply bg-primary;
+ul .tab.tab-active,
+.tab.tab-active {
+  @apply text-white;
+  background-color: var(--primary);
 }
 ul .tab.tab-active span {
   @apply text-white;
@@ -192,7 +203,7 @@ ul .tab.tab-active svg {
   @apply !bg-white;
 }
 .ta-footer form label {
-  @apply text-base font-bold mb-5;
+  @apply mb-5 text-base font-bold;
 }
 .ta-footer form button {
   @apply !bg-primary text-white w-full;
@@ -229,6 +240,10 @@ ul .tab.tab-active svg {
 .ta-contact-form .form-control {
   @apply block w-full mb-0 text-base text-font-color-light;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.contact ul .tab.tab-active,
+.contact .tab.tab-active {
+  @apply bg-primary;
 }
 
 .ta-blog-details ul {
@@ -278,7 +293,7 @@ ul .tab.tab-active svg {
 }
 
 .ta-single-blog input[type="submit"] {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block cursor-pointer;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block cursor-pointer;
 }
 .ta-single-blog .post-categories {
   @apply flex flex-wrap items-center justify-center gap-2;
@@ -346,7 +361,7 @@ ul .tab.tab-active svg {
   .wp-block-search__button-outside
   .wp-block-search__inside-wrapper
   button {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block;
 }
 .ta-single-blog .wp-social-link-fivehundredpx a svg {
   @apply text-white;
@@ -554,16 +569,16 @@ ol li .fn a {
 .accordion-content {
   max-height: 0;
   overflow: hidden;
-  transition: all .5s cubic-bezier(0,1,0,1);
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
 .accordion-content.show {
-  transition: all .5s cubic-bezier(1,0,1,0);
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
   max-height: 9999px;
   height: auto;
   @apply pb-4;
 }
 .accordion-header {
-  transition: width .35s ease;
+  transition: width 0.35s ease;
   @apply pt-4 pb-4;
 }
 .accordion-header.active {
@@ -571,10 +586,103 @@ ol li .fn a {
 }
 .accordion-header svg {
   width: 18px;
-  transition: all .35s;
+  transition: all 0.35s;
 }
 .accordion-header.active svg {
   transform: rotate(180deg);
+}
+.features-list li {
+  @apply relative mb-1 leading-9 list-none pl-6;
+}
+.offers .features-list li {
+  @apply font-normal;
+}
+.features-list li::before {
+  content: "\eed9";
+  font-family: IcoFont;
+  color: var(--primary);
+  @apply inline-block w-5 h-5 mr-2 -mb-1 bg-cover text-lg absolute top-1 left-0;
+}
+.features_cta {
+  padding: 66px 38px 60px 50px;
+  box-shadow: none;
+  border-width: 0px 0px 0px 0px;
+  border-color: #f4f1ed;
+  background: url("../images/cta-pattern.png");
+  @apply m-0 overflow-visible bg-scroll bg-center bg-no-repeat bg-cover border-solid border-spacing-2;
+}
+.gallery_item {
+  @apply relative border-[5px] border-solid rounded-md border-[#DCDCDE] focus:outline-none h-[250px];
+  transition: all 0.3s;
+}
+.gallery_item img {
+  @apply rounded w-full h-full object-cover;
+  object-position: top center;
+}
+
+.gallery_item_icon {
+  @apply absolute z-50 invisible w-5 h-5 bg-transparent opacity-0 top-1/2 left-1/2;
+  transform: translate(-50%, -50%);
+}
+.gallery_item:hover .gallery_item_icon {
+  @apply visible opacity-100;
+}
+.gallery_item:hover .gallery_item_icon svg {
+  @apply fill-[#fff];
+}
+.gallery_item::after {
+  content: "";
+  @apply absolute top-0 left-0 w-full h-full bg-transparent;
+  transition: all 0.3s;
+}
+.gallery_item:hover::after {
+  @apply bg-[#08080882];
+}
+.is-classic .is-nav-selected .f-thumbs__slide__button::after {
+  @apply border-[3px] border-solid border-primary;
+}
+.f-button {
+  @apply bg-transparent;
+}
+.fancybox__slide {
+  @apply px-24 py-16;
+}
+/* PRICING CSS */
+.pricing_item:not(:last-child) {
+  @apply border-r-[1.5px] border-solid;
+  border-color: var(--primary);
+}
+.pricing_item.popular {
+  @apply relative overflow-hidden;
+}
+.pricing_item.popular::after {
+  content: "Popular";
+  background-color: var(--primary);
+  transform: rotate(45deg);
+  @apply absolute w-[200px] text-center top-4 -right-[66px] p-[5px] text-white font-semibold text-sm;
+}
+.offers {
+  background: linear-gradient(160deg, var(--secondary) 0%, #fff 90%);
+}
+.popular {
+  @apply relative;
+}
+.popular::after {
+  @apply absolute bg-primary w-48 rotate-[450] text-center top-4 -right-16 p-1 text-white font-semibold text-xs;
+}
+.changelog_item {
+  @apply grid items-center gap-2;
+  grid-template-columns: 40px 1fr;
+}
+.changelog_item p {
+  @apply mb-0 text-sm;
+}
+.changelog_item h4 {
+  @apply mb-0 text-xl;
+}
+.money-back_content {
+  @apply grid;
+  grid-template-columns: 150px 1fr;
 }
 .edd_form .edd-submit {
   @apply w-full;
@@ -585,34 +693,20 @@ ol li .fn a {
 
 /* Dashboard Account */
 .ta-dashboard-tab-menu li:first-child a {
-  border-top-width: 0;
+  @apply border-t-0;
 }
 .ta-dashboard-tab-menu li a {
   transition-duration: 300ms;
   transition-timing-function: linear;
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-  display: block;
-  border-color: transparent;
-  border-top-width: 2px;
-  border-bottom-width: 2px;
-  position: relative;
-  padding-left: 3rem;
-  font-weight: 500;
-  font-size: 16px;
+  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-3;
 }
 .ta-dashboard-tab-menu li a::before {
-  content: '';
-  position: absolute;
-  left: 0;
-  background-repeat: no-repeat;
-  margin-left: 1rem;
+  content: "";
+  @apply absolute left-0 bg-no-repeat ml-4;
 }
 .ta-dashboard-tab-menu li:nth-child(1) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-1.svg);
-  top: 0.75rem;
-  width: 21px;
-  height: 21px;
+  @apply top-3 w-[21px] h-[21px];
 }
 .ta-dashboard-tab-menu li:nth-child(2) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-2.svg);
@@ -638,34 +732,608 @@ ol li .fn a {
   width: 20px;
   height: 20px;
 }
-.ta-dashboard-tab-menu li:nth-child(6) a::before {
+/* .ta-dashboard-tab-menu li:nth-child(6) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-6.svg);
   top: 0.7rem;
   width: 23px;
   height: 23px;
-}
-.ta-dashboard-tab-menu li:nth-child(7) a::before {
+} */
+.ta-dashboard-tab-menu li:nth-child(6) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-7.svg);
   top: 0.8rem;
   width: 21px;
   height: 21px;
 }
+.ta-dashboard-tab-menu li:nth-child(7) a::before {
+  background-image: url(../images/dashboard_icon/dashboard-icon-8.svg);
+  top: 0.8rem;
+  @apply w-5 h-5;
+}
 .ta-dashboard-tab-menu li a:hover,
 .ta-dashboard-tab-menu li.active a {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  --tw-border-opacity: 1;
-  border-color: rgb(212 237 240 / var(--tw-border-opacity));
+  @apply bg-white border-border-color;
 }
 .ta-dashboard-tab-menu li a:hover::after,
 .ta-dashboard-tab-menu li.active a::after {
   content: var(--tw-content);
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-  width: 2px;
-  height: 100%;
-  right: -2px;
-  top: 0px;
-  position: absolute;
-  display: block;
+  @apply w-0.5 h-full -right-0.5 top-0 absolute block;
+}
+
+.group:hover .group-hover\:visible {
+  @apply visible;
+}
+
+.group:hover .group-hover\:invisible {
+  @apply invisible;
+}
+
+.group:hover .group-hover\:block {
+  @apply block;
+}
+
+.group:hover .group-hover\:translate-x-2 {
+  --tw-translate-x: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:translate-x-1 {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y))
+    rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y))
+    scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group:hover .group-hover\:bg-\[\#4F2CD2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(79 44 210 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#128266\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(18 130 102 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#D23743\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(210 55 67 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#936C01\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 108 1 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#315D89\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 93 137 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#007BC2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 123 194 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#821C6E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(130 28 110 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:bg-\[\#15844E\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 132 78 / var(--tw-bg-opacity));
+}
+
+.group:hover .group-hover\:fill-white {
+  fill: #fff;
+}
+
+.group:hover .group-hover\:py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.group:hover .group-hover\:pt-3 {
+  padding-top: 0.75rem;
+}
+
+.group:hover .group-hover\:text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.group:hover .group-hover\:opacity-100 {
+  opacity: 1;
+}
+
+.group:hover .group-hover\:after\:opacity-100::after {
+  content: var(--tw-content);
+  opacity: 1;
+}
+
+/* Checkout */
+.checkout #edd_checkout_wrap {
+  @apply max-w-[800px] my-0 mx-auto rounded-lg border border-solid border-secondary bg-white shadow-lg pt-9 pl-10 pb-9 pr-10;
+}
+.checkout #edd_checkout_wrap .edd_empty_cart {
+  @apply text-red-600;
+}
+.checkout #edd_checkout_cart {
+  @apply !mt-0 !mb-0;
+}
+.checkout p {
+  @apply !m-0;
+}
+.checkout .eddr-notice {
+  @apply !mt-3;
+}
+
+.checkout .edd-payment-icons {
+  @apply flex gap-2;
+}
+
+.checkout .edd_cart_total {
+  @apply pt-2;
+}
+.checkout #edd_show_discount {
+  @apply mt-2;
+}
+#edd_checkout_cart td,
+#edd_checkout_cart th {
+  @apply border border-solid border-border-color p-4;
+}
+#edd_checkout_cart td a {
+  text-decoration: none;
+}
+#edd_checkout_cart td {
+  @apply align-middle;
+}
+/* .eddr-cart-item-notice {
+  @apply m-0 mb-8;
+} */
+.edd_cart_remove_item_btn {
+  @apply text-primary;
+}
+.edd-sl-renewal-form-fields {
+  @apply mb-5 border border-solid border-border-color py-2 px-4;
+}
+#edd_sl_show_renewal_form.button {
+  @apply !bg-secondary w-full border !text-font-color border-border-color !rounded-none mb-4;
+}
+.edd-sl-renewal-form-fields .edd-form-group__control input {
+  @apply mt-0;
+}
+.edd-sl-renewal-form-fields .edd-sl-renewal-actions button {
+  @apply !border-2 !border-solid !border-red-600 !py-1 !px-4 text-red-600 !rounded-3xl;
+}
+.edd-sl-renewal-form-fields .edd-form-group__control input {
+  @apply border border-solid rounded-md border-border-color bg-secondary;
+}
+.edd-sl-renewal-form-fields,
+#edd_sl_show_renewal_form {
+  @apply text-base;
+}
+#edd_discount_code {
+  @apply mb-5 mt-5;
+}
+#edd_show_discount {
+  @apply bg-secondary mb-8 text-base py-2 px-5 border border-border-color !block;
+}
+.edd_discount_link {
+  @apply text-primary;
+}
+.edd-payment-icons {
+  @apply mb-5;
+}
+#edd_purchase_form_wrap #edd_checkout_user_info {
+  @apply border border-solid border-border-color pl-5 pr-5 pb-5 pt-5;
+}
+#edd_purchase_form_wrap #edd_checkout_user_info .edd-description {
+  @apply hidden;
+}
+
+#edd_purchase_form_wrap #edd_checkout_user_info legend {
+  @apply inline-block w-auto border-b-0 pb-0 mb-0;
+}
+
+#edd_purchase_form_wrap a,
+#edd_purchase_form a {
+  @apply text-primary;
+  text-decoration: none;
+}
+
+#edd_purchase_form_wrap p {
+  @apply m-0 !mb-5;
+}
+#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap {
+  @apply !mb-0;
+}
+#edd_purchase_form_wrap p label {
+  @apply text-lg mb-2;
+}
+#edd_purchase_form_wrap p .edd-description {
+  @apply hidden;
+}
+#edd_purchase_form_wrap p input {
+  @apply border border-solid border-border-color py-2 px-5 rounded-md;
+  line-height: 24px;
+}
+#edd_checkout_cart td,
+#edd_checkout_cart th {
+  @apply border border-solid border-border-color p-4;
+}
+#edd_purchase_form_wrap #edd_register_fields,
+#edd_purchase_form_wrap #edd_login_fields {
+  @apply border border-solid border-border-color pl-5 pr-5 pb-5;
+}
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info {
+  @apply border-0 pl-0 pr-0 pb-0 pt-0;
+}
+#edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend {
+  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+}
+#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap {
+  @apply w-full !mb-0;
+}
+#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit {
+  @apply !mb-0;
+}
+#edd_purchase_form_wrap #edd-login-account-wrap,
+#edd_purchase_form_wrap #edd-new-account-wrap {
+  @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
+}
+#edd_purchase_submit #edd_final_total_wrap {
+  @apply !mt-3 !mb-0;
+}
+#edd_purchase_submit .edd_error {
+  @apply p-4 rounded-md bg-red-200 text-red-600 text-base !mt-3 !mb-3;
+}
+#edd-discount-code-wrap {
+  @apply !hidden;
+}
+#edd-discount-code-wrap .edd-label,
+#edd-discount-code-wrap .edd-description {
+  @apply hidden;
+}
+#edd-discount-code-wrap .edd-input {
+  @apply border border-solid border-border-color bg-secondary;
+  line-height: 24px;
+}
+#edd-discount-code-wrap .edd-submit {
+  @apply !mt-0 max-w-[20%] rounded-md;
+}
+#edd-discount-code-wrap .edd-discount-code-field-wrap {
+  @apply flex gap-2 items-center mt-2;
+}
+#edd-discount-code-wrap .edd-discount-code-field-wrap .edd-apply-discount {
+  @apply !p-3;
+}
+#edd-discount-code-wrap.show_discount {
+  @apply !block;
+}
+p#edd-first-name-wrap,
+p#edd-last-name-wrap,
+p#edd-user-pass-wrap,
+p#edd-user-pass-confirm-wrap {
+  @apply w-[48%] inline-block !mb-0;
+}
+#edd-first-name-wrap,
+#edd-user-pass-wrap {
+  @apply float-left;
+}
+#edd-last-name-wrap,
+#edd-user-pass-confirm-wrap {
+  @apply float-right;
+}
+#edd_register_account_fields {
+  @apply mt-3;
+}
+#edd_register_account_fields legend {
+  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+}
+#edd_sl_cancel_renewal_form {
+  @apply mb-3;
+}
+#edd_sl_cancel_renewal_form .edd-submit {
+  @apply !mt-0;
+}
+/* Subscription */
+.edd-table {
+  @apply w-full;
+}
+.edd-table thead tr {
+  @apply text-left font-bold mb-6 border border-border-color bg-secondary rounded-lg;
+}
+.edd-table thead tr th {
+  @apply p-4;
+}
+.edd-table tbody tr {
+  @apply shadow-md rounded-lg bg-white mt-4;
+}
+.edd-table tbody tr td {
+  @apply p-3;
+}
+.edd-table tbody tr td h4 {
+  @apply text-lg;
+}
+.edd-table tbody tr td p {
+  @apply mb-0;
+}
+.edd-table .edd_subscription_status.Cancelled {
+  @apply text-red-600;
+}
+.edd-table .edd_subscription_status.Expired {
+  @apply text-red-500;
+}
+.edd-table .edd_subscription_status.Active {
+  @apply text-green-600;
+}
+
+.edd-table .edd_subscription_cancel {
+  @apply text-red-600 py-1.5 px-3 rounded-full bg-red-300 border border-solid border-red-600;
+}
+.edd-table .edd_subscription_renew {
+  @apply text-green-700 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-700;
+}
+.edd-table .edd-subscription-reactivate {
+  @apply text-green-500 py-1.5 px-3 rounded-full bg-green-300 border border-solid border-green-500;
+}
+.edd-table .edd_update_info {
+  @apply text-sky-500 py-1.5 px-3 rounded-full border border-solid border-sky-500;
+}
+.file_download table tbody tr {
+  @apply border border-solid border-secondary;
+}
+.file_download table tbody tr .edd_download_file a {
+  @apply py-2 px-3 rounded-full bg-primary text-white;
+}
+.edd_purchase_row .edd_purchase_status.pending {
+  @apply text-yellow-400;
+}
+.edd_purchase_row .edd_purchase_status.complete {
+  @apply text-green-500;
+}
+#edd_user_history .edd_purchase_row {
+  @apply border-b border-solid border-border-color;
+}
+#edd_sl_license_add_site_form {
+  @apply mt-5;
+}
+.edd-submit.button {
+  @apply py-2 px-3 bg-primary text-white rounded-full;
+}
+
+.edd_sl_license_row .edd_sl_item_name {
+  @apply mb-3;
+}
+
+.edd_sl_license_row .edd_sl_license_key {
+  background-image: url(../images/copy.svg);
+  background-position: right 15px center;
+  background-size: 20px 20px;
+  @apply bg-no-repeat cursor-pointer;
+}
+
+.edd_cart_footer_row .edd_cart_discount {
+  @apply text-lg font-normal;
+}
+.edd_discount_remove {
+  @apply relative;
+}
+.edd_discount_remove::after {
+  content: "";
+  @apply absolute w-4 h-4 top-1 -right-7 bg-no-repeat;
+  background-image: url(../images/close.svg);
+}
+.checkout .edd-payment-icons img,
+.checkout .edd-payment-icons svg {
+  @apply w-8 h-5 object-contain border border-solid border-border-color !m-0;
+}
+
+#edd_sl_license_keys {
+  @apply overflow-hidden;
+}
+.edd-submit {
+  @apply text-base;
+}
+.edd_sl_license_row th {
+  @apply align-middle text-base border border-border-color;
+}
+.edd_sl_license_row td {
+  @apply border border-border-color align-middle text-base;
+}
+.edd_sl_license_row td a {
+  @apply text-primary;
+}
+#edd_sl_license_sites {
+  @apply overflow-hidden;
+}
+.edd_sl_license_row td[colspan="2"] {
+  @apply text-red-600;
+}
+.edd-blocks-orders__order {
+  @apply text-base !gap-3 border !border-border-color;
+}
+
+.edd_sl_license_row,
+.edd_sl_key {
+  @apply min-w-[275px];
+}
+#paddle_pay_now_btn {
+  @apply py-2 bg-primary text-white px-5 rounded-full ease-linear duration-300 border-2 border-primary border-solid hover:bg-black hover:border-black;
+  text-decoration: none;
+}
+/* PLUGIN DEMO CSS  */
+.demo_btn_primary {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  @apply py-1.5 lg:py-3 px-5 lg:px-8 rounded-md text-white ease-linear duration-300 inline-block border-2 border-solid text-center;
+}
+.demo_btn_primary:hover {
+  background-color: var(--dark);
+  border-color: var(--dark);
+}
+.demo_btn_secondary {
+  color: var(--primary);
+  border-color: var(--primary);
+  color: var(--primary);
+  @apply py-1.5 lg:py-3 px-5 lg:px-8 rounded-md ease-linear duration-300 inline-block border-2 border-solid text-center;
+}
+.demo_btn_secondary:hover {
+  @apply text-white;
+  background-color: var(--primary);
+}
+.demo_section_bg {
+  background-color: var(--secondary);
+}
+.demo_text_primary {
+  color: var(--primary);
+}
+.demo_primary_bg {
+  background-color: var(--primary);
+}
+.demo_btn_primary.call_to_btn {
+  @apply py-2 rounded-full bg-white demo_text_primary border-white;
+}
+.demo_btn_primary.call_to_btn:hover {
+  background-color: var(--dark);
+  border-color: var(--dark);
+  @apply text-white;
+}
+.gallery_item:hover {
+  border-color: var(--primary);
+}
+.demo_svg_primary {
+  fill: var(--primary);
+}
+.demo_border_primary {
+  border-color: var(--primary);
+}
+/* CWP HEADER CSS */
+.cwp-header.ta-sticky-menu ~ .scroll_set_height {
+  @apply h-[64px] lg:h-[74px];
+}
+section {
+  @apply scroll-mt-[64px] lg:scroll-mt-[74px];
+}
+.cwp-header {
+  @apply absolute z-[999999] w-full py-5 duration-200 ease-linear;
+}
+.cwp-header ul {
+  @apply items-center lg:flex;
+}
+.cwp-header ul li {
+  @apply hidden my-1 lg:my-0 lg:flex lg:ml-6 xl:ml-8;
+}
+
+.cwp-header ul li a {
+  @apply block lg:inline-block py-1 font-bold lg:py-3 text-font-color;
+}
+.cwp-header.ta-sticky-menu {
+  @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
+  box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
+}
+.cwp-header button svg:last-child {
+  @apply !hidden;
+}
+.cwp-header.menu-active {
+  @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
+  box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
+}
+.cwp-header.menu-active nav {
+  @apply items-start;
+}
+.cwp-header.menu-active ul li {
+  @apply !flex;
+}
+.cwp-header.menu-active button {
+  @apply py-2;
+}
+.cwp-header.menu-active button svg:last-child {
+  @apply !flex;
+}
+.cwp-header.menu-active button svg:first-child {
+  @apply !hidden;
+}
+.cwp-header ul li .dropdown_menu li {
+  @apply py-1 !ml-0 text-center px-5;
+}
+.cwp-header ul li .dropdown_menu li a {
+  @apply p-0;
+}
+.cwp-header ul li {
+  @apply relative 
+}
+.cwp-header ul li.group a::after, .cwp-header ul li.group:hover a::after {
+  border-bottom: 2px solid transparent;
+}
+.cwp-header ul li>a::after, .cwp-header ul li:hover>a::after {
+  content: '';
+  @apply block border-b-2 border-solid;
+  border-color: var(--primary) !important;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+.cwp-header li:hover>a {
+  color: var(--primary) !important;
+}
+.cwp-header ul li:hover>a::after {
+  transform: scaleX(.6);
+}
+.cwp-header ul li>a:hover {
+  color: var(--primary);
+}
+.cwp-header li a i {
+  @apply hidden lg:inline-block;
+}
+.cwp-header li ul {
+  @apply lg:p-0;
+}
+.cwp-header li div {
+  @apply block;
+}
+.cwp-header ul li:hover>.demo_btn_primary::after {
+  @apply !border-transparent border-b-2 border-solid;
+  transform: scaleX(0);
+}
+
+/* CWP FOOTER CSS */
+.ta-footer.cwp-footer {
+  background: linear-gradient(var(--secondary) 0%, #fff 100%);
+}
+.cwp-footer p {
+  @apply uppercase font-semibold text-font-color;
+}
+.cwp-footer ul li a {
+  @apply text-base text-font-color;
+}
+.cwp-footer ul li a:hover {
+  color: var(--primary);
+}
+.cwp-footer .cwp-footer-icon {
+  @apply mt-9;
+}
+.cwp-footer .cwp-footer-icon ul{
+  @apply flex gap-2;
+}
+.cwp-footer .cwp-footer-icon ul a{
+  color: var(--primary);
+  border-color: var(--primary);
+  @apply flex w-4 h-4 justify-center items-center rounded-full p-3 border-solid border transition-all duration-300;
+}
+.cwp-footer .cwp-footer-icon ul a:hover{
+  background-color: var(--primary);
+  @apply text-white;
+}
+.ta-footer.cwp-footer form button {
+  background-color: var(--primary) !important;
+}
+.ta-footer.cwp-footer .ff-default .ff-el-form-control:focus {
+  border-color: var(--primary);
 }

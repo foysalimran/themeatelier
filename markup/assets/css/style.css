@@ -35,7 +35,7 @@ h6 {
   @apply text-lg;
 }
 .ta-btn-primary {
-  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-3xl !text-white  ease-linear duration-300 inline-block;
+  @apply !py-1.5 lg:!py-3 px-5 lg:px-8 bg-primary rounded-full !text-white  ease-linear duration-300 inline-block;
 }
 .ta-btn-secondary {
   @apply !py-1 lg:!py-1.5 px-5 lg:px-8 bg-white hover:bg-primary rounded-full border-2 border-primary !text-primary hover:!text-white ease-linear duration-300 inline-block;
