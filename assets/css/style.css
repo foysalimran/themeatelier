@@ -1170,14 +1170,12 @@ p#edd-user-pass-confirm-wrap {
   @apply min-w-[275px];
 }
 #paddle_pay_now_btn {
-  @apply py-2 bg-primary text-white px-5 rounded-full ease-linear duration-300 border-2 border-primary border-solid hover:bg-black hover:border-black;
+  @apply py-2 bg-primary text-white px-5 rounded-full ease-linear duration-300 border-2 border-primary border-solid hover:bg-black hover:border-black inline-block mt-3;
   text-decoration: none;
+  line-height: 24px
 }
 .wp-smartpay-edd-payment-wrapper {
   @apply text-center;
-}
-#paddle_pay_now_btn {
-  @apply inline-block mt-3;
 }
 
 /* PLUGIN DEMO CSS  */
