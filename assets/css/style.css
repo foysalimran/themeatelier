@@ -59,6 +59,12 @@ h5 {
 h6 {
   @apply text-base lg:text-lg;
 }
+
+input[type=radio] {
+  width: auto;
+  margin-right: 5px;
+}
+
 .ta-btn-primary {
   @apply !py-1.5 lg:!py-2 px-5 lg:px-8 bg-primary rounded-full text-white  ease-linear duration-300 inline-block;
 }
@@ -72,7 +78,7 @@ h6 {
 input,
 textarea,
 select {
-  @apply w-full p-3 border text-base rounded bg-secondary border-secondary focus:outline-none;
+  @apply w-full p-3 text-base border rounded bg-secondary border-secondary focus:outline-none;
 }
 input[type="submit"] {
   @apply cursor-pointer;
@@ -288,7 +294,7 @@ ul .tab.tab-active svg {
 }
 
 /* extra css */
-.sp-single-page p {
+.ta-single-page p {
   margin-bottom: 1rem;
 }
 
@@ -592,7 +598,7 @@ ol li .fn a {
   transform: rotate(180deg);
 }
 .features-list li {
-  @apply relative mb-1 leading-9 list-none pl-6;
+  @apply relative pl-6 mb-1 leading-9 list-none;
 }
 .offers .features-list li {
   @apply font-normal;
@@ -601,7 +607,7 @@ ol li .fn a {
   content: "\eed9";
   font-family: IcoFont;
   color: var(--primary);
-  @apply inline-block w-5 h-5 mr-2 -mb-1 bg-cover text-lg absolute top-1 left-0;
+  @apply absolute left-0 inline-block w-5 h-5 mr-2 -mb-1 text-lg bg-cover top-1;
 }
 .features_cta {
   padding: 66px 38px 60px 50px;
@@ -616,7 +622,7 @@ ol li .fn a {
   transition: all 0.3s;
 }
 .gallery_item img {
-  @apply rounded w-full h-full object-cover;
+  @apply object-cover w-full h-full rounded;
   object-position: top center;
 }
 
@@ -699,11 +705,11 @@ ol li .fn a {
 .ta-dashboard-tab-menu li a {
   transition-duration: 300ms;
   transition-timing-function: linear;
-  @apply block border-transparent border-t-2 border-b-2 relative pl-12 font-medium text-base pb-3 pt-3;
+  @apply relative block pt-3 pb-3 pl-12 text-base font-medium border-t-2 border-b-2 border-transparent;
 }
 .ta-dashboard-tab-menu li a::before {
   content: "";
-  @apply absolute left-0 bg-no-repeat ml-4;
+  @apply absolute left-0 ml-4 bg-no-repeat;
 }
 .ta-dashboard-tab-menu li:nth-child(1) a::before {
   background-image: url(../images/dashboard_icon/dashboard-icon-1.svg);
@@ -884,7 +890,7 @@ ol li .fn a {
 }
 #edd_checkout_cart td,
 #edd_checkout_cart th {
-  @apply border border-solid border-border-color p-4;
+  @apply p-4 border border-solid border-border-color;
 }
 #edd_checkout_cart td a {
   text-decoration: none;
@@ -897,7 +903,7 @@ ol li .fn a {
   @apply text-primary;
 }
 .edd-sl-renewal-form-fields {
-  @apply mb-5 border border-solid border-border-color py-2 px-4;
+  @apply px-4 py-2 mb-5 border border-solid border-border-color;
 }
 #edd_sl_show_renewal_form.button {
   @apply !bg-secondary w-full border !text-font-color border-border-color !rounded-none mb-4;
@@ -916,7 +922,7 @@ ol li .fn a {
   @apply text-base;
 }
 #edd_discount_code {
-  @apply mb-5 mt-5;
+  @apply mt-5 mb-5;
 }
 #edd_show_discount {
   @apply bg-secondary mb-8 text-base py-2 px-5 border border-border-color !block;
@@ -928,14 +934,14 @@ ol li .fn a {
   @apply mb-5;
 }
 #edd_purchase_form_wrap #edd_checkout_user_info {
-  @apply border border-solid border-border-color pl-5 pr-5 pb-5 pt-5;
+  @apply pt-5 pb-5 pl-5 pr-5 border border-solid border-border-color;
 }
 #edd_purchase_form_wrap #edd_checkout_user_info .edd-description {
   @apply hidden;
 }
 
 #edd_purchase_form_wrap #edd_checkout_user_info legend {
-  @apply inline-block w-auto border-b-0 pb-0 mb-0;
+  @apply inline-block w-auto pb-0 mb-0 border-b-0;
 }
 
 #edd_purchase_form_wrap a,
@@ -951,30 +957,30 @@ ol li .fn a {
   @apply !mb-0;
 }
 #edd_purchase_form_wrap p label {
-  @apply text-lg mb-2;
+  @apply mb-2 text-lg;
 }
 #edd_purchase_form_wrap p .edd-description {
   @apply hidden;
 }
 #edd_purchase_form_wrap p input {
-  @apply border border-solid border-border-color py-2 px-5 rounded-md;
+  @apply px-5 py-2 border border-solid rounded-md border-border-color;
   line-height: 24px;
 }
 #edd_checkout_cart td,
 #edd_checkout_cart th {
-  @apply border border-solid border-border-color p-4;
+  @apply p-4 border border-solid border-border-color;
 }
 #edd_purchase_form_wrap #edd_register_fields,
 #edd_purchase_form_wrap #edd_login_fields {
-  @apply border border-solid border-border-color pl-5 pr-5 pb-5;
+  @apply pb-5 pl-5 pr-5 border border-solid border-border-color;
 }
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
 #edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info {
-  @apply border-0 pl-0 pr-0 pb-0 pt-0;
+  @apply pt-0 pb-0 pl-0 pr-0 border-0;
 }
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
 #edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend {
-  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+  @apply block w-full pb-3 mb-4 border-b border-solid border-border-color;
 }
 #edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap {
   @apply w-full !mb-0;
@@ -1013,7 +1019,7 @@ ol li .fn a {
   @apply !mt-0 max-w-[20%] rounded-md;
 }
 #edd-discount-code-wrap .edd-discount-code-field-wrap {
-  @apply flex gap-2 items-center mt-2;
+  @apply flex items-center gap-2 mt-2;
 }
 #edd-discount-code-wrap .edd-discount-code-field-wrap .edd-apply-discount {
   @apply !p-3;
@@ -1039,7 +1045,7 @@ p#edd-user-pass-confirm-wrap {
   @apply mt-3;
 }
 #edd_register_account_fields legend {
-  @apply block w-full border-b border-solid border-border-color pb-3 mb-4;
+  @apply block w-full pb-3 mb-4 border-b border-solid border-border-color;
 }
 #edd_sl_cancel_renewal_form {
   @apply mb-3;
@@ -1052,13 +1058,13 @@ p#edd-user-pass-confirm-wrap {
   @apply w-full;
 }
 .edd-table thead tr {
-  @apply text-left font-bold mb-6 border border-border-color bg-secondary rounded-lg;
+  @apply mb-6 font-bold text-left border rounded-lg border-border-color bg-secondary;
 }
 .edd-table thead tr th {
   @apply p-4;
 }
 .edd-table tbody tr {
-  @apply shadow-md rounded-lg bg-white mt-4;
+  @apply mt-4 bg-white rounded-lg shadow-md;
 }
 .edd-table tbody tr td {
   @apply p-3;
@@ -1095,7 +1101,7 @@ p#edd-user-pass-confirm-wrap {
   @apply border border-solid border-secondary;
 }
 .file_download table tbody tr .edd_download_file a {
-  @apply py-2 px-3 rounded-full bg-primary text-white;
+  @apply px-3 py-2 text-white rounded-full bg-primary;
 }
 .edd_purchase_row .edd_purchase_status.pending {
   @apply text-yellow-400;
@@ -1110,7 +1116,7 @@ p#edd-user-pass-confirm-wrap {
   @apply mt-5;
 }
 .edd-submit.button {
-  @apply py-2 px-3 bg-primary text-white rounded-full;
+  @apply px-3 py-2 text-white rounded-full bg-primary;
 }
 
 .edd_sl_license_row .edd_sl_item_name {
@@ -1132,7 +1138,7 @@ p#edd-user-pass-confirm-wrap {
 }
 .edd_discount_remove::after {
   content: "";
-  @apply absolute w-4 h-4 top-1 -right-7 bg-no-repeat;
+  @apply absolute w-4 h-4 bg-no-repeat top-1 -right-7;
   background-image: url(../images/close.svg);
 }
 .checkout .edd-payment-icons img,
@@ -1147,10 +1153,10 @@ p#edd-user-pass-confirm-wrap {
   @apply text-base;
 }
 .edd_sl_license_row th {
-  @apply align-middle text-base border border-border-color;
+  @apply text-base align-middle border border-border-color;
 }
 .edd_sl_license_row td {
-  @apply border border-border-color align-middle text-base;
+  @apply text-base align-middle border border-border-color;
 }
 .edd_sl_license_row td a {
   @apply text-primary;
@@ -1170,7 +1176,7 @@ p#edd-user-pass-confirm-wrap {
   @apply min-w-[275px];
 }
 #paddle_pay_now_btn {
-  @apply py-2 bg-primary text-white px-5 rounded-full ease-linear duration-300 border-2 border-primary border-solid hover:bg-black hover:border-black inline-block mt-3;
+  @apply inline-block px-5 py-2 mt-3 text-white duration-300 ease-linear border-2 border-solid rounded-full bg-primary border-primary hover:bg-black hover:border-black;
   text-decoration: none;
   line-height: 24px
 }
@@ -1208,7 +1214,7 @@ p#edd-user-pass-confirm-wrap {
   background-color: var(--primary);
 }
 .demo_btn_primary.call_to_btn {
-  @apply py-2 rounded-full bg-white demo_text_primary border-white;
+  @apply py-2 bg-white border-white rounded-full demo_text_primary;
 }
 .demo_btn_primary.call_to_btn:hover {
   background-color: var(--dark);
@@ -1242,7 +1248,7 @@ section {
 }
 
 .cwp-header ul li a {
-  @apply block lg:inline-block py-1 font-bold lg:py-3 text-font-color;
+  @apply block py-1 font-bold lg:inline-block lg:py-3 text-font-color;
 }
 .cwp-header.ta-sticky-menu {
   @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
@@ -1318,7 +1324,7 @@ section {
   background: linear-gradient(var(--secondary) 0%, #fff 100%);
 }
 .cwp-footer p {
-  @apply uppercase font-semibold text-font-color;
+  @apply font-semibold uppercase text-font-color;
 }
 .cwp-footer ul li a {
   @apply text-base text-font-color;
@@ -1335,7 +1341,7 @@ section {
 .cwp-footer .cwp-footer-icon ul a{
   color: var(--primary);
   border-color: var(--primary);
-  @apply flex w-4 h-4 justify-center items-center rounded-full p-3 border-solid border transition-all duration-300;
+  @apply flex items-center justify-center w-4 h-4 p-3 transition-all duration-300 border border-solid rounded-full;
 }
 .cwp-footer .cwp-footer-icon ul a:hover{
   background-color: var(--primary);
