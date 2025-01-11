@@ -21,8 +21,7 @@
               <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chat_help.png" class="w-10 h-10 object-contain" alt="">
             </a>
           </figure>
-
-        </div><!-- .site-branding -->
+        </div>
       </div>
       <button id="menu-button" type="button" class="inline-flex items-center ml-auto lg:hidden">
         <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
