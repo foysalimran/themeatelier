@@ -647,6 +647,7 @@ ol li .fn a {
 .fancybox__slide {
   @apply px-24 py-16;
 }
+
 /* PRICING CSS */
 .pricing_item:not(:last-child) {
   @apply border-r-[1.5px] border-solid;
@@ -891,9 +892,7 @@ ol li .fn a {
 #edd_checkout_cart td {
   @apply align-middle;
 }
-/* .eddr-cart-item-notice {
-  @apply m-0 mb-8;
-} */
+
 .edd_cart_remove_item_btn {
   @apply text-primary;
 }
