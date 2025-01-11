@@ -98,13 +98,13 @@ label {
   @apply items-center md:flex;
 }
 .ta-header ul li {
-  @apply hidden my-1 lg:my-0 md:flex md:ml-6 lg:ml-8;
+  @apply hidden my-1 lg:my-0 md:flex md:ml-6 xl:ml-8;
 }
 
 .ta-header ul li a {
   @apply inline-block py-1 font-bold lg:py-3 hover:text-primary text-font-color;
 }
-.ta-sticky-menu {
+.ta-header.ta-sticky-menu {
   @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
   box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
 }
@@ -1211,4 +1211,129 @@ p#edd-user-pass-confirm-wrap {
 }
 .demo_svg_primary {
   fill: var(--primary);
+}
+/* CWP HEADER CSS */
+.cwp-header.ta-sticky-menu ~ .scroll_set_height {
+  @apply h-[64px] lg:h-[74px];
+}
+section {
+  @apply scroll-mt-[64px] lg:scroll-mt-[74px];
+}
+.cwp-header {
+  @apply absolute z-[999999] w-full py-5 duration-200 ease-linear;
+}
+.cwp-header ul {
+  @apply items-center lg:flex;
+}
+.cwp-header ul li {
+  @apply hidden my-1 lg:my-0 lg:flex lg:ml-6 xl:ml-8;
+}
+
+.cwp-header ul li a {
+  @apply block lg:inline-block py-1 font-bold lg:py-3 text-font-color;
+}
+.cwp-header.ta-sticky-menu {
+  @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
+  box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
+}
+.cwp-header button svg:last-child {
+  @apply !hidden;
+}
+.cwp-header.menu-active {
+  @apply fixed top-0 left-0 w-full px-0 py-3 bg-white;
+  box-shadow: 0 13px 22px -5px rgb(0 0 0 / 10%);
+}
+.cwp-header.menu-active nav {
+  @apply items-start;
+}
+.cwp-header.menu-active ul li {
+  @apply !flex;
+}
+.cwp-header.menu-active button {
+  @apply py-2;
+}
+.cwp-header.menu-active button svg:last-child {
+  @apply !flex;
+}
+.cwp-header.menu-active button svg:first-child {
+  @apply !hidden;
+}
+.cwp-header ul li .dropdown_menu li {
+  @apply py-1 !ml-0 text-center px-5;
+}
+.cwp-header ul li .dropdown_menu li a {
+  @apply p-0;
+}
+.cwp-header ul li {
+  @apply relative 
+}
+.cwp-header ul li.group a::after, .cwp-header ul li.group:hover a::after {
+  border-bottom: 2px solid transparent;
+}
+.cwp-header ul li>a::after, .cwp-header ul li:hover>a::after {
+  content: '';
+  @apply block border-b-2 border-solid;
+  border-color: var(--primary) !important;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+  transform-origin: 0% 50%;
+}
+.cwp-header li:hover>a {
+  color: var(--primary) !important;
+}
+.cwp-header ul li:hover>a::after {
+  transform: scaleX(.6);
+}
+.cwp-header ul li>a:hover {
+  color: var(--primary);
+}
+.cwp-header li a i {
+  @apply hidden lg:inline-block;
+}
+.cwp-header li ul {
+  @apply lg:p-0;
+}
+.cwp-header li div {
+  @apply block;
+}
+.cwp-header ul li:hover>.demo_btn_primary::after {
+  @apply !border-transparent border-b-2 border-solid;
+  transform: scaleX(0);
+}
+
+
+
+/* CWP FOOTER CSS */
+.ta-footer.cwp-footer {
+  background: linear-gradient(var(--secondary) 0%, #fff 100%);
+}
+.cwp-footer p {
+  @apply uppercase font-semibold text-font-color;
+}
+.cwp-footer ul li a {
+  @apply text-base text-font-color;
+}
+.cwp-footer ul li a:hover {
+  color: var(--primary);
+}
+.cwp-footer .cwp-footer-icon {
+  @apply mt-9;
+}
+.cwp-footer .cwp-footer-icon ul{
+  @apply flex gap-2;
+}
+.cwp-footer .cwp-footer-icon ul a{
+  color: var(--primary);
+  border-color: var(--primary);
+  @apply flex w-4 h-4 justify-center items-center rounded-full p-3 border-solid border transition-all duration-300;
+}
+.cwp-footer .cwp-footer-icon ul a:hover{
+  background-color: var(--primary);
+  @apply text-white;
+}
+.ta-footer.cwp-footer form button {
+  background-color: var(--primary) !important;
+}
+.ta-footer.cwp-footer .ff-default .ff-el-form-control:focus {
+  border-color: var(--primary);
 }

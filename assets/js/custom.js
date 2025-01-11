@@ -9,12 +9,25 @@
 
   /******************** FIXED HEADER ********************/
   PATH.HeaderFixed = function () {
-    const varHeaderFix = window.pageYOffset >= 70,
-      navbar = document.querySelector(".ta-header");
-    if (varHeaderFix) {
-      navbar.classList.add("ta-sticky-menu");
-    } else {
-      navbar.classList.remove("ta-sticky-menu");
+    const varHeaderFix = window.pageYOffset >= 70;
+    const navbar = document.querySelector(".ta-header");
+    if (navbar) {
+      if (varHeaderFix) {
+        navbar.classList.add("ta-sticky-menu");
+      } else {
+        navbar.classList.remove("ta-sticky-menu");
+      }
+    }
+  };
+  PATH.CWPHeaderFixed = function () {
+    const varHeaderFix = window.pageYOffset >= 70;
+    const navbar = document.querySelector(".cwp-header");
+    if (navbar) {
+      if (varHeaderFix) {
+        navbar.classList.add("ta-sticky-menu");
+      } else {
+        navbar.classList.remove("ta-sticky-menu");
+      }
     }
   };
 
@@ -86,6 +99,7 @@
   /******************** WINDOW ON SCROLL FUNCTION ********************/
   window.addEventListener("scroll", function () {
     PATH.HeaderFixed();
+    PATH.CWPHeaderFixed();
   });
 
   /******************** FANCYBOX ********************/

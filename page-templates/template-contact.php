@@ -57,7 +57,7 @@ get_header(); ?>
       </div>
       <div class="md:col-span-4 col-span-12">
         <div class="relative group ta-featured-item mb-5">
-          <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="<?php echo get_bloginfo('url'); ?>/docs">
+          <a target="_blank" class="block p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="<?php echo get_bloginfo('url'); ?>/docs">
             <div class="border-2 p-1 inline-block border-secondary rounded">
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/doc-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
@@ -73,7 +73,7 @@ get_header(); ?>
           </a>
         </div>
         <div class="relative group ta-featured-item mb-5">
-          <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://www.youtube.com/@themeatelier/videos">
+          <a target="_blank" class="block p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="https://www.youtube.com/@themeatelier/videos">
             <div class="border-2 p-1 inline-block border-secondary rounded">
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/video-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
@@ -89,7 +89,7 @@ get_header(); ?>
           </a>
         </div>
         <div class="relative group ta-featured-item">
-          <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="<?php echo get_bloginfo('url'); ?>/faqs">
+          <a target="_blank" class="block p-5 duration-300 ease-linear border rounded shadow-lg lg:p-8 border-secondary hover:border-primary" href="<?php echo get_bloginfo('url'); ?>/faqs">
             <div class="border-2 p-1 inline-block border-secondary rounded">
               <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/faq-icon.svg" alt="" class="max-w-[50px] lg:max-w-[64px] rounded-md" />
             </div>
