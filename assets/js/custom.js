@@ -145,11 +145,16 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     const licenseInputs = document.querySelectorAll(".edd_sl_license_key");
+  
     if (licenseInputs) {
       licenseInputs.forEach((licenseInput) => {
         licenseInput.addEventListener("click", function () {
+          const licenseKey = licenseInput.tagName === "INPUT"
+            ? licenseInput.value
+            : licenseInput.textContent.trim();
+  
           navigator.clipboard
-            .writeText(licenseInput.value)
+            .writeText(licenseKey)
             .then(() => {
               const notice = document.createElement("div");
               notice.textContent = "License key copied!";
@@ -173,7 +178,7 @@
         });
       });
     }
-  });
+  });  
 
   const eddDiscountLink = document.querySelector(".edd_discount_link");
   const discountCodeWrap = document.querySelector("#edd-discount-code-wrap");

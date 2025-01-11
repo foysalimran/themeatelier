@@ -12,11 +12,15 @@
   <header class="cwp-header" id="menu">
     <nav class="container flex flex-wrap items-center gap-2 justify-between">
       <div class="items-center lg:flex">
-        <div class="site-branding">
-          <?php
-          the_custom_logo();
-          ?>
-          <a class="text-2xl font-black text-font-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
+        <div class="site-branding flex gap-1.5 items-center">
+          <figure class="border-r border-solid border-border-color pr-1">
+            <a href="https://themeatelier.net"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/ta-icon.png" class="w-10 h-10 object-contain" alt=""></a>
+          </figure>
+          <figure>
+            <a href="https://themeatelier.net/downloads/whatsapp-chat-help">
+              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chat_help.png" class="w-10 h-10 object-contain" alt="">
+            </a>
+          </figure>
 
         </div><!-- .site-branding -->
       </div>
