@@ -396,3 +396,22 @@ function custom_move_renewal_form() {
     add_action( 'edd_before_checkout_cart_form', 'edd_sl_renewal_form', 10 );
 }
 add_action( 'init', 'custom_move_renewal_form' );
+
+/*
+CUSTOM LOGIN PAGE
+*/
+
+function themeatelier_login_logo_url() {
+    return home_url();
+}
+add_filter( 'login_headerurl', 'themeatelier_login_logo_url' );
+
+function themeatelier_login_logo_url_title() {
+    return "ThemeAtelier";
+}
+add_filter( 'login_headertext', 'themeatelier_login_logo_url_title' );
+
+function themeatelier_login_stylesheet() {
+    wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/assets/css/style-login.css' );
+}
+add_action( 'login_enqueue_scripts', 'themeatelier_login_stylesheet' );

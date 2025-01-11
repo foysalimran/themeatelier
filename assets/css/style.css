@@ -608,7 +608,7 @@ ol li .fn a {
   box-shadow: none;
   border-width: 0px 0px 0px 0px;
   border-color: #f4f1ed;
-  background: url("../images/call-to.png");
+  background: url("../images/cta-pattern.png");
   @apply m-0 overflow-visible bg-scroll bg-center bg-no-repeat bg-cover border-solid border-spacing-2;
 }
 .gallery_item {
@@ -649,7 +649,8 @@ ol li .fn a {
 }
 /* PRICING CSS */
 .pricing_item:not(:last-child) {
-  @apply border-r-[1.5px] border-solid border-border-color;
+  @apply border-r-[1.5px] border-solid;
+  border-color: var(--primary);
 }
 .pricing_item.popular {
   @apply relative overflow-hidden;
@@ -873,9 +874,7 @@ ol li .fn a {
 .checkout .edd-payment-icons {
   @apply flex gap-2;
 }
-.checkout #edd_payment_mode_select_wrap {
-  @apply hidden;
-}
+
 .checkout .edd_cart_total {
   @apply pt-2;
 }
@@ -1212,6 +1211,9 @@ p#edd-user-pass-confirm-wrap {
 .demo_svg_primary {
   fill: var(--primary);
 }
+.demo_border_primary {
+  border-color: var(--primary);
+}
 /* CWP HEADER CSS */
 .cwp-header.ta-sticky-menu ~ .scroll_set_height {
   @apply h-[64px] lg:h-[74px];
@@ -1300,8 +1302,6 @@ section {
   @apply !border-transparent border-b-2 border-solid;
   transform: scaleX(0);
 }
-
-
 
 /* CWP FOOTER CSS */
 .ta-footer.cwp-footer {

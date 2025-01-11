@@ -8,13 +8,13 @@
         </div>
         <!-- Tabs -->
         <div class="flex justify-center gap-3 mb-2 shadow-md w-[fit-content] rounded-md mx-auto bg-white p-3">
-            <button class="demo_btn_secondary !py-2 !rounded-full tab tab-active">Yearly</button>
-            <button class="demo_btn_secondary !py-2 !rounded-full tab">Lifetime</button>
+            <button class="demo_btn_secondary !py-2 tab tab-active">Yearly</button>
+            <button class="demo_btn_secondary !py-2 tab">Lifetime</button>
         </div>
         <div class="mt-9 tab-content">
             <div class="tab-pane tab-pane-active">
-                <div class="grid grid-cols-1 lg:grid-cols-3 lg:border-[1.5px] lg:border-solid lg:border-border-color rounded-lg">
-                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid border-border-color lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0">
+                <div class="grid grid-cols-1 lg:grid-cols-3 lg:border-[1.5px] lg:border-solid rounded-lg demo_border_primary">
+                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 demo_border_primary">
                         <h3 class="text-2xl text-center">Single Site</h3>
                         <p class="text-center">Best Choice for Individuals</p>
                         <div class="flex items-end justify-center">
@@ -23,7 +23,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=1" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=1" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                             <li>
@@ -41,7 +41,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid border-border-color lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 popular">
+                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 demo_border_primary popular">
                         <h3 class="text-2xl text-center">Five Sites</h3>
                         <p class="text-center">Best Choice for Small Business and Freelancers</p>
                         <div class="flex items-end justify-center">
@@ -50,7 +50,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=2" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=2" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -68,7 +68,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid border-border-color lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0">
+                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 demo_border_primary">
                         <h3 class="text-2xl text-center">Unlimited Sites</h3>
                         <p class="text-center">Best Choice for Agencies and Developers</p>
                         <div class="flex items-end justify-center">
@@ -77,7 +77,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=3" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=3" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -99,8 +99,8 @@
                 <p class="mt-10 mb-0 text-center">A yearly plan allows you to get full 1 year updates & support.</p>
             </div>
             <div class="tab-pane">
-                <div class="grid grid-cols-1 lg:grid-cols-3 lg:border-[1.5px] lg:border-solid lg:border-border-color rounded-lg">
-                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid border-border-color lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0">
+                <div class="grid grid-cols-1 lg:grid-cols-3 lg:border-[1.5px] lg:border-solid rounded-lg demo_border_primary">
+                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 demo_border_primary">
                         <h3 class="text-2xl text-center">Single Site</h3>
                         <p class="text-center">Best Choice for Individuals</p>
                         <div class="flex items-end justify-center">
@@ -109,7 +109,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=4" class="demo_btn_secondary !rounded-full !py-2 w-full">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=4" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -127,7 +127,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid border-border-color lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 popular">
+                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 demo_border_primary popular">
                         <h3 class="text-2xl text-center">Five Sites</h3>
                         <p class="text-center">Best Choice for Small Business and Freelancers</p>
                         <div class="flex items-end justify-center">
@@ -136,7 +136,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=5" class="w-full text-center ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=5" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -154,7 +154,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid border-border-color lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0">
+                    <div class="p-6 lg:p-10 pricing_item border-[1.5px] border-solid lg:border-0 lg:border-none rounded-md mb-4 lg:rounded-none lg:mb-0 demo_border_primary">
                         <h3 class="text-2xl text-center">Unlimited Sites</h3>
                         <p class="text-center">Best Choice for Agencies and Developers</p>
                         <div class="flex items-end justify-center">
@@ -163,7 +163,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=6" class="w-full text-center ta-btn-secondary group !text-[#0F8C7E] !border-[#0F8C7E] !border-[#0F8C7E] hover:bg-[#0F8C7E]">Buy Now</a>
+                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=6" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>

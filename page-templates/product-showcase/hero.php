@@ -18,7 +18,7 @@ class="h-full pb-20 lg:pb-0 lg:h-[750px] demo_section_bg">
                 <p class="text-sm">14-Day No Question Asked <a class="border-b border-dotted text-font-color-light border-font-color-light" href="https://themeatelier.net/refund-policy/" target="_blank" rel="noreferrer noopener">Refund Policy</a></p>
             </div>
             <div class="order-1 pt-36 lg:order-2 lg:pt-0">
-                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/whatsapp-chat-help.png" alt="">
+                <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/wa-chat-help-ss/whatsapp-chat-help.webp" alt="">
             </div>
         </div>
     </div>
