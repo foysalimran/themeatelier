@@ -23,7 +23,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=1" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
+                        <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=1" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                             <li>
@@ -50,7 +50,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=2" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
+                        <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=2" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -77,7 +77,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=3" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
+                        <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=3" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -109,7 +109,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=4" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
+                        <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=4" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -136,7 +136,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=5" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
+                        <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=5" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
@@ -163,7 +163,7 @@
                             <p class="mb-0">/ Yearly</p>
                         </div>
                         <hr class="mt-10 mb-10 bg-secondary text-secondary">
-                        <a target="_blank" href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=6" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
+                        <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=6" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
                         <li>
