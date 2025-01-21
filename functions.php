@@ -421,3 +421,21 @@ function ta_login_redirect( $redirect_to, $request, $user ){
     return home_url('/account');
 }
 add_filter( 'login_redirect', 'ta_login_redirect', 10, 3 );
+
+
+
+
+function tf_before_login_register_form() {
+	?>
+	<div class="flex justify-between mb-2 align-center">
+	<h4 class="!mt-0 !mb-0">Account Info</h4>
+	<div class="mb-2 text-right text-md"><span id="toggle-text">Already have an account? <span class="login-toggler">Login</span> </span></div></div><?php
+}
+
+add_filter('edd_purchase_form_before_register_login', 'tf_before_login_register_form');
+
+function tf_edd_checkout_personal_info_text() {
+	return ;
+}
+
+add_action('edd_checkout_personal_info_text', 'tf_edd_checkout_personal_info_text');
