@@ -429,7 +429,10 @@ function tf_before_login_register_form() {
 	?>
 	<div class="flex justify-between mb-2 align-center">
 	<h4 class="!mt-0 !mb-0">Account Info</h4>
-	<div class="mb-2 text-right text-md"><span id="toggle-text">Already have an account? <span class="login-toggler">Login</span> </span></div></div><?php
+	<?php if(!is_user_logged_in()) : ?> 
+		<div class="mb-2 text-right text-md"><span id="toggle-text">Already have an account? <span class="login-toggler">Login</span> </span></div>
+	<?php endif; ?>
+	</div><?php
 }
 
 add_filter('edd_purchase_form_before_register_login', 'tf_before_login_register_form');
