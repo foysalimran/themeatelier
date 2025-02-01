@@ -13,10 +13,14 @@ module.exports = {
       colors: {
         primary: "#3464E0",
         secondary: "#F3F6FF",
+        "border-color": "#e3e3e3",
         "font-color": "#333333",
         "font-color-light": "#666666",
       },
     },
   },
-  plugins: [require("tailwindcss"), require("autoprefixer")],
+  plugins: [
+    require("tailwindcss"),
+    require('@tailwindcss/typography'),
+    require("autoprefixer")],
 };

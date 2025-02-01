@@ -1,12 +1,12 @@
 <?php get_header(); ?>
 <!--====== Section title start ======-->
-<section class="h-[380px] bg-secondary">
+<section class="h-[340px] bg-secondary">
   <div class="container text-center">
     <h1 class="mb-0 text-3xl sm:text-4xl pt-44">
       <?php _e('The Themeatelier Blog', 'themeateler'); ?>
     </h1>
     <p class="mt-5 text-lg">
-      <?php _e('Get Updated with latest Tips, Tutorials, Inspirations and Collections', 'themeatelier'); ?>
+      <?php _e('Stay Updated with the Latest Tips, Tutorials, Inspiration, and Curated Collections', 'themeatelier'); ?>
     </p>
   </div>
 </section>
@@ -17,19 +17,19 @@
     <div class="flex flex-col justify-between gap-4 mb-8 md:flex-row">
       <h3 class="text-2xl "><?php _e('Blog & Stories', 'themeatelier'); ?></h3>
       <div class="flex flex-col items-center gap-4 sm:flex-row">
-        <form class="border-b border-b-secondary flex gap-2 items-center w-full md:w-[250px] py-2">
+        <div class="border-b border-b-secondary flex gap-2 items-center w-full md:w-[250px]">
           <svg width="16" height="16" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
             <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
           </svg>
           <form role="search" method="get" class="search-form" action="<?php echo esc_url(home_url('/')); ?>">
-            <label class="w-full">
+            <label class="w-full p-0 mb-0">
               <span class="screen-reader-text"><?php echo _x('Search for:', 'label', 'your-theme-textdomain'); ?></span>
-              <input type="search" class="search-field w-full" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'your-theme-textdomain'); ?>" name="s" />
+              <input type="search" class="search-field" placeholder="<?php echo esc_attr_x('Search &hellip;', 'placeholder', 'your-theme-textdomain'); ?>" name="s" />
             </label>
           </form>
-        </form>
+        </div>
 
-        <form class="block w-full px-3 py-2 mt-1 bg-white border rounded-md md:w-44 border-secondary focus:outline-none focus:ring-primary focus:border-indigo-500 sm:text-sm" id="category-select" class="category-select" action="<?php echo esc_url(home_url('/')); ?>" method="get">
+        <form class="block w-full mt-1 bg-white border rounded-md md:w-44 border-secondary focus:outline-none focus:ring-primary focus:border-indigo-500 sm:text-sm" id="category-select" class="category-select" action="<?php echo esc_url(home_url('/')); ?>" method="get">
 
           <?php
           $args = array(
@@ -53,20 +53,20 @@
         </form>
       </div>
     </div>
-    <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-ta-box-shadow lg:grid border-secondary">
-      <?php
-      $args  = array(
-        'posts_per_page'      => 1,
-        'post__in'            => get_option('sticky_posts'),
-        'ignore_sticky_posts' => 1,
-      );
-      $sec_query = new WP_Query($args);
-      ?>
-      <?php if ($sec_query->have_posts()) : ?>
-        <?php while ($sec_query->have_posts()) : $sec_query->the_post(); ?>
 
+    <?php
+    $args  = array(
+      'posts_per_page'      => 1,
+      'post__in'            => get_option('sticky_posts'),
+      'ignore_sticky_posts' => 1,
+    );
+    $sec_query = new WP_Query($args);
+    ?>
+    <?php if ($sec_query->have_posts()) : ?>
+      <?php while ($sec_query->have_posts()) : $sec_query->the_post(); ?>
+        <div class="items-center block grid-cols-6 overflow-hidden border rounded shadow-lg lg:grid border-secondary">
           <div class="col-span-3 p-9">
-            <div class="text-sm  text-primary">
+            <div class="text-sm text-primary">
               <?php the_category(', ', '', ''); ?>
             </div>
             <h2 class="mt-5 mb-0 text-2xl ">
@@ -83,7 +83,7 @@
                 <svg width="14" height="14" class="fill-font-color-light" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                   <path d="M152 24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H64C28.7 64 0 92.7 0 128v16 48V448c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V192 144 128c0-35.3-28.7-64-64-64H344V24c0-13.3-10.7-24-24-24s-24 10.7-24 24V64H152V24zM48 192h80v56H48V192zm0 104h80v64H48V296zm128 0h96v64H176V296zm144 0h80v64H320V296zm80-48H320V192h80v56zm0 160v40c0 8.8-7.2 16-16 16H320V408h80zm-128 0v56H176V408h96zm-144 0v56H64c-8.8 0-16-7.2-16-16V408h80zM272 248H176V192h96v56z" />
                 </svg>
-                <?php echo get_the_time('F j, Y'); ?>
+                <?php echo get_the_time('F jS, Y'); ?>
               </span>
             </span>
           </div>
@@ -92,35 +92,40 @@
               <?php the_post_thumbnail('medium_large'); ?>
             </a>
           </div>
-        <?php endwhile; ?>
-      <?php else : ?>
-        <?php _e('Sorry, no posts matched your criteria.', 'themeatelier'); ?>
-      <?php endif; ?>
 
-      <!-- reset global post variable. After this point, we are back to the Main Query object -->
-      <?php wp_reset_postdata(); ?>
+        </div>
+      <?php endwhile; ?>
+    <?php else : ?>
 
-    </div>
-    <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
-      <?php
-      $args  = array(
+    <?php endif; ?>
 
-        'ignore_sticky_posts' => 1,
-      );
-      $the_query = new WP_Query($args); ?>
+    <!-- reset global post variable. After this point, we are back to the Main Query object -->
+    <?php wp_reset_postdata(); ?>
 
-      <?php if ($the_query->have_posts()) : ?>
-      <?php
-        while (have_posts()) :
-          the_post();
+
+    <?php
+    $args  = array(
+      'ignore_sticky_posts' => 1,
+    );
+    $the_query = new WP_Query($args); ?>
+
+    <?php if ($the_query->have_posts()) : ?>
+      <div class="grid gap-8 mt-16 md:grid-cols-2 lg:grid-cols-3">
+        <?php
+        while ($the_query->have_posts()) : ?>
+          <?php $the_query->the_post();
           get_template_part('template-parts/content', get_post_type());
-        endwhile;
-      else :
-        get_template_part('template-parts/content', 'none');
+          ?>
+        <?php
+        endwhile; ?>
+      </div>
+    <?php
+    else :
+      get_template_part('template-parts/content', 'none');
 
-      endif;
-      ?>
-    </div>
+    endif;
+    ?>
+
     <div class="mt-12">
       <div class="ta-pagination">
         <?php the_posts_pagination(
@@ -132,6 +137,7 @@
         ) ?>
       </div>
     </div>
+
   </div>
 </div>
 <!--====== Blog section end ======-->

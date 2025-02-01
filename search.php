@@ -1,29 +1,21 @@
-<?php
+<?php get_header(); ?>
+<section class="bg-secondary">
+	<div class="container text-center">
+		<div class="max-w-[70%] mx-auto pt-24 md:pt-44 pb-16 md:pb-20">
+			<h1 class="mb-0 text-3xl sm:text-4xl">
+				<?php
+				/* translators: %s: search query. */
+				printf(esc_html__('Search Results for: %s', 'themeatellier'), '<span>' . get_search_query() . '</span>');
+				?>
+			</h1>
+		</div>
+	</div>
+</section>
 
-/**
- * The template for displaying search results pages
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#search-result
- *
- * @package themeatellier
- */
-
-get_header();
-?>
-<div class="container py-28">
+<div class="container py-20">
 	<main id="primary" class="site-main">
 		<?php if (have_posts()) : ?>
-			<header class="text-center">
-				<h1>
-					<?php
-					/* translators: %s: search query. */
-					printf(esc_html__('Search Results for: %s', 'themeatellier'), '<span>' . get_search_query() . '</span>');
-					?>
-				</h1>
-			</header><!-- .page-header -->
-
-
-			<div class="grid gap-5 mt-16 md:grid-cols-2 lg:grid-cols-3">
+			<div class="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
 			<?php
 			while (have_posts()) :
 				the_post();
@@ -47,10 +39,6 @@ get_header();
 				</div>
 			</div>
 	</main><!-- #main -->
-
 </div>
-
-
 <?php
-
 get_footer();
