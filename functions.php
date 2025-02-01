@@ -421,3 +421,9 @@ function ta_login_redirect( $redirect_to, $request, $user ){
     return home_url('/account');
 }
 add_filter( 'login_redirect', 'ta_login_redirect', 10, 3 );
+
+function allow_svg_uploads($mimes) {
+    $mimes['svg'] = 'image/svg+xml';
+    return $mimes;
+}
+add_filter('upload_mimes', 'allow_svg_uploads');
