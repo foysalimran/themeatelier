@@ -1,8 +1,8 @@
 <?php
 $selected_sections = get_post_meta(get_the_ID(), 'page_metabox', true);
-$section_group = isset($selected_sections['section_group']) ? $selected_sections['section_group'] : '';
-$select_sections = isset($section_group['select_section']) ? $section_group['select_section'] : '';
-$color_settings = isset($selected_sections['color_settings']) ? $selected_sections['color_settings'] : '';
+$section_group = !empty($selected_sections) ? $selected_sections['section_group'] : [];
+$select_sections = !empty($section_group) ? $section_group['select_section'] : [];
+$color_settings = !empty($selected_sections) ? $selected_sections['color_settings'] : [];
 
 get_template_part('cwp-header');
 ?>
