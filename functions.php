@@ -422,8 +422,36 @@ function ta_login_redirect( $redirect_to, $request, $user ){
 }
 add_filter( 'login_redirect', 'ta_login_redirect', 10, 3 );
 
+<<<<<<< HEAD
 function allow_svg_uploads($mimes) {
     $mimes['svg'] = 'image/svg+xml';
     return $mimes;
 }
 add_filter('upload_mimes', 'allow_svg_uploads');
+=======
+
+
+
+function tf_before_login_register_form() {
+	?>
+	<div class="flex justify-between mb-2 align-center">
+	<h4 class="!mt-0 !mb-0">Account Info</h4>
+	<?php if(!is_user_logged_in()) : ?> 
+		<div class="mb-2 text-right text-md"><span id="toggle-text">Already have an account? <span class="login-toggler">Login</span> </span></div>
+	<?php endif; ?>
+	</div><?php
+}
+
+add_filter('edd_purchase_form_before_register_login', 'tf_before_login_register_form');
+
+function tf_edd_checkout_personal_info_text() {
+	return ;
+}
+
+add_action('edd_checkout_personal_info_text', 'tf_edd_checkout_personal_info_text');
+
+// show admin bar only for admins and editors
+if (!current_user_can('edit_posts')) {
+    add_filter('show_admin_bar', '__return_false');
+}
+>>>>>>> 3e3f2be2ece87ae4271bded51497b8c088dc050f

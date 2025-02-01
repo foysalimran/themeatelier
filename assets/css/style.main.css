@@ -1467,6 +1467,14 @@ video {
   margin-bottom: 2rem;
 }
 
+.\!mb-0{
+  margin-bottom: 0px !important;
+}
+
+.\!mt-0{
+  margin-top: 0px !important;
+}
+
 .-mt-1{
   margin-top: -0.25rem;
 }
@@ -3729,6 +3737,11 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.\!text-sm{
+  font-size: 0.875rem !important;
+  line-height: 1.25rem !important;
 }
 
 .font-black{
@@ -7351,6 +7364,33 @@ section{
 
 .ta-footer.cwp-footer .ff-default .ff-el-form-control:focus {
   border-color: var(--primary);
+}
+
+#edd_login_fields {
+  display: none;
+}
+
+.form-container {
+  margin-top: 20px;
+}
+
+.login-toggler {
+  color: #3564E1;
+  font-style:italic;
+  cursor: pointer;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+#edd_login_fields{
+  padding: 1.25rem;
+  --tw-bg-opacity: 1 !important;
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity)) !important
+}
+
+#edd_login_fields input[type='text'], #edd_login_fields input[type='password']{
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .hover\:prose-lg:hover{

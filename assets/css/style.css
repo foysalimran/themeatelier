@@ -1362,3 +1362,26 @@ section {
 .ta-footer.cwp-footer .ff-default .ff-el-form-control:focus {
   border-color: var(--primary);
 }
+#edd_login_fields {
+  display: none;
+}
+.form-container {
+  margin-top: 20px;
+}
+.login-toggler {
+  color: #3564E1;
+font-style:italic;
+  cursor: pointer;
+  text-decoration: underline;
+margin-bottom: 10px;
+}
+#edd_login_fields{
+padding: 1.25rem
+}
+
+#edd_login_fields{
+  @apply !bg-secondary;
+}
+#edd_login_fields input[type='text'], #edd_login_fields input[type='password']{
+  @apply bg-white;
+}

@@ -34,12 +34,6 @@ if (! is_user_logged_in()) :
 				<?php _e(' Reset Password', 'themeatelier'); ?>
 			</a>
 		</p>
-		<p class="mb-0 text-center">
-			<?php echo esc_html__('Don\'t have an account?', 'themeatelier'); ?>
-			<a href="<?php echo esc_url(get_site_url() . '/sign-up'); ?>">
-				<?php echo esc_html__('Sign Up', 'themeatelier'); ?>
-			</a>
-		</p>
 
 		<?php do_action('edd_login_fields_after'); ?>
 

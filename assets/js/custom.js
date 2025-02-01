@@ -187,4 +187,26 @@
       discountCodeWrap.classList.toggle("show_discount");
     });
   }
+
+
+  // Login regsiter toggler
+  jQuery('#toggle-text').on('click', '.login-toggler', function() {
+    const isLogin = jQuery(this).text() === 'Login';
+
+    // Toggle text
+    jQuery('#toggle-text').html(
+        isLogin
+            ? "Don't have an account? <span class='login-toggler'>Register</span>"
+            : "Already have an account? <span class='login-toggler'>Login</span>"
+    );
+
+    // Show/Hide forms
+    if (isLogin) {
+        jQuery('#edd_login_fields').show();
+        jQuery('#edd_checkout_user_info').hide();
+    } else {
+        jQuery('#edd_login_fields').hide();
+        jQuery('#edd_checkout_user_info').show();
+    }
+});
 })(jQuery);
