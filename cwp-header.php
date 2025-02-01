@@ -6,20 +6,39 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <?php wp_head(); ?>
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-P44ZGX9');</script>
-<!-- End Google Tag Manager -->
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src =
+        'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-P44ZGX9');
+  </script>
+  <!-- End Google Tag Manager -->
 </head>
 
 <body <?php body_class(); ?>>
   <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P44ZGX9"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P44ZGX9"
+      height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <?php
+  $selected_sections = get_post_meta(get_the_ID(), 'page_metabox', true);
+  $item_logo = isset($selected_sections['item_logo']['url']) ? $selected_sections['item_logo']['url'] : '';
+  $change_nav_menu = isset($selected_sections['change_nav_menu']) ? $selected_sections['change_nav_menu'] : '';
+  $select_nav_menu = isset($selected_sections['select_nav_menu']) ? $selected_sections['select_nav_menu'] : '';
+  ?>
+
   <header class="cwp-header" id="menu">
     <nav class="container flex flex-wrap items-center justify-between gap-2">
       <div class="items-center lg:flex">
@@ -30,8 +49,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             </a>
           </figure>
           <figure>
-            <a href="https://themeatelier.net/downloads/whatsapp-chat-help">
-              <img src="<?php echo get_template_directory_uri(); ?>/assets/images/chat_help.png" class="object-contain w-10 h-10" alt="">
+            <a href="<?php esc_url(get_the_permalink()); ?>">
+              <img src="<?php echo esc_url($item_logo); ?>" class="object-contain w-10 h-10" alt="">
             </a>
           </figure>
         </div>
@@ -45,42 +64,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </svg>
       </button>
       <div class="flex w-full ml-auto lg:flex lg:w-auto">
-        <ul>
-          <li>
-            <a href="#features">Features</a>
-          </li>
-          <li>
-            <a href="#screenshots">Screenshots</a>
-          </li>
-          <li>
-            <a href="#pricing">Pricing</a>
-          </li>
-          <li class="group relative ml-0 lg:!ml-4 my-1 lg:my-0 sm:flex-col">
-            <a class="inline-block py-1 lg:py-3" href="#">
-              <?php echo esc_html__('Resources', 'themeatelier') ?>
-              <i class="icofont-rounded-down"></i>
-            </a>
-            <div class="hidden top-12 lg:pt-6 lg:group-hover:pt-3 -left-8 lg:absolute group-hover:block lg:block lg:invisible group-hover:visible">
-              <ul class="dropdown_menu !block bg-white lg:pb-2 lg:after:border-b-secondary after:z-50 min-w-[250px] rounded-md lg:opacity-0 group-hover:opacity-100 ease-linear duration-100 after:invisible after:opacity-0 group-hover:after:opacity-100 lg:after:visible after:absolute after:left-16 lg:after:border-[10px] after:-top-2 after:border-transparent lg:shadow-md lg:border border-solid border-secondary">
-                <li><a href="/blog"><?php echo esc_html__('Blog', 'themeatelier') ?></a></li>
-                <li><a class="changelog_btn" href="#"><?php echo esc_html__('Changelogs – What’s New', 'themeatelier') ?></a></li>
-                <li><a target="_blank" href="https://docs.themeatelier.net/docs/whatsapp-chat-help-pro/overview/"><?php echo esc_html__('Documentation', 'themeatelier') ?></a></li>
-                <li><a target="_blank" href="https://www.youtube.com/watch?v=2WzK6mE6BQE"><?php echo esc_html__('Video Tutorials', 'themeatelier') ?></a></li>
-                <li><a href="/contact"><?php echo esc_html__('Submit a Ticket', 'themeatelier') ?></a></li>
-                <li><a href="/contact"><?php echo esc_html__('Contact Us', 'themeatelier') ?></a></li>
-              </ul>
-            </div>
-          </li>
-          <li>
-            <a href="#faq">FAQ</a>
-          </li>
-          <li>
-            <a href="/account">Account</a>
-          </li>
-          <li>
-            <a class="!text-white text-lg font-bold demo_btn_primary hover:!text-white !py-2" href="#pricing">Get Smart Swatches</a>
-          </li>
-        </ul>
+
+        <?php
+        if ($change_nav_menu) {
+          wp_nav_menu(array(
+            'menu' => $select_nav_menu,
+            'menu_class'     => '',
+            'container'      => false,
+            'fallback_cb'    => '__return_false',
+            'walker'         => new Custom_Nav_Walker(),
+          ));
+        }
+        ?>
+
+
       </div>
     </nav>
   </header>

@@ -26,12 +26,11 @@
                     <li><strong>Position Control</strong>: Place chat bubbles on any corner of the screen for optimal visibility.</li>
                     <li><strong>Time-Based Availability</strong>: Schedule agents availability based on specific hours of weekdays.</li>
                     <li><strong>Mobile-Friendly</strong>: Fully responsive design ensures smooth functionality on all devices.</li>
-
                 </ul>
                 <a target="_blank" href="https://wpchatplugins.com/whatsapp-chat-support" class="mt-9 demo_btn_secondary !py-2 group">Live Demo</a>
             </div>
         </div>
-        <div class="grid items-center gap-10 mb-20 lg:grid-cols-2">
+        <div class="grid items-center gap-10 mb-20 lg:grid-cols-2 flex-row-reverse">
             <div class="">
                 <h1 class="mb-0 text-4xl xl:text-ta-section-title">
                     WooCommerce Button

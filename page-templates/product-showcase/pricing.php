@@ -2,7 +2,7 @@
     <div class="container px-4 mx-auto">
         <div class="max-w-3xl mx-auto mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-0">
-            Affordable Pricing For Everyone
+                Affordable Pricing For Everyone
             </h2>
             <span class="inline-block mt-5 text-lg font-normal">Pick a plan based on how many websites you need to use WhatsApp Chat Help.</span>
         </div>
@@ -27,17 +27,17 @@
                         <div class="h-8"></div>
                         <ul class="features-list">
                             <li>
-                            <strong>Activation on 1 Website</strong>
+                                <strong>Activation on 1 Website</strong>
                             </li>
                             <li>
-                            <strong>Standard Support for 1 Year</strong>
+                                <strong>Standard Support for 1 Year</strong>
                             </li>
                             <li>
-                            <strong>Automatic Updates for 1 Year</strong>
+                                <strong>Automatic Updates for 1 Year</strong>
                             </li>
                             <li>14-Day Moneyback Guarantee</li>
                             <li>
-                            All Pro Features Included
+                                All Pro Features Included
                             </li>
                         </ul>
                     </div>
@@ -53,18 +53,18 @@
                         <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=2" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
-                        <li>
-                            <strong>Activation on 5 Websites</strong>
+                            <li>
+                                <strong>Activation on 5 Websites</strong>
                             </li>
                             <li>
-                            <strong>Priority Support for 1 Year</strong>
+                                <strong>Priority Support for 1 Year</strong>
                             </li>
                             <li>
-                            <strong>Automatic Updates for 1 Year</strong>
+                                <strong>Automatic Updates for 1 Year</strong>
                             </li>
                             <li>14-Day Moneyback Guarantee</li>
                             <li>
-                            All Pro Features Included
+                                All Pro Features Included
                             </li>
                         </ul>
                     </div>
@@ -80,18 +80,18 @@
                         <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=3" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
-                        <li>
-                            <strong>Activation on Unlimited Website</strong>
+                            <li>
+                                <strong>Activation on Unlimited Website</strong>
                             </li>
                             <li>
-                            <strong>Priority Support for 1 Year</strong>
+                                <strong>Priority Support for 1 Year</strong>
                             </li>
                             <li>
-                            <strong>Automatic Updates for 1 Year</strong>
+                                <strong>Automatic Updates for 1 Year</strong>
                             </li>
                             <li>14-Day Moneyback Guarantee</li>
                             <li>
-                            All Pro Features Included
+                                All Pro Features Included
                             </li>
                         </ul>
                     </div>
@@ -112,18 +112,18 @@
                         <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=4" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
-                        <li>
-                            <strong>Activation on 1 Website</strong>
+                            <li>
+                                <strong>Activation on 1 Website</strong>
                             </li>
                             <li>
-                            <strong>Standard Support for Lifetime</strong>
+                                <strong>Standard Support for Lifetime</strong>
                             </li>
                             <li>
-                            <strong>Automatic Updates for Lifetime</strong>
+                                <strong>Automatic Updates for Lifetime</strong>
                             </li>
                             <li>14-Day Moneyback Guarantee</li>
                             <li>
-                            All Pro Features Included
+                                All Pro Features Included
                             </li>
                         </ul>
                     </div>
@@ -139,18 +139,18 @@
                         <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=5" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
-                        <li>
-                            <strong>Activation on 5 Websites</strong>
+                            <li>
+                                <strong>Activation on 5 Websites</strong>
                             </li>
                             <li>
-                            <strong>Priority Support for Lifetime</strong>
+                                <strong>Priority Support for Lifetime</strong>
                             </li>
                             <li>
-                            <strong>Automatic Updates for Lifetime</strong>
+                                <strong>Automatic Updates for Lifetime</strong>
                             </li>
                             <li>14-Day Moneyback Guarantee</li>
                             <li>
-                            All Pro Features Included
+                                All Pro Features Included
                             </li>
                         </ul>
                     </div>
@@ -166,18 +166,18 @@
                         <a href="https://themeatelier.net/checkout?edd_action=add_to_cart&download_id=534&edd_options[price_id]=6" class="demo_btn_secondary !py-2 w-full">Buy Now</a>
                         <div class="h-8"></div>
                         <ul class="features-list">
-                        <li>
-                            <strong>Unlimited Websites</strong>
+                            <li>
+                                <strong>Unlimited Websites</strong>
                             </li>
                             <li>
-                            <strong>Priority Support for Lifetime</strong>
+                                <strong>Priority Support for Lifetime</strong>
                             </li>
                             <li>
-                            <strong>Automatic Updates for Lifetime</strong>
+                                <strong>Automatic Updates for Lifetime</strong>
                             </li>
                             <li>14-Day Moneyback Guarantee</li>
                             <li>
-                            All Pro Features Included
+                                All Pro Features Included
                             </li>
                         </ul>
                     </div>

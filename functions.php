@@ -422,15 +422,11 @@ function ta_login_redirect( $redirect_to, $request, $user ){
 }
 add_filter( 'login_redirect', 'ta_login_redirect', 10, 3 );
 
-<<<<<<< HEAD
 function allow_svg_uploads($mimes) {
     $mimes['svg'] = 'image/svg+xml';
     return $mimes;
 }
 add_filter('upload_mimes', 'allow_svg_uploads');
-=======
-
-
 
 function tf_before_login_register_form() {
 	?>
@@ -454,4 +450,22 @@ add_action('edd_checkout_personal_info_text', 'tf_edd_checkout_personal_info_tex
 if (!current_user_can('edit_posts')) {
     add_filter('show_admin_bar', '__return_false');
 }
->>>>>>> 3e3f2be2ece87ae4271bded51497b8c088dc050f
+
+
+class Custom_Nav_Walker extends Walker_Nav_Menu {
+    function start_lvl(&$output, $depth = 0, $args = null) {
+        $indent = str_repeat("\t", $depth);
+        $output .= "\n$indent<div class=\"hidden top-12 lg:pt-6 lg:group-hover:pt-3 -left-8 lg:absolute group-hover:block lg:block lg:invisible group-hover:visible\">\n";
+        $output .= "\n$indent<ul class=\"dropdown_menu !block bg-white lg:pb-2 lg:after:border-b-secondary after:z-50 min-w-[250px] rounded-md lg:opacity-0 group-hover:opacity-100 ease-linear duration-100 after:invisible after:opacity-0 group-hover:after:opacity-100 lg:after:visible after:absolute after:left-16 lg:after:border-[10px] after:-top-2 after:border-transparent lg:shadow-md lg:border border-solid border-secondary\">\n";
+    }
+
+    function start_el(&$output, $item, $depth = 0, $args = null, $id = 0) {
+        $class_names = join(' ', $item->classes ?? []);
+        $output .= '<li class="' . esc_attr($class_names) . '">';
+        $output .= '<a href="' . esc_url($item->url) . '">' . esc_html($item->title);
+        if (in_array('menu-item-has-children', $item->classes)) {
+            $output .= ' <i class="icofont-rounded-down"></i>';
+        }
+        $output .= '</a>';
+    }
+}
