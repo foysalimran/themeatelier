@@ -1706,10 +1706,6 @@ video {
   display: none;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
 .h-16{
   height: 4rem;
 }
@@ -1758,10 +1754,6 @@ video {
   height: 100%;
 }
 
-.w-10{
-  width: 2.5rem;
-}
-
 .w-16{
   width: 4rem;
 }
@@ -1800,10 +1792,6 @@ video {
 
 .min-w-\[150px\]{
   min-width: 150px;
-}
-
-.min-w-\[250px\]{
-  min-width: 250px;
 }
 
 .max-w-\[100px\]{
@@ -6997,14 +6985,14 @@ span.edd_sl_license_key {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  color: var(--primary);
+  color: var(--primary) !important;
 }
 
 .demo_btn_primary.call_to_btn:hover {
   background-color: var(--dark);
   border-color: var(--dark);
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
 }
 
 .gallery_item:hover {
@@ -7043,7 +7031,6 @@ section{
 
 .cwp-header{
   position: absolute;
-  z-index: 999999;
   width: 100%;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem;
@@ -7221,6 +7208,14 @@ section{
   border-style: solid;
   border-color: transparent !important;
   transform: scaleX(0);
+}
+
+#wpadminbar {
+  z-index: 99;
+}
+
+.cwp-header.ta-sticky-menu {
+  z-index: 999;
 }
 
 /* CWP FOOTER CSS */
@@ -9624,16 +9619,8 @@ section{
     display: block;
   }
 
-  .lg\:flex{
-    display: flex;
-  }
-
   .lg\:grid{
     display: grid;
-  }
-
-  .lg\:hidden{
-    display: none;
   }
 
   .lg\:h-\[750px\]{
@@ -9642,10 +9629,6 @@ section{
 
   .lg\:\!w-\[800px\]{
     width: 800px !important;
-  }
-
-  .lg\:w-auto{
-    width: auto;
   }
 
   .lg\:max-w-\[64px\]{
@@ -9662,10 +9645,6 @@ section{
 
   .lg\:gap-7{
     gap: 1.75rem;
-  }
-
-  .lg\:border{
-    border-width: 1px;
   }
 
   .lg\:p-6{
@@ -9700,10 +9679,6 @@ section{
     padding-bottom: 0px;
   }
 
-  .lg\:pb-2{
-    padding-bottom: 0.5rem;
-  }
-
   .lg\:pt-0{
     padding-top: 0px;
   }
@@ -9732,26 +9707,9 @@ section{
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
-  .lg\:shadow-md{
-    --tw-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-    --tw-shadow-colored: 0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);
-    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  }
-
   .lg\:after\:visible::after{
     content: var(--tw-content);
     visibility: visible;
-  }
-
-  .lg\:after\:border-\[10px\]::after{
-    content: var(--tw-content);
-    border-width: 10px;
-  }
-
-  .lg\:after\:border-b-secondary::after{
-    content: var(--tw-content);
-    --tw-border-opacity: 1;
-    border-bottom-color: rgb(243 246 255 / var(--tw-border-opacity));
   }
 
   .group:hover .lg\:group-hover\:pt-3{
