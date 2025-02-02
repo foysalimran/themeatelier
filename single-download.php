@@ -8,7 +8,7 @@ $primary_color = isset($color_settings['primary']) ? $color_settings['primary'] 
 $secondary_color = isset($color_settings['secondary']) ? $color_settings['secondary'] : '#F0FDFA';
 $dark_color = isset($color_settings['dark']) ? $color_settings['dark'] : '#111111';
 
-get_template_part('cwp-header');
+// get_template_part('cwp-header');
 ?>
 <style>
     html {
