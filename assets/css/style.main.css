@@ -1312,10 +1312,6 @@ video {
   inset: -0.25rem;
 }
 
-.inset-0{
-  inset: 0px;
-}
-
 .-end-2{
   inset-inline-end: -0.5rem;
 }
@@ -1332,10 +1328,6 @@ video {
   right: 3rem;
 }
 
-.right-2{
-  right: 0.5rem;
-}
-
 .right-4{
   right: 1rem;
 }
@@ -1346,10 +1338,6 @@ video {
 
 .top-12{
   top: 3rem;
-}
-
-.top-2{
-  top: 0.5rem;
 }
 
 .top-8{
@@ -1366,18 +1354,6 @@ video {
 
 .z-10{
   z-index: 10;
-}
-
-.z-\[9999999\]{
-  z-index: 9999999;
-}
-
-.order-1{
-  order: 1;
-}
-
-.order-2{
-  order: 2;
 }
 
 .col-span-1{
@@ -1483,10 +1459,6 @@ video {
   margin-top: -0.375rem;
 }
 
-.-mt-16{
-  margin-top: -4rem;
-}
-
 .-mt-52{
   margin-top: -13rem;
 }
@@ -1537,10 +1509,6 @@ video {
 
 .ml-0{
   margin-left: 0px;
-}
-
-.ml-5{
-  margin-left: 1.25rem;
 }
 
 .ml-8{
@@ -1782,20 +1750,12 @@ video {
   height: 380px;
 }
 
-.h-\[400px\]{
-  height: 400px;
-}
-
 .h-\[90px\]{
   height: 90px;
 }
 
 .h-full{
   height: 100%;
-}
-
-.w-1\/3{
-  width: 33.333333%;
 }
 
 .w-10{
@@ -1834,11 +1794,6 @@ video {
   width: 90px;
 }
 
-.w-\[fit-content\]{
-  width: -moz-fit-content;
-  width: fit-content;
-}
-
 .w-full{
   width: 100%;
 }
@@ -1849,14 +1804,6 @@ video {
 
 .min-w-\[250px\]{
   min-width: 250px;
-}
-
-.max-w-3xl{
-  max-width: 48rem;
-}
-
-.max-w-5xl{
-  max-width: 64rem;
 }
 
 .max-w-\[100px\]{
@@ -2088,10 +2035,6 @@ video {
 
 .list-outside{
   list-style-position: outside;
-}
-
-.list-disc{
-  list-style-type: disc;
 }
 
 .appearance-none{
@@ -2439,10 +2382,6 @@ video {
   gap: 0.375rem;
 }
 
-.gap-10{
-  gap: 2.5rem;
-}
-
 .gap-2{
   gap: 0.5rem;
 }
@@ -2769,10 +2708,6 @@ video {
   word-break: keep-all;
 }
 
-.\!rounded-md{
-  border-radius: 0.375rem !important;
-}
-
 .rounded{
   border-radius: 0.25rem;
 }
@@ -2791,10 +2726,6 @@ video {
 
 .rounded-sm{
   border-radius: 0.125rem;
-}
-
-.rounded-xl{
-  border-radius: 0.75rem;
 }
 
 .rounded-b{
@@ -2865,10 +2796,6 @@ video {
 
 .border-2{
   border-width: 2px;
-}
-
-.border-\[1\.5px\]{
-  border-width: 1.5px;
 }
 
 .border-x{
@@ -3017,11 +2944,6 @@ video {
   border-color: rgb(227 227 227 / var(--tw-border-opacity));
 }
 
-.border-font-color-light{
-  --tw-border-opacity: 1;
-  border-color: rgb(102 102 102 / var(--tw-border-opacity));
-}
-
 .border-primary{
   --tw-border-opacity: 1;
   border-color: rgb(52 100 224 / var(--tw-border-opacity));
@@ -3050,11 +2972,6 @@ video {
 .border-slate-400{
   --tw-border-opacity: 1;
   border-color: rgb(148 163 184 / var(--tw-border-opacity));
-}
-
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .border-b-secondary{
@@ -3142,16 +3059,6 @@ video {
   background-color: rgb(178 223 219 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#C9ECFE\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(201 236 254 / var(--tw-bg-opacity));
-}
-
-.bg-\[\#DCF5F0\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(220 245 240 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#F8BBD0\]{
   --tw-bg-opacity: 1;
   background-color: rgb(248 187 208 / var(--tw-bg-opacity));
@@ -3162,11 +3069,6 @@ video {
   background-color: rgb(252 218 208 / var(--tw-bg-opacity));
 }
 
-.bg-\[\#FFF5D7\]{
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 245 215 / var(--tw-bg-opacity));
-}
-
 .bg-\[\#ffffff14\]{
   background-color: #ffffff14;
 }
@@ -3174,11 +3076,6 @@ video {
 .bg-\[rgb\(255\2c 0\2c 0\)\]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 0 0 / var(--tw-bg-opacity));
-}
-
-.bg-black{
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .bg-green-100{
@@ -3208,10 +3105,6 @@ video {
 .bg-white{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-opacity-50{
-  --tw-bg-opacity: 0.5;
 }
 
 .decoration-slice{
@@ -3307,14 +3200,6 @@ video {
   background-origin: content-box;
 }
 
-.fill-\[\#009BF0\]{
-  fill: #009BF0;
-}
-
-.fill-\[\#FFB900\]{
-  fill: #FFB900;
-}
-
 .fill-font-color-light{
   fill: #666666;
 }
@@ -3396,10 +3281,6 @@ video {
   padding: 1.25rem;
 }
 
-.p-6{
-  padding: 1.5rem;
-}
-
 .p-7{
   padding: 1.75rem;
 }
@@ -3410,11 +3291,6 @@ video {
 
 .p-9{
   padding: 2.25rem;
-}
-
-.\!py-2{
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
 }
 
 .px-10{
@@ -3512,10 +3388,6 @@ video {
   padding-bottom: 2rem;
 }
 
-.pb-0{
-  padding-bottom: 0px;
-}
-
 .pb-10{
   padding-bottom: 2.5rem;
 }
@@ -3582,10 +3454,6 @@ video {
 
 .pt-32{
   padding-top: 8rem;
-}
-
-.pt-36{
-  padding-top: 9rem;
 }
 
 .pt-40{
@@ -3672,11 +3540,6 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.\!text-lg{
-  font-size: 1.125rem !important;
-  line-height: 1.75rem !important;
-}
-
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
@@ -3737,11 +3600,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.\!text-sm{
-  font-size: 0.875rem !important;
-  line-height: 1.25rem !important;
 }
 
 .font-black{
@@ -3918,11 +3776,6 @@ video {
   color: rgb(51 51 51 / var(--tw-text-opacity)) !important;
 }
 
-.\!text-white{
-  --tw-text-opacity: 1 !important;
-  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-}
-
 .text-\[\#0015B5\]{
   --tw-text-opacity: 1;
   color: rgb(0 21 181 / var(--tw-text-opacity));
@@ -3943,11 +3796,6 @@ video {
   color: rgb(3 182 119 / var(--tw-text-opacity));
 }
 
-.text-\[\#0F8C7E\]{
-  --tw-text-opacity: 1;
-  color: rgb(15 140 126 / var(--tw-text-opacity));
-}
-
 .text-\[\#148C7F\]{
   --tw-text-opacity: 1;
   color: rgb(20 140 127 / var(--tw-text-opacity));
@@ -3966,11 +3814,6 @@ video {
 .text-\[\#19BC9E\]{
   --tw-text-opacity: 1;
   color: rgb(25 188 158 / var(--tw-text-opacity));
-}
-
-.text-\[\#333\]{
-  --tw-text-opacity: 1;
-  color: rgb(51 51 51 / var(--tw-text-opacity));
 }
 
 .text-\[\#336699\]\/\[\.35\]{
@@ -4027,11 +3870,6 @@ video {
   color: rgb(156 163 175 / var(--tw-text-opacity));
 }
 
-.text-gray-500{
-  --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
-}
-
 .text-gray-700{
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -4042,11 +3880,6 @@ video {
   color: rgb(22 101 52 / var(--tw-text-opacity));
 }
 
-.text-lime-50{
-  --tw-text-opacity: 1;
-  color: rgb(247 254 231 / var(--tw-text-opacity));
-}
-
 .text-primary{
   --tw-text-opacity: 1;
   color: rgb(52 100 224 / var(--tw-text-opacity));
@@ -4055,11 +3888,6 @@ video {
 .text-red-500{
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
-.text-secondary{
-  --tw-text-opacity: 1;
-  color: rgb(243 246 255 / var(--tw-text-opacity));
 }
 
 .text-slate-400{
@@ -4552,7 +4380,7 @@ h6{
   }
 }
 
-input[type=radio] {
+input[type="radio"] {
   width: auto;
   margin-right: 5px;
 }
@@ -4845,6 +4673,78 @@ label{
 
 .ta-header ul li .dropdown_menu li a{
   padding: 0px;
+}
+
+.header_button a {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  display: inline-block;
+  border-radius: 0.375rem;
+  border-width: 2px;
+  border-style: solid;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  text-align: center;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+  transition-duration: 300ms;
+  transition-timing-function: linear;
+}
+
+.header_button a:hover{
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
+@media (min-width: 1024px){
+  .header_button a{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.cwp-header li.header_button:hover > a{
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
+}
+
+.menu-item-has-children{
+  position: relative;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+  margin-left: 0px;
+}
+
+@media (min-width: 640px){
+  .menu-item-has-children{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1024px){
+  .menu-item-has-children{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1rem !important;
+  }
+}
+
+.menu-item-has-children > a{
+  display: inline-block !important;
+  padding-top: 0.25rem !important;
+  padding-bottom: 0.25rem !important;
+}
+
+@media (min-width: 1024px){
+  .menu-item-has-children > a{
+    padding-top: 0.75rem !important;
+    padding-bottom: 0.75rem !important;
+  }
 }
 
 /* Hero css */
@@ -6382,7 +6282,8 @@ ol li .fn a{
   margin-bottom: 1.25rem;
 }
 
-#edd_purchase_form_wrap #edd_checkout_user_info, #edd_checkout_form_wrap #edd_checkout_user_info{
+#edd_purchase_form_wrap #edd_checkout_user_info,
+#edd_checkout_form_wrap #edd_checkout_user_info{
   border-width: 1px;
   border-style: solid;
   --tw-border-opacity: 1;
@@ -6393,11 +6294,13 @@ ol li .fn a{
   padding-right: 1.25rem;
 }
 
-#edd_purchase_form_wrap #edd_checkout_user_info .edd-description, #edd_checkout_form_wrap #edd_checkout_user_info .edd-description{
+#edd_purchase_form_wrap #edd_checkout_user_info .edd-description,
+#edd_checkout_form_wrap #edd_checkout_user_info .edd-description{
   display: none;
 }
 
-#edd_purchase_form_wrap #edd_checkout_user_info legend, #edd_checkout_form_wrap #edd_checkout_user_info legend{
+#edd_purchase_form_wrap #edd_checkout_user_info legend,
+#edd_checkout_form_wrap #edd_checkout_user_info legend{
   margin-bottom: 0px;
   display: inline-block;
   width: auto;
@@ -6406,33 +6309,39 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap a,
-#edd_purchase_form a, #edd_checkout_form_wrap a,
+#edd_purchase_form a,
+#edd_checkout_form_wrap a,
 #edd_checkout_form a{
   --tw-text-opacity: 1;
   color: rgb(52 100 224 / var(--tw-text-opacity));
   text-decoration: none;
 }
 
-#edd_purchase_form_wrap p, #edd_checkout_form_wrap p{
+#edd_purchase_form_wrap p,
+#edd_checkout_form_wrap p{
   margin: 0px;
   margin-bottom: 1.25rem !important;
 }
 
-#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap, #edd_checkout_form_wrap p#edd-user-pass-confirm-wrap{
+#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap,
+#edd_checkout_form_wrap p#edd-user-pass-confirm-wrap{
   margin-bottom: 0px !important;
 }
 
-#edd_purchase_form_wrap p label, #edd_checkout_form_wrap p label{
+#edd_purchase_form_wrap p label,
+#edd_checkout_form_wrap p label{
   margin-bottom: 0.5rem;
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
 
-#edd_purchase_form_wrap p .edd-description, #edd_checkout_form_wrap p .edd-description{
+#edd_purchase_form_wrap p .edd-description,
+#edd_checkout_form_wrap p .edd-description{
   display: none;
 }
 
-#edd_purchase_form_wrap p input, #edd_checkout_form_wrap p input{
+#edd_purchase_form_wrap p input,
+#edd_checkout_form_wrap p input{
   border-radius: 0.375rem;
   border-width: 1px;
   border-style: solid;
@@ -6455,7 +6364,8 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap #edd_register_fields,
-#edd_purchase_form_wrap #edd_login_fields, #edd_checkout_form_wrap #edd_register_fields,
+#edd_purchase_form_wrap #edd_login_fields,
+#edd_checkout_form_wrap #edd_register_fields,
 #edd_checkout_form_wrap #edd_login_fields{
   border-width: 1px;
   border-style: solid;
@@ -6467,7 +6377,8 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
-#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info, #edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info,
+#edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info,
 #edd_checkout_form_wrap #edd_login_fields #edd_checkout_user_info{
   border-width: 0px;
   padding-top: 0px;
@@ -6477,7 +6388,8 @@ ol li .fn a{
 }
 
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
-#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend, #edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info legend,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend,
+#edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info legend,
 #edd_checkout_form_wrap #edd_login_fields #edd_checkout_user_info legend{
   margin-bottom: 1rem;
   display: block;
@@ -6489,17 +6401,20 @@ ol li .fn a{
   padding-bottom: 0.75rem;
 }
 
-#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap, #edd_checkout_form_wrap #edd_login_fields #edd-user-pass-wrap{
+#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap,
+#edd_checkout_form_wrap #edd_login_fields #edd-user-pass-wrap{
   margin-bottom: 0px !important;
   width: 100%;
 }
 
-#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit, #edd_checkout_form_wrap #edd_login_fields #edd-user-login-submit{
+#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit,
+#edd_checkout_form_wrap #edd_login_fields #edd-user-login-submit{
   margin-bottom: 0px !important;
 }
 
 #edd_purchase_form_wrap #edd-login-account-wrap,
-#edd_purchase_form_wrap #edd-new-account-wrap, #edd_checkout_form_wrap #edd-login-account-wrap,
+#edd_purchase_form_wrap #edd-new-account-wrap,
+#edd_checkout_form_wrap #edd-login-account-wrap,
 #edd_checkout_form_wrap #edd-new-account-wrap{
   margin-left: -1.25rem !important;
   margin-right: -1.25rem !important;
@@ -6518,26 +6433,30 @@ ol li .fn a{
 }
 
 .ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form,.ta-footer
-#edd_purchase_form_wrap #edd-new-account-wrap form,.ta-footer #edd_checkout_form_wrap #edd-login-account-wrap form,.ta-footer
+#edd_purchase_form_wrap #edd-new-account-wrap form,.ta-footer
+#edd_checkout_form_wrap #edd-login-account-wrap form,.ta-footer
 #edd_checkout_form_wrap #edd-new-account-wrap form{
   background-color: transparent !important;
 }
 
 .ta-footer#edd_purchase_form_wrap #edd-login-account-wrap form input,.ta-footer
-#edd_purchase_form_wrap #edd-new-account-wrap form input,.ta-footer #edd_checkout_form_wrap #edd-login-account-wrap form input,.ta-footer
+#edd_purchase_form_wrap #edd-new-account-wrap form input,.ta-footer
+#edd_checkout_form_wrap #edd-login-account-wrap form input,.ta-footer
 #edd_checkout_form_wrap #edd-new-account-wrap form input{
   --tw-bg-opacity: 1 !important;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity)) !important;
 }
 
 .ta-footer#edd_purchase_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer
-#edd_purchase_form_wrap #edd-new-account-wrap .ta-footer-bottom,.ta-footer #edd_checkout_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer
+#edd_purchase_form_wrap #edd-new-account-wrap .ta-footer-bottom,.ta-footer
+#edd_checkout_form_wrap #edd-login-account-wrap .ta-footer-bottom,.ta-footer
 #edd_checkout_form_wrap #edd-new-account-wrap .ta-footer-bottom{
   --tw-border-opacity: 1 !important;
   border-color: rgb(102 102 102 / var(--tw-border-opacity)) !important;
 }
 
-#edd_purchase_submit #edd_final_total_wrap, #edd_checkout_submit #edd_final_total_wrap{
+#edd_purchase_submit #edd_final_total_wrap,
+#edd_checkout_submit #edd_final_total_wrap{
   margin-top: 0.75rem !important;
   margin-bottom: 0px !important;
 }
@@ -6986,7 +6905,7 @@ span.edd_sl_license_key {
 
 #paddle_pay_now_btn {
   text-decoration: none;
-  line-height: 24px
+  line-height: 24px;
 }
 
 .wp-smartpay-edd-payment-wrapper{
@@ -7007,8 +6926,8 @@ span.edd_sl_license_key {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
   text-align: center;
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-text-opacity: 1 !important;
+  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
   transition-duration: 300ms;
   transition-timing-function: linear;
 }
@@ -7250,12 +7169,14 @@ section{
   position: relative;
 }
 
-.cwp-header ul li.group a::after, .cwp-header ul li.group:hover a::after {
+.cwp-header ul li.group a::after,
+.cwp-header ul li.group:hover a::after {
   border-bottom: 2px solid transparent;
 }
 
-.cwp-header ul li>a::after, .cwp-header ul li:hover>a::after {
-  content: '';
+.cwp-header ul li > a::after,
+.cwp-header ul li:hover > a::after {
+  content: "";
   display: block;
   border-bottom-width: 2px;
   border-style: solid;
@@ -7265,15 +7186,15 @@ section{
   transform-origin: 0% 50%;
 }
 
-.cwp-header li:hover>a {
+.cwp-header li:hover > a {
   color: var(--primary) !important;
 }
 
-.cwp-header ul li:hover>a::after {
-  transform: scaleX(.6);
+.cwp-header ul li:hover > a::after {
+  transform: scaleX(0.6);
 }
 
-.cwp-header ul li>a:hover {
+.cwp-header ul li > a:hover {
   color: var(--primary);
 }
 
@@ -7295,7 +7216,7 @@ section{
   display: block;
 }
 
-.cwp-header ul li:hover>.demo_btn_primary::after{
+.cwp-header ul li:hover > .demo_btn_primary::after{
   border-bottom-width: 2px;
   border-style: solid;
   border-color: transparent !important;
@@ -7335,7 +7256,7 @@ section{
   gap: 0.5rem;
 }
 
-.cwp-footer .cwp-footer-icon ul a{
+.cwp-footer .cwp-footer-icon ul a {
   color: var(--primary);
   border-color: var(--primary);
   display: flex;
@@ -7352,7 +7273,7 @@ section{
   transition-duration: 300ms;
 }
 
-.cwp-footer .cwp-footer-icon ul a:hover{
+.cwp-footer .cwp-footer-icon ul a:hover {
   background-color: var(--primary);
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -7375,20 +7296,21 @@ section{
 }
 
 .login-toggler {
-  color: #3564E1;
-  font-style:italic;
+  color: #3564e1;
+  font-style: italic;
   cursor: pointer;
   text-decoration: underline;
   margin-bottom: 10px;
 }
 
-#edd_login_fields{
+#edd_login_fields {
   padding: 1.25rem;
   --tw-bg-opacity: 1 !important;
-  background-color: rgb(243 246 255 / var(--tw-bg-opacity)) !important
+  background-color: rgb(243 246 255 / var(--tw-bg-opacity)) !important;
 }
 
-#edd_login_fields input[type='text'], #edd_login_fields input[type='password']{
+#edd_login_fields input[type="text"],
+#edd_login_fields input[type="password"]{
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
@@ -9106,11 +9028,6 @@ section{
   font-weight: 700;
 }
 
-.hover\:\!text-white:hover{
-  --tw-text-opacity: 1 !important;
-  color: rgb(255 255 255 / var(--tw-text-opacity)) !important;
-}
-
 .hover\:text-\[\#0015B5\]:hover{
   --tw-text-opacity: 1;
   color: rgb(0 21 181 / var(--tw-text-opacity));
@@ -9174,11 +9091,6 @@ section{
 .hover\:text-\[\#c27b7f\]:hover{
   --tw-text-opacity: 1;
   color: rgb(194 123 127 / var(--tw-text-opacity));
-}
-
-.hover\:text-gray-800:hover{
-  --tw-text-opacity: 1;
-  color: rgb(31 41 55 / var(--tw-text-opacity));
 }
 
 .hover\:text-primary:hover{
@@ -9427,10 +9339,6 @@ section{
     flex-direction: row;
   }
 
-  .sm\:flex-col{
-    flex-direction: column;
-  }
-
   .sm\:p-9{
     padding: 2.25rem;
   }
@@ -9608,10 +9516,6 @@ section{
     flex-direction: row;
   }
 
-  .md\:justify-start{
-    justify-content: flex-start;
-  }
-
   .md\:gap-4{
     gap: 1rem;
   }
@@ -9655,10 +9559,6 @@ section{
     padding-bottom: 5rem;
   }
 
-  .md\:pt-24{
-    padding-top: 6rem;
-  }
-
   .md\:pt-44{
     padding-top: 11rem;
   }
@@ -9691,22 +9591,6 @@ section{
     top: 3rem;
   }
 
-  .lg\:order-1{
-    order: 1;
-  }
-
-  .lg\:order-2{
-    order: 2;
-  }
-
-  .lg\:col-span-1{
-    grid-column: span 1 / span 1;
-  }
-
-  .lg\:col-span-10{
-    grid-column: span 10 / span 10;
-  }
-
   .lg\:col-span-4{
     grid-column: span 4 / span 4;
   }
@@ -9734,10 +9618,6 @@ section{
 
   .lg\:\!ml-4{
     margin-left: 1rem !important;
-  }
-
-  .lg\:mb-0{
-    margin-bottom: 0px;
   }
 
   .lg\:block{
@@ -9772,10 +9652,6 @@ section{
     max-width: 64px;
   }
 
-  .lg\:grid-cols-2{
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -9784,48 +9660,12 @@ section{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
-  .lg\:justify-end{
-    justify-content: flex-end;
-  }
-
-  .lg\:gap-6{
-    gap: 1.5rem;
-  }
-
   .lg\:gap-7{
     gap: 1.75rem;
   }
 
-  .lg\:gap-8{
-    gap: 2rem;
-  }
-
-  .lg\:rounded-none{
-    border-radius: 0px;
-  }
-
   .lg\:border{
     border-width: 1px;
-  }
-
-  .lg\:border-0{
-    border-width: 0px;
-  }
-
-  .lg\:border-\[1\.5px\]{
-    border-width: 1.5px;
-  }
-
-  .lg\:border-solid{
-    border-style: solid;
-  }
-
-  .lg\:border-none{
-    border-style: none;
-  }
-
-  .lg\:p-10{
-    padding: 2.5rem;
   }
 
   .lg\:p-6{
@@ -9870,10 +9710,6 @@ section{
 
   .lg\:pt-6{
     padding-top: 1.5rem;
-  }
-
-  .lg\:text-start{
-    text-align: start;
   }
 
   .lg\:text-5xl{
@@ -9946,10 +9782,6 @@ section{
 
   .xl\:gap-10{
     gap: 2.5rem;
-  }
-
-  .xl\:gap-8{
-    gap: 2rem;
   }
 
   .xl\:bg-right{

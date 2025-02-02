@@ -60,7 +60,7 @@ h6 {
   @apply text-base lg:text-lg;
 }
 
-input[type=radio] {
+input[type="radio"] {
   width: auto;
   margin-right: 5px;
 }
@@ -142,7 +142,20 @@ label {
 .ta-header ul li .dropdown_menu li a {
   @apply p-0;
 }
-
+.header_button a {
+  background-color: var(--primary);
+  border-color: var(--primary);
+  @apply !py-2 px-5 lg:px-8 rounded-md font-bold text-lg !text-white hover:!text-white ease-linear duration-300 inline-block border-2 border-solid text-center;
+}
+.cwp-header li.header_button:hover > a {
+  @apply !text-white;
+}
+.menu-item-has-children {
+  @apply  relative ml-0 lg:!ml-4 my-1 lg:my-0 sm:flex-col;
+}
+.menu-item-has-children > a {
+  @apply !inline-block !py-1 lg:!py-3;
+}
 /* Hero css */
 .bg-banner-img {
   background-image: url("../images/hero.png");
@@ -933,37 +946,46 @@ ol li .fn a {
 .edd-payment-icons {
   @apply mb-5;
 }
-#edd_purchase_form_wrap #edd_checkout_user_info, #edd_checkout_form_wrap #edd_checkout_user_info {
+#edd_purchase_form_wrap #edd_checkout_user_info,
+#edd_checkout_form_wrap #edd_checkout_user_info {
   @apply pt-5 pb-5 pl-5 pr-5 border border-solid border-border-color;
 }
-#edd_purchase_form_wrap #edd_checkout_user_info .edd-description, #edd_checkout_form_wrap #edd_checkout_user_info .edd-description {
+#edd_purchase_form_wrap #edd_checkout_user_info .edd-description,
+#edd_checkout_form_wrap #edd_checkout_user_info .edd-description {
   @apply hidden;
 }
 
-#edd_purchase_form_wrap #edd_checkout_user_info legend, #edd_checkout_form_wrap #edd_checkout_user_info legend {
+#edd_purchase_form_wrap #edd_checkout_user_info legend,
+#edd_checkout_form_wrap #edd_checkout_user_info legend {
   @apply inline-block w-auto pb-0 mb-0 border-b-0;
 }
 
 #edd_purchase_form_wrap a,
-#edd_purchase_form a, #edd_checkout_form_wrap a,
+#edd_purchase_form a,
+#edd_checkout_form_wrap a,
 #edd_checkout_form a {
   @apply text-primary;
   text-decoration: none;
 }
 
-#edd_purchase_form_wrap p, #edd_checkout_form_wrap p {
+#edd_purchase_form_wrap p,
+#edd_checkout_form_wrap p {
   @apply m-0 !mb-5;
 }
-#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap, #edd_checkout_form_wrap p#edd-user-pass-confirm-wrap {
+#edd_purchase_form_wrap p#edd-user-pass-confirm-wrap,
+#edd_checkout_form_wrap p#edd-user-pass-confirm-wrap {
   @apply !mb-0;
 }
-#edd_purchase_form_wrap p label, #edd_checkout_form_wrap p label {
+#edd_purchase_form_wrap p label,
+#edd_checkout_form_wrap p label {
   @apply mb-2 text-lg;
 }
-#edd_purchase_form_wrap p .edd-description, #edd_checkout_form_wrap p .edd-description {
+#edd_purchase_form_wrap p .edd-description,
+#edd_checkout_form_wrap p .edd-description {
   @apply hidden;
 }
-#edd_purchase_form_wrap p input, #edd_checkout_form_wrap p input{
+#edd_purchase_form_wrap p input,
+#edd_checkout_form_wrap p input {
   @apply px-5 py-2 border border-solid rounded-md border-border-color;
   line-height: 24px;
 }
@@ -972,32 +994,39 @@ ol li .fn a {
   @apply p-4 border border-solid border-border-color;
 }
 #edd_purchase_form_wrap #edd_register_fields,
-#edd_purchase_form_wrap #edd_login_fields, #edd_checkout_form_wrap #edd_register_fields,
+#edd_purchase_form_wrap #edd_login_fields,
+#edd_checkout_form_wrap #edd_register_fields,
 #edd_checkout_form_wrap #edd_login_fields {
   @apply pb-5 pl-5 pr-5 border border-solid border-border-color;
 }
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info,
-#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info, #edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info,
+#edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info,
 #edd_checkout_form_wrap #edd_login_fields #edd_checkout_user_info {
   @apply pt-0 pb-0 pl-0 pr-0 border-0;
 }
 #edd_purchase_form_wrap #edd_register_fields #edd_checkout_user_info legend,
-#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend, #edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info legend,
+#edd_purchase_form_wrap #edd_login_fields #edd_checkout_user_info legend,
+#edd_checkout_form_wrap #edd_register_fields #edd_checkout_user_info legend,
 #edd_checkout_form_wrap #edd_login_fields #edd_checkout_user_info legend {
   @apply block w-full pb-3 mb-4 border-b border-solid border-border-color;
 }
-#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap, #edd_checkout_form_wrap #edd_login_fields #edd-user-pass-wrap {
+#edd_purchase_form_wrap #edd_login_fields #edd-user-pass-wrap,
+#edd_checkout_form_wrap #edd_login_fields #edd-user-pass-wrap {
   @apply w-full !mb-0;
 }
-#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit, #edd_checkout_form_wrap #edd_login_fields #edd-user-login-submit {
+#edd_purchase_form_wrap #edd_login_fields #edd-user-login-submit,
+#edd_checkout_form_wrap #edd_login_fields #edd-user-login-submit {
   @apply !mb-0;
 }
 #edd_purchase_form_wrap #edd-login-account-wrap,
-#edd_purchase_form_wrap #edd-new-account-wrap, #edd_checkout_form_wrap #edd-login-account-wrap,
+#edd_purchase_form_wrap #edd-new-account-wrap,
+#edd_checkout_form_wrap #edd-login-account-wrap,
 #edd_checkout_form_wrap #edd-new-account-wrap {
   @apply bg-secondary text-base py-2 px-5 border border-border-color !-mx-5 !mb-5;
 }
-#edd_purchase_submit #edd_final_total_wrap, #edd_checkout_submit #edd_final_total_wrap {
+#edd_purchase_submit #edd_final_total_wrap,
+#edd_checkout_submit #edd_final_total_wrap {
   @apply !mt-3 !mb-0;
 }
 .edd_errors {
@@ -1187,7 +1216,7 @@ span.edd_sl_license_key {
 #paddle_pay_now_btn {
   @apply inline-block px-5 py-2 mt-3 text-white duration-300 ease-linear border-2 border-solid rounded-full bg-primary border-primary hover:bg-black hover:border-black;
   text-decoration: none;
-  line-height: 24px
+  line-height: 24px;
 }
 .wp-smartpay-edd-payment-wrapper {
   @apply text-center;
@@ -1197,7 +1226,7 @@ span.edd_sl_license_key {
 .demo_btn_primary {
   background-color: var(--primary);
   border-color: var(--primary);
-  @apply py-1.5 lg:py-3 px-5 lg:px-8 rounded-md text-white ease-linear duration-300 inline-block border-2 border-solid text-center;
+  @apply py-1.5 lg:py-3 px-5 lg:px-8 rounded-md !text-white ease-linear duration-300 inline-block border-2 border-solid text-center;
 }
 .demo_btn_primary:hover {
   background-color: var(--dark);
@@ -1292,26 +1321,28 @@ section {
   @apply p-0;
 }
 .cwp-header ul li {
-  @apply relative 
+  @apply relative;
 }
-.cwp-header ul li.group a::after, .cwp-header ul li.group:hover a::after {
+.cwp-header ul li.group a::after,
+.cwp-header ul li.group:hover a::after {
   border-bottom: 2px solid transparent;
 }
-.cwp-header ul li>a::after, .cwp-header ul li:hover>a::after {
-  content: '';
+.cwp-header ul li > a::after,
+.cwp-header ul li:hover > a::after {
+  content: "";
   @apply block border-b-2 border-solid;
   border-color: var(--primary) !important;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
   transform-origin: 0% 50%;
 }
-.cwp-header li:hover>a {
+.cwp-header li:hover > a {
   color: var(--primary) !important;
 }
-.cwp-header ul li:hover>a::after {
-  transform: scaleX(.6);
+.cwp-header ul li:hover > a::after {
+  transform: scaleX(0.6);
 }
-.cwp-header ul li>a:hover {
+.cwp-header ul li > a:hover {
   color: var(--primary);
 }
 .cwp-header li a i {
@@ -1323,7 +1354,7 @@ section {
 .cwp-header li div {
   @apply block;
 }
-.cwp-header ul li:hover>.demo_btn_primary::after {
+.cwp-header ul li:hover > .demo_btn_primary::after {
   @apply !border-transparent border-b-2 border-solid;
   transform: scaleX(0);
 }
@@ -1344,15 +1375,15 @@ section {
 .cwp-footer .cwp-footer-icon {
   @apply mt-9;
 }
-.cwp-footer .cwp-footer-icon ul{
+.cwp-footer .cwp-footer-icon ul {
   @apply flex gap-2;
 }
-.cwp-footer .cwp-footer-icon ul a{
+.cwp-footer .cwp-footer-icon ul a {
   color: var(--primary);
   border-color: var(--primary);
   @apply flex items-center justify-center w-4 h-4 p-3 transition-all duration-300 border border-solid rounded-full;
 }
-.cwp-footer .cwp-footer-icon ul a:hover{
+.cwp-footer .cwp-footer-icon ul a:hover {
   background-color: var(--primary);
   @apply text-white;
 }
@@ -1369,19 +1400,20 @@ section {
   margin-top: 20px;
 }
 .login-toggler {
-  color: #3564E1;
-font-style:italic;
+  color: #3564e1;
+  font-style: italic;
   cursor: pointer;
   text-decoration: underline;
-margin-bottom: 10px;
+  margin-bottom: 10px;
 }
-#edd_login_fields{
-padding: 1.25rem
+#edd_login_fields {
+  padding: 1.25rem;
 }
 
-#edd_login_fields{
+#edd_login_fields {
   @apply !bg-secondary;
 }
-#edd_login_fields input[type='text'], #edd_login_fields input[type='password']{
+#edd_login_fields input[type="text"],
+#edd_login_fields input[type="password"] {
   @apply bg-white;
 }
