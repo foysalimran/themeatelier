@@ -106,7 +106,7 @@ if (!is_user_logged_in()) {
           </div>
         </div>
 
-        <div class="w-full p-10 dashboard-entry-content">
+        <div class="w-full p-5 dashboard-entry-content">
           <div class="account-content">
             <?php
             if ($dashboard_page_name) {
