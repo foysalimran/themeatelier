@@ -1,3 +1,9 @@
+<?php
+$selected_sections = get_post_meta(get_the_ID(), 'page_metabox', true);
+$footer_helpful_links = isset($selected_sections['footer_helpful_links']) ? $selected_sections['footer_helpful_links'] : '';
+?>
+
+
 <!--====== Footer section start ======-->
 <footer class="ta-footer cwp-footer">
 
@@ -32,15 +38,7 @@
             <div>
               <p>Helpful Links</p>
               <nav>
-                <ul>
-                  <li><a href="#features">Features</a></li>
-                  <li><a href="#price">Pricing</a></li>
-                  <li><a href="#faq">FAQs</a></li>
-                  <li><a href="/account">My Account</a></li>
-                  <li><a target="_blank" href="https://docs.themeatelier.net/docs/whatsapp-chat-help-pro/overview/">Documentation</a></li>
-                  <li><a target="_blank" href="https://www.youtube.com/watch?v=2WzK6mE6BQE">Video Tutorials</a></li>
-                  <li><a href="/contact">Submit a Ticket</a></li>
-                </ul>
+                <?php echo wp_kses_post($footer_helpful_links); ?>
               </nav>
             </div>
             <div>
