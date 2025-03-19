@@ -58,7 +58,7 @@ get_header(); ?>
       <div class="relative group ta-featured-item">
         <a  target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/domain-for-sale/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="Domain for sale" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="Domain for sale" class="max-w-[100px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-2 text-xl">Domain For Sale Plugin for WordPress</h3>
