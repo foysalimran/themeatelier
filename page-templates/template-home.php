@@ -66,15 +66,15 @@ get_header(); ?>
     </div>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
 
-      <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/eventful">
+    <div class="relative group ta-featured-item">
+        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/whatsapp-chat-help/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/eventufl.png" alt="EventFul" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="https://ps.w.org/chat-help/assets/icon-256x256.gif?rev=3236532" alt="WhatsApp Chat Support" class="max-w-[100px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-2 text-xl">Events Showcase For The Events Calendar</h3>
+            <h3 class="mt-5 mb-2 text-xl">WhatsApp Chat Help - Chat Support Plugin For WordPress</h3>
             <p class="mb-0 text-font-color">
-              A range of powerful features and tools that empower you to take your event showcasing to the next level.
+            Whatsapp chat support is a WordPress plugin that allows website owners to easily add a WhatsApp chat button to their website.
             </p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -85,14 +85,14 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://1.envato.market/darkify">
+        <a  target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/darkify/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="https://themeatelier.net/wp-content/uploads/2024/01/darkify.png" alt="Darkify" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="https://ps.w.org/darkify/assets/icon-256x256.gif?rev=3078020" alt="Darkify" class="max-w-[100px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-2 text-xl">WordPress Dark Mode Plugin</h3>
+            <h3 class="mt-5 mb-2 text-xl">Darkify - WordPress Dark Mode Plugin</h3>
             <p class="mb-0 text-font-color">
-              An extraimly advanced dark mode plugin for any WordPress website
+            Darkify – is an extremely advanced dark mode plugin for any WordPress website. The plugin has the option to enable a dark mode switcher for the front end and also WordPress admin.
             </p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -103,14 +103,14 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/nilam-domain-for-sale-auction-plugin/43690219">
+        <a  target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/domain-for-sale/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="Domain for sale" class="max-w-[64px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-2 text-xl">Domain For Sale</h3>
+            <h3 class="mt-5 mb-2 text-xl">Domain For Sale Plugin for WordPress</h3>
             <p class="mb-0 text-font-color">
-              The ultimate tool for parking and selling your unused domain names.
+            The ultimate WordPress plugin for domain sales, appraisals, auctions, and marketplace management.
             </p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -119,17 +119,16 @@ get_header(); ?>
           </span>
         </a>
       </div>
+
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/greetwp-video-bubble-wordpress-plugin/39588757">
+        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/greet-bubble/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/greet.png" alt="Greet video bubble" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="https://ps.w.org/greet-bubble/assets/icon-256x256.png?rev=3153272" alt="Greet Bubble" class="max-w-[100px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-2 text-xl">
-              Greet - Video Bubble Warm Welcome
-            </h3>
+            <h3 class="mt-5 mb-2 text-xl">Greet Bubble - Video Bubble Plugin for WordPress</h3>
             <p class="mb-0 text-font-color">
-              A powerful and user-friendly video bubble plugin for WordPress that provides an opportunity to create a dynamic and engaging welcome experience for your visitors.
+            Placing a video on websites can increase the sales of your services or products in a significant way. Greet is a professional video bubble plugin for showing a welcome video on your websites in a great and fun way.
             </p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -138,15 +137,17 @@ get_header(); ?>
           </span>
         </a>
       </div>
+      
+
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/bizreview-business-review-wordpress-plugin/24235499">
+        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/bizreview.png" alt="BizReview" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="https://ps.w.org/eventful/assets/icon-256x256.png?rev=3088585" alt="EventFul" class="max-w-[100px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-2 text-xl">BizReview - Business Review Plugin</h3>
+            <h3 class="mt-5 mb-2 text-xl">Eventful Shortcode Version- Events Showcase for The "The Events Calendar"</h3>
             <p class="mb-0 text-font-color">
-              A suitable plugin to show your business reviews from different platforms like Google business review, Facebook business review, Trustpilot, Yelp, etc.
+            With "Eventful," you can effortlessly create intelligent layouts for "The Events Calendar" plugin, effectively addressing and resolving compatibility issues that may arise.
             </p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -155,15 +156,16 @@ get_header(); ?>
           </span>
         </a>
       </div>
+
       <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://codecanyon.net/item/idonatepro-blood-request-and-blood-donor-management-system-wordpress-plugin/21525871">
+        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful-for-elementor">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/idonate.png" alt="IDonate" class="max-w-[64px] rounded-md" />
+            <img width="256" height="256" src="https://ps.w.org/eventful-for-elementor/assets/icon-256x256.png?rev=3236337" alt="EventFul" class="max-w-[100px] rounded-md" />
           </div>
           <div>
-            <h3 class="mt-5 mb-2 text-xl">iDonate - Blood Donation Plugin</h3>
+            <h3 class="mt-5 mb-2 text-xl">Eventful for Elementor - Events Showcase for The "The Events Calendar"</h3>
             <p class="mb-0 text-font-color">
-              A professional Blood request and blood donor management system for any kind of WordPress website
+            Easily display events from The Events Calendar plugin with Elementor widgets, offering seamless customization and powerful layout options.
             </p>
           </div>
           <span class="text-primary text-sm leading-[30px] text-center absolute h-8 w-8 flex items-center justify-center border border-primary rounded-full top-12 right-12 invisible group-hover:visible ease-linear duration-300 opacity-0 group-hover:opacity-100"><svg width="16" height="16" class="fill-primary" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -172,16 +174,17 @@ get_header(); ?>
           </span>
         </a>
       </div>
-    </div>
-    <div class="text-center">
-      <a class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="https://1.envato.market/ta-plugins">
+
+      
+  </div>
+  <div class="text-center w-100">
+      <a target="_blank" class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="/plugins">
         <?php _e('View All Plugins', 'themeatelier'); ?>
         <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
           <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
         </svg>
       </a>
     </div>
-  </div>
 </section>
 <!--====== Featured section end ======-->
 

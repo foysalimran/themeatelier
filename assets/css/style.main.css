@@ -1798,6 +1798,10 @@ video {
   max-width: 100px;
 }
 
+.max-w-\[12px\]{
+  max-width: 12px;
+}
+
 .max-w-\[50px\]{
   max-width: 50px;
 }
@@ -1808,6 +1812,10 @@ video {
 
 .max-w-\[70\%\]{
   max-width: 70%;
+}
+
+.max-w-\[120px\]{
+  max-width: 120px;
 }
 
 .flex-shrink{

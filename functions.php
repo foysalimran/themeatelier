@@ -430,6 +430,7 @@ add_filter('upload_mimes', 'allow_svg_uploads');
 
 function tf_before_login_register_form() {
 	?>
+
 	<div class="flex justify-between mb-2 align-center">
 	<h4 class="!mt-0 !mb-0">Account Info</h4>
 	<?php if(!is_user_logged_in()) : ?> 
