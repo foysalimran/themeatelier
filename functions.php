@@ -3,11 +3,8 @@ require('lib/codestar/codestar-framework.php');
 // include_once('inc/admin-options.php');
 include_once('inc/metabox-options.php');
 
-if (site_url() == "themeatelier-official.local") {
-	define("VERSION", time());
-} else {
-	define("VERSION", wp_get_theme()->get("Version"));
-}
+
+define("VERSION", wp_get_theme()->get("Version"));
 
 // ADD THEME SUPPORT
 function themeatelier_initialize()
