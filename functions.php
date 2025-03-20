@@ -60,14 +60,15 @@ add_action('after_setup_theme', 'themeatelier_initialize');
 // ENQUEUE STYLES AND SCRIPTS
 function themeatelier_theme_scripts()
 {
-	wp_enqueue_style('fancybox', get_template_directory_uri() . '/assets/css/fancybox.css', array(), time());
-	wp_enqueue_style('icofont', get_template_directory_uri() . '/assets/css/icofont.css', array(), time());
-	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.css', array(), time());
+	$min = SCRIPT_DEBUG ? '' : '.min';
+	wp_enqueue_style('fancybox', get_template_directory_uri() . '/assets/css/fancybox' . $min . 'css', array(), time());
+	wp_enqueue_style('icofont', get_template_directory_uri() . '/assets/css/icofont' . $min . 'css', array(), time());
+	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main.' . $min . 'css', array(), time());
 	wp_enqueue_style('stylesheet', get_stylesheet_uri(), VERSION);
 
-	wp_enqueue_script('fancybox', get_template_directory_uri() . '/assets/js/fancybox.umd.js', array('jquery'), VERSION, true);
-	wp_enqueue_script('multi-countdown', get_template_directory_uri() . '/assets/js/multi-countdown.js', array('jquery'), VERSION, true);
-	wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom.js', array('jquery'), VERSION, true);
+	wp_enqueue_script('fancybox', get_template_directory_uri() . '/assets/js/fancybox.umd' . $min . 'js', array('jquery'), VERSION, true);
+	wp_enqueue_script('multi-countdown', get_template_directory_uri() . '/assets/js/multi-countdown' . $min . 'js', array('jquery'), VERSION, true);
+	wp_enqueue_script('custom', get_template_directory_uri() . '/assets/js/custom' . $min . 'js', array('jquery'), VERSION, true);
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');
@@ -412,7 +413,7 @@ function themeatelier_login_logo_url_title() {
 add_filter( 'login_headertext', 'themeatelier_login_logo_url_title' );
 
 function themeatelier_login_stylesheet() {
-    wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/assets/css/style-login.css' );
+    wp_enqueue_style( 'custom-login', get_stylesheet_directory_uri() . '/assets/css/style-login.min.css' );
 }
 add_action( 'login_enqueue_scripts', 'themeatelier_login_stylesheet' );
 
