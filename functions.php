@@ -2,8 +2,6 @@
 require('lib/codestar/codestar-framework.php');
 // include_once('inc/admin-options.php');
 include_once('inc/metabox-options.php');
-
-
 define("VERSION", wp_get_theme()->get("Version"));
 
 // ADD THEME SUPPORT
