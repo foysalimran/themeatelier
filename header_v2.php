@@ -27,9 +27,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <?php
           the_custom_logo();
           ?>
-          <a class="text-2xl font-black text-font-color" href="<?php echo esc_url(home_url('/')); ?>" rel="home">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/themeatelier-logo.svg" alt="">
-          </a>
+          <span class="text-2xl font-black text-font-color">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/themeatelier-logo.svg" alt="ThemeAtelier">
+          </span>
 
         </div><!-- .site-branding -->
 
