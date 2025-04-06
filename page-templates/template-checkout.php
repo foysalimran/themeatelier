@@ -17,4 +17,4 @@ get_template_part('header_v2');
     </section>
 <?php endwhile;
 
-get_footer();
+get_template_part('footer_v2');
