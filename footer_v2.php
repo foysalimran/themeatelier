@@ -1,4 +1,15 @@
+<!--====== Footer section start ======-->
+<footer class="ta-footer<?php if (!(is_front_page()  ||is_page('Deals'))) : ?> bg-secondary<?php endif; ?>">
 
+<div class="container">
+  
+  <div class="pt-5 pb-6 text-center border-t border-secondary ta-footer-bottom">
+    <p>&copy; <span class="text-primary">Themeatelier </span>
+      <span id="currentYear"></span>. All rights reserved.
+    </p>
+  </div>
+</div>
+</footer>
 <!--====== Footer section end ======-->
 
 <?php wp_footer(); ?>
