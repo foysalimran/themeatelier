@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
 
     <div class="relative group ta-featured-item">
-        <aclass="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/whatsapp-chat-help/">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/whatsapp-chat-help/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/chat-help/assets/icon-256x256.gif?rev=3236532" alt="WhatsApp Chat Support" class="max-w-[100px] rounded-md" />
           </div>
@@ -73,7 +73,7 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <aclass="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/greet-bubble/">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/greet-bubble/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/greet-bubble/assets/icon-256x256.png?rev=3153272" alt="Greet Bubble" class="max-w-[100px] rounded-md" />
           </div>
@@ -92,7 +92,7 @@ get_header(); ?>
       
 
       <div class="relative group ta-featured-item">
-        <aclass="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/eventful/assets/icon-256x256.png?rev=3088585" alt="EventFul" class="max-w-[100px] rounded-md" />
           </div>
@@ -110,7 +110,7 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <aclass="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful-for-elementor">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful-for-elementor">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/eventful-for-elementor/assets/icon-256x256.png?rev=3236337" alt="EventFul" class="max-w-[100px] rounded-md" />
           </div>
