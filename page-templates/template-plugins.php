@@ -54,7 +54,6 @@ get_header(); ?>
           </span>
         </a>
       </div>
-
       <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/domain-for-sale/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
