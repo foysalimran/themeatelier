@@ -18,7 +18,7 @@ get_header(); ?>
         <p class="mt-6 text-lg">
           We specialize in crafting exceptional WordPress-based solutions, empowering your business to thrive and achieve accelerated growth.
         </p>
-        <a target="_blank" href="/plugins" class="mt-9 ta-btn-primary group !inline-flex gap-1.5 items-center">See Our Plugins
+        <a href="/plugins" class="mt-9 ta-btn-primary group !inline-flex gap-1.5 items-center">See Our Plugins
           <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
             <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
           </svg>
@@ -67,7 +67,7 @@ get_header(); ?>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
 
     <div class="relative group ta-featured-item">
-        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/whatsapp-chat-help/">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/whatsapp-chat-help/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/chat-help/assets/icon-256x256.gif?rev=3236532" alt="WhatsApp Chat Support" class="max-w-[100px] rounded-md" />
           </div>
@@ -85,7 +85,7 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <a  target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/darkify/">
+        <a  class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/darkify/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/darkify/assets/icon-256x256.gif?rev=3078020" alt="Darkify" class="max-w-[100px] rounded-md" />
           </div>
@@ -103,7 +103,7 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <a  target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/domain-for-sale/">
+        <a  class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/domain-for-sale/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="<?php echo get_template_directory_uri(); ?>/assets/images/domain-for-sale.png" alt="Domain for sale" class="max-w-[100px] rounded-md" />
           </div>
@@ -121,7 +121,7 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/greet-bubble/">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/greet-bubble/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/greet-bubble/assets/icon-256x256.png?rev=3153272" alt="Greet Bubble" class="max-w-[100px] rounded-md" />
           </div>
@@ -140,7 +140,7 @@ get_header(); ?>
       
 
       <div class="relative group ta-featured-item">
-        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/eventful/assets/icon-256x256.png?rev=3088585" alt="EventFul" class="max-w-[100px] rounded-md" />
           </div>
@@ -158,7 +158,7 @@ get_header(); ?>
       </div>
 
       <div class="relative group ta-featured-item">
-        <a target="_blank" class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful-for-elementor">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/eventful-for-elementor">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/eventful-for-elementor/assets/icon-256x256.png?rev=3236337" alt="EventFul" class="max-w-[100px] rounded-md" />
           </div>
@@ -178,7 +178,7 @@ get_header(); ?>
       
   </div>
   <div class="text-center w-100">
-      <a target="_blank" class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="/plugins">
+      <a class="inline-block px-6 py-3 mt-10 text-base text-white duration-300 ease-linear rounded hover:bg-primary bg-primary group" href="/plugins">
         <?php _e('View All Plugins', 'themeatelier'); ?>
         <svg width="12" height="12" viewBox="0 0 14 14" class="inline-block duration-200 ease-linear fill-white group-hover:translate-x-2" xmlns="http://www.w3.org/2000/svg">
           <path d="M7 0L5.76625 1.23375L10.6488 6.125H0V7.875H10.6488L5.76625 12.7663L7 14L14 7L7 0Z"></path>
