@@ -69,7 +69,7 @@ get_header(); ?>
     <div class="relative group ta-featured-item">
         <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/whatsapp-chat-help/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="https://ps.w.org/chat-help/assets/icon-256x256.gif?rev=3236532" alt="WhatsApp Chat Support" class="max-w-[100px] rounded-md" />
+            <img width="256" height="256" src="https://ps.w.org/chat-help/assets/icon-256x256.png?rev=3270129" alt="WhatsApp Chat Support" class="max-w-[100px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-2 text-xl">WhatsApp Chat Help - Chat Support Plugin For WordPress</h3>
@@ -87,7 +87,7 @@ get_header(); ?>
       <div class="relative group ta-featured-item">
         <a  class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://themeatelier.net/downloads/darkify/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
-            <img width="256" height="256" src="https://ps.w.org/darkify/assets/icon-256x256.gif?rev=3078020" alt="Darkify" class="max-w-[100px] rounded-md" />
+            <img width="256" height="256" src="https://ps.w.org/darkify/assets/icon-256x256.gif?rev=3301202" alt="Darkify" class="max-w-[100px] rounded-md" />
           </div>
           <div>
             <h3 class="mt-5 mb-2 text-xl">Darkify - WordPress Dark Mode Plugin</h3>
