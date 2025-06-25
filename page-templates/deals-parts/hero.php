@@ -1,8 +1,8 @@
 <section id="hero" class="pt-[180px] pb-[100px] bg-[#111] text-white blackfriday-hero">
     <div class="container text-center">
-        <h2 class="mb-10 text-4xl text-white lg:text-5xl aclonica-regular">Black Friday Exclusive Deals</h2>
-        <h2 class="mb-10 text-6xl text-white md:text-7xl aclonica-regular lg:text-9xl">Up to 40% OFF</h2>
-        <div class="countdown" data-Date='2024/12/03 23:59:00'>
+        <h2 class="mb-10 text-4xl text-white lg:text-5xl aclonica-regular">Sun's Out, Deals Out!</h2>
+        <h2 class="mb-10 text-6xl text-white md:text-7xl aclonica-regular lg:text-9xl">Flat 30% OFF</h2>
+        <div class="countdown" data-Date='2025/07/01 23:59:00'>
             <div class="text-xl font-medium tracking-wider uppercase">
                 <p>Deals are Expiring in:</p>
             </div>
@@ -40,19 +40,19 @@
             </div>
 
             <div class="flex flex-wrap justify-center gap-2 mt-12 text-center align-middle running">
-                <a class="ta-btn-primary" href="#wp_plugins">Wp Plugins</a>
-                <a class="ta-btn-primary" href="#event">Event Addons</a>
-                <a class="ta-btn-primary" href="#elementor">Elementor Addons</a>
-                <a class="ta-btn-primary" href="#html_js">HTML & JS Templates</a>
+                <a class="ta-btn-primary" href="#wp_plugins">Grab The Deal</a>
+                <!-- <a class="ta-btn-primary" href="#event">Event Addons</a> -->
+                <!-- <a class="ta-btn-primary" href="#elementor">Elementor Addons</a> -->
+                <!-- <a class="ta-btn-primary" href="#html_js">HTML & JS Templates</a> -->
             </div>
             <div class="text-xl font-medium tracking-wider uppercase ended">
                 <p>This deal has ended.</p>
             </div>
-            <div class="flex flex-wrap justify-center gap-2 mt-5 text-center align-middle ended">
+            <!-- <div class="flex flex-wrap justify-center gap-2 mt-5 text-center align-middle ended">
                 <a target="_blank" class="ta-btn-primary" href="https://1.envato.market/ta-plugins">Codecanyon Items</a>
                 <a target="_blank" class="ta-btn-primary" href="https://themeforest.net/user/themeatelier/portfolio">ThemeForest Items</a>
                
-            </div>
+            </div> -->
 
         </div>
     </div>

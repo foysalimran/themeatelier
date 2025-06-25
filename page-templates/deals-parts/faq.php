@@ -1,6 +1,6 @@
 
 <!-- ========== Faq section start ========== -->
-<section id="faq" class="py-12 lg:py-20 bg-secondary">
+<section id="faq" class="py-12 lg:py-20 bg-white">
     <div class="container">
         <div class="mb-12 text-center">
             <h2 class="text-ta-section-title -mt-1.5 mb-4">Frequently Asked Questions</h2>
@@ -82,33 +82,70 @@
             
             <div class="col-span-12 lg:col-span-6">
                 <!-- Accordion items -->
-                <div class="mb-4 bg-white" data-index="0">
+                <div class="mb-4 bg-secondary" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">What is your refund policy?</h3>
+                        <h3 class="mb-0 text-xl">Is there a trial period or a free version available?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>
                     </div>
                     <div class="px-6 accordion-content">
-                        <p class="p-0 mt-3 mb-0">We fully stand behind our plugins and are committed to delivering quality. However, we understand that not every plugin will be a perfect fit for everyone. If you’re not satisfied with your purchase, encounter any issues, or if there’s a problem we can’t resolve, we’re happy to offer a full 100% refund within 14 days of your original purchase—no questions asked.</p>
+                        <p class="p-0 mt-3 mb-0">Yes! You can install the free version of our plugins directly from your WordPress dashboard.</p>
                     </div>
                 </div>
-                <div class="mb-4 bg-white" data-index="0">
+                <div class="mb-4 bg-secondary" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">Can I use a ThemeAtelier plugins on more than one site?</h3>
+                        <h3 class="mb-0 text-xl">Is there any discounts for bulk licenses or nonprofits?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>
                     </div>
                     <div class="px-6 accordion-content">
-                        <p class="p-0 mt-3 mb-2">When purchasing a ThemeAtelier plugin from CodeCanyon, the licensing terms are governed by CodeCanyon's standard licenses. According to these terms, each license permits the use of the plugin on a single end product, which typically translates to one website or domain. This means that to use the plugin on multiple sites, you would need to purchase separate licenses for each site.</p>
-                        <p>
-                        It's important to note that CodeCanyon does not offer a developer or multi-site license for themes and code items. Therefore, even with an Extended License, the usage is still limited to a single end product and does not extend to multiple sites. </p>
+                        <p class="p-0 mt-3 mb-2">Yes, we’re happy to offer discounts for nonprofits or bulk purchases. Email us at info@themeatelier.net with your details, and we’ll see what we can do.</p>
+                        
                     </div>
                 </div>
-                <div class="mb-4 bg-white" data-index="0">
+
+                <div class="mb-4 bg-secondary" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
-                        <h3 class="mb-0 text-xl">Can I customize the plugin?</h3>
+                        <h3 class="mb-0 text-xl">Is there a money-back guarantee if I’m not satisfied?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </div>
+                    <div class="px-6 accordion-content">
+                        <p class="p-0 mt-3 mb-0">Absolutely. If any of our plugins doesn’t meet your expectations, just contact us within 14 days of purchase for a full refund — no hassle, no questions.</p>
+                    </div>
+                </div>
+
+                 <div class="mb-4 bg-secondary" data-index="0">
+                    <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
+                        <h3 class="mb-0 text-xl">Is there any additional fees or hidden charges?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </div>
+                    <div class="px-6 accordion-content">
+                        <p class="p-0 mt-3 mb-0">None at all. Once you purchase a plan, everything is included — there are no surprise charges or extra fees, and support is 100% included.</p>
+                    </div>
+                </div>
+
+
+                <div class="mb-4 bg-secondary" data-index="0">
+                    <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
+                        <h3 class="mb-0 text-xl">Does plugins work with my theme and page builder?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </div>
+                    <div class="px-6 accordion-content">
+                        <p class="p-0 mt-3 mb-0">Yes! All our plugins are compatible with most WordPress themes and all major page builders, including Gutenberg, Elementor, Divi, WPBakery, Fusin builder, Braver Builder and more.</p>
+                    </div>
+                </div>
+
+                <div class="mb-4 bg-secondary" data-index="0">
+                    <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
+                        <h3 class="mb-0 text-xl">Can I customize the plugins?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
                         </svg>
@@ -117,7 +154,7 @@
                         <p class="p-0 mt-3 mb-0">Our plugins are fully customizable, giving you complete control over the styling. Each plugin includes an easy-to-use settings panel, allowing you to adjust all features without needing to touch a single line of code.</p>
                     </div>
                 </div>
-                <div class="mb-4 bg-white" data-index="0">
+                <div class="mb-4 bg-secondary" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
                         <h3 class="mb-0 text-xl">How often are plugins updated?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
@@ -129,7 +166,32 @@
                     </div>
                 </div>
 
-                <div class="mb-4 bg-white" data-index="0">
+                <div class="mb-4 bg-secondary" data-index="0">
+                    <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
+                        <h3 class="mb-0 text-xl">What happens if I don’t renew my yearly license?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </div>
+                    <div class="px-6 accordion-content">
+                        <p class="p-0 mt-3 mb-0">Yearly licence lets you keep using the plugin even after your license expires, but you’ll lose access to updates and support. Our lifetime plans ensure you never have to worry about renewals again.</p>
+                    </div>
+                </div>
+
+
+                  <div class="mb-4 bg-secondary" data-index="0">
+                    <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
+                        <h3 class="mb-0 text-xl">Can I use plugins on multiple websites?</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+                        </svg>
+                    </div>
+                    <div class="px-6 accordion-content">
+                        <p class="p-0 mt-3 mb-0">Yes, depending on the plan you choose. We offer single-site, 5-site, and unlimited-site licenses to suit different needs.</p>
+                    </div>
+                </div>
+
+                <div class="mb-4 bg-secondary" data-index="0">
                     <div class="flex items-center justify-between gap-2 px-6 cursor-pointer accordion-header">
                         <h3 class="mb-0 text-xl">Are the plugins translation-ready?</h3>
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
