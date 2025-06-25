@@ -90,7 +90,7 @@ function themeatelier_widegets_init()
 		'description'	=> esc_html__('Add widget for the footer', 'themeatelier'),
 		'before_widget'	=> '<div>',
 		'after_widget'	=> '</div>',
-		'before_title'	=> '<h3 class="mb-5 text-base ">',
+		'before_title'	=> '<h3 class="mb-5 text-base uppercase">',
 		'after_title'	=> '</h3>'
 	));
 }

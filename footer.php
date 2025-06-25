@@ -3,7 +3,7 @@
 
   <div class="container">
     <div class="py-12 md:py-20">
-      <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="grid gap-10 lg:grid-cols-[1.5fr_1fr_1fr_1fr]">
         <?php
         if (is_active_sidebar('footer__widget')) {
           dynamic_sidebar('footer__widget');

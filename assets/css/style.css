@@ -210,11 +210,15 @@ ul .tab.tab-active svg {
 
 /* Footer css */
 .ta-footer ul li {
-  @apply pb-2;
+  @apply pb-2
 }
-.ta-footer ul li a {
-  @apply text-sm;
+.ta-footer ul li a{
+  @apply text-font-color;
 }
+.ta-footer ul li a:hover{
+  @apply text-primary;
+}
+
 .ta-footer.bg-secondary form {
   @apply !bg-transparent;
 }
