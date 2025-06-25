@@ -2,7 +2,7 @@
 <footer class="ta-footer<?php if (!(is_front_page()  ||is_page('Deals'))) : ?> bg-secondary<?php endif; ?>">
 
   <div class="container">
-    <div class="pt-20 pb-20">
+    <div class="py-12 md:py-20">
       <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         <?php
         if (is_active_sidebar('footer__widget')) {
