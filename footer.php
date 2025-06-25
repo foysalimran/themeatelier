@@ -10,6 +10,7 @@
         };
         ?>
       </div>
+      
     </div>
     <div class="pt-5 pb-6 text-center border-t border-secondary ta-footer-bottom">
       <p>&copy; <span class="text-primary">Themeatelier </span>
