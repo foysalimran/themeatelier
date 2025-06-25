@@ -16,7 +16,7 @@ $footer_helpful_links = isset($selected_sections['footer_helpful_links']) ? $sel
         <div class="col-span-12 lg:col-span-8">
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-7 xl:gap-10">
             <div>
-              <p>The Company</p>
+              <h3 class="mb-5 text-base uppercase">The Company</h3>
               <nav>
                 <ul>
                   <li><a href="/portfolio">Portfolio</a></li>
@@ -25,7 +25,7 @@ $footer_helpful_links = isset($selected_sections['footer_helpful_links']) ? $sel
                 </ul>
               </nav>
               <div class="cwp-footer-icon">
-                <p>Let’s Connect</p>
+                <h3 class="mb-5 text-base uppercase">Let’s Connect</h3>
                 <ul>
                   <li><a href="https://www.facebook.com/ThemeAtelier"><i class="icofont-facebook"></i></a></li>
                   <li><a href="https://twitter.com/themeatelier"><i class="icofont-twitter"></i></a></li>
@@ -36,13 +36,13 @@ $footer_helpful_links = isset($selected_sections['footer_helpful_links']) ? $sel
               </div>
             </div>
             <div>
-              <p>Helpful Links</p>
+              <h3 class="mb-5 text-base uppercase">Helpful Links</h3>
               <nav>
                 <?php echo wp_kses_post($footer_helpful_links); ?>
               </nav>
             </div>
             <div>
-              <p>Terms & Conditions</p>
+              <h3 class="mb-5 text-base uppercase">Terms & Conditions</h3>
               <nav>
                 <ul>
                   <li><a href="/refund-policy">Refund Policy</a></li>
@@ -56,7 +56,7 @@ $footer_helpful_links = isset($selected_sections['footer_helpful_links']) ? $sel
       </div>
     </div>
     <div class="pt-5 pb-6 text-center border-t !border-border-color border-solid">
-      <p>&copy; <a class="demo_text_primary" href="https://themeatelier.net">Themeatelier</a>
+            <p>&copy; <span class="text-primary"><a href="<?php echo site_url(); ?>">Themeatelier</a> </span>
         <span id="currentYear"></span>. All rights reserved.
       </p>
     </div>

@@ -13,7 +13,7 @@
 
     </div>
     <div class="pt-5 pb-6 text-center border-t border-secondary ta-footer-bottom">
-      <p>&copy; <span class="text-primary">Themeatelier </span>
+      <p>&copy; <span class="text-primary"><a href="<?php echo site_url(); ?>">Themeatelier</a> </span>
         <span id="currentYear"></span>. All rights reserved.
       </p>
     </div>
