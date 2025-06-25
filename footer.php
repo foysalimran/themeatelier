@@ -1,5 +1,5 @@
 <!--====== Footer section start ======-->
-<footer class="ta-footer<?php if (!(is_front_page()  ||is_page('Deals'))) : ?> bg-secondary<?php endif; ?>">
+<footer class="ta-footer<?php if (!(is_front_page())) : ?> bg-secondary<?php endif; ?>">
 
   <div class="container">
     <div class="py-12 md:py-20">
@@ -10,7 +10,7 @@
         };
         ?>
       </div>
-      
+
     </div>
     <div class="pt-5 pb-6 text-center border-t border-secondary ta-footer-bottom">
       <p>&copy; <span class="text-primary">Themeatelier </span>
