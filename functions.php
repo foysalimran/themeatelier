@@ -56,9 +56,9 @@ add_action('after_setup_theme', 'themeatelier_initialize');
 function themeatelier_theme_scripts()
 {
 	$min = SCRIPT_DEBUG ? '' : '.min';
-	wp_enqueue_style('fancybox', get_template_directory_uri() . '/assets/css/fancybox' . $min . '.css', array(), VERSION);
-	wp_enqueue_style('icofont', get_template_directory_uri() . '/assets/css/icofont' . $min . '.css', array(), VERSION);
-	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main' . $min . '.css', array('ta-single-tailwind'), VERSION);
+	wp_enqueue_style('fancybox', get_template_directory_uri() . '/assets/css/fancybox' . $min . '.css', array(), time());
+	wp_enqueue_style('icofont', get_template_directory_uri() . '/assets/css/icofont' . $min . '.css', array(), time());
+	wp_enqueue_style('main', get_template_directory_uri() . '/assets/css/style.main' . $min . '.css', array(), time());
 	wp_enqueue_style('stylesheet', get_stylesheet_uri(), VERSION);
 
 	wp_enqueue_script('fancybox', get_template_directory_uri() . '/assets/js/fancybox.umd' . $min . '.js', array('jquery'), VERSION, true);
