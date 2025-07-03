@@ -1,7 +1,7 @@
 <section id="hero" class="pt-[180px] pb-[100px] bg-[#111] text-white blackfriday-hero">
     <div class="container text-center">
         <h2 class="mb-10 text-4xl text-white lg:text-5xl aclonica-regular">Best WordPress Deal!</h2>
-        <h2 class="mb-10 text-6xl text-white md:text-7xl aclonica-regular lg:text-9xl">Up to 80% OFF</h2>
+        <h2 class="mb-10 text-6xl text-white md:text-7xl aclonica-regular lg:text-9xl">Up to 40% OFF</h2>
         <div class="countdown" data-Date='2025/07/06 23:59:00'>
             <div class="text-xl font-medium tracking-wider uppercase">
                 <p>Deals are Expiring in:</p>
