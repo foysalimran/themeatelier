@@ -23,7 +23,7 @@
                             Flat 30% Off
                         </div>
                         <div class="font-bold pricing">
-                        <del>$29</del> <sup class="font-bold text-[#171717] text-lg">$</sup> <span class="font-bold text-[#171717] text-4xl">20.30</span> <sub>/Year</sub>
+                        <del>$29</del> <sup class="font-bold text-[#171717] text-lg">$</sup> <span class="font-bold text-[#171717] text-4xl">24.65</span> <sub>/Year</sub>
                     </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@
                         </div>
 
                         <div class="font-bold pricing">
-                        <del>$29</del> <sup class="font-bold text-[#148C7F] text-lg">$</sup> <span class="font-bold text-[#148C7F] text-4xl">20.30</span> <sub>/Year</sub>
+                        <del>$29</del> <sup class="font-bold text-[#148C7F] text-lg">$</sup> <span class="font-bold text-[#148C7F] text-4xl">24.65</span> <sub>/Year</sub>
                     </div>
                     </div>
                     
@@ -99,7 +99,7 @@
                             Flat 30% Off
                         </div>
                         <div class="font-bold pricing">
-                    <del>$29</del> <sup class="font-bold text-[#7535FB] text-lg">$</sup> <span class="font-bold text-[#7535FB] text-4xl">20.30</span><sub>/Year</sub>
+                    <del>$29</del> <sup class="font-bold text-[#7535FB] text-lg">$</sup> <span class="font-bold text-[#7535FB] text-4xl">24.65</span><sub>/Year</sub>
                     </div>
                     </div>
                     </div>
@@ -134,7 +134,7 @@
                             Flat 30% Off
                         </div>
                         <div class="font-bold pricing">
-                        <del>$29</del> <sup class="font-bold !text-[#263AD0] text-lg">$</sup> <span class="font-bold !text-[#263AD0] text-4xl">20.30</span> <sub>/Year</sub>
+                        <del>$29</del> <sup class="font-bold !text-[#263AD0] text-lg">$</sup> <span class="font-bold !text-[#263AD0] text-4xl">24.65</span> <sub>/Year</sub>
                     </div>
                         </div>
                     </div>
@@ -167,7 +167,7 @@
                             Flat 30% Off
                         </div>
                         <div class="font-bold pricing">
-                    <del>$29</del> <sup class="font-bold text-[#19BC9E] text-lg">$</sup> <span class="font-bold text-[#19BC9E] text-4xl">20.30</span> <sub>/Year</sub>
+                    <del>$29</del> <sup class="font-bold text-[#19BC9E] text-lg">$</sup> <span class="font-bold text-[#19BC9E] text-4xl">24.65</span> <sub>/Year</sub>
                     </div>
                         </div>
                  
@@ -203,7 +203,7 @@
                             Flat 30% Off
                         </div>
                         <div class="font-bold pricing">
-                        <del>$29</del> <sup class="font-bold !text-[#263AD0] text-lg">$</sup> <span class="font-bold !text-[#263AD0] text-4xl">20.30</span> <sub>/Year</sub>
+                        <del>$29</del> <sup class="font-bold !text-[#263AD0] text-lg">$</sup> <span class="font-bold !text-[#263AD0] text-4xl">24.65</span> <sub>/Year</sub>
                     </div>
                         </div>
                     </div>
