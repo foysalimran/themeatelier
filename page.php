@@ -12,7 +12,7 @@
   </section>
 
   <section class="pt-16 pb-24 bg-white">
-    <div class="container px-4 m-auto text-lg font-normal ta-single-page">
+    <div class="container px-4 m-auto text-lg font-normal ta-single-page ta-single-post">
 
         <?php the_content(); ?>
       <!-- .entry-content -->
