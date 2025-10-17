@@ -20,7 +20,7 @@ get_header(); ?>
     <div class="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3 lg:gap-7">
 
     <div class="relative group ta-featured-item">
-        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="http://wpchathelp.com/">
+        <a class="block h-full p-5 duration-300 ease-linear border rounded shadow-lg hover:-translate-y-1 lg:p-8 border-secondary hover:border-primary" href="https://wpchathelp.com/">
           <div class="inline-block p-1 border-2 rounded border-secondary">
             <img width="256" height="256" src="https://ps.w.org/chat-help/assets/icon-256x256.png?rev=3270129" alt="WhatsApp Chat Support" class="max-w-[100px] rounded-md" />
           </div>
