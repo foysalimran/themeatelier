@@ -203,7 +203,6 @@
                     </div>
                         </div>
                     </div>
-
                     <h3 class="mt-3 mb-2 text-2xl leading-6 leading-8">
                         <a target="_blank" class="text-font-color hover:text-[#263AD0] transition-all duration-300" href="https://themeatelier.net/downloads/eventful-for-elementor/#pricing">Eventful for Elementor – Events Showcase For The Events Calendar</a>
                     </h3>
